@@ -50,7 +50,7 @@
       ],
       "files": [
         {
-          "name": "krpc-serialization-protobuf-tvosArm64Main-0.5.1.klib",
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1.klib",
           "size": 6073,
           "sha512": "cadd59d62a2a6c9ae24e783bf9bb883e88ef3cda8c77798d57b849a58763b4824e6dfbc42af227ea03a4d3e0b3a7417e5069195e9049cc05997d8e7ae2a841c8",
@@ -73,7 +73,7 @@
       },
       "files": [
         {
-          "name": "krpc-serialization-protobuf-tvosarm64-0.5.1-sources.jar",
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-sources.jar",
           "size": 1873,
           "sha512": "e9209f4cf666a4cf8edf6f7fa2532f7658ee28a96d1db5084cfad28bde3eea4abf92ab5d0052fac4af52dbd24ec16ee2498b534fb72da8ca1f8f313d5c52a537",
@@ -118,7 +118,7 @@
       ],
       "files": [
         {
-          "name": "krpc-serialization-protobuf-tvosarm64-0.5.1-metadata.jar",
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-metadata.jar",
           "size": 261,
           "sha512": "c1ad9c8c5a91ccb58a0ada24983861bb6efbf85dfce41cfaa7f374ba2b3f31af749917b7b2991253c9603e1794af7e6b7f95ba2c3e2b663ccbcb3be9304ef9e5",

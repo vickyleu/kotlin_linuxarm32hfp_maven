@@ -50,7 +50,7 @@
       ],
       "files": [
         {
-          "name": "krpc-logging-watchosSimulatorArm64Main-0.5.1.klib",
+          "name": "kotlinx-rpc-krpc-logging-watchosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1.klib",
           "size": 12506,
           "sha512": "1a60d0bc733efc1dc30cf7367c640311774a100bddd1e68b3db6183ec31f80f3b48035209afe60aa52f50b7a0a88d54754b05505764f05e567e4c3bbfd112385",
@@ -73,7 +73,7 @@
       },
       "files": [
         {
-          "name": "krpc-logging-watchossimulatorarm64-0.5.1-sources.jar",
+          "name": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-sources.jar",
           "size": 3141,
           "sha512": "02123f3be3ee56a880ea0742c1ea34d5e0e61f63530f12524c374fcf6f5f083a687f36115fbdac268315f88b26e6132ab5b514b88d71dbf081e7127f8912f6d6",
@@ -118,7 +118,7 @@
       ],
       "files": [
         {
-          "name": "krpc-logging-watchossimulatorarm64-0.5.1-metadata.jar",
+          "name": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
           "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
