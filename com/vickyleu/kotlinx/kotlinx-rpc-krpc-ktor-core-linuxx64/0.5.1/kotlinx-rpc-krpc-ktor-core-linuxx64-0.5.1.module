@@ -73,11 +73,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-core-linuxX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-core-linuxx64-0.5.1.klib",
-          "size": 6297,
-          "sha512": "6e87f44dcb0e5ea255b2899d75d883d9d652c32d7681d1041825aa3aff7a04374a59ccedc4c0ab2c24580ecd44c7d6ab9d00180d067afc9f01611aaad7b5c7f7",
-          "sha256": "9de9eed2cbde53230bd81145b11cf77467f74a5ed943d4fa608e197d0b013387",
-          "sha1": "8eae8f5a24f7edca70e0c7ab66f429516f47096b",
-          "md5": "4f7fc3482a0a7ec82fe205976cac2f09"
+          "size": 6286,
+          "sha512": "6576bad2ad8b457bf0262633d5b8c0effd6202b077df52b6404cdd526b05d31316727c7a6c83240fabc3028c3efc9f7b6c966536c787eb21a0dbb01d338ce950",
+          "sha256": "e7b04fb42ee2143dcf7b6e6c8923225032081a57d8c679d3340787f9a71cd013",
+          "sha1": "cda8dc7bcb1870c2fe75b311c45283cf874166c7",
+          "md5": "fc56de1bbcdd4b804950c82fbffd57e1"
         }
       ]
     },

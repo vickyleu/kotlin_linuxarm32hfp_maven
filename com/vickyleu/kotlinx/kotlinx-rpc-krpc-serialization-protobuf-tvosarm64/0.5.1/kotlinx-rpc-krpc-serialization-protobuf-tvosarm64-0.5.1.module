@@ -50,13 +50,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosArm64Main-0.5.1.klib",
+          "name": "krpc-serialization-protobuf-tvosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1.klib",
-          "size": 6083,
-          "sha512": "3a73dd6563c7b480b8b2bf273ab9af273b6de2737cd87495a29a212587636e45efdd0871efc1e3a3d67dc0683d1ca50e86d02f657b0b59f61223b47fd75e6151",
-          "sha256": "a50e05e14979a6f16e61583b94fea2ebaa96b31d09269e6c1ef79f51adfa757b",
-          "sha1": "37c4f57a9411852c085731c9e52759292d2bb003",
-          "md5": "86326785e02d6dd7f8f75d95734d6669"
+          "size": 6073,
+          "sha512": "cadd59d62a2a6c9ae24e783bf9bb883e88ef3cda8c77798d57b849a58763b4824e6dfbc42af227ea03a4d3e0b3a7417e5069195e9049cc05997d8e7ae2a841c8",
+          "sha256": "fe8b893c399e0684e3f222db986e4ae6efb3c96fcde301d1f6b64b566e31a7c8",
+          "sha1": "9155b64ab4b02d8fc91acadb89ce9f28490df5c7",
+          "md5": "48a97cd160a0f17b2d52f0a8f4427ada"
         }
       ]
     },
@@ -73,7 +73,7 @@
       },
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-sources.jar",
+          "name": "krpc-serialization-protobuf-tvosarm64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-sources.jar",
           "size": 1873,
           "sha512": "e9209f4cf666a4cf8edf6f7fa2532f7658ee28a96d1db5084cfad28bde3eea4abf92ab5d0052fac4af52dbd24ec16ee2498b534fb72da8ca1f8f313d5c52a537",
@@ -118,13 +118,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-metadata.jar",
+          "name": "krpc-serialization-protobuf-tvosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
-          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
-          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
-          "md5": "522c72194fe93e98859d74527ae4f7aa"
+          "sha512": "c1ad9c8c5a91ccb58a0ada24983861bb6efbf85dfce41cfaa7f374ba2b3f31af749917b7b2991253c9603e1794af7e6b7f95ba2c3e2b663ccbcb3be9304ef9e5",
+          "sha256": "f9133667aa1f2dc2a3ba3557928df810011cfae916d8d5a9a476534329f2e120",
+          "sha1": "9d53853fb909e245da44de1cfffd684df34f2872",
+          "md5": "2cf4849c563f26ae74fd410a828b2e0d"
         }
       ]
     }

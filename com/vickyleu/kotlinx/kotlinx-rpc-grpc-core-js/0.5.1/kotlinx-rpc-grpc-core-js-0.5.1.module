@@ -65,11 +65,11 @@
         {
           "name": "kotlinx-rpc-grpc-core-js-0.5.1.klib",
           "url": "kotlinx-rpc-grpc-core-js-0.5.1.klib",
-          "size": 26974,
-          "sha512": "6fb23c6d6e36bd8a793eef3b46bc646c6dfaa196f9821467769c24e5ccec057e7f4e7caeb075d970853c7fdb8862b1115ebe5667f42326a02ca57bacdf631b19",
-          "sha256": "83c0cbacd85d4c2939f0cec5788bb1ce1989f104922c79a32d14c152c90253d9",
-          "sha1": "7e497ff08de3540f41fc0889e34fd5a5f62e347d",
-          "md5": "e7089686bc14e1dbbc8385f782fc6509"
+          "size": 26957,
+          "sha512": "f379929bd31704f80f57f055841a6d6cfb8b25db0bd0d1ef8df4db0a83910dac08ab485274ef26204be31f8a1ae7e428ca3e88217513f07d45baee72817621a2",
+          "sha256": "d9db6d86694be4c96f74030f5b8d965a98093b09c8a66199bb9d17b2666b24b4",
+          "sha1": "2eb36e525ba103bb9a5eb57b5d71cea1c1b9cf06",
+          "md5": "96fe4ce5dc9f54a194439b86e3bb9e93"
         }
       ]
     },
@@ -123,11 +123,11 @@
         {
           "name": "kotlinx-rpc-grpc-core-js-0.5.1.klib",
           "url": "kotlinx-rpc-grpc-core-js-0.5.1.klib",
-          "size": 26974,
-          "sha512": "6fb23c6d6e36bd8a793eef3b46bc646c6dfaa196f9821467769c24e5ccec057e7f4e7caeb075d970853c7fdb8862b1115ebe5667f42326a02ca57bacdf631b19",
-          "sha256": "83c0cbacd85d4c2939f0cec5788bb1ce1989f104922c79a32d14c152c90253d9",
-          "sha1": "7e497ff08de3540f41fc0889e34fd5a5f62e347d",
-          "md5": "e7089686bc14e1dbbc8385f782fc6509"
+          "size": 26957,
+          "sha512": "f379929bd31704f80f57f055841a6d6cfb8b25db0bd0d1ef8df4db0a83910dac08ab485274ef26204be31f8a1ae7e428ca3e88217513f07d45baee72817621a2",
+          "sha256": "d9db6d86694be4c96f74030f5b8d965a98093b09c8a66199bb9d17b2666b24b4",
+          "sha1": "2eb36e525ba103bb9a5eb57b5d71cea1c1b9cf06",
+          "md5": "96fe4ce5dc9f54a194439b86e3bb9e93"
         }
       ]
     },

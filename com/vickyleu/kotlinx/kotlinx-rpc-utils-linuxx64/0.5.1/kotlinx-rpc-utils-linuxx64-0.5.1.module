@@ -59,11 +59,11 @@
         {
           "name": "kotlinx-rpc-utils-linuxX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-utils-linuxx64-0.5.1.klib",
-          "size": 28461,
-          "sha512": "cbbd147540bc5faf8d6254b855daaa410ab3b3c3db282f86cde1608004511cc6efae4c3f81a4a88af1b8bc3f645bb3996c19fde30688aa1823d999c5afb884f9",
-          "sha256": "2e10ec758503404ee6f3076798dc67aa984c1ade992d391a9261c47e8aeab8d4",
-          "sha1": "2ff7b58ee694ea4a5f98f65a93bb315f2cc63203",
-          "md5": "3e249b8503e7563ce5494e68f6f0172b"
+          "size": 28451,
+          "sha512": "7b64c3f1260b0733b7e56e8f3bdfb2673a749e5f288febab6307cb0a2a2ca9c2be00b6229ea15d91c8c84df6610e2337f1ef6709b6bdf48f199f3d0d794da999",
+          "sha256": "e9e1ee10a12f48323f69a444fb8c71ee213951e1f9699d913c403d79b1fd60d5",
+          "sha1": "faaae1d7cf148bb38db8b36fe29ed4263b19b34d",
+          "md5": "a2a70d5e4202984b62c08ab82ffcc589"
         }
       ]
     },

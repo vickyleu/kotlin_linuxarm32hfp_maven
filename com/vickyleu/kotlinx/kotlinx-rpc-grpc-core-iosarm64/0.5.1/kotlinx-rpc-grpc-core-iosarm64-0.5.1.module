@@ -59,11 +59,11 @@
         {
           "name": "kotlinx-rpc-grpc-core-iosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-grpc-core-iosarm64-0.5.1.klib",
-          "size": 27118,
-          "sha512": "d7936b943566c796fa73c4da68c76c9599d98c0834465a0a59c047205d5bf33516d4259a265846efa03e9c877786aae03e443908548545ceb9873e2f0f58dfb7",
-          "sha256": "8d61bcc72aff757f5b4466da002f286cc3c670e66a8e367753a3ea2fd4dd6156",
-          "sha1": "22449e71bbdb67b8d73d83f3eb5aa56314408724",
-          "md5": "189c091d70d2f56592990b66e06a446f"
+          "size": 27103,
+          "sha512": "d21671a8f6b5f675d0f41797f0bd7335cc0c74bcf6c6741cc137ec102303385587200b483cdd7e89fa13abfd880c33ee852461ece624b0ea865fad1c3734c69d",
+          "sha256": "b4b81e9df5b3cb1b0b221010037f68887bc460237237f979519d51e95388dd10",
+          "sha1": "edd9e6efecc25af901eb38db98f9f2484e380f41",
+          "md5": "a03ab4150b834d0b8df98d22d75f925d"
         }
       ]
     },
@@ -135,10 +135,10 @@
           "name": "kotlinx-rpc-grpc-core-iosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-grpc-core-iosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "ee32df17d86532ecedf6d4de47dfbe27096b581bb3554ccd1b2e7bdcf6a4e2f2f2e362c99adb2fc84356275938f69c2e94680f392a60a4615f57d0ac694baffe",
-          "sha256": "cec8776ae10eb5b08eb57e1e7e3fe2aa13c0a91a600df0a2ec1a1f97c9a9d10d",
-          "sha1": "3af3313f9bb4f668897e3a5dc76c03bf09781ea6",
-          "md5": "6c6bba40afff3bf4887f37ab0f51e5ec"
+          "sha512": "30e5878bc34fbe30772ebbdbefce46ce285f9b3759486c47ffef0074fac9b861797a18b0c5146b0a6b46730aa199104d807ead53837b11e2594bcc89947a5508",
+          "sha256": "3f8733ed1365effbc2f1cdf879eb70438a7dec3bef6ed4c4080a320d2dd6f002",
+          "sha1": "5813ac0a39ef74c3185167db67325117041e9560",
+          "md5": "3cab6ebd5fa587011187901a654d493d"
         }
       ]
     }

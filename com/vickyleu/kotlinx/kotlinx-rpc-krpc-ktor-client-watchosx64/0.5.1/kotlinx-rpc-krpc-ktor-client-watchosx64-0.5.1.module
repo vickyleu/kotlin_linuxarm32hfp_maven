@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-client-watchosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-client-watchosx64-0.5.1.klib",
-          "size": 11936,
-          "sha512": "e20286c4a3e0538cbdcc842d81cf34536ef070cff0165324419bab2952c8cce18eb362bab85a58446d703c8c6c7e5efd152c36d166df78b3f12e01ddf59b739a",
-          "sha256": "64dee72940df487d613cb45abee413e0a0e6a965a76b3bc56f000de73d5cb901",
-          "sha1": "3f5abb5b35db8407e0b643434c4001843e1bd93a",
-          "md5": "fa9e507ba20bc1588dbb27b3d6956da5"
+          "size": 11925,
+          "sha512": "913b1df8e9c8509b89c3c927f39949733f36272befff7c009aa61ba8e8941feb076c58c101634af6ecbae5f65ec4de31bd74a873d0cf59a929f5f6efa569c379",
+          "sha256": "9c6678c1fa6fd650e7cae764cf804d08701c6ccd19c0a1716d86cd6f46bed2a6",
+          "sha1": "c55b93e46a750f95aea05c2aa7ad33f4725680f4",
+          "md5": "fb8f59c6f60aa2b4433486e79784bffa"
         }
       ]
     },
@@ -177,10 +177,10 @@
           "name": "kotlinx-rpc-krpc-ktor-client-watchosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-ktor-client-watchosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "0b3df3bbe6a95d3387caf77d41ac2274ef6671980149625d44587a909902d6b78d83cb25c6101247feadeeaef051419b33d70e2b7b7d630e1d720b2d35b01e65",
-          "sha256": "92c6a31fdd2bd0bf5f0e8578816f96435161a98007ef8bed3e033d1c0bf0842a",
-          "sha1": "dc4b4cec269ff191269ae842bb23535fd0124cd9",
-          "md5": "70fb5a87e180cb976f2cd63b40194e65"
+          "sha512": "2560e34751e0226dfb0916ed386fbc825c2fd31178717a1cd20ced89935f49f1d169756fc1235a43ceca0e583eab790f0a15dffb2738ea990a87ce5303708078",
+          "sha256": "52855f42bc71f2ceb983dc053592307d81e738441aa5b6303fb46aca84bee4bc",
+          "sha1": "354e3b98264b236d03286250f7de526cd74c6b43",
+          "md5": "4bf60993a33c3bba84250a4ff87eaab0"
         }
       ]
     }

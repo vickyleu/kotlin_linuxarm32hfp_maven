@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-server-iosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-server-iossimulatorarm64-0.5.1.klib",
-          "size": 37776,
-          "sha512": "60d742e253f1700f338d5ebddae09322fa00a107ef6fa3dd0de6016f580eea674f7e0d7bd728193fc6b0d8c0d9a803ea83c7fca29ba9da373b891500e43772ec",
-          "sha256": "44c1c1a499b9c42c4bbc2c5268a2008b07b88905a4f1af8bf11e311a12f67fcf",
-          "sha1": "857a8b8d7ce3db42054d2c1c9bc88a8244559e56",
-          "md5": "26cb9ad1be4b4d9b7fad03f21f09ebb2"
+          "size": 37768,
+          "sha512": "e23401e8ed98476102e9820acf303286e856fd266731fa6b15be0720e9996e210bf121ef997cbc52f5343d86436727ee1992aaa887ad166d5c6708067b9e790c",
+          "sha256": "04da3b2cd0ff6b069719bc350563e62f86d54f33967a7a8b56ea055562bb1e70",
+          "sha1": "329c3550133f3bc337fe154ac1909f7f8ee22753",
+          "md5": "9d3f43e3ba621ab91cc7eba2442300c2"
         }
       ]
     },
@@ -177,10 +177,10 @@
           "name": "kotlinx-rpc-krpc-server-iossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-server-iossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "a5f832115b4a3a8eaff3e0bd37ee79832d0b4fbc8c50f693c62c19ef95518ec8e26a68d87a6014ee1fc725b0c9e08340ef63f75f46c99296825a4e603c560c42",
-          "sha256": "d0b9c59c9c1b078e8d256e6ae1dced6067f89687a148ec193c15824cceb4f6c2",
-          "sha1": "f04916f84f6784047cd780b670386baeeb9e0eaa",
-          "md5": "887932075f512e624688a3528553d7bb"
+          "sha512": "a3cdfe15e4e3381c21965942f071f2f0638eb600f098aa661a21094bdcb1570919c1f12313f4800d077cd36274e121d266858aabbfb8e5a9b3bafa7c7ba1ed72",
+          "sha256": "2128fc2e22e0cb5babbc5938ab04f1d17dd051ff5ce28647e1345137e4dd924a",
+          "sha1": "daf48a4c73a0bb32d91463d674c58622ccdfc7b8",
+          "md5": "666826933fbfaa3c9531f18c46041f22"
         }
       ]
     }

@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-client-macosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-client-macosx64-0.5.1.klib",
-          "size": 40184,
-          "sha512": "fe6f3fbd4d6c66907f87a0237a5e1c870eb51c8a0067cd5aa5695097100ac9ee1dc77103a67e2c3f9bdf9e87f809b01d32a500a57dad180a2d7bbf303202a5d4",
-          "sha256": "cc81c0cfc4d7b3128526486fff6e60e44df7c4ebed1d364a0c2e702c0aa89eba",
-          "sha1": "260e2475af526273246e5da539e2a35cbaba218b",
-          "md5": "1fd0314f6c7d06fa37c055bf85779400"
+          "size": 40173,
+          "sha512": "9815d437a8609baaab8e0089e034b5d28eb2f1c2715b114d11824de68f4661c840a6d2061125390d7c602f94e3f35ee6d14e179636514c9041ae75ed3234f226",
+          "sha256": "a30828b3bd0354d39cfe380fada7ab48d0476be011804f0d3c7f0e13f4b01952",
+          "sha1": "89e6bb4e16bef845be0c24c737b237dae2f1d1cb",
+          "md5": "9749df646e023f059051a6040e34d01b"
         }
       ]
     },
@@ -177,10 +177,10 @@
           "name": "kotlinx-rpc-krpc-client-macosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-client-macosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "e9ec737f893444e0771fd6b5d6deb5ec8a87051035c4abbdee986ba5a330fa98320b6b3184ffa714b969462c06e2b7a6e5b22811daf7a273aa8c22aa719702fd",
-          "sha256": "bde8a80dbb4ee7ad2aab0f0c3f6b1633b1607e7884c5de90c8485395be60d4d2",
-          "sha1": "5360298e4254a32e504b6bc403dae0c2cf37c69a",
-          "md5": "0ab6dfccf1467f30925f1f9fb47cec3a"
+          "sha512": "b40ad117635403de732dfe021041651e12e1ed659e215db37c4a37e8e4e07e71db5051dc018d2935fa558a3ba7f63a1a72768ad03d4e9aaceaf0ef6242418e90",
+          "sha256": "8604fc060ddec8c0b2d442971ea3a2114a3d57625846d453ca1bb4d63cdece40",
+          "sha1": "f6bbd48db9abeac7d4966950ff9f1a0206e432d4",
+          "md5": "4a2e5932ebf4e042ce45b48748fadbb9"
         }
       ]
     }

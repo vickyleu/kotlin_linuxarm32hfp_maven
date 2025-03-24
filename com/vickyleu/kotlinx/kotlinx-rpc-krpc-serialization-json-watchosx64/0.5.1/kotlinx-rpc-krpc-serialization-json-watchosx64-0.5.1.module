@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-json-watchosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-json-watchosx64-0.5.1.klib",
-          "size": 5833,
-          "sha512": "09a9284c8b2c9bd7e838de0f3697bf3628e2ef7ebd3ffac2e5939262677f80d5d6d32a42e53c5c99bc9806d58d99b82ece60736c5c5da220c462d50b2f4b3d59",
-          "sha256": "0a947d980fa1744339ee929fd1a6aeabcd4265a9a74da6a2e5fb092e27a0119d",
-          "sha1": "cb021ddf088176de8fd6c6e7f0d5f0a2594f7ab4",
-          "md5": "cc3aa0ab2fc1efa40de655cfa2783d65"
+          "size": 5822,
+          "sha512": "63ba33799c5dac3ddb20ada3907f1f8be7e9377cd419b9cd65d6b1fda9e2aef26c5b5a1677450e8baca74cce6577eb567a57a4ef767e189b2e7ac41d20af5c95",
+          "sha256": "5a41f6992cd447b6421592bb47f48d9b58d16a93e4c12f07308fd320b6b3e6ac",
+          "sha1": "c2aaeec5735ad3d4e81e58aea8ae94805091dfcb",
+          "md5": "95b068ef0b9e0dbbee3c77a7e54093aa"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-json-watchosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-json-watchosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
-          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
-          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
-          "md5": "522c72194fe93e98859d74527ae4f7aa"
+          "sha512": "89bcdc3bad364231699a8537e6d71e55007a99affbbec1fa2d4f2364305b955a860f1c4771bb6a5236412853d95c4657163162ab5657cf3c32280426138d7b90",
+          "sha256": "6279c24b129384a2ce87530a7cd7d07f204e00a1aea5be0b2ea57f7a225f0360",
+          "sha1": "9a60eb20f7c9cf58a9e208d5b97e8617cc54201c",
+          "md5": "4333df0857799e8c01084e1a5a242697"
         }
       ]
     }

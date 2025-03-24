@@ -59,11 +59,11 @@
         {
           "name": "kotlinx-rpc-grpc-core-tvosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-grpc-core-tvosx64-0.5.1.klib",
-          "size": 27110,
-          "sha512": "8d3051f58a4fd358bc510800c11d3ee19afaa4970fa06a0adcb94d2bcd6030975e6ba1589a5df9d86f455df36b40f7a5985372c3d732806683364358fbc7b4eb",
-          "sha256": "5fe724664db1e473028a61eecc05871e37708fca69265be2c11c68d8bd4bd8e9",
-          "sha1": "39c6d8fda5f3f34dd59b2b3949879d78411cd77c",
-          "md5": "925cb24591acc7e307411c9ee9894286"
+          "size": 27095,
+          "sha512": "165e47489e362e1f00682f3919756cac4b6907c5a4e04038330f25b03479fb667a91bce18a364fd4b84e14fb28c49f23ff79ce3380a1d1b12cdca7a06598ee45",
+          "sha256": "cedeccbb478557f01cc6fb23309bb06ae309ee9a0d75e6c4802b85f341ce7ba6",
+          "sha1": "683c5a615e9cf0939dc1d4e8033d530e2c82b83b",
+          "md5": "e853ec5fafc4faf9cdd9ab98e1e08c9f"
         }
       ]
     },
@@ -135,10 +135,10 @@
           "name": "kotlinx-rpc-grpc-core-tvosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-grpc-core-tvosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "a98104e2071bacfd0228f211c7e96fb5456b6cb6b61f76ae5400a669dcfbb88cd6033638bb6f0f461a39aa940a0634eb871f4a8945935c852411ab2262d8e24f",
-          "sha256": "a3f3366a72e35894887877d8f217cc988461867edfa95fea44aa1479c1a2053f",
-          "sha1": "a3315221d528b0caed80752c0cdeb355e60f77a6",
-          "md5": "1f2ad5b7e5c8eceb213508e17b8c7134"
+          "sha512": "51eb14568047b0a8a7afda88b1fe094895dee2d9d0834605a91932bd60d15b6ad3601d7034e7b294405cad64c768bf90859d9737ca473536024d7d3aa21707bf",
+          "sha256": "0a74ee9922c13345a4857803cc7cbd3f458965833bb2f967e5f5963cd3df038c",
+          "sha1": "404d77d6f55d13d20f63720557a959436c524ad1",
+          "md5": "567d818499d73cbb9ae5d0436999e279"
         }
       ]
     }

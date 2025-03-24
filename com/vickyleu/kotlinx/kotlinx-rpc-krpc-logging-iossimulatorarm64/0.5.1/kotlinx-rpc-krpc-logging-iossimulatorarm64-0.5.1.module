@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-iosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-iossimulatorarm64-0.5.1.klib",
-          "size": 12478,
-          "sha512": "82b8a59fad6f758d36f62e9ed8210176da8bbb518b87f40f71b8f454266f58c7f22395fbd44c05e3efb4de630b79ca7698b70e15d87d113009b7cdf03d888e75",
-          "sha256": "073222939671b57f4dcdd9f23d7970f09e6e80a286d92f969d4e1d690991cc7c",
-          "sha1": "0d32e193ba040d0c38826da968a1bf836e7013e3",
-          "md5": "7ad7e4fc5684b13002e540e66233a6bb"
+          "size": 12470,
+          "sha512": "ac9e404d77aa126347bf4370f37a28efd657d33509b3d80d78d911da8cc1529a3342452745091fda1bdc0971ee5ab562e1be92f329db616346f3bad393c6aaf0",
+          "sha256": "6815f92f384adf04f898f993cf829ccc3d0373b9dcdd18da7f222a15c21b940e",
+          "sha1": "d588b38c005bbfad093128a0e2e88ab0532d1ac5",
+          "md5": "4ac49bf966645f2e2f53c01eeebb7ba6"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-logging-iossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-logging-iossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }

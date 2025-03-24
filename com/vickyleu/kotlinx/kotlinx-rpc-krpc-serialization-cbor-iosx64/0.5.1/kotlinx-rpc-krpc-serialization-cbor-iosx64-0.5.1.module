@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-cbor-iosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-cbor-iosx64-0.5.1.klib",
-          "size": 5989,
-          "sha512": "0071229e55e9dbbb6e5b5cff833506d868190e49aba0d9ac7f378e4241322cc0a7125268df8c311db3f40bc739d9b4d28b2164e282f523883c0b6655381b1353",
-          "sha256": "87801fa1c81873bc9171e5f557326b9400a6c7644936ea49230aa60e361474a3",
-          "sha1": "4d41e727cf113cc572e96cdffb3623f1118a7ca0",
-          "md5": "9af06d6e103a95b8502a7ddc4a826882"
+          "size": 5980,
+          "sha512": "ee2a5015ee2ac001b94000304478b105c13a8ce13b9632164565fa5750032f39fe5b1312aa327be6f4afb66f85a578c704c13c1fe538c7dda76f8a56d0db599a",
+          "sha256": "f7bd905104b94b1aed5b8aa81b5ada68ff032af178ed99d9658b1cc05298ab99",
+          "sha1": "7b7e79603d2209435436e2c7a1edb4f868c73f20",
+          "md5": "ae7eea1bed30cb4e4e86a9607a9bc974"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-cbor-iosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-cbor-iosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "8ad9ddd7474d6d3efd4d0a37ac163ce56d4ca64ce1c456ffec7fa597ddef24068448bf517d42829d0acc51f2c0016da1c2864b9696a2a861f2766e333cb6c394",
-          "sha256": "6e57637c0fd64ea36e28bb95748a935cb75d9169a9450afb658743dc37442a1b",
-          "sha1": "ab2881156066e1bc9eda9833b5cc9a377cc16d82",
-          "md5": "ed38aa72a499c6e1da636640313b80f5"
+          "sha512": "5035dc0b14d66a13aaa7561bdca7f417c0472d7405202dfd1d12f6f06a389b3d288bd967f0e3b994fb3311b1dffb939046edfd542f7b2f83c643637b60bfc8ee",
+          "sha256": "29f616e8d8cf5de26667dacfa731beab511c310a1dad7855c7965b6099131712",
+          "sha1": "6940f5fcf13563538eb28791f86422c25ab3c775",
+          "md5": "f6a6ca9c312083861117fec5bd24615e"
         }
       ]
     }

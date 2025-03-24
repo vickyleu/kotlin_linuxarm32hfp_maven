@@ -65,11 +65,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-client-wasm-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-client-wasm-js-0.5.1.klib",
-          "size": 11568,
-          "sha512": "fc2f55e3ab7e9aaa5e548543a6288e7fc00335f19616b985ba826bb0bc5c33bb30e78f82732ab07bc901130be9edf25baefc357a96cb98bf7f4b609cd94087e4",
-          "sha256": "62c0927fafdf1ba906939e84448a91cd7cf01d96f49de6a12553292b59de5c27",
-          "sha1": "691f5994f55963c1f382528bbde9b3ae1ef4f6f0",
-          "md5": "036acc7d7c2e91ed553e454e6722af86"
+          "size": 11555,
+          "sha512": "02c955d5b8770876ef3b5070908d42367c43d1fcba75d6d9c477016b31d6d8b0393fb0ccd87aba05d05f72a6123af46dccee03e54cec695942a862f29f91cbf9",
+          "sha256": "d122c142f628b02e46339e12c5c21ae1344644d6eecd12433232c31488f0afab",
+          "sha1": "c5acc28d944368011c78d93ec4de2f2989ea4eaf",
+          "md5": "3ec50edece6d327b70ac9cba86e6af81"
         }
       ]
     },
@@ -144,11 +144,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-client-wasm-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-client-wasm-js-0.5.1.klib",
-          "size": 11568,
-          "sha512": "fc2f55e3ab7e9aaa5e548543a6288e7fc00335f19616b985ba826bb0bc5c33bb30e78f82732ab07bc901130be9edf25baefc357a96cb98bf7f4b609cd94087e4",
-          "sha256": "62c0927fafdf1ba906939e84448a91cd7cf01d96f49de6a12553292b59de5c27",
-          "sha1": "691f5994f55963c1f382528bbde9b3ae1ef4f6f0",
-          "md5": "036acc7d7c2e91ed553e454e6722af86"
+          "size": 11555,
+          "sha512": "02c955d5b8770876ef3b5070908d42367c43d1fcba75d6d9c477016b31d6d8b0393fb0ccd87aba05d05f72a6123af46dccee03e54cec695942a862f29f91cbf9",
+          "sha256": "d122c142f628b02e46339e12c5c21ae1344644d6eecd12433232c31488f0afab",
+          "sha1": "c5acc28d944368011c78d93ec4de2f2989ea4eaf",
+          "md5": "3ec50edece6d327b70ac9cba86e6af81"
         }
       ]
     },

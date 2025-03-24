@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-server-tvosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-server-tvosarm64-0.5.1.klib",
-          "size": 37697,
-          "sha512": "2b51307164b9a5673b39a840e4494614f9d55ffd18ebaa950a2803d8b0c5e0f307cfa2e0bbd3ec3ddd8202436d1c187fad5ae5cd7355553884c2bd14e89c7ae5",
-          "sha256": "381284416447fe7084c449508cf99bd507b78a662c7de9671aa0e56a7f8b52f0",
-          "sha1": "3c4a4dfb24d0d1dff19c1dad9e8bbb6e9a6b368e",
-          "md5": "5141fbac98ecdeb7af82629c89ee2056"
+          "size": 37689,
+          "sha512": "8e1a45ef642a64ef4d8a2fc9501ef627fa8985ffd1153bb87f6464ed478832b38cf0f0321a23f9ccf711abe590af6baaef0d8dd2edbc504ac7b789df5b79c289",
+          "sha256": "5436f5c131c0f8cc15ce47070511d848518a8e05b0cbb882e2ce612ac6d679f2",
+          "sha1": "b23b942537b093173c55c1096197e45a040d450a",
+          "md5": "8c863465bfd5020b529423eaea81624e"
         }
       ]
     },
@@ -177,10 +177,10 @@
           "name": "kotlinx-rpc-krpc-server-tvosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-server-tvosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "a5f832115b4a3a8eaff3e0bd37ee79832d0b4fbc8c50f693c62c19ef95518ec8e26a68d87a6014ee1fc725b0c9e08340ef63f75f46c99296825a4e603c560c42",
-          "sha256": "d0b9c59c9c1b078e8d256e6ae1dced6067f89687a148ec193c15824cceb4f6c2",
-          "sha1": "f04916f84f6784047cd780b670386baeeb9e0eaa",
-          "md5": "887932075f512e624688a3528553d7bb"
+          "sha512": "e3eb893c64bb100d4dd3658cfdb93838982e59f57832b7778779a868c988eb6654cef8b60826c4b38574fd594ecba4dfa4529de267d98a6df8c4eaf7d0b4862c",
+          "sha256": "f31888032ba65c9be148ef779631d69ccec34b3e1de0912abece08d020f0ca20",
+          "sha1": "33c04b243526e85862f5f8813bf6fb3067b55242",
+          "md5": "398fbb8044e429f33f363b86389c2180"
         }
       ]
     }

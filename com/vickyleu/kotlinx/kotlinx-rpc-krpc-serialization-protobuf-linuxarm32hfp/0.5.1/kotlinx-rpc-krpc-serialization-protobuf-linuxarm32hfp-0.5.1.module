@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-protobuf-linuxArm32HfpMain-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-linuxarm32hfp-0.5.1.klib",
-          "size": 6127,
-          "sha512": "93b98170e88fe8f3be82e555bb907449ddbaa4f823ee0eddb7250b6d8caec3bbb5477d61bdcdf9dcbac0062fb5cc64757957d3f62cf8fd1d54dd7bf3fcf3541a",
-          "sha256": "93d2596532d14ea481901292567399e8854252999c6d4a59cd7b210ad6a1c17e",
-          "sha1": "df26bf8f2e4570a0580e520f3a5ad29699fbdc1c",
-          "md5": "795b922b2ae05fcb5f332bb950e5a067"
+          "size": 6117,
+          "sha512": "446f9067363910e779bf633f4310cc3c458304b1f7bbb516feb21734a50cabb68fb41053f9c49883f398a1d52c67eea4d5b758fde5bb4e6c7713f46da2a6b200",
+          "sha256": "baa908f1d38927aba70a9d9acb198f65c90d4fcbe09096a8ba16459105449586",
+          "sha1": "83293f09ab11dd6c6c117d9006fe0c607e56697d",
+          "md5": "b306bb82be1209655caf04823d8bec24"
         }
       ]
     },

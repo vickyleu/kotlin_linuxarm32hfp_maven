@@ -51,11 +51,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-json-wasm-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-json-wasm-js-0.5.1.klib",
-          "size": 5421,
-          "sha512": "162b53a309035892b08523133a8d503c115a8d87c26335945d14ab336481d13164dd211f21a20a8892f49f73981e3b0dee0e3535452f016d4541b2dbbef9e8c6",
-          "sha256": "285bd4465723977ca156797c776fd48afebf827eaead0f437e10e2528e58769d",
-          "sha1": "99e24d42eef86f34f0c59955df5b9ebec6c64fc7",
-          "md5": "673cd8d083447cc43d2ecebd630dd564"
+          "size": 5407,
+          "sha512": "ca784deb1868ed18591bfe5add47731070f6576e5a6bb8c96a6529006a8442618653f48a5cee1220a65250d1767999fa27ff6f94894efbcca604b27765b0b2ad",
+          "sha256": "1b436441b3a681a67db14989410b65d4f1d7c33f128704fa6a6cdeaf4cf2094b",
+          "sha1": "eadd51b26ba6fd59d3da303dd3ad7f8cd3239da3",
+          "md5": "e1668ddb1eb66f480e86efdecae80770"
         }
       ]
     },
@@ -102,11 +102,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-json-wasm-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-json-wasm-js-0.5.1.klib",
-          "size": 5421,
-          "sha512": "162b53a309035892b08523133a8d503c115a8d87c26335945d14ab336481d13164dd211f21a20a8892f49f73981e3b0dee0e3535452f016d4541b2dbbef9e8c6",
-          "sha256": "285bd4465723977ca156797c776fd48afebf827eaead0f437e10e2528e58769d",
-          "sha1": "99e24d42eef86f34f0c59955df5b9ebec6c64fc7",
-          "md5": "673cd8d083447cc43d2ecebd630dd564"
+          "size": 5407,
+          "sha512": "ca784deb1868ed18591bfe5add47731070f6576e5a6bb8c96a6529006a8442618653f48a5cee1220a65250d1767999fa27ff6f94894efbcca604b27765b0b2ad",
+          "sha256": "1b436441b3a681a67db14989410b65d4f1d7c33f128704fa6a6cdeaf4cf2094b",
+          "sha1": "eadd51b26ba6fd59d3da303dd3ad7f8cd3239da3",
+          "md5": "e1668ddb1eb66f480e86efdecae80770"
         }
       ]
     },

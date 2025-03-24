@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-client-linuxArm32HfpMain-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-client-linuxarm32hfp-0.5.1.klib",
-          "size": 11970,
-          "sha512": "d70e7002e4c08d35624cbe4738ffb4fa0b6f8500945bef4b4a29a2ba510e091848cd7ade6e27d80e5e0b77c8a3cdf82b7ddc394388811632b9d6e56dd7918c59",
-          "sha256": "c282fb2b3a8bd2e958fdae25805f99686f5f052229df38d23622f235da4b96d7",
-          "sha1": "5694389b553612c44a93611da55a016371820a8d",
-          "md5": "b2d8fb5b3a975bcf340155c86c3589cb"
+          "size": 11959,
+          "sha512": "7dafbf9843ec80393074cbcef2d28c15735a799fbe529c3256f6749f82a3547837270b9eeb9eb0d16b1528ef366e29602ea436ff8fc3f91f4feec068899ef132",
+          "sha256": "2f6393be37c0a549018653bac13c516a4421a6f4367cd693a0f196f0da455bc4",
+          "sha1": "0885b733fc89b4eb10412a6fdb8a279cbe652872",
+          "md5": "86e01d6c38c33a01f0be461243d01efe"
         }
       ]
     },

@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-test-iosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-test-iosx64-0.5.1.klib",
-          "size": 3463,
-          "sha512": "fd4d8a010a1fc833e784d7c69d93644041b2d7aa11591df35ff7a6c038dc2db076e2c66af5c0a1b7f2abb15d90456d5483e74ad0ae8d96c96860e8cc0554e5fd",
-          "sha256": "20da7046ba60543abd036e7191d1cf18b322dcdb5ab7875e9d95965a6550944b",
-          "sha1": "6ac6fc174f65d7e667fba72edf10572f031223a7",
-          "md5": "8b1ef083e7492aeb2494ec8616514651"
+          "size": 3452,
+          "sha512": "00456b3e0b34b2df8fbfcf352d7f018acac87746c5b6880a32d2a17e849c8012a2dca44d10f2cc68c16aba15b7890c9b8e47eb995032f4c84d21a93f7c115715",
+          "sha256": "a9ed5e7ab1674af4ed315b153a17502dfbf6e7776d92a355e5c5c1fce8d2f9f3",
+          "sha1": "e99e48df61fab58d4cc9dfab4026360e0e17f3e4",
+          "md5": "4175b697d5e5bec00a17e423a5f3288d"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-test-iosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-test-iosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "9e751a117c5945234d40f202718030f6ab7a036ec2061bcc4de58176c54b4bad0ce51c65d9f4613e03b38c65b2ef86d96786999331e102f28c5484e9281f2595",
-          "sha256": "33080be4061c3afca38e12d48b9c7423ab01e821c973d802c65ff962342085ae",
-          "sha1": "2dbd165a1e075aa848d7753995696b00d148d7c8",
-          "md5": "bfade4c25cf765e2c5c16d38b2abbf56"
+          "sha512": "8c39a5a5a695f0b7a8a92a54d3393a36f4e7111e2ba14f10ed6a89a0f1bb5d39a69388da9e881fe4570c00955d3ae3dea0adcd29c87b0056e77372b87ad53553",
+          "sha256": "d96c8d27d5a98a570777fb8e9ec7204239924f273d51d164b978e108b2ed01e8",
+          "sha1": "df238104f2aa971d4d8eaa3b56766fcd98e61cf5",
+          "md5": "c1224ab9567295971b38a95d5fb346c4"
         }
       ]
     }

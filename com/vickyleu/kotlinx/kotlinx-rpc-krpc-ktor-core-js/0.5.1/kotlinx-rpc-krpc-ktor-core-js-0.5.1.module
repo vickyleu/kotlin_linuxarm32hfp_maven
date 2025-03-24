@@ -51,11 +51,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-core-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-core-js-0.5.1.klib",
-          "size": 5884,
-          "sha512": "eee272c8b19ea16500b7ec7a8ae57d739816ce37beaf5f0761917123ac57e18b97364b709814e9bc78bdd22c73a5509749b16e0dca7cb52bf36617a9113d5faa",
-          "sha256": "5151368765557ef9f7dfd60b6d97181a7cf7f3d4585bb5d3e091a897390b33ca",
-          "sha1": "54fd1b4bde48bc7bad08d14fdc78b6fc75d830db",
-          "md5": "e245ea13a7745b28ff2fb19c9f5ecc66"
+          "size": 5873,
+          "sha512": "303829c7e60a88d07f1bdddf20e14b3c418ae5fcf3a3e893b7ab7913723f07bc8a4e23d867f0dd41fdef5c89b231cb63cf2ede33812a99bb667a4563965da498",
+          "sha256": "d1f05c3850ae6def7ea3764ea2c7acb06eb0e6796bbb5a3532050ebae562b700",
+          "sha1": "5b821a3c63ef1bf0b565f8e95ab7817d859f5f24",
+          "md5": "1e8874c869e2f14bb6e7dbd3de3bcfa7"
         }
       ]
     },
@@ -123,11 +123,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-core-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-core-js-0.5.1.klib",
-          "size": 5884,
-          "sha512": "eee272c8b19ea16500b7ec7a8ae57d739816ce37beaf5f0761917123ac57e18b97364b709814e9bc78bdd22c73a5509749b16e0dca7cb52bf36617a9113d5faa",
-          "sha256": "5151368765557ef9f7dfd60b6d97181a7cf7f3d4585bb5d3e091a897390b33ca",
-          "sha1": "54fd1b4bde48bc7bad08d14fdc78b6fc75d830db",
-          "md5": "e245ea13a7745b28ff2fb19c9f5ecc66"
+          "size": 5873,
+          "sha512": "303829c7e60a88d07f1bdddf20e14b3c418ae5fcf3a3e893b7ab7913723f07bc8a4e23d867f0dd41fdef5c89b231cb63cf2ede33812a99bb667a4563965da498",
+          "sha256": "d1f05c3850ae6def7ea3764ea2c7acb06eb0e6796bbb5a3532050ebae562b700",
+          "sha1": "5b821a3c63ef1bf0b565f8e95ab7817d859f5f24",
+          "md5": "1e8874c869e2f14bb6e7dbd3de3bcfa7"
         }
       ]
     },

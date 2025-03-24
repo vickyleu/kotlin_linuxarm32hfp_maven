@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosx64-0.5.1.klib",
-          "size": 6065,
-          "sha512": "2419fe97f2c8f0debf22940455eeb2bda6671491c4e34d466b5c30aa1bdedbfc2699074996d0bb60ca1cac162c4e910a47ace2d8ebf4532aeabf47f30a71fbf2",
-          "sha256": "11e20fae3d3fefd5d81721118eec09dad1b039180a20296113629c36b5b7be01",
-          "sha1": "daa11f907254a90bf03bac08ce31c6df926f798d",
-          "md5": "5de8d00b080a3fdfe949ecee0f594663"
+          "size": 6055,
+          "sha512": "b889d46b7d545eaa090e25bd9328944afda1fb72dff70b41ee47813fc2bfa9a3c6d7c5014d4b70445712de46a91dd6ec81098d66bf4551fd72de888808acc1b3",
+          "sha256": "c1e51a48b4f91d57ee87a74509a961f5dddf16937bde70bb369bc21e4cad2a32",
+          "sha1": "31a6b19c4246fea35052ab573423743b2795ab96",
+          "md5": "74f95ffb59bfd55452c6aa6aea4d4fad"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-protobuf-tvosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-tvosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
-          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
-          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
-          "md5": "522c72194fe93e98859d74527ae4f7aa"
+          "sha512": "c1ad9c8c5a91ccb58a0ada24983861bb6efbf85dfce41cfaa7f374ba2b3f31af749917b7b2991253c9603e1794af7e6b7f95ba2c3e2b663ccbcb3be9304ef9e5",
+          "sha256": "f9133667aa1f2dc2a3ba3557928df810011cfae916d8d5a9a476534329f2e120",
+          "sha1": "9d53853fb909e245da44de1cfffd684df34f2872",
+          "md5": "2cf4849c563f26ae74fd410a828b2e0d"
         }
       ]
     }

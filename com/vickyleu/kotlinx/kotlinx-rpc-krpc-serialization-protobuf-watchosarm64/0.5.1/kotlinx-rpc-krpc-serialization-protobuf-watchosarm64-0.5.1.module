@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-protobuf-watchosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1.klib",
-          "size": 6109,
-          "sha512": "9f759d24927170c9f6383a1982d68f64ebc3c86c47eed72448299057244c7809b46a5bc290fb9f1f5ffe980f8005c86824ad2b2655c210b6d6a3e64e6ca91874",
-          "sha256": "50068a9654e93b3e5cc8218f5a0b2a8e8cfcf7268041407ad6557328d6e2b261",
-          "sha1": "d7f6cbf8339c29652b15ded16d5dd2c4dc2b3f12",
-          "md5": "ef4b172cb97d3f5f2a7c69c34c57f3af"
+          "size": 6099,
+          "sha512": "ae9f50f2235f195adf886133347c3b6599bd5c65200136ca0a92c131bf3fe016b16e6115642ae35a06b4fcf786ead5cb152ea607b7373d2823884ed0fab54b41",
+          "sha256": "cfd9ffca9c4e39eda41b38de3ab1731b66e2a3c147104ebff5a23d8040acf616",
+          "sha1": "4647c390f265d75229eb8c31d44892757d864e68",
+          "md5": "3ae7a5ffbc46bd2c133902656d1dd8a5"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
-          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
-          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
-          "md5": "522c72194fe93e98859d74527ae4f7aa"
+          "sha512": "c1ad9c8c5a91ccb58a0ada24983861bb6efbf85dfce41cfaa7f374ba2b3f31af749917b7b2991253c9603e1794af7e6b7f95ba2c3e2b663ccbcb3be9304ef9e5",
+          "sha256": "f9133667aa1f2dc2a3ba3557928df810011cfae916d8d5a9a476534329f2e120",
+          "sha1": "9d53853fb909e245da44de1cfffd684df34f2872",
+          "md5": "2cf4849c563f26ae74fd410a828b2e0d"
         }
       ]
     }

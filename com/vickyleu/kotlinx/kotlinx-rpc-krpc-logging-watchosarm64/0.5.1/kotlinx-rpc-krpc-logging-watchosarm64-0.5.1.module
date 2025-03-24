@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-watchosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-watchosarm64-0.5.1.klib",
-          "size": 12427,
-          "sha512": "c64198fe3948b08f56ee3b9ce13f09855894ad2f9e968921cca602130a96c11777e81fb6379117376539e954e59c7714376ac56bafbd67ddb13184ff46b50359",
-          "sha256": "0d2fcd364fea2201cc50230aadb5fc015e64a977cc3bf8dd1393289c625cc727",
-          "sha1": "a7f567f611e08573f04d92115c006231123c291c",
-          "md5": "430f7f1bca6e1938527f12a52ca9f628"
+          "size": 12419,
+          "sha512": "972548e2a676fdf073ff9175ac634f1a1bf5aaa90bc1cb9448ded3ad7107cfaaa38fc496fc97de192c62fc0c837345ef29c085e2a8c8883a0269c0eb916377c3",
+          "sha256": "ac9b4a815ec93ddc0a4d1e9524314c68cd6d1f9f724a7d3f995f52f8ee2dec82",
+          "sha1": "06a8524d43b09ff4e31b484d5ed20f7b06ebb027",
+          "md5": "cc9577d8ae4debea21a320775b0a949f"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-logging-watchosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-logging-watchosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }

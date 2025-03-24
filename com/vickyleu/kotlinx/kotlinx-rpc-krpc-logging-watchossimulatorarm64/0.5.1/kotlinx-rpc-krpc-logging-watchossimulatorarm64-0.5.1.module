@@ -50,13 +50,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-logging-watchosSimulatorArm64Main-0.5.1.klib",
+          "name": "krpc-logging-watchosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1.klib",
-          "size": 12514,
-          "sha512": "00b4e73bff8a73100e3adb385631b63e859a90fcff372fcb796308c5ad226bda4a325932e4fa15b09e1c90bb8a44a804f216cd96bf9964f9c0eb6a2d98d4ef79",
-          "sha256": "b22e40fdb587f92b705ddda73076bc10f898f6f97bfd0d8980ec0a2bfbe76a1b",
-          "sha1": "f37d8e514c7bc7f8ee88be4d5787025d303c5eec",
-          "md5": "068b9846dfa10839149d30a4df352db8"
+          "size": 12506,
+          "sha512": "1a60d0bc733efc1dc30cf7367c640311774a100bddd1e68b3db6183ec31f80f3b48035209afe60aa52f50b7a0a88d54754b05505764f05e567e4c3bbfd112385",
+          "sha256": "cd0247043b5243b5009da57feef1cd94a25cc721bf5d51b6d7aca5954e1f05c2",
+          "sha1": "dbb4ea3161daadd239b2fa69f9d96b035f4878c0",
+          "md5": "ebe19f0c088f9a5dc31840b6b832c5f1"
         }
       ]
     },
@@ -73,7 +73,7 @@
       },
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-sources.jar",
+          "name": "krpc-logging-watchossimulatorarm64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-sources.jar",
           "size": 3141,
           "sha512": "02123f3be3ee56a880ea0742c1ea34d5e0e61f63530f12524c374fcf6f5f083a687f36115fbdac268315f88b26e6132ab5b514b88d71dbf081e7127f8912f6d6",
@@ -118,13 +118,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-metadata.jar",
+          "name": "krpc-logging-watchossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-logging-watchossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }

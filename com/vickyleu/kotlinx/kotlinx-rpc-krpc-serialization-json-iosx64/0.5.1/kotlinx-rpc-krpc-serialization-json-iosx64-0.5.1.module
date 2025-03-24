@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-json-iosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-json-iosx64-0.5.1.klib",
-          "size": 5798,
-          "sha512": "38a3e3222d66f7c072f712edb407571658561d8ba8d16ffc48537aae3520a7d11b3cf7a662b347e6f468e219b23a2f1ee7c2bf35e7a8152cc79eac5d0df45e56",
-          "sha256": "972e3c6ee65b6a858622f59a874b88d158b2d400da1e2ab8d9442e3ee243875f",
-          "sha1": "e1df09c594ff8d3bbe89bf0d57d56e54ce74d2a7",
-          "md5": "e089dda336a0e648202d14d0b6ba6fe1"
+          "size": 5787,
+          "sha512": "66e3c070676fa4bc148b0c8905a8358f4cc16435b3155f7c9c8bcd8f62234a8966836523e4bdf8ea05221ae5efdf1b74cfd05bd848f26d3d6aa2512fd11698c3",
+          "sha256": "6b83013ecf4630c4ccb0d91c9378b8cee57545146705e132ce0e12fa93206c2b",
+          "sha1": "73ba8d6eb0d4ec4d5e942ba6ec54a65e994665e3",
+          "md5": "c3c9a47fa2ce2d47bf74f05a17996587"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-json-iosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-json-iosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "f450e671ffdb426dac4d408e2ca6d1a3e96ef306b7261656d712e2be88d4f7b158bd17d94cd4d712e6861943703ee4895de19c7e2777aecf7bebb5fb5f8b22ee",
-          "sha256": "2f9693ed914eec9ecadb66f36dcf279a78ef726a7aafb4d0a6290d5b8d35144f",
-          "sha1": "dcb890f0d4635d36ccc98a237742c81cdea916fd",
-          "md5": "2cd90cd1979360661410e2230fff6bf5"
+          "sha512": "5cb530650e3ef2e42631d1e9e45489bbd8e6b31b61a47ff645390d933fce29315714f216440783031e56aba0189e94fb4239d9f870a561286524b88e5ceaf35b",
+          "sha256": "13794c601f993786f63b647eedad79f1d1dd4ce6d3da8ca50627fc4c7fb7aa89",
+          "sha1": "c33ab897be597466ee29fbe4ad04c1a1fc8bc4b0",
+          "md5": "0088a49ac614b2b52810d0ad477bde81"
         }
       ]
     }

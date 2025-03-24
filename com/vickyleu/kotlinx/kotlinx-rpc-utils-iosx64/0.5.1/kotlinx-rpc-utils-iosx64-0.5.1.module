@@ -59,11 +59,11 @@
         {
           "name": "kotlinx-rpc-utils-iosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-utils-iosx64-0.5.1.klib",
-          "size": 28443,
-          "sha512": "737da0741741489e42f789655d7330299cf554509c928badae00c520cb15a16231d10a85683d9f6c30bfc916db821e229b114bf202c99d760a6a6014b14df6c9",
-          "sha256": "9b9355a6c5c45a2490d809e84561dea34ed571adfa11b8d0cd14786881af1d49",
-          "sha1": "3c4375ebf8b1cf6d538f5586bfa7b62cc882248f",
-          "md5": "2dbf0e517467f1b454e63e5bef1247fb"
+          "size": 28433,
+          "sha512": "d4691263def12ceb13953a60272523e0a01af5695dbdfc00aea8100b8522f7202171f1a3561a96551d756d9267c59819998d1e14969bea2d50fa340d621f6397",
+          "sha256": "7cb81d0e49b792509571bc670babb0f8577a32db6571f39584f9646f45988a72",
+          "sha1": "eb1efcf1719cc82f5c5955e11d0e27e63bc0196a",
+          "md5": "88eef46af359a087690f167dfc8c442d"
         }
       ]
     },
@@ -135,10 +135,10 @@
           "name": "kotlinx-rpc-utils-iosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-utils-iosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "6ce18111a5c8a9c29b6ae02f5a2f99f87fae583c637739500f8290d29375dc3d0eeda1a92933b47006746d24ddce5ca47480d6414a8bd68e4743463d39e3fab9",
-          "sha256": "32a23edf115265cf7ce00d16fc478ce5b10278b4c239c620cc8404ddd35eb61d",
-          "sha1": "47a45cd66f431a26f76a507ece4d7acedfa31685",
-          "md5": "0c925eac3835c154c7a16c12773b4ffd"
+          "sha512": "7fe85b4e162e64406290dfddf652efe44379073ebcff91fd728b65355bd7bbe5d9a8fd312b8514e6745de6e210cda73745e810bd16b770e988cc5c08944bba71",
+          "sha256": "32dc60505f759c5a3fc180df18bc77444c05776f0e2e31603221cf53001d02b3",
+          "sha1": "7fedeeec037a12b76cc728cd551860dfea5a4d31",
+          "md5": "6d61b6be9b806b804557697f40724694"
         }
       ]
     }

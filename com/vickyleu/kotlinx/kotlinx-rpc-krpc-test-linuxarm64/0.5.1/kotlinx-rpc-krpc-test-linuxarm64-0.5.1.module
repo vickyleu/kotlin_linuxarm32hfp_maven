@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-test-linuxArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-test-linuxarm64-0.5.1.klib",
-          "size": 3498,
-          "sha512": "dc09dca9113a52697290c4ab90c1e7610487c4f514d549bbf1fd125d628078a85a3ecee7b5f557eacc997934087b66e093d88f7a21b22e4008dee63da8219ad4",
-          "sha256": "3c841e796973bae9457e7f4e5178b2f5f0ad363a21200862570192a477272a4e",
-          "sha1": "14b29a0246aa6a39041f1d2649e5de678a857e6a",
-          "md5": "3eb930d9bb5ad9c7db8a0a676640f009"
+          "size": 3487,
+          "sha512": "e9f9cd339d33ac1e8ca60ca332002f4abae4cd0b3a2811581ec1be004b51aaf001480a1b5b80108302d11e84da680ed289cc1f8d312a69519cf583092a5c6894",
+          "sha256": "b4f2b391067b8cf3a4ab622043c118272c181678fb5d9d64db9d3ff39cc4f58c",
+          "sha1": "9da30692e96c3998628fe2c6461bd6b039bb631e",
+          "md5": "8000c3bd63e4506f1c1521ee7dd81ba2"
         }
       ]
     },

@@ -59,11 +59,11 @@
         {
           "name": "kotlinx-rpc-utils-watchosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-utils-watchosx64-0.5.1.klib",
-          "size": 28479,
-          "sha512": "1c87392cc919f8eff2a0d56b3d4b3e2c0cb942b52b825b0dd5ba9e742c4c322cbae06338f391b88b648c25e2f775d2e635ddcc2464bee13ac24ad680b9e9309a",
-          "sha256": "07f675e5dc15615e2c31858f72f479439f6eda75c5d6d66f61dcd9fa53395315",
-          "sha1": "a17561d0a2c5eb65ac21154c64aa795c88971655",
-          "md5": "fe780d904f6e9a56c267fcd59ec82edb"
+          "size": 28469,
+          "sha512": "7cfa8bd752659eb58227d3048d3a275f946aac917824ff528fbc6f79a9ce8b06f2ed6400ae89dbbd76436667be143d92978a06c1729008f6da44310438e3c30d",
+          "sha256": "0ed6f20c541f17566564031d53eaa608d41ae2bf3d20d81a05aa59ac9431f219",
+          "sha1": "e97612709698d7070379f89eefd78242c3c38891",
+          "md5": "a2802add37426ca383cd1aebebe990fe"
         }
       ]
     },
@@ -135,10 +135,10 @@
           "name": "kotlinx-rpc-utils-watchosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-utils-watchosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "6ce18111a5c8a9c29b6ae02f5a2f99f87fae583c637739500f8290d29375dc3d0eeda1a92933b47006746d24ddce5ca47480d6414a8bd68e4743463d39e3fab9",
-          "sha256": "32a23edf115265cf7ce00d16fc478ce5b10278b4c239c620cc8404ddd35eb61d",
-          "sha1": "47a45cd66f431a26f76a507ece4d7acedfa31685",
-          "md5": "0c925eac3835c154c7a16c12773b4ffd"
+          "sha512": "7fe85b4e162e64406290dfddf652efe44379073ebcff91fd728b65355bd7bbe5d9a8fd312b8514e6745de6e210cda73745e810bd16b770e988cc5c08944bba71",
+          "sha256": "32dc60505f759c5a3fc180df18bc77444c05776f0e2e31603221cf53001d02b3",
+          "sha1": "7fedeeec037a12b76cc728cd551860dfea5a4d31",
+          "md5": "6d61b6be9b806b804557697f40724694"
         }
       ]
     }

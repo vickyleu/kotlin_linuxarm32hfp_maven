@@ -39,10 +39,10 @@
           "name": "kotlinx-rpc-protobuf-plugin-0.5.1-all.jar",
           "url": "kotlinx-rpc-protobuf-plugin-0.5.1-all.jar",
           "size": 4580571,
-          "sha512": "0ec2a4f4f3726da04cf4ca8b27dcb22d9251eb5f1550e4d4071752e66d1dedcf104ed333dcfaf43b181f4331890359bfa9f387995ea50d617dc237f9670304bc",
-          "sha256": "4113529a67b1337d2943cd598bf3296950d22c9cba58bd7be6046a721cce7fdc",
-          "sha1": "c426eae75fc798723f302eb2da25f9ee63910a7d",
-          "md5": "f4329c0ea26d94746b75503cb5349cc7"
+          "sha512": "33d3db0c36ce4a0136ef9fd994bcb744039c34437495abc07451eeb74fbd9e9d2ca670c2ff9aa49e76c297ac1d834acf70bf8085cf0d7a935e72a411b859803a",
+          "sha256": "b064cd4ba62bcea39e020d9a592d6fa2698234e45d8986ed0253db66f5b3e632",
+          "sha1": "b3a598980e4eba2c97ddccdd6e1f7286f1544939",
+          "md5": "4f88c88ba0d8cceb21c432771f664272"
         }
       ]
     },
@@ -92,10 +92,10 @@
           "name": "kotlinx-rpc-protobuf-plugin-0.5.1-all.jar",
           "url": "kotlinx-rpc-protobuf-plugin-0.5.1-all.jar",
           "size": 4580571,
-          "sha512": "0ec2a4f4f3726da04cf4ca8b27dcb22d9251eb5f1550e4d4071752e66d1dedcf104ed333dcfaf43b181f4331890359bfa9f387995ea50d617dc237f9670304bc",
-          "sha256": "4113529a67b1337d2943cd598bf3296950d22c9cba58bd7be6046a721cce7fdc",
-          "sha1": "c426eae75fc798723f302eb2da25f9ee63910a7d",
-          "md5": "f4329c0ea26d94746b75503cb5349cc7"
+          "sha512": "33d3db0c36ce4a0136ef9fd994bcb744039c34437495abc07451eeb74fbd9e9d2ca670c2ff9aa49e76c297ac1d834acf70bf8085cf0d7a935e72a411b859803a",
+          "sha256": "b064cd4ba62bcea39e020d9a592d6fa2698234e45d8986ed0253db66f5b3e632",
+          "sha1": "b3a598980e4eba2c97ddccdd6e1f7286f1544939",
+          "md5": "4f88c88ba0d8cceb21c432771f664272"
         }
       ]
     },
@@ -112,10 +112,10 @@
           "name": "kotlinx-rpc-protobuf-plugin-0.5.1-sources.jar",
           "url": "kotlinx-rpc-protobuf-plugin-0.5.1-sources.jar",
           "size": 18443,
-          "sha512": "091c92ea647efb236b15cf4d856fd52fe41f9dc044a1b9e372dcf8675856b195dd0fea9e65f7eb61ae04e8c164e4342b243223db974b5edc706449d4339e2e9f",
-          "sha256": "6cd715e61d43113daa7b5585fa87be3aa906d47c93fe588fb191b262702d66eb",
-          "sha1": "d07187ae2ba0b7e9c18680d0116b540dccac37dd",
-          "md5": "67036d59f938ce7807d53fa31fc0d598"
+          "sha512": "b87069de930bf46136e80ad14e3b8eb81f7bfb5f024486944cebc84fe3a63f867b99f132ecd7b2985339a60e3d65c675ea1360dd8c09cfa8461c2c45102a9b84",
+          "sha256": "46899b5d5db3abaf635db94f5fc71d38ef647c351836f47021e1d3e87fc3cab0",
+          "sha1": "8cd233b7683d110461b62e17e871d64ceaac0fab",
+          "md5": "bc3349b28a7186fd77c3a82ea4d5c1cc"
         }
       ]
     }

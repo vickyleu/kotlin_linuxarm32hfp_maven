@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-client-watchosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1.klib",
-          "size": 12042,
-          "sha512": "6fe114ae8d80c0a7e16459620f29f2f6700e6cdbf36152f6a21eb219d6ee8ede6557bf03e9235596767053c86e3e952d8dbafd4f0e4b5c02897a429153b32874",
-          "sha256": "83edf3bf6f9d5179319dd0e8e0e78721ec74b1fa88afc5650f6f4a609a36c268",
-          "sha1": "be5de58d0cd16d5f58198f3a93a8fd7ca2897b95",
-          "md5": "169d7577248b6d63461476cc93eefdfe"
+          "size": 12031,
+          "sha512": "8d26039af0ca3d29746040962ce18c16ab0e339758e877c745ee27f9dd7684d696aa36755d1da29568ba6817ad6981966d4cdd4fe3332833ce13d15134fc4c00",
+          "sha256": "c0ecb631494487afdebe80cc6ae07a037767ebc65ee853fbed8438bc67f733f5",
+          "sha1": "a0619ee642717892cae9503df21a40d1d9acd7d9",
+          "md5": "af08125f0392895b24584c653db05a22"
         }
       ]
     },
@@ -177,10 +177,10 @@
           "name": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "0b3df3bbe6a95d3387caf77d41ac2274ef6671980149625d44587a909902d6b78d83cb25c6101247feadeeaef051419b33d70e2b7b7d630e1d720b2d35b01e65",
-          "sha256": "92c6a31fdd2bd0bf5f0e8578816f96435161a98007ef8bed3e033d1c0bf0842a",
-          "sha1": "dc4b4cec269ff191269ae842bb23535fd0124cd9",
-          "md5": "70fb5a87e180cb976f2cd63b40194e65"
+          "sha512": "db8bf21c2dc0f62f8e2127c603b5f088892812b5904f3c97108c9b32deb90a064d899e8fabcc6fa72c4e73f5ff44587fb4627c2a5f401a120fb7081e71736e56",
+          "sha256": "3a2e1d1293b13f4b49c8162891ddcbbdace0f532cb894c3bcbedcd8cea116f9f",
+          "sha1": "8c9559243ac0c300a937f94fd09304b595813040",
+          "md5": "e026707efe24d38b5f88acc154a57bca"
         }
       ]
     }

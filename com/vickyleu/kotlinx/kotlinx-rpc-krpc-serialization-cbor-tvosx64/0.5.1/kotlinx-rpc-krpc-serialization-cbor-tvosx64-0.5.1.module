@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-cbor-tvosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-cbor-tvosx64-0.5.1.klib",
-          "size": 5997,
-          "sha512": "cbedb03b1b5b0bce3998eee33bf9063ccad2f35b58207f78bdfc1b74feec03e0dbdc0bf8a1a7be0680df19ebea0d7face316b23dd50191f7cd2779bafc0457f2",
-          "sha256": "625c8cb8b48524e74168444853b8707e07ee9fdcb41bcea6cbc5e4ca962b205f",
-          "sha1": "54fdc59121f73f39c9061f2400739cc1bc2cee17",
-          "md5": "6096d1d9f65c098c487d3324b73e4b4d"
+          "size": 5988,
+          "sha512": "c7d413757d83ddb0389bf4734f513cf690fe78518576a83c7a03c5ec2e186daa060f418ea96ace3457d0e0310c4f3c8761a0d75ee9c5088cfff7266ce07b8b01",
+          "sha256": "f4a9a075fe39f4226825354ff1f4c5775d902ebc935e8c44ae5284b3162e2397",
+          "sha1": "56e92fdae95131f34de40746320c46e347ea3713",
+          "md5": "4a6d8b79043fae3847d25df8aa8bd77c"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-cbor-tvosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-cbor-tvosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "f450e671ffdb426dac4d408e2ca6d1a3e96ef306b7261656d712e2be88d4f7b158bd17d94cd4d712e6861943703ee4895de19c7e2777aecf7bebb5fb5f8b22ee",
-          "sha256": "2f9693ed914eec9ecadb66f36dcf279a78ef726a7aafb4d0a6290d5b8d35144f",
-          "sha1": "dcb890f0d4635d36ccc98a237742c81cdea916fd",
-          "md5": "2cd90cd1979360661410e2230fff6bf5"
+          "sha512": "5035dc0b14d66a13aaa7561bdca7f417c0472d7405202dfd1d12f6f06a389b3d288bd967f0e3b994fb3311b1dffb939046edfd542f7b2f83c643637b60bfc8ee",
+          "sha256": "29f616e8d8cf5de26667dacfa731beab511c310a1dad7855c7965b6099131712",
+          "sha1": "6940f5fcf13563538eb28791f86422c25ab3c775",
+          "md5": "f6a6ca9c312083861117fec5bd24615e"
         }
       ]
     }

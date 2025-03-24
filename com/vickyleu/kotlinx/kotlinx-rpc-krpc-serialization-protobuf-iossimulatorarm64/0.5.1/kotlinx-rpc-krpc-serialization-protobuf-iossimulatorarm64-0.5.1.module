@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-protobuf-iosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-iossimulatorarm64-0.5.1.klib",
-          "size": 6160,
-          "sha512": "083ae25d76f18a87a4a467b02c31ae37a7c08a2d9dca27236cfa52cd31b13ff4f22612108e69a3f9fb6bc67745fff2b6d1a3caf81317438274bd9b5876f85f39",
-          "sha256": "0f25cae7d9b584e5332dcd82bb3da6d8819af80a0dcd17f83dade667e6a12845",
-          "sha1": "ef428207d0e43b06a346dde7f966ddc33b5b9e5b",
-          "md5": "c54d665345abaf0150788f543f2ad7d1"
+          "size": 6150,
+          "sha512": "b10f9d0f0dc09b326cbcfc1498101c7ff0350b4ae114f63228296048104bd410e1473cf3736c128cc399e158a72a4a80d4d184a3d534e6be708d207238d99d81",
+          "sha256": "3e39bf9c0bcf49df16367f9ccb462a23c6b610e8ccce924a812ed1666db4f18d",
+          "sha1": "520d2e9aab4906cbbc3ad9261ef1aa2002f85f99",
+          "md5": "8b5179c8dfaab5f830ea8f19c8bb1368"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-protobuf-iossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-protobuf-iossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
-          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
-          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
-          "md5": "522c72194fe93e98859d74527ae4f7aa"
+          "sha512": "89bcdc3bad364231699a8537e6d71e55007a99affbbec1fa2d4f2364305b955a860f1c4771bb6a5236412853d95c4657163162ab5657cf3c32280426138d7b90",
+          "sha256": "6279c24b129384a2ce87530a7cd7d07f204e00a1aea5be0b2ea57f7a225f0360",
+          "sha1": "9a60eb20f7c9cf58a9e208d5b97e8617cc54201c",
+          "md5": "4333df0857799e8c01084e1a5a242697"
         }
       ]
     }

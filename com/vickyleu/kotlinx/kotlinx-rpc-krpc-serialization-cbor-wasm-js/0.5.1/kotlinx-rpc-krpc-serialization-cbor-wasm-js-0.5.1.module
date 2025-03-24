@@ -51,11 +51,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.klib",
-          "size": 5613,
-          "sha512": "64e53e7dd08673886bd82c3c0d68965fe3218a53dbee8b2edbadaff84a9a961d1199937925e32087ba2004a6afd3f179f989e829766df1067c73b63b6f231dc3",
-          "sha256": "f8159f0d4569e6cf9f54b1ca509a8cb2bda74a277d1d6b718d6e34c7684509b0",
-          "sha1": "b4110af148c2086d4b04dfb3fe137d4818094ab6",
-          "md5": "4f7916831525431e2cbde3c4154d4c12"
+          "size": 5602,
+          "sha512": "c0f54a9d5f273ae0c05b84769e9f17625432c6eae2b1f8f8528901d6dcc40f027b7a6a79ff83ad084a51ea8f9136b238eff41c51a6791bb12e2f372c89fb3339",
+          "sha256": "1221682ba16b379d91f05777692ff9822a4c24c30889f3f35ee0b28e96b98610",
+          "sha1": "7df0e0cdc36da510edbd6f6e31fd83d7360510d1",
+          "md5": "ec394fa0fcbabb147cad0fd650ff17fb"
         }
       ]
     },
@@ -102,11 +102,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.klib",
-          "size": 5613,
-          "sha512": "64e53e7dd08673886bd82c3c0d68965fe3218a53dbee8b2edbadaff84a9a961d1199937925e32087ba2004a6afd3f179f989e829766df1067c73b63b6f231dc3",
-          "sha256": "f8159f0d4569e6cf9f54b1ca509a8cb2bda74a277d1d6b718d6e34c7684509b0",
-          "sha1": "b4110af148c2086d4b04dfb3fe137d4818094ab6",
-          "md5": "4f7916831525431e2cbde3c4154d4c12"
+          "size": 5602,
+          "sha512": "c0f54a9d5f273ae0c05b84769e9f17625432c6eae2b1f8f8528901d6dcc40f027b7a6a79ff83ad084a51ea8f9136b238eff41c51a6791bb12e2f372c89fb3339",
+          "sha256": "1221682ba16b379d91f05777692ff9822a4c24c30889f3f35ee0b28e96b98610",
+          "sha1": "7df0e0cdc36da510edbd6f6e31fd83d7360510d1",
+          "md5": "ec394fa0fcbabb147cad0fd650ff17fb"
         }
       ]
     },

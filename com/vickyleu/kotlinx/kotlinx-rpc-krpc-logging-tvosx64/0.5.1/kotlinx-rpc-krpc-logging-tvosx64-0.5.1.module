@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-tvosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-tvosx64-0.5.1.klib",
-          "size": 12384,
-          "sha512": "a297a327f9514a218724b8bd0171c4da117a7242202313f008b0fe0d167f287b2e21c66cdae3f2e7805f34ce6e0ae551fc0bbfe9769c199d39ed342b9e6e3238",
-          "sha256": "024655bd37b56bf8362031af058bd5a65d20db57d9fe043a271cbee161aa1b3d",
-          "sha1": "efea57e5beaef04579025b326dae858d5ae318e5",
-          "md5": "ea463b0f300cf7c36931d66c73bf6849"
+          "size": 12376,
+          "sha512": "d30e69d13715aedafb84d12d57d02f03655c1c92d26125139e0c134f5d16c6923a23957cae62ae37d708769113250098466cf922058039984cfa36907bba6901",
+          "sha256": "a55aebfe0ae0e668307d44bc1c996f9a3e84d89403cadce6f03fc061b6b2571a",
+          "sha1": "d355b3b62cbe6481c1dc9f395a64bae406897f57",
+          "md5": "9c9a30d392ffd3e2aeffcde352e793d0"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-logging-tvosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-logging-tvosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }

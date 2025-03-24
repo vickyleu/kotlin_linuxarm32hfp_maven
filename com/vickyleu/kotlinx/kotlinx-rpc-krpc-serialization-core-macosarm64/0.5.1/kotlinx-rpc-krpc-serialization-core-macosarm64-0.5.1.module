@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-core-macosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-core-macosarm64-0.5.1.klib",
-          "size": 9077,
-          "sha512": "ffbe8d385a946c51a07ad3bdbda8ea39e366bb2fda17675b06833281c9a8dcb0e9e0e5dd43de3e550d26d3506606e6e5df0c1aaa8d0794c0f9add213e9906f6d",
-          "sha256": "ad1307b9a6279dd5c96d9e58927a3e5cf06255e5181126062c0585e20b504258",
-          "sha1": "a8486bb0a87cb79cb718747f24f77220842c1b95",
-          "md5": "740be2ac3472f9002a775b7bc9ce8a97"
+          "size": 9067,
+          "sha512": "1b50c8f7ca3c9502bf30001f528ecf674e76da08bff3a40800b972db9340ed960afd82768ace7c571a802c3f8f31559a3d378a9d166157e6946d7114956c4dc7",
+          "sha256": "9954cf07565aa47b1b418620d5f213dcb5b2c5961514a31f1aa114a6bed7b5b3",
+          "sha1": "0b310417d8a6f67cb7fcfbb9bf4b93ea172173d9",
+          "md5": "7a28b33fb3f9ae61a99b5d571061e458"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-core-macosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-core-macosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }

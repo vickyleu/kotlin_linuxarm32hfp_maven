@@ -44,11 +44,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
-          "size": 12023,
-          "sha512": "62fb478a58e4524c26e3b80898cf13b7cd839adeff9f0a76856fd9165c6a4d9adeab1625929a0e2f316cef2c9e873bb9f79570deadb496ed35081400964ee5c2",
-          "sha256": "1fce64be9b09321aedaca28e909daf0b072a9105b62098cefa1582bff0301e26",
-          "sha1": "eab4510a2187fb54da5243ca3a78154c44424465",
-          "md5": "eb3624d5585e163fce35a0111f03b757"
+          "size": 12018,
+          "sha512": "ebc009c5976134a76443dc15c5ee3105597fd030201c68eee3809740d0bdf67058450b18ba9e0ceb6720070a0eeffff484608df931d4ad1ca42c5a3630ab83ad",
+          "sha256": "4ff66898fe19b3636b243ad538830cc17f507170d3b220061eb9d3943d654a2d",
+          "sha1": "acc504d7ba5d8e037ee6365b3de759bfbefc996a",
+          "md5": "22fed35f71fedb4c9bee5b20b6ffc69f"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
-          "size": 12023,
-          "sha512": "62fb478a58e4524c26e3b80898cf13b7cd839adeff9f0a76856fd9165c6a4d9adeab1625929a0e2f316cef2c9e873bb9f79570deadb496ed35081400964ee5c2",
-          "sha256": "1fce64be9b09321aedaca28e909daf0b072a9105b62098cefa1582bff0301e26",
-          "sha1": "eab4510a2187fb54da5243ca3a78154c44424465",
-          "md5": "eb3624d5585e163fce35a0111f03b757"
+          "size": 12018,
+          "sha512": "ebc009c5976134a76443dc15c5ee3105597fd030201c68eee3809740d0bdf67058450b18ba9e0ceb6720070a0eeffff484608df931d4ad1ca42c5a3630ab83ad",
+          "sha256": "4ff66898fe19b3636b243ad538830cc17f507170d3b220061eb9d3943d654a2d",
+          "sha1": "acc504d7ba5d8e037ee6365b3de759bfbefc996a",
+          "md5": "22fed35f71fedb4c9bee5b20b6ffc69f"
         }
       ]
     },

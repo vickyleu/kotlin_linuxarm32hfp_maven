@@ -59,11 +59,11 @@
         {
           "name": "kotlinx-rpc-utils-macosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-utils-macosarm64-0.5.1.klib",
-          "size": 28478,
-          "sha512": "c2c895866792fd4999d522fe89cc4862c051f108d1fe106734b3abcfe0f44d37442f8207e0e9392d413d53ee684f0bfee05b3dc8bafb86cd63da7945deccf179",
-          "sha256": "28ebc21ee985f1c05761f2ab344f0fa852a7a24b3cf8a1408d9b20bbabf1cdab",
-          "sha1": "12ff1661b2bc9a47c9673cda453ab54d55dbc01a",
-          "md5": "c8c3c98b602725f2f861dc43b3e961a0"
+          "size": 28468,
+          "sha512": "80b02577df8a3d01936a446a19f7eca2714c83f8d95fa6cc9228e96ba450f48ca09c8f04228ed8ac57b7c26c11a5845e12c593aa31c075f006b2b6a70a1739a7",
+          "sha256": "038597121b521ad6c311c9b3cee4b13fb8ddef7889ddcfa3a3aed02cebf76e85",
+          "sha1": "233019226b2e13932b78252862e3f75675f37bfd",
+          "md5": "419d98c36b5de6d78caa34bf64b1ae8b"
         }
       ]
     },
@@ -135,10 +135,10 @@
           "name": "kotlinx-rpc-utils-macosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-utils-macosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "6ce18111a5c8a9c29b6ae02f5a2f99f87fae583c637739500f8290d29375dc3d0eeda1a92933b47006746d24ddce5ca47480d6414a8bd68e4743463d39e3fab9",
-          "sha256": "32a23edf115265cf7ce00d16fc478ce5b10278b4c239c620cc8404ddd35eb61d",
-          "sha1": "47a45cd66f431a26f76a507ece4d7acedfa31685",
-          "md5": "0c925eac3835c154c7a16c12773b4ffd"
+          "sha512": "7fe85b4e162e64406290dfddf652efe44379073ebcff91fd728b65355bd7bbe5d9a8fd312b8514e6745de6e210cda73745e810bd16b770e988cc5c08944bba71",
+          "sha256": "32dc60505f759c5a3fc180df18bc77444c05776f0e2e31603221cf53001d02b3",
+          "sha1": "7fedeeec037a12b76cc728cd551860dfea5a4d31",
+          "md5": "6d61b6be9b806b804557697f40724694"
         }
       ]
     }

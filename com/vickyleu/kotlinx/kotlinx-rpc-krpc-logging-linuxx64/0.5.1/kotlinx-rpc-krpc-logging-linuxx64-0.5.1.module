@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-linuxX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-linuxx64-0.5.1.klib",
-          "size": 12393,
-          "sha512": "1df6e8135681010aa9f9579979aad0e665343cef49304fd7c8d4c398f366d0ffe65b1657faa92b92b5c94c9dac895a9578aa35f5d0831908a6bf96b42866482c",
-          "sha256": "83eea57adf54810ef5baa5482a5ffba4d19310db798802027975556fef78f57d",
-          "sha1": "58745e36fc932bd831c1607613d343549fab5d40",
-          "md5": "d12479bb022284538d617dad18ac690a"
+          "size": 12385,
+          "sha512": "e14844d5602b8620fb33999af64d5f15b81f10df6f332110e6a5ff83e2750c972b2e7b6632be5a436a01e1426efcf001c7be56741db1a20d7c97be5c07bece2b",
+          "sha256": "77d65159141736c366c12dbe5107d2cc3891275664f5b3367dbed5435115ac15",
+          "sha1": "f2e372353055b29b93293c40e449c3fe0d3b9885",
+          "md5": "98b84de077531f9f22ff69c787bf0756"
         }
       ]
     },

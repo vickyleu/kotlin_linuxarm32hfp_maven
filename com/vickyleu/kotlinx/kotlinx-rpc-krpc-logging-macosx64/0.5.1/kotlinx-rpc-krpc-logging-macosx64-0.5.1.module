@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-logging-macosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-logging-macosx64-0.5.1.klib",
-          "size": 12393,
-          "sha512": "29f198d4cca199fc78b70984d98a617e9463b389254320778556791883d46f93c55d1655d969890f0fe5a31894c95aa921da5d0c7a755266c215b6e59291eff5",
-          "sha256": "cc61291d1277b4767a32eda9d1b4de759f9f93c5610816e4c8cd3a189e3f97d9",
-          "sha1": "ca083386709514748f118d5e4e687ffafab29420",
-          "md5": "0b331914f7408abf06e7b99ffd8a89aa"
+          "size": 12385,
+          "sha512": "bba6823ace69c18ec0c8680c6b217a90e85adf15fe83be6bf2ad17db34b44ec3bf415325b34787836384c60b357b68a246b0a40b19c9178594e472ab78df5577",
+          "sha256": "c36cb2c3d51e72671164f8ed6f0cf503b3c5edf810122e53cded5ce77fd0876d",
+          "sha1": "7b00ea5e487e215ca72a8f9b63c66ef890c003ea",
+          "md5": "1500eed4e62de66b83054f9149f85805"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-logging-macosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-logging-macosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }

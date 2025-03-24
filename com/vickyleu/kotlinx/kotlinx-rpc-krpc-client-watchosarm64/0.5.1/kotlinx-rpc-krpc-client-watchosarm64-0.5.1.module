@@ -80,11 +80,11 @@
         {
           "name": "kotlinx-rpc-krpc-client-watchosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-client-watchosarm64-0.5.1.klib",
-          "size": 40218,
-          "sha512": "d9bcfaba5b1ab0cd4cbcd84c28a628d8ca1f801b9fcfee723cf7dfdad6604645e5dccf04857508333e883e7c5eec0fb7816d7a73788348b8853d2128853d7f80",
-          "sha256": "03e78436b84aafec5b4f88e5916f403ef0f21e91470a76f0cba2bc665492853d",
-          "sha1": "711abe4f82fc6a20faf28c8405015a3ed23e1a85",
-          "md5": "c2f19e85921e6236979e05571f15de4c"
+          "size": 40207,
+          "sha512": "849e23fe510379892163b0ba9109349e11d8c2f0eaca9f3bdfd408671afb4d25ced1fb0f5d94aee1732a9b6d4dae1615cf9d5638ed4baa415ea235c14f2098f9",
+          "sha256": "2168eccf0c8311f63c5e896bf677a73eef47a2d846049fc1333bd2e7260bdfe1",
+          "sha1": "07de976d8c43114744feab7d281f2a41b17831e5",
+          "md5": "9a3d876ed8389b38adf12be1b2df785e"
         }
       ]
     },
@@ -177,10 +177,10 @@
           "name": "kotlinx-rpc-krpc-client-watchosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-client-watchosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "6f5c6be45a05c11f9ce5f23f00345f16f720480d039ac1fba1f3e262b3e10ed4db510841e6ca28ddad798a6e8f118920f8c3631b51185b4f6c47b1ad1aee548e",
-          "sha256": "899e4214e6957969bab49e30cf8bcc4ed4a43110f44f3969355a84ede7a72892",
-          "sha1": "a6fa01f28d5b1eceb89657903f6060555686be34",
-          "md5": "5140492932e3567f239487e27f4f8c8b"
+          "sha512": "edbaa55d687b0e1257070068f8a1dbaf544314fe6d24fdf19043ec10b24a1bbc1ede2d1f729f1961ba11dd0643804f84ffaa2a74de39855e0b5b027734e4676e",
+          "sha256": "647162a7ac2e65b983d98ae8b130a4a4521d5229cd08997f7511667469175074",
+          "sha1": "00694d3c9a0d7513c9d530a6d525221a0812ddda",
+          "md5": "45d675424c6a8bcc50970b4941412f5b"
         }
       ]
     }

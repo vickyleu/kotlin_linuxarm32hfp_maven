@@ -71,13 +71,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-ktor-core-iosSimulatorArm64Main-0.5.1.klib",
+          "name": "krpc-ktor-core-iosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-core-iossimulatorarm64-0.5.1.klib",
-          "size": 6382,
-          "sha512": "440878544818af7e5ebd062fc81386b95541ff9a1ed99b600928d08fd75b9a1f663f94d8886b85d7a8eca780a7c1b394c50a43c7108ba722271495e2c173f494",
-          "sha256": "4542f03cd3a68e433300bf168d951cf8ac1256a106edef0db03852fd334956a5",
-          "sha1": "b3fdb63c305534ba4cd2511c107d5da363510812",
-          "md5": "de885689c0521e9283f1584d79b8ae22"
+          "size": 6371,
+          "sha512": "d53260328d68d7671bc5660aac96172d3e42b7ff22264fbe19cc4624a91500a197b0ca30cbe62ce1967f94ecfa5446017f38c20acf2ad4b6219935716311eefc",
+          "sha256": "e92beb097a0e436506e72322fee79586adedac7f12737cf5c037c150f50aded7",
+          "sha1": "ce9fb6870932effc60ebd73ec9fbae137a5b78d1",
+          "md5": "3127c1f5c110d176eab2c52a1264c204"
         }
       ]
     },
@@ -94,7 +94,7 @@
       },
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-ktor-core-iossimulatorarm64-0.5.1-sources.jar",
+          "name": "krpc-ktor-core-iossimulatorarm64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-ktor-core-iossimulatorarm64-0.5.1-sources.jar",
           "size": 1686,
           "sha512": "44a6419ceeecc94824e017b415f80765af8cc82ace7dbba25d407260aa1f6546e5dd8a9e15c6c2b27edc556796806416ca68703a672c6e50506675500e897dd9",
@@ -160,13 +160,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-ktor-core-iossimulatorarm64-0.5.1-metadata.jar",
+          "name": "krpc-ktor-core-iossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-ktor-core-iossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "dec00513faa935fde87a41e654c954c49b5daeae099d04ff07ab4267b17bb073877f53bf8ccdff75b9b7afa4310b6c89f4737acef1a6c31bf21995985c134704",
-          "sha256": "9891f62a27790a2f2cd0cb85fc4f67ff30e1f9d8493a82a44b885e5aa6ced103",
-          "sha1": "ca31dc590b21b24a5992a235604a07495ed0cc2c",
-          "md5": "a5e9386d6d768f1a8c6edd0b3d060404"
+          "sha512": "9bfe76ea0a6d3b5d0a30e0f99806bd367bce4113865e1facec286546d68f66c8e519fd2e933c12811bf36e0ec151119bed1bfd1e440f78e1d76872fc01d7be2f",
+          "sha256": "f2546bf0b1f9deab1f8d8c063428e7f52c954228cd4c4692c13a70ef4b6abc86",
+          "sha1": "e811f22554e4de3eb613329e40a64855b435f0c6",
+          "md5": "03e67231cc0bbf3df9fdd7af9d6043ed"
         }
       ]
     }

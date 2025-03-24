@@ -71,13 +71,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-ktor-core-watchosArm64Main-0.5.1.klib",
+          "name": "krpc-ktor-core-watchosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-core-watchosarm64-0.5.1.klib",
-          "size": 6331,
-          "sha512": "7bb977790cdf40885c52661d1bf9b382e2fe8f8dc941a03a0a759419981373949b468ecf918bbb76e260c191e32b0ad2744f6274325153a6c96dc9c9675969d5",
-          "sha256": "534cbc30615660e43999f639e45c6f999a3f6ce48c03a463245233b9127d5788",
-          "sha1": "4c0c11f9502d2505fd5a8d1c99a3eb6df9609844",
-          "md5": "0c9b729b82cd6c2f68475198c0869c7e"
+          "size": 6320,
+          "sha512": "1cff582330aa591771260a101bc97ded07b1224723fe8fe025ce19fb0815057f332cba41e15af49921db45ac96fcf8caa72ede47d95d240824243c218d7fbb00",
+          "sha256": "ed15718a5eda8e65e9c3e1d8e67bbe8698bd7632611195368719e7a56a777ab8",
+          "sha1": "1e753d243b561f6f9c1ae38e3b0a1acba4bfa0c8",
+          "md5": "305295e263b4bc7bf004322754c2d68d"
         }
       ]
     },
@@ -94,7 +94,7 @@
       },
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-ktor-core-watchosarm64-0.5.1-sources.jar",
+          "name": "krpc-ktor-core-watchosarm64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-ktor-core-watchosarm64-0.5.1-sources.jar",
           "size": 1686,
           "sha512": "44a6419ceeecc94824e017b415f80765af8cc82ace7dbba25d407260aa1f6546e5dd8a9e15c6c2b27edc556796806416ca68703a672c6e50506675500e897dd9",
@@ -160,13 +160,13 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-ktor-core-watchosarm64-0.5.1-metadata.jar",
+          "name": "krpc-ktor-core-watchosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-ktor-core-watchosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "dec00513faa935fde87a41e654c954c49b5daeae099d04ff07ab4267b17bb073877f53bf8ccdff75b9b7afa4310b6c89f4737acef1a6c31bf21995985c134704",
-          "sha256": "9891f62a27790a2f2cd0cb85fc4f67ff30e1f9d8493a82a44b885e5aa6ced103",
-          "sha1": "ca31dc590b21b24a5992a235604a07495ed0cc2c",
-          "md5": "a5e9386d6d768f1a8c6edd0b3d060404"
+          "sha512": "9bfe76ea0a6d3b5d0a30e0f99806bd367bce4113865e1facec286546d68f66c8e519fd2e933c12811bf36e0ec151119bed1bfd1e440f78e1d76872fc01d7be2f",
+          "sha256": "f2546bf0b1f9deab1f8d8c063428e7f52c954228cd4c4692c13a70ef4b6abc86",
+          "sha1": "e811f22554e4de3eb613329e40a64855b435f0c6",
+          "md5": "03e67231cc0bbf3df9fdd7af9d6043ed"
         }
       ]
     }

@@ -58,11 +58,11 @@
         {
           "name": "kotlinx-rpc-core-wasm-wasi-0.5.1.klib",
           "url": "kotlinx-rpc-core-wasm-wasi-0.5.1.klib",
-          "size": 44604,
-          "sha512": "f9caf9d3f34e6ec3ec8b269fee035139c60cbb3a8574ea06665fbe29e32abe056c9f7088c4d592498fcfab01f26cd84a15188d3768a7239fbad4ee92528a67f4",
-          "sha256": "433612f43ed1f85b12804ab627d3e902e9c86d8d3c959ee78b8da1ca9ab7fc67",
-          "sha1": "9c366cee4a7877b62c5662c1ef2ee02e0c951d22",
-          "md5": "8bdb57a75f6906929cc00cf3f0161544"
+          "size": 44599,
+          "sha512": "1e53f9862288ccb44779d2c8f6e672fdf5ebfc3e817ddc865aeeff77161e81e0604db665ba34e571e60c863ed9ebc694f64764df281074cd345c2d66911d4097",
+          "sha256": "48b58a0b63dc1d1364ba8d6665f958fe32ba1165aa911f6d7c0da33bb757063d",
+          "sha1": "37fcb6ffb1368dee673d342563b4eb0e29f00c92",
+          "md5": "e00a12f289e5a90f0418370bf6bc41a4"
         }
       ]
     },
@@ -123,11 +123,11 @@
         {
           "name": "kotlinx-rpc-core-wasm-wasi-0.5.1.klib",
           "url": "kotlinx-rpc-core-wasm-wasi-0.5.1.klib",
-          "size": 44604,
-          "sha512": "f9caf9d3f34e6ec3ec8b269fee035139c60cbb3a8574ea06665fbe29e32abe056c9f7088c4d592498fcfab01f26cd84a15188d3768a7239fbad4ee92528a67f4",
-          "sha256": "433612f43ed1f85b12804ab627d3e902e9c86d8d3c959ee78b8da1ca9ab7fc67",
-          "sha1": "9c366cee4a7877b62c5662c1ef2ee02e0c951d22",
-          "md5": "8bdb57a75f6906929cc00cf3f0161544"
+          "size": 44599,
+          "sha512": "1e53f9862288ccb44779d2c8f6e672fdf5ebfc3e817ddc865aeeff77161e81e0604db665ba34e571e60c863ed9ebc694f64764df281074cd345c2d66911d4097",
+          "sha256": "48b58a0b63dc1d1364ba8d6665f958fe32ba1165aa911f6d7c0da33bb757063d",
+          "sha1": "37fcb6ffb1368dee673d342563b4eb0e29f00c92",
+          "md5": "e00a12f289e5a90f0418370bf6bc41a4"
         }
       ]
     },

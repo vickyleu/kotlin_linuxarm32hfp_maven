@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-cbor-watchosSimulatorArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64-0.5.1.klib",
-          "size": 6127,
-          "sha512": "43397091d92ba938e0b7edf7a5b8264f044d1667f7a8736cfd1fedab83f2968b8b4927e3d3c2268a09f6484b9cb56447107e071afa12dc509f2924bee1576e70",
-          "sha256": "5e6c25b81f87ef775257b351b73f8f68ca342287c225d75d9f527f497a4e6659",
-          "sha1": "6c078a6f4f2b834b6cc2aaaf21bdea570707f118",
-          "md5": "81d3dbc3e610c52ad7b69f2d85b5ad28"
+          "size": 6118,
+          "sha512": "2c733ce47b5d5a811df14cf83213a18c68b176e250962758fc7281155ee73719ba93644f6f34d94d0105c50264c7f0718ad57a322254579cc42e03de0d82b544",
+          "sha256": "eebefc4353d5030fad93a140a960da25062f7f736d8a02ef3a80ac389e31d346",
+          "sha1": "6c339908d02579d29081d1aa2a7c58ca9a162770",
+          "md5": "031c6f043927ac03153fa778a647741c"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "f450e671ffdb426dac4d408e2ca6d1a3e96ef306b7261656d712e2be88d4f7b158bd17d94cd4d712e6861943703ee4895de19c7e2777aecf7bebb5fb5f8b22ee",
-          "sha256": "2f9693ed914eec9ecadb66f36dcf279a78ef726a7aafb4d0a6290d5b8d35144f",
-          "sha1": "dcb890f0d4635d36ccc98a237742c81cdea916fd",
-          "md5": "2cd90cd1979360661410e2230fff6bf5"
+          "sha512": "cf81e762d07422acf94f938385f5fc49c137124458da3d2e94ae7bbdb7961e00656f7a6da896a52afa0882aae6090857bb6998005f6e161cfcb6fdd1affe87e1",
+          "sha256": "fd20ea4b77971d67c4a38cea85db2301e371d9a94b07c7d8283bf0fc8802a9ef",
+          "sha1": "adf5382f25b22fe8188fed560a737dd78694cdb5",
+          "md5": "a15621734b0e44a82989b6b0cd2ff86e"
         }
       ]
     }

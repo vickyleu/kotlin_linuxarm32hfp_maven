@@ -73,11 +73,11 @@
         {
           "name": "kotlinx-rpc-krpc-ktor-core-tvosArm64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-ktor-core-tvosarm64-0.5.1.klib",
-          "size": 6305,
-          "sha512": "8bb5e3d9cf0d6e0276e89c8e743043104995ed49a9476e88ccae5861805ebce646c914b385b77ff5fc55f832147a6f0b2cefb74e8aaba3ca3463a30af90a5b92",
-          "sha256": "0264581a947651943ea4a4040eb4b0e19db92b4b4cb14119ad142d13b69a690c",
-          "sha1": "9e109a253b4e652a099328e52ae288bf2c20739e",
-          "md5": "e0cdd72d2d2530f72c9362937370b138"
+          "size": 6294,
+          "sha512": "c40b4b0dc378ea886547a7d2cc50ece09c2752cd9d6be18eb7d6261929bb1036cb3d6033de13190e2d62d1f16806b5b85c0575bc830ef66b34cd49e5e45b0d41",
+          "sha256": "54061550d9df22a3c3dc0be8bb271b2c675c1018d8661afc985f230d8e059273",
+          "sha1": "2f99bdeb05ceee3fbe66144775e32b9fc85afc6c",
+          "md5": "78b481e852f2093f4bcc67b9eff83f73"
         }
       ]
     },
@@ -163,10 +163,10 @@
           "name": "kotlinx-rpc-krpc-ktor-core-tvosarm64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-ktor-core-tvosarm64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "dec00513faa935fde87a41e654c954c49b5daeae099d04ff07ab4267b17bb073877f53bf8ccdff75b9b7afa4310b6c89f4737acef1a6c31bf21995985c134704",
-          "sha256": "9891f62a27790a2f2cd0cb85fc4f67ff30e1f9d8493a82a44b885e5aa6ced103",
-          "sha1": "ca31dc590b21b24a5992a235604a07495ed0cc2c",
-          "md5": "a5e9386d6d768f1a8c6edd0b3d060404"
+          "sha512": "9bfe76ea0a6d3b5d0a30e0f99806bd367bce4113865e1facec286546d68f66c8e519fd2e933c12811bf36e0ec151119bed1bfd1e440f78e1d76872fc01d7be2f",
+          "sha256": "f2546bf0b1f9deab1f8d8c063428e7f52c954228cd4c4692c13a70ef4b6abc86",
+          "sha1": "e811f22554e4de3eb613329e40a64855b435f0c6",
+          "md5": "03e67231cc0bbf3df9fdd7af9d6043ed"
         }
       ]
     }

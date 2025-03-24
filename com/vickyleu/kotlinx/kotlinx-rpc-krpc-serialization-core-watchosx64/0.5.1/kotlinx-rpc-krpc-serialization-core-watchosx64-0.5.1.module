@@ -52,11 +52,11 @@
         {
           "name": "kotlinx-rpc-krpc-serialization-core-watchosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1.klib",
-          "size": 9079,
-          "sha512": "69df96000bfffc90274701be185699a1b18f2a6f35c70e0a9857302ba173bd213651c59fb08f40a8d53ac9de584c5d12328f447e95e182b742b85d164053e013",
-          "sha256": "23a9d9e4a04e1020e69491ca841b40c8498f28c04673434b14143515f6da79ac",
-          "sha1": "fd496e98660d524824ee2dd1ab54f43444e31f3d",
-          "md5": "b8fc00250d0d01948846cf00402596e9"
+          "size": 9069,
+          "sha512": "b596c84872330c50f58bf7511d829202d7e607b087f524efa7f7092c23a0db2990fc2daaf35193215ba22b8572fb46a372aa97b0a9f9748e089ac1e27167282c",
+          "sha256": "d915b1411681805699408ebfa25d3936c8d7626867a2dc1dcf0999a4517aaf01",
+          "sha1": "24be97951b0fc1497566e613b1a399af8a0622e9",
+          "md5": "6f3fd33691bd5b463948180003209445"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1-metadata.jar",
           "size": 261,
-          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
-          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
-          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
-          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+          "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",
+          "sha256": "78f2ab3df68f7bed63906394a1c4c563cd7b7274bfe1ba1991ae4eb8565b6524",
+          "sha1": "221529aebaa1a22ae9a75b481bd78fe18d402368",
+          "md5": "1da75dbe527756cc868af023efab71ea"
         }
       ]
     }
