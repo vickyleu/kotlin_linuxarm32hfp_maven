@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-auth/3.1.2-SNAPSHOT/ktor-server-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-auth-tvosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-auth-tvosx64-3.1.2-SNAPSHOT.klib",
+          "size": 127349,
+          "sha512": "9f9ea58ea7ae170e80116cd59a281afb70d56d71e9737d47e0006740b0672ff9723c24663c43e7becde814f90746b1f87a07af426411ea805e8272d933fae8ab",
+          "sha256": "7557dca1760e4484029da4183ec20fe7e2ac1ff55d03cd6e8e000efa1dcb67b6",
+          "sha1": "8db8cbe710450e1d7cac20471d67c727a448d46b",
+          "md5": "2b11902e4ad4b1387e93c2bd6cfcc864"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-auth-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-auth-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 29613,
+          "sha512": "bc57a737fee9a07657827b097e0d28607269d22535f873acd3e96ff3f8c34e5a6a173095abbd132b15ce73fba3c855d83a935c5e57446093f8524932e903c859",
+          "sha256": "943ef60f2d07fa40cbd472769703c5f2820af21a71661b343afd7e0de3c1bf69",
+          "sha1": "78355f0ed7ec37b30a5bb124e7fbb19bf775da6f",
+          "md5": "436d0c5127a63071ee5ccad8dd90c943"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-auth-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-auth-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "8742967e4db268f35a286f8b289ab9af53dd6cca01ad589c8984ae269f8e8e554ce6df68effdf1f8fff00c0f1dd101e9c85c710323b415699599e9b627121def",
+          "sha256": "f80a4271efb6987ac1f6030d3a3b951b3e6a9b61711f9f52391f3f5e8a69e7d0",
+          "sha1": "7b069ca8c9556deae46578bd9bb633dbc3e09f65",
+          "md5": "70768d598a23eacc15ea3fd72c9d8455"
+        }
+      ]
+    }
+  ]
+}

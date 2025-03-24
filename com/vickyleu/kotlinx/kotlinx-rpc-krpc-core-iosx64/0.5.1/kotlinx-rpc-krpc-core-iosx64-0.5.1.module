@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-core/0.5.1/kotlinx-rpc-krpc-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-core-iosX64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-core-iosx64-0.5.1.klib",
+          "size": 177015,
+          "sha512": "577a457054b4ad935a4f66b65fe50e1a93295d722913c48482fa322cb53e4c91cb0288f8839cf5714d703055ff5261ad278d3128c742a79d8fe6a66bee140684",
+          "sha256": "b9734824d78f2b9d59cb2826d5df9888cc746bb73a544f056210060736396771",
+          "sha1": "fc0d40e082b1226c02de8e2cbf666d248e9acc0e",
+          "md5": "d623c21fe571977c4b228c04d565b6e4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-core-iosx64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-core-iosx64-0.5.1-sources.jar",
+          "size": 26459,
+          "sha512": "52fdb382d7291a2bc9d5e362d5ea9a2ff0cd1bd76adf0b2dfdeb53114fab8d0e0d316af2cc85ff631acce4a4538db11f7dbf4a22ebcd14e309510b0d4d98161e",
+          "sha256": "86a7d94c4c3233043df04687f3ee9c39484d9ebbe1730918d785475f1c313b7d",
+          "sha1": "01992c0bb8964642d41c4880a8593e1025e2da3e",
+          "md5": "8a54de899c290edd1a6b35bf94315c70"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-core-iosx64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-core-iosx64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "854f9337b316d06158cf726107aeab930e6c42a9f41b08ea6a7b03c6b978ea749cde9e6a30c9c544d26b568cee2a31f5a851a901dbd7a98371e59eb64115426b",
+          "sha256": "d1aac4ecf48dc6353822d0b6cd5411c12f5abe6b99dfe0b88e5b22c32b326405",
+          "sha1": "de918f6952227b52c49b8da5fbf954b7318b9e66",
+          "md5": "f9e4fed84da7da4738f83fbb659961ef"
+        }
+      ]
+    }
+  ]
+}

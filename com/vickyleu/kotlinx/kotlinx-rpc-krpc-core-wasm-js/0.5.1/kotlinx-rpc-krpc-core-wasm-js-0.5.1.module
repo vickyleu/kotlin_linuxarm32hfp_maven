@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-core/0.5.1/kotlinx-rpc-krpc-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-core-wasm-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-core-wasm-js-0.5.1.klib",
+          "size": 177077,
+          "sha512": "272c90c48ad9f6b545fe679121ecff27c7c964629f8a80138236d70a7d3b31ddca2e2bc300386a64ad4ff21e2af10d327ce702f46277ef9222e9161b7ec6b168",
+          "sha256": "ec6ce0bc6fe60d6ea1b4afca48909ee56fe920df8039c2ae3e08ae258b530352",
+          "sha1": "8c4c2607521a6d23d80c6ba74603a44bac41f5f7",
+          "md5": "b1a59a21cd74268c3896068050248eec"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-core-wasm-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-core-wasm-js-0.5.1.klib",
+          "size": 177077,
+          "sha512": "272c90c48ad9f6b545fe679121ecff27c7c964629f8a80138236d70a7d3b31ddca2e2bc300386a64ad4ff21e2af10d327ce702f46277ef9222e9161b7ec6b168",
+          "sha256": "ec6ce0bc6fe60d6ea1b4afca48909ee56fe920df8039c2ae3e08ae258b530352",
+          "sha1": "8c4c2607521a6d23d80c6ba74603a44bac41f5f7",
+          "md5": "b1a59a21cd74268c3896068050248eec"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-core-wasm-js-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-core-wasm-js-0.5.1-sources.jar",
+          "size": 26481,
+          "sha512": "e171986e0d61af912d753e3cf1ffc39725ae1cd208173e61a574099c4cbebd49fa42e22be55c2f2e534b78165ecb51a936048e27c7c28208bf0e9bca22cef404",
+          "sha256": "8b339d28f269e39ad057ad06b2b121ee33e24f964093a802bbcd9cfde6bb0eab",
+          "sha1": "6d7044f1258bdc4db3c39707bc46042bd6fb7007",
+          "md5": "cbfb14347d03e9abf3e7b2ec2614abe3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-websockets/3.1.2-SNAPSHOT/ktor-server-websockets-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-websockets",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-websockets-watchosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-websockets-watchosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 40516,
+          "sha512": "b4ac34bd70473704b2ac2526f2bcf5b43744a60e14e9087140820435337ace7571c0cd822cc8f7236620e778f33d12232b3f99280390a7a95232a2c9cae365be",
+          "sha256": "0d5a2ef738d7fab019c65f4aac0aef4b6fbc25c662f874865bf60752bd913407",
+          "sha1": "19581167a861c78f5237b5de941e0be5b48cb18a",
+          "md5": "b8587d7798e32570fc5a4b8d2b73a5b3"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-websockets-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-websockets-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 9120,
+          "sha512": "fda89867e3d1f098f7519cfc056f807621cc201c619579f7406740189966f51ec9a23a5495d6c4de8b0553d44930782333283c891e6cfd34c7ddd0e1579aa071",
+          "sha256": "88a71890c75a2b5365b5f08fbcc7502a8ae943110fded3aa235d0e95d1e6ab1d",
+          "sha1": "4f61c6ce3e3603614c57b87a583cfdd6972f9784",
+          "md5": "293983f099e3d3b88c7c50f0d20f7a70"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-websockets-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-websockets-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "278daf7a7f6b90014940cdee9d2cdbc65c68a411233ba42450be963b159b871ebdceef1e938195c1d5afd6925db147fe84922ead4db47a094fbf03877f381f87",
+          "sha256": "ae484c407b02e34266eb38f1e37962eae9ba835e18b3d02aa5533b432092b5b0",
+          "sha1": "dfd8a0c3922cc61ae3c2d057279649c60f6ad2b2",
+          "md5": "b1d54a37c7d45676183425a99ff05db6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-cio/3.1.2-SNAPSHOT/ktor-server-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 75970,
+          "sha512": "46e1bcd6de27b121fca7c15238c39976eff8366a44621885e024d28c980bc5e42b7d2713406c2451c1848cb6ef1537925ce90b94fe92e26298d5970677c17b97",
+          "sha256": "403e8ea27c1e73c554d45bd2bd099d6296d7f2988466cdf62c6d1544dbb09dfd",
+          "sha1": "f3b7a1652a1b524c93bcb4fa6c1288f6edf3211b",
+          "md5": "bf1381854754d05628802490b49692c3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 75970,
+          "sha512": "46e1bcd6de27b121fca7c15238c39976eff8366a44621885e024d28c980bc5e42b7d2713406c2451c1848cb6ef1537925ce90b94fe92e26298d5970677c17b97",
+          "sha256": "403e8ea27c1e73c554d45bd2bd099d6296d7f2988466cdf62c6d1544dbb09dfd",
+          "sha1": "f3b7a1652a1b524c93bcb4fa6c1288f6edf3211b",
+          "md5": "bf1381854754d05628802490b49692c3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-cio-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-cio-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 18588,
+          "sha512": "17b5eccba824007a639895e020497b8628138a9dbb13d2a7caddfb7edec34b55f243186ae95f1b6ff2ea0612c03a7d3403a06d3e4b25a4e0d1cc2e8f3fafedfa",
+          "sha256": "c6060bd5915d3d8473397f10a104aa3a261c25f458deb8a8f2b1790f8ee05b4f",
+          "sha1": "10e7e88c693e73dff0f9287b1e8e0543eb2b3e5e",
+          "md5": "81cc59725d71495208ca7fdce80c7a6b"
+        }
+      ]
+    }
+  ]
+}

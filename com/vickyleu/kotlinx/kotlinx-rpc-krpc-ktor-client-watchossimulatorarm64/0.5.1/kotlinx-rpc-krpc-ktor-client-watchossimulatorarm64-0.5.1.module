@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-client/0.5.1/kotlinx-rpc-krpc-ktor-client-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-client",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-client",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-watchosSimulatorArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1.klib",
+          "size": 12042,
+          "sha512": "6fe114ae8d80c0a7e16459620f29f2f6700e6cdbf36152f6a21eb219d6ee8ede6557bf03e9235596767053c86e3e952d8dbafd4f0e4b5c02897a429153b32874",
+          "sha256": "83edf3bf6f9d5179319dd0e8e0e78721ec74b1fa88afc5650f6f4a609a36c268",
+          "sha1": "be5de58d0cd16d5f58198f3a93a8fd7ca2897b95",
+          "md5": "169d7577248b6d63461476cc93eefdfe"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1-sources.jar",
+          "size": 3324,
+          "sha512": "2a29469277d9872d798ddc91c27d0f6737621c12a29d3c87c29525951eba56b0b97ba0c6cc894316d4776050b912f1c64d3b32738daa4f74ce1de7449cbc4de4",
+          "sha256": "1e15015e92429743b18c7a242a42e3fa38971d9034cf6979d6c5cc199bc6d53d",
+          "sha1": "c5269cc3aa65e334361c11a8e28df375f0d1d237",
+          "md5": "a246d63fe8d1dc585d2f8585d00ec781"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-client",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-ktor-client-watchossimulatorarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "0b3df3bbe6a95d3387caf77d41ac2274ef6671980149625d44587a909902d6b78d83cb25c6101247feadeeaef051419b33d70e2b7b7d630e1d720b2d35b01e65",
+          "sha256": "92c6a31fdd2bd0bf5f0e8578816f96435161a98007ef8bed3e033d1c0bf0842a",
+          "sha1": "dc4b4cec269ff191269ae842bb23535fd0124cd9",
+          "md5": "70fb5a87e180cb976f2cd63b40194e65"
+        }
+      ]
+    }
+  ]
+}

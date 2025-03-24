@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-play-services",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-tasks",
+          "version": {
+            "requires": "16.0.1"
+          },
+          "excludes": [
+            {
+              "group": "com.android.support",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-play-services-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-play-services-1.10.1-SNAPSHOT.jar",
+          "size": 10695,
+          "sha512": "fd2212db080378f2d6e346fe5ea7d8b61453eb8d2748b946f91b4996da2ec5da3e4e3088aaa0b8f08530f97011cfe1dcc7719992404bb0bdd4ba256c4f723ff5",
+          "sha256": "87ddc36097f31a093fc7f3b3031fe00af7b556bcefee4c69839564d0136c8c7a",
+          "sha1": "ac547625f066eca8da784fd28a4579e9897205e6",
+          "md5": "e3039b17866690465d700fa4f6def6df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-tasks",
+          "version": {
+            "requires": "16.0.1"
+          },
+          "excludes": [
+            {
+              "group": "com.android.support",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-play-services-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-play-services-1.10.1-SNAPSHOT.jar",
+          "size": 10695,
+          "sha512": "fd2212db080378f2d6e346fe5ea7d8b61453eb8d2748b946f91b4996da2ec5da3e4e3088aaa0b8f08530f97011cfe1dcc7719992404bb0bdd4ba256c4f723ff5",
+          "sha256": "87ddc36097f31a093fc7f3b3031fe00af7b556bcefee4c69839564d0136c8c7a",
+          "sha1": "ac547625f066eca8da784fd28a4579e9897205e6",
+          "md5": "e3039b17866690465d700fa4f6def6df"
+        }
+      ]
+    }
+  ]
+}

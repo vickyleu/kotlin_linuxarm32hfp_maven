@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-macosarm64-7.0.6.klib",
+          "size": 53081,
+          "sha512": "74bb1d24f38a289cbdeaaf0e640e470b1e18e659cd0e802456cfb0466cfe6e0e5ccb0c65e1a46d222357bcc8b447c8b322d1aa56ce9d50091531df7b9ebfbe6d",
+          "sha256": "26a0d021b78a0ec8a163d0debb6f0e62eaf42374c00c85929f73667e1c11124b",
+          "sha1": "d632b289d830e9f547710ac315803059666faaa8",
+          "md5": "e5e15773a4dc9475cc929fee7e8ca95e"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-macosarm64-7.0.6-sources.jar",
+          "url": "kotlin-logging-macosarm64-7.0.6-sources.jar",
+          "size": 16496,
+          "sha512": "bd1dab8709b1a2d3cc798bf285bf936216e5ea5759f80e89e8af56bcf76e52d30352deaf335e0dc0fe8bb230482e02b022c7c872377418038668a3f372015996",
+          "sha256": "4e273ad46eff6f1878a64f6b6ff98477709223dfecaa6d63fd3019fbb4da6162",
+          "sha1": "2bfe758ad68d35ee3131001cd5dff984e52c890b",
+          "md5": "50ce16cbbf7a625e8b862c29d87b3b79"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-macosarm64-7.0.6-metadata.jar",
+          "url": "kotlin-logging-macosarm64-7.0.6-metadata.jar",
+          "size": 9248,
+          "sha512": "0a74430b82804f063b016a87be0efc8e9ff24f8e4548f5b59b604e51884ab6a3e7ab847dddbdbf7f9f88211d8967c4d4ef0a889e17c7994844c34007ef7d1e6a",
+          "sha256": "3a2894584e2c06dbe533f2583e8b442992277f3f317f2902c458e4712919eccc",
+          "sha1": "0c0ac0377bfe0cff05766f53e4ec521b494ea4aa",
+          "md5": "0e74dc7f4f52759b97cead931b74eae7"
+        }
+      ]
+    }
+  ]
+}

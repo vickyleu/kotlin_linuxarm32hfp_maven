@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-js-7.0.6.klib",
+          "url": "kotlin-logging-js-7.0.6.klib",
+          "size": 65871,
+          "sha512": "7ec79a73a71513fc23239da96c7d22e3beea7f2348abe5f7c84c432b8a03237b785a0a53aa196e2ffc17dcbd9f5f8bc83e385e9992238aafade8955961c0d621",
+          "sha256": "cbc961dc13b43f4d741279f4d283c196221289512490fba9f1e9bede6f366b2e",
+          "sha1": "f16056db184dac8d5f6622077adb097a3d3e9c73",
+          "md5": "8521c3e21ddf90e08b2350d425cc23c2"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-js-7.0.6.klib",
+          "url": "kotlin-logging-js-7.0.6.klib",
+          "size": 65871,
+          "sha512": "7ec79a73a71513fc23239da96c7d22e3beea7f2348abe5f7c84c432b8a03237b785a0a53aa196e2ffc17dcbd9f5f8bc83e385e9992238aafade8955961c0d621",
+          "sha256": "cbc961dc13b43f4d741279f4d283c196221289512490fba9f1e9bede6f366b2e",
+          "sha1": "f16056db184dac8d5f6622077adb097a3d3e9c73",
+          "md5": "8521c3e21ddf90e08b2350d425cc23c2"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-js-7.0.6-sources.jar",
+          "url": "kotlin-logging-js-7.0.6-sources.jar",
+          "size": 19868,
+          "sha512": "0edd8e0a83b39ae6cf67d6c59a368e4002005605a164f579e37e471237a2c067586944b193d26d341d2bfd08cb3b5ea7047874f5860f2dd35a92b9b49b52ccd5",
+          "sha256": "54474558e0b07ee2305a63de56ecd4ebc52cb1f767ded58398fe973ec53245eb",
+          "sha1": "11a53598e805a64168b4719caf0a478114c16236",
+          "md5": "60dbbe48e631c6d5c987d6e346f6a9c2"
+        }
+      ]
+    }
+  ]
+}

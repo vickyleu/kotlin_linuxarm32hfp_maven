@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network-tls/3.1.2-SNAPSHOT/ktor-network-tls-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network-tls",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tls-watchosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tls-watchossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 46256,
+          "sha512": "68ff9df9837ff3b1a130ee02b85ad6334fc5918a62f3377657b5b5589c573183d7192629b0392085975367424b01d9376e13a2c9c46138ad659e0fb9cc54f087",
+          "sha256": "acbbf4cc9e7d34a6ab69ff151d1d9bcb34f0518ee7dfe11c2435538ecab15ceb",
+          "sha1": "66e9a8a2eb9b8e5706fc3b6f3c9a8e7a4753d57a",
+          "md5": "eaa0973d460d60db8593a71c9940b69f"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-tls-watchossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-tls-watchossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 13552,
+          "sha512": "c59b5bc3771060ae1578df061892f94adf516b256e22473a7fc409a44c5f8ef0ced4dabe4d64d45b512193767562c6cc781fa80b240528e60a8999cc0b80ea3b",
+          "sha256": "ae935e2b6bce9e926d47fe914396c3fba80b6870f120114096f84e8cc167a417",
+          "sha1": "706a588f69e804e863262a38ec6d5b91aeff4965",
+          "md5": "87f52d18ed0cc84bc1b7c86d2fbf4d37"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tls-watchossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-network-tls-watchossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "cff7f964933e81b0a6a70576c885d0550198c44236cdde4e496208a6d1986cd6f1973f672df1f90c5f4e40dbd92bed22e7551c20b00c4fb989dd340866c13826",
+          "sha256": "ae173aa223ea1f53d97ba4d3ae4907354e5d197725459d7030f3534f9efcc187",
+          "sha1": "bd84392acb94689964b497aabebc1e79e867d263",
+          "md5": "d71fc0feb322d17e50849d75bb9eb5cb"
+        }
+      ]
+    }
+  ]
+}

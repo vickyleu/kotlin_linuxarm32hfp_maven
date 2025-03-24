@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-core/1.10.1-SNAPSHOT/kotlinx-coroutines-core-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-core",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-wasm-wasi",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-wasm-wasi-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-wasm-wasi-1.10.1-SNAPSHOT.klib",
+          "size": 831842,
+          "sha512": "43a9904acb1068450d5e24db16928d426c5a96ad6b4441aa38e069b37899a34dc6b4bbea136d5b29195cd20a9dbbd45a0c818b088bdfdae6b52121007f02d1a2",
+          "sha256": "21161aefaaba72c9be3cd09ea44641dc429d8e8a3a2ef06de2735e7b369bcb69",
+          "sha1": "7cef10a64924d7e322f7d90cb8a7be0c6be4ec43",
+          "md5": "78504a3f8333a4ef07149368e258dead"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-wasm-wasi",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-wasm-wasi-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-wasm-wasi-1.10.1-SNAPSHOT.klib",
+          "size": 831842,
+          "sha512": "43a9904acb1068450d5e24db16928d426c5a96ad6b4441aa38e069b37899a34dc6b4bbea136d5b29195cd20a9dbbd45a0c818b088bdfdae6b52121007f02d1a2",
+          "sha256": "21161aefaaba72c9be3cd09ea44641dc429d8e8a3a2ef06de2735e7b369bcb69",
+          "sha1": "7cef10a64924d7e322f7d90cb8a7be0c6be4ec43",
+          "md5": "78504a3f8333a4ef07149368e258dead"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-wasm-wasi-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-core-wasm-wasi-1.10.1-SNAPSHOT-sources.jar",
+          "size": 313403,
+          "sha512": "f75b8c8a0b9284fefe72cc080a7a48d0671efbef85d3d019517f1b364da066f13f5d809b0274a6330efd31a8b0eb65b4fb6d7c13eebc37cdb3c2b9084978aa76",
+          "sha256": "6408ea63618856d4cb76a4f12cf758be23f0eb9f4c481195b21521ba3f4ee50f",
+          "sha1": "2603b2126f8fafd7a725de8b1750f717f5324a31",
+          "md5": "5c8b7f2b5166f58c9e01fb42f17f110c"
+        }
+      ]
+    }
+  ]
+}

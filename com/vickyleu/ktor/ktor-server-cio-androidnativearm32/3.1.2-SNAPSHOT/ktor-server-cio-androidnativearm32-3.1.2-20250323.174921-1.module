@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-cio/3.1.2-SNAPSHOT/ktor-server-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-androidNativeArm32Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-androidnativearm32-3.1.2-SNAPSHOT.klib",
+          "size": 76062,
+          "sha512": "f96f63dff009c0cd55c78bb9ef87dfcc97e85509fa36e5d4254f9f9d375ff1ec8c788fa5ce58b2b94547172d94834c5b9aa22cad993f0b5b9a2632d3898117ca",
+          "sha256": "e1bea9a4b03154f636b3cb5f5924a0f9a733f718f71ab54e427469cf14de5aa3",
+          "sha1": "4543dc74828a461bdec4bcfb8e3c4035770895df",
+          "md5": "0c8ee9f7843585144d4f32b992fc189a"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-cio-androidnativearm32-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-cio-androidnativearm32-3.1.2-SNAPSHOT-sources.jar",
+          "size": 18396,
+          "sha512": "547ac82ddc4d5e9247a66ea7c49c03d8aa6ada9477e4a4901e54fdb649b57eea8635bfdc251d0283a11e66a1781eaba43df82ecacbe80a1e63a9d82d126e76f4",
+          "sha256": "2e3e779ec0e9272ef0065cc52d5c402003801cb183e436019c0267e889575da0",
+          "sha1": "fdca63164178e3c21ad64ddfa2adf73d3d06c928",
+          "md5": "efdcd323c4d8f8ed7b3bd78d8913d13b"
+        }
+      ]
+    }
+  ]
+}

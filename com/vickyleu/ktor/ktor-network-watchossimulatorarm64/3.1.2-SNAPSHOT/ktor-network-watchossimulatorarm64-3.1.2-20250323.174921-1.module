@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-watchosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 150309,
+          "sha512": "d700fa064737501500259072d42bc2f7db2cf27f49e5dc3e92a4210e0da12a0ff9a79ed1cc4e4c2b840dc0394b0b2c6e75602fb42a0671238671f0ae2cdc48dd",
+          "sha256": "a845c1f784eb0c9616689dc565e424837114e4339eff81fc7899a41f3b96a4f2",
+          "sha1": "c3b78f144e55f18ec75e85ddc15ba60a71513b8e",
+          "md5": "8394e27b5264bb4b7348bcb2f71885cb"
+        },
+        {
+          "name": "ktor-network-watchosSimulatorArm64Cinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 9550,
+          "sha512": "0ba32cde80986caf71163bc99b0a1afa12e35721406d1ce74a908962997a4983014beda50d8766f77d3f1abfd9dd9b0536f79d7f05f6a4e6835afcb271917ec7",
+          "sha256": "331bda1450dedc871efaf97d2d4a0e83b5cea011750a67747375c488386a93b8",
+          "sha1": "d216fb3c6eb3bfb534957f1176dbcf42e226ca10",
+          "md5": "25414fec6861ac097b22b7297c54abd4"
+        },
+        {
+          "name": "ktor-network-watchosSimulatorArm64Cinterop-unMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT-cinterop-un.klib",
+          "size": 6079,
+          "sha512": "c95d01d33329b37acf4b98deda32a332385f343dc4808c72b27e0b001ca0ad60a095cca39708b5d1ee7912a50b23d14369f6cb585e76f4b958ae1f49b686b9c1",
+          "sha256": "313be34b6b1ac59c0f90dfaccb8690dd86ed4fe2528bc1ad2ae5181e49a5a1e3",
+          "sha1": "a14e956499e69c93afa788e38e20bd2d3a2c726e",
+          "md5": "533c95edce5adecfa8110dbb28b700fe"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 43835,
+          "sha512": "788ab80c8767e0cc87788e13fb1ec62362cd983c4a815766d0973f64db2f9251f9bd0570fd4b56b9b1e547144e5a3d7bb76f0c62cdb0241c8e3b13ef666a7223",
+          "sha256": "dcbaf409b0afa348e9b92f68fa241c05f1cc3878a3cc76f203b813a97bdfe0c8",
+          "sha1": "5c8c2c62e3f3ef449ed556125cd8eb5bb7a58371",
+          "md5": "b51c88aebcc2332e99c46197b3a452a8"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-network-watchossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 64049,
+          "sha512": "d13d6a7a5231534917ae1a1923e5d07b2bf43cb5ea752a3aa8588dcea6b80b5a6ba47ed034c15f599cbdfc194a4c8fafd4176638c9719c139bcedf0ed0cd8957",
+          "sha256": "c7afb52ff24be0fdcd0f37246bcd730f59d739537d047e48170c1019a14385c0",
+          "sha1": "27fd27bc37711d07560e0dfd5a2840034d542603",
+          "md5": "6e01ec0f3c4ea6e4e9935021e0d5ed73"
+        }
+      ]
+    }
+  ]
+}

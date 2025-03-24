@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-linuxx64-7.0.6.klib",
+          "size": 61030,
+          "sha512": "ee40dcf576141fe46402e9cbecc70d161fb8eddb6ac3df769f9ad051b46fd3f76f630244a32e6c9a8469df2c80c9451e5f19e205568e901d19d030d5519e6a98",
+          "sha256": "3fd77bac89ec597a9c381b054e8888a3ba47b336e480cb0f9847397598087825",
+          "sha1": "6c6ae807373481628541664af7877d75523f6ed3",
+          "md5": "e59e6cfda3ebb792a0f4fc249157a505"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-linuxx64-7.0.6-sources.jar",
+          "url": "kotlin-logging-linuxx64-7.0.6-sources.jar",
+          "size": 20201,
+          "sha512": "4c7ca5e16cf801d9d315da093d1d9c7a43f5d3c0d68584610baaad205b061b26e145cff26aa717042f411a034c2a749ecdad993c78272520d23b8b94689a3cd9",
+          "sha256": "e17789d3323197aace91091e0c2563797ab53750466f6ff50f592b21c75ee0ad",
+          "sha1": "7ead86b2f539ec848cd1becb7e095295111d14a6",
+          "md5": "a5039892c87f0d38983d3ea938daba09"
+        }
+      ]
+    }
+  ]
+}

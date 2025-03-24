@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-linuxarm32hfp-7.0.6.klib",
+          "size": 61082,
+          "sha512": "f77e4b2752e0ba7acad6009b8da5472a726a8b78da9d2d46090cb3294b8305b3171a484b5e97d4b45e065a85b3f9c07f69a84ca44004bf4e0a9f3a6d9be0a015",
+          "sha256": "dd12aadc47a7b1bbc52302b542fa9636ac568753b7f870cbc4fc8a3989cbe0db",
+          "sha1": "82f13d96bca3dba045ea59c4af0b262fab80c66a",
+          "md5": "19af6fc6474695607cd1d414eb8a9772"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-linuxarm32hfp-7.0.6-sources.jar",
+          "url": "kotlin-logging-linuxarm32hfp-7.0.6-sources.jar",
+          "size": 20201,
+          "sha512": "4c7ca5e16cf801d9d315da093d1d9c7a43f5d3c0d68584610baaad205b061b26e145cff26aa717042f411a034c2a749ecdad993c78272520d23b8b94689a3cd9",
+          "sha256": "e17789d3323197aace91091e0c2563797ab53750466f6ff50f592b21c75ee0ad",
+          "sha1": "7ead86b2f539ec848cd1becb7e095295111d14a6",
+          "md5": "a5039892c87f0d38983d3ea938daba09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-io/3.1.2-SNAPSHOT/ktor-io-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-io",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-io-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-io-js-3.1.2-SNAPSHOT.klib",
+          "size": 171228,
+          "sha512": "53dd28029bcabb33895838bffdb2d0552d6fcadc78706d7f108d21219f827573eedf1eb0343fece0bcdca47ddcb09db8c8e8458eead22e49f3aa6310fb1b7add",
+          "sha256": "b518188ea4a390d960d842b95ae756136922ea1e14b45d1998fa00d40e7baf5f",
+          "sha1": "bdaebdd346bad242849ce614d7deff8fe8594469",
+          "md5": "2be50c95f6e8788c7d113d98c6e98100"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-io-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-io-js-3.1.2-SNAPSHOT.klib",
+          "size": 171228,
+          "sha512": "53dd28029bcabb33895838bffdb2d0552d6fcadc78706d7f108d21219f827573eedf1eb0343fece0bcdca47ddcb09db8c8e8458eead22e49f3aa6310fb1b7add",
+          "sha256": "b518188ea4a390d960d842b95ae756136922ea1e14b45d1998fa00d40e7baf5f",
+          "sha1": "bdaebdd346bad242849ce614d7deff8fe8594469",
+          "md5": "2be50c95f6e8788c7d113d98c6e98100"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-io-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-io-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 52640,
+          "sha512": "b014f4ae18add72344da1b95ebb1c299423a9768576086269228b595935f83aff1a23de6938ea37f3455d3be67c3fdba1e5915b5315e176511ab47e02cbcfaea",
+          "sha256": "ed55ef568fd4bd4e1219cc948c4cc2fb02d236d4194ef12b6a504e1d6188de18",
+          "sha1": "a95f1a7d308be872d7a62638c3191fee9391d285",
+          "md5": "53887ee4c0dba99cff76d8ff73a99255"
+        }
+      ]
+    }
+  ]
+}

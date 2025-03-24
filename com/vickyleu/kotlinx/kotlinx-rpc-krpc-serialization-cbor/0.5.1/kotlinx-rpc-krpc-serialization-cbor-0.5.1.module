@@ -1,0 +1,858 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-cbor",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-metadata-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-0.5.1.jar",
+          "size": 2816,
+          "sha512": "fb9024f9e274c5f312a673159d3b5ad2db8441956667d0fb5af695489b765af6e20d43da9d594701b714b8e27c907dc2cb5f500e8e243ab5bc54879d15a1258e",
+          "sha256": "8f0f21ed050cdb99f69827722410ce5fa1dd3a1d9a2dc5392cec71caec1240a8",
+          "sha1": "e9413a0b7eb0be13d4eff60e524445466880e875",
+          "md5": "9b3ae3f4f3afb619d6b4111e54c2175a"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-kotlin-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-0.5.1-sources.jar",
+          "size": 1837,
+          "sha512": "e1a38ea3dd9b0bfe95c4f50514efdf90abc77141251c922725b74d64db4aec0dd0a402dc4b3a66f3589deb3f894aaa1857aee02ba6a1d3e67650ffa697f4dfa8",
+          "sha256": "408e0301990ed0177e9be4300d03b26199cf1ec08006e2345823d3764afd4ee5",
+          "sha1": "8482660a6af8728c37763eb361700b106fc46559",
+          "md5": "c49b02ce05e3078bad387bcc627f9214"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-iosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-iosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-iosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-js/0.5.1/kotlinx-rpc-krpc-serialization-cbor-js-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-js",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-js/0.5.1/kotlinx-rpc-krpc-serialization-cbor-js-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-js",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-js/0.5.1/kotlinx-rpc-krpc-serialization-cbor-js-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-js",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-jvm/0.5.1/kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-jvm",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-jvm/0.5.1/kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-jvm",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-jvm/0.5.1/kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-jvm",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-linuxarm32hfp/0.5.1/kotlinx-rpc-krpc-serialization-cbor-linuxarm32hfp-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-linuxarm32hfp",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-linuxarm32hfp/0.5.1/kotlinx-rpc-krpc-serialization-cbor-linuxarm32hfp-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-linuxarm32hfp",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-linuxarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-linuxarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-linuxarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-linuxarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-linuxarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-linuxarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-linuxx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-linuxx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-linuxx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-linuxx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-linuxx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-linuxx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-macosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-macosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-macosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-macosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-macosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-macosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-macosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-macosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-macosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-macosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-macosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-macosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-macosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-macosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-macosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-macosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-macosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-macosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-tvosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-tvosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-tvosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-tvosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-tvosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-tvosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-tvosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-tvosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-tvosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-tvosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-tvosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-tvosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-tvosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-tvosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-tvosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-tvosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-tvosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-tvosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-wasm-js/0.5.1/kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-wasm-js",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-wasm-js/0.5.1/kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-wasm-js",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-wasm-js/0.5.1/kotlinx-rpc-krpc-serialization-cbor-wasm-js-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-wasm-js",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchosarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchosarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchosx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-krpc-serialization-cbor-watchosx64/0.5.1/kotlinx-rpc-krpc-serialization-cbor-watchosx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-krpc-serialization-cbor-watchosx64",
+        "version": "0.5.1"
+      }
+    }
+  ]
+}

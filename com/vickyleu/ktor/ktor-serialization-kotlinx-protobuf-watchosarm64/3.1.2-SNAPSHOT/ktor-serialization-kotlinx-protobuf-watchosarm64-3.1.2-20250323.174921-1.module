@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx-protobuf/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-protobuf-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx-protobuf",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-protobuf-watchosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-protobuf-watchosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 5267,
+          "sha512": "9f48a2f8d0bbccc4777f8c7a52312760b6db747e077079ffc15f71277d356be9fccd1f4f53d560da90bd896ff2884a45eaa8c61f1326c1b101ef743b80cb7963",
+          "sha256": "c45a7e43438c87acbef5aeebb831dbee2cdfce67fb301d2a7e8851ae9760e734",
+          "sha1": "a86280e84d59d991ab72cf4bfaf8f68b8a8ea146",
+          "md5": "6326bac8f67ae5a09964d3bf22c7f3bc"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-protobuf-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-protobuf-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1883,
+          "sha512": "ccd4a4956796e1a9fc47ac2c6a00a0def3ae5e0196b9713b68b6d2683bcc0a9e1a8b3e8b0563d5ef9afceb7c611f83331bdd8c395f00f81e79839b0446ad6006",
+          "sha256": "288e80b0ef85987639a638f55e01003c702d465d5f4eb4190ad40fa21068c719",
+          "sha1": "eb22a47313447a98eb7fa43797da478ebd732a97",
+          "md5": "ed9f6db16d0e72c9875230e24cef0358"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-protobuf-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-serialization-kotlinx-protobuf-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "4185b0e90d1797cece6f4ca9a565786d0297c9f907190b60faeb9d45b7f01c67fce76eda07378c9d7debd2a86e2427873eab91d27c2fa721dfa8f37ee894b684",
+          "sha256": "93d724e0763e44993d39d76b4fd290588b19bd68eb6f5c54c2f649477b283333",
+          "sha1": "ea9a2cf3fbe45861c26ef39756ad237e7c453d49",
+          "md5": "8a6517fe00f98dae828cf1cbaa84eaab"
+        }
+      ]
+    }
+  ]
+}

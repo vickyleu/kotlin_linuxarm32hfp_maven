@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-core/0.5.1/kotlinx-rpc-krpc-serialization-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-watchosX64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1.klib",
+          "size": 9079,
+          "sha512": "69df96000bfffc90274701be185699a1b18f2a6f35c70e0a9857302ba173bd213651c59fb08f40a8d53ac9de584c5d12328f447e95e182b742b85d164053e013",
+          "sha256": "23a9d9e4a04e1020e69491ca841b40c8498f28c04673434b14143515f6da79ac",
+          "sha1": "fd496e98660d524824ee2dd1ab54f43444e31f3d",
+          "md5": "b8fc00250d0d01948846cf00402596e9"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1-sources.jar",
+          "size": 2900,
+          "sha512": "632cf30f421c4f5d16c7e4cfdb7abceadadb2aa6b78f6b9883b21724e62cdcb0f03a5959ba1d3538d2d101bca870066fa5ce211bbe0fcf2a6c0e1b1e453abea9",
+          "sha256": "e7aaa7fe1f037413fe15ae7491dd1d2cdd9596b170cf6973c5a2bde1fd269065",
+          "sha1": "e3f669e66041adc3c2f9c3ff8133a2a28410ec5d",
+          "md5": "b949ed5d91c37e620fb383140fc50e77"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-watchosx64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
+          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
+          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
+          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+        }
+      ]
+    }
+  ]
+}

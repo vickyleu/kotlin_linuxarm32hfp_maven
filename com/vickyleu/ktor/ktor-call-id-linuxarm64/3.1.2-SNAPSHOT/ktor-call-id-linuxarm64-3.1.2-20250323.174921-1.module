@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-call-id/3.1.2-SNAPSHOT/ktor-call-id-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-call-id",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-call-id-linuxArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-call-id-linuxarm64-3.1.2-SNAPSHOT.klib",
+          "size": 5481,
+          "sha512": "5683600927ba18263e4072105b443d6a2d812505e50efc4ee66624c5e281ca6a695ce499245deeb76873fe6e2588a6688cc103933adcee6321e4dbe1deff57f2",
+          "sha256": "0f9c6401f32b66a008b5f6f21bd7777388910f3022ed70b0353767f32d718cb9",
+          "sha1": "68d672e5ace2dd822bed0a41c77936b68efd7bd8",
+          "md5": "7288ca0fe4f4c71c724a6ebd15845e17"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-call-id-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-call-id-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1414,
+          "sha512": "65d139b76c81b7698762646c6d7b77f9abdf4d40135f376dc6ef454332adcfdd4e73b4f78f2bb47b496d6091ce0b986ff7b8666900f499350756c86a60627a6f",
+          "sha256": "0271d192d924e609c6b5e25de6deba80e6384ed0f4bf8cd2a33b26cd3d52e9dd",
+          "sha1": "ff8d4cf17a592129db6fad5ae7e8a64712b75d35",
+          "md5": "bc3a005c746c04911cd0981ded54df9e"
+        }
+      ]
+    }
+  ]
+}

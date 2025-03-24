@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-bom-remover/3.1.2-SNAPSHOT/ktor-client-bom-remover-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-bom-remover",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-bom-remover-js-3.1.2-SNAPSHOT.klib",
+          "size": 9834,
+          "sha512": "c90866bb38bf01e96fd366363feb657488c2149980cc1820a9163329d63e37a7fdeb7cd7ab36ef2b370aa5f5928125e76886b22b077319616f4ffd455796cca8",
+          "sha256": "24b82e566f88376bc0efa36b2872a417c797bb2f6fa353f8ed44ed5a42355c3b",
+          "sha1": "27889acf5aa79b4b14f30dc48dfc403b5c4eebe0",
+          "md5": "f3112e99842c6967a9ea4b1e1ce1c4f5"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-bom-remover-js-3.1.2-SNAPSHOT.klib",
+          "size": 9834,
+          "sha512": "c90866bb38bf01e96fd366363feb657488c2149980cc1820a9163329d63e37a7fdeb7cd7ab36ef2b370aa5f5928125e76886b22b077319616f4ffd455796cca8",
+          "sha256": "24b82e566f88376bc0efa36b2872a417c797bb2f6fa353f8ed44ed5a42355c3b",
+          "sha1": "27889acf5aa79b4b14f30dc48dfc403b5c4eebe0",
+          "md5": "f3112e99842c6967a9ea4b1e1ce1c4f5"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-bom-remover-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2250,
+          "sha512": "601d1b60ba994ecee1d35c9029023c73b7150c6dd9ba4144e00013972be24ae7ab903003720c2b7349b0d3bb98041e819e9c70c6ea5bcd5a18af97106c3f2e53",
+          "sha256": "5afb89a510b8d286b3287f61e18b9d473f518cb05d09db82a95894bf9d00866e",
+          "sha1": "63bf5f9eb5e0c5fe653543ebe814bf5a8d3f37f6",
+          "md5": "ef474c89c65a2d83b9ecbef2a413b7c1"
+        }
+      ]
+    }
+  ]
+}

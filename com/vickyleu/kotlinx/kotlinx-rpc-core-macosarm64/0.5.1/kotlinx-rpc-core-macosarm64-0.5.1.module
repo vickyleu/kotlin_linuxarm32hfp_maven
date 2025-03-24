@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.5.1/kotlinx-rpc-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-macosArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-core-macosarm64-0.5.1.klib",
+          "size": 44557,
+          "sha512": "26618e83ab5b2c41bc4ff858b4681d1d4db524c286c9902112ed8fbedf56b56c70b3cad8a92bbb8cff3798f59fb2ff4cf22fe9b893cc5626e976c024d968b53a",
+          "sha256": "2e654979ae0d70d0e471d39885e31da7394d120f4fd3b6e826b80041323de9f3",
+          "sha1": "45bc9d2bf76f73f46eefd0fb2d414868bde6b227",
+          "md5": "3f7f93620fd8209114b4f9ea3c334edb"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-macosarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-core-macosarm64-0.5.1-sources.jar",
+          "size": 17372,
+          "sha512": "b9b0aadfb6b71a79781e47a36b2522549f31272c88cf2340aba79caaeaad696a328ccfc289dacf49cb4ed0b08ef36eac2881c49d4178a346da203ede4fa6a2d9",
+          "sha256": "741751a4c2d22e63ab4cd149f24c1dce5a4c78ec74bf4dcea90f4a72791f8a6e",
+          "sha1": "1e8e33797d6c7a026a41fbb3ae8120172e588c21",
+          "md5": "78aebfc001d54015a1c1aca6aa7228b1"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-macosarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-core-macosarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "defc6353a63156d1784a68e1abd71eea63586a60d481f62af890eb8c4e5939886e3c5a3c0efc1ae47c2ebb8f427f46d1014c3cba14782dfb763f8cd376c13a91",
+          "sha256": "d0ddaa8dc37e6e1a12e67ca3e8841fd9464f5a2989e6b28bf2ba1a60d818db85",
+          "sha1": "24189fb72c5ceadedc4cd2cbebe6204e23a98eb2",
+          "md5": "ec1bd8b7548965b92701078535fc0fbc"
+        }
+      ]
+    }
+  ]
+}

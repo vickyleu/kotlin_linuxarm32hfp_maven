@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-resources/3.1.2-SNAPSHOT/ktor-client-resources-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-resources",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-resources",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-resources-androidNativeArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-resources-androidnativearm64-3.1.2-SNAPSHOT.klib",
+          "size": 14307,
+          "sha512": "d52823e8a9bb2a81995da79a59e2f49a18b9ac4b08e748e056cc71f74a6f867e9659008ca3a8b4210edfa2f8d7621d298adf850bd97d3095c7accae3964b675f",
+          "sha256": "8982e1b1a7f188c4e8ce201158adb773dafa4ca7258b2d9b819f25e2d1af8033",
+          "sha1": "cf8531c315ba4d1968aeddca728202521d72a069",
+          "md5": "bdcea64106bb7d632c6a999ce8e53f3d"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-resources-androidnativearm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-resources-androidnativearm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3136,
+          "sha512": "706189f301591d972aa8d0ed6392494c089803514a937e2e668ef5ae18fef05f321aae528be5aab14c6fcfb349fdde59e70fd09cd7b097c205c2926e0a2da141",
+          "sha256": "def50199f4a4d61ba1815b9a92c095bd40e597c89bb457cc54ac66ba7a913056",
+          "sha1": "7956bf2805277930998cb19d49cb0213cac76ee7",
+          "md5": "61513bf3a8fa40b702835573d042ac52"
+        }
+      ]
+    }
+  ]
+}

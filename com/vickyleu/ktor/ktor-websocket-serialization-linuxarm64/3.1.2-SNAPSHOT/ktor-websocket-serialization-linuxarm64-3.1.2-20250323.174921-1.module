@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-websocket-serialization/3.1.2-SNAPSHOT/ktor-websocket-serialization-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-websocket-serialization",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-websocket-serialization-linuxArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-websocket-serialization-linuxarm64-3.1.2-SNAPSHOT.klib",
+          "size": 7421,
+          "sha512": "492d161daff93a6bd85ed53dad6668e7fb743a7536eb356863da9113a6dc6ec409c8d1930f018b8933ab800f7f260a384b8b73a5d5b502342fb4d15da1ad0e51",
+          "sha256": "99522bdf68da9fdcff287e0a4133b8e9cb02b2046e19ab329e9ab44a48e3040e",
+          "sha1": "64f0884b3dc2de82778f82b37d73cf53acfdfe37",
+          "md5": "d6be92d62c017a13918bc7a3a5f65806"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-websocket-serialization-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-websocket-serialization-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2326,
+          "sha512": "e7fe8c5d0f1bab74755507fcfc8214bec60935736c0dc1ad54f1076115ca58f63d40702f38503b3b2a3b9d8d02ba55b91d62f5d4e326b9bcb5c454859258e3f8",
+          "sha256": "e186e6ac4d88ce296ef51d91684444ca0002b4b7761a8dcd2fe55ef1dc8a7b75",
+          "sha1": "4a023f031c84e174cfcb56892d01b37de32011e9",
+          "md5": "0dca7e417fd69fd93f87b73d37846741"
+        }
+      ]
+    }
+  ]
+}

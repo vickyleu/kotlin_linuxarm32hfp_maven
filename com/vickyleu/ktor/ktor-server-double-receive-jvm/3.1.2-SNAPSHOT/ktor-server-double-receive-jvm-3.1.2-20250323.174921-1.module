@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-double-receive/3.1.2-SNAPSHOT/ktor-server-double-receive-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-double-receive",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-double-receive-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-double-receive-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 37030,
+          "sha512": "642ca3325cebc3d42d0281e46e7b064e65f781f1591bd83a27ad8c9e05aca48f213facc891a88c2a6914800ae875c51ed92e01808d754a08b99cb978f551ddc8",
+          "sha256": "0950e394f058c1be378dc792c866b7fbd63d9f539fa14df140e8d3b12d0eb84c",
+          "sha1": "c437fd707cd9e8fa9dee169561bd1e71fc7b351d",
+          "md5": "12b880c49b85cb854ff1787e4deaa1f7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-double-receive-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-double-receive-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 37030,
+          "sha512": "642ca3325cebc3d42d0281e46e7b064e65f781f1591bd83a27ad8c9e05aca48f213facc891a88c2a6914800ae875c51ed92e01808d754a08b99cb978f551ddc8",
+          "sha256": "0950e394f058c1be378dc792c866b7fbd63d9f539fa14df140e8d3b12d0eb84c",
+          "sha1": "c437fd707cd9e8fa9dee169561bd1e71fc7b351d",
+          "md5": "12b880c49b85cb854ff1787e4deaa1f7"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-double-receive-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-double-receive-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 7620,
+          "sha512": "b0b55a3d187aecbaff44691045217a6d70de65344bc801e307668d23f74bed54c1712ec01fc9090607362a4e321d055c651f6a9780c5ec89aa3d6b298a713958",
+          "sha256": "b2ebb48bf67bd8e36914358bfc78a2460387277b6cb22ab233bfb0c089075ad0",
+          "sha1": "732d27d79c914d841a6f2179be2dd2ce501e687b",
+          "md5": "f9aeb818b4f536065b98b99b6360cda2"
+        }
+      ]
+    }
+  ]
+}

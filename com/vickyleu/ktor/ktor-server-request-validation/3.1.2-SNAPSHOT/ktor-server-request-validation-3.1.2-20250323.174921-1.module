@@ -1,0 +1,1189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-request-validation",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-request-validation-metadata-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-request-validation-3.1.2-SNAPSHOT.jar",
+          "size": 4332,
+          "sha512": "fc8e6bf90228df324e2cfb440dceffebd91470921e15e70f8148b576cd94a6f9081cf243ec9c0c0c0737e2ec2944a081fdd5cdcaf21e4f720b14aed1e6775253",
+          "sha256": "60c0e9f0f74096acd38fae4c3b5aec46678e7d252ed049bc582c18a49e5c17e8",
+          "sha1": "0de78c8c92cdb39b0f1fdc792ad1eb8eec0623bd",
+          "md5": "ce6acb8ab0af20b295d107010795dfa1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ktor-server-request-validation-kotlin-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-request-validation-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3915,
+          "sha512": "29fcbe444f845595152fc5b8ececdfc55a7730f0511addb49420407152e14dd73b7d7c9637cd2798b93e0afd295b3ac1f00f787341c3528604501fdf03040a1c",
+          "sha256": "00b4640b67a99489554b5944bf4a62742a2a58815298d32eb2a14e22f9572660",
+          "sha1": "479e7626d150c49eac816b296b91ce2593cf20f7",
+          "md5": "11c93c5d61e36d931515d34fa0f4726b"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativearm32/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativearm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativearm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativearm32/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativearm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativearm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativearm64/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativearm64/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativex64/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativex64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativex64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativex64/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativex64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativex64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativex86/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativex86-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativex86",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-androidnativex86/3.1.2-SNAPSHOT/ktor-server-request-validation-androidnativex86-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-androidnativex86",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-iosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-js/3.1.2-SNAPSHOT/ktor-server-request-validation-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-js/3.1.2-SNAPSHOT/ktor-server-request-validation-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-js/3.1.2-SNAPSHOT/ktor-server-request-validation-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-jvm/3.1.2-SNAPSHOT/ktor-server-request-validation-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-jvm/3.1.2-SNAPSHOT/ktor-server-request-validation-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-jvm/3.1.2-SNAPSHOT/ktor-server-request-validation-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-server-request-validation-linuxarm32hfp-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-linuxarm32hfp",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-server-request-validation-linuxarm32hfp-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-linuxarm32hfp",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-linuxarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-linuxarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-linuxarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-linuxarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-linuxarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-linuxarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-linuxx64/3.1.2-SNAPSHOT/ktor-server-request-validation-linuxx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-linuxx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-linuxx64/3.1.2-SNAPSHOT/ktor-server-request-validation-linuxx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-linuxx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-macosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-macosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-macosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-macosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-macosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-macosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-mingwx64/3.1.2-SNAPSHOT/ktor-server-request-validation-mingwx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-mingwx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-mingwx64/3.1.2-SNAPSHOT/ktor-server-request-validation-mingwx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-mingwx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-tvosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-wasm-js/3.1.2-SNAPSHOT/ktor-server-request-validation-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-wasm-js/3.1.2-SNAPSHOT/ktor-server-request-validation-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-wasm-js/3.1.2-SNAPSHOT/ktor-server-request-validation-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosarm32/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosarm32/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosarm32/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-request-validation-watchosx64/3.1.2-SNAPSHOT/ktor-server-request-validation-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-request-validation-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-bom-remover/3.1.2-SNAPSHOT/ktor-client-bom-remover-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-bom-remover",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-bom-remover-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 9851,
+          "sha512": "03d7737cc009a39bc9094437a78d5344c5897d67d29f6afd009d5e25f714f509efa0a7145ba55357a97a7f1788a30d901b6082bec74eb0502bd9b638e274883a",
+          "sha256": "21d2374c40856b4c1cbec4146a8eb693d556a419807a56a8ac3da0430a9bfa4f",
+          "sha1": "d140cdc48acd4a2a318aa6f339d1b73aa0483134",
+          "md5": "0ce6cd9dd583a9127acffb2e13e2ca87"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-bom-remover-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 9851,
+          "sha512": "03d7737cc009a39bc9094437a78d5344c5897d67d29f6afd009d5e25f714f509efa0a7145ba55357a97a7f1788a30d901b6082bec74eb0502bd9b638e274883a",
+          "sha256": "21d2374c40856b4c1cbec4146a8eb693d556a419807a56a8ac3da0430a9bfa4f",
+          "sha1": "d140cdc48acd4a2a318aa6f339d1b73aa0483134",
+          "md5": "0ce6cd9dd583a9127acffb2e13e2ca87"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-bom-remover-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2250,
+          "sha512": "601d1b60ba994ecee1d35c9029023c73b7150c6dd9ba4144e00013972be24ae7ab903003720c2b7349b0d3bb98041e819e9c70c6ea5bcd5a18af97106c3f2e53",
+          "sha256": "5afb89a510b8d286b3287f61e18b9d473f518cb05d09db82a95894bf9d00866e",
+          "sha1": "63bf5f9eb5e0c5fe653543ebe814bf5a8d3f37f6",
+          "md5": "ef474c89c65a2d83b9ecbef2a413b7c1"
+        }
+      ]
+    }
+  ]
+}

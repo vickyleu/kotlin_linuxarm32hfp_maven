@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-call-id/3.1.2-SNAPSHOT/ktor-call-id-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-call-id",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-call-id-mingwX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-call-id-mingwx64-3.1.2-SNAPSHOT.klib",
+          "size": 5467,
+          "sha512": "fb5e25e2a4fb5170ef4126792ee3e8e2dcd47123d084fa554cf0c311343a5bac8284197ba9f54070bc4ad856c9cf37aafb1f049a0bd656fa42bde11d2c2cf593",
+          "sha256": "ce7f46fe06826a766c73dab81247ca1374faf13f7a2780fbe8804c0f2fb3ea6b",
+          "sha1": "0eecb76babaa88efaa3347e7452b09be852e82d6",
+          "md5": "32d0da9a31b1e0f150202d99cd71ad75"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-call-id-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-call-id-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1414,
+          "sha512": "65d139b76c81b7698762646c6d7b77f9abdf4d40135f376dc6ef454332adcfdd4e73b4f78f2bb47b496d6091ce0b986ff7b8666900f499350756c86a60627a6f",
+          "sha256": "0271d192d924e609c6b5e25de6deba80e6384ed0f4bf8cd2a33b26cd3d52e9dd",
+          "sha1": "ff8d4cf17a592129db6fad5ae7e8a64712b75d35",
+          "md5": "bc3a005c746c04911cd0981ded54df9e"
+        }
+      ]
+    }
+  ]
+}

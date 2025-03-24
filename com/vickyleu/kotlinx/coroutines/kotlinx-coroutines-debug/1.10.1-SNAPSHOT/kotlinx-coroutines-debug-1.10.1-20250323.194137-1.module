@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-debug",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-debug-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-debug-1.10.1-SNAPSHOT.jar",
+          "size": 40959,
+          "sha512": "07b05854e7961d355baf52d90d4ac0249b4af1c1be3d99af3bad5e6c75b9a00857fb7505c3d435129908755d6970cf57c5efe8a40cb715c6ed0c73b35e23d0c8",
+          "sha256": "e94b848c1cbcd132ad515e6a5bbfa6b916d86fb76a381faaa76c8b4ccac92be1",
+          "sha1": "fcb0dde0e18141bfb7ced284cd60139f4b55f769",
+          "md5": "b58c29361d68a7f15912dcf991fad765"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.10.9"
+          }
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy-agent",
+          "version": {
+            "requires": "1.10.9"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-debug-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-debug-1.10.1-SNAPSHOT.jar",
+          "size": 40959,
+          "sha512": "07b05854e7961d355baf52d90d4ac0249b4af1c1be3d99af3bad5e6c75b9a00857fb7505c3d435129908755d6970cf57c5efe8a40cb715c6ed0c73b35e23d0c8",
+          "sha256": "e94b848c1cbcd132ad515e6a5bbfa6b916d86fb76a381faaa76c8b4ccac92be1",
+          "sha1": "fcb0dde0e18141bfb7ced284cd60139f4b55f769",
+          "md5": "b58c29361d68a7f15912dcf991fad765"
+        }
+      ]
+    }
+  ]
+}

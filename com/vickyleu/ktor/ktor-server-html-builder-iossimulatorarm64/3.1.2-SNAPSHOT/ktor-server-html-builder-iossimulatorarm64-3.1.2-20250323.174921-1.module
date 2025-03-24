@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-html-builder/3.1.2-SNAPSHOT/ktor-server-html-builder-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-html-builder",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-html",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-html-builder-iosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-html-builder-iossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 16227,
+          "sha512": "366b1d558b1b881e98a285610fb9f01e9af846f4e17ca93a1a4ecac8e9d0b3ef7cd50a3afcbcdfb337d201d04480793445172b0b4e33eb2eb80a56a335f66e76",
+          "sha256": "7a3d56f6d7d03a51536eb64313a3e7e2dbc0aebe9f45368e336f7e2d43e7ae3c",
+          "sha1": "ee6bda5020a79729e06d201ca1469a00331710c0",
+          "md5": "7be3159e10b3cf37d6230cd13cf612de"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-html-builder-iossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-html-builder-iossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3624,
+          "sha512": "ae49215733d475fb2907f74f88eb3a35d19aa7c1d551ead30ccd2d249fe7c7f6202b56f068d0c446585d364c73dc6a5d4a3f40c3f6db5b4a8aacb7e68e620324",
+          "sha256": "a99b379ad0a12c0b88263bed2344f4912bafc8b2a1fad50426b7af85dbd6a831",
+          "sha1": "ba1b0434aaade1511092dd908b61086894bdf31e",
+          "md5": "a33f6166580925e7c3c33680a951369b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-html",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-html-builder-iossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-html-builder-iossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "3404bdf15b929ab91343bb08ee668df07394f04ec045e99a194ef7c5c6c9415a9a79b63c725db7c85aa9821afa13a954268b3a1833f0051cb8fd91c9e5e85a7f",
+          "sha256": "794f57f81cee3526f346b53d54bb877bf6eafcf140c95170d9352d2bf95e5b3f",
+          "sha1": "99cd3baf236bb54fda2fb02c7169af2f75a2b75c",
+          "md5": "1b8a4984d5460e765780e3ac126c8cd0"
+        }
+      ]
+    }
+  ]
+}

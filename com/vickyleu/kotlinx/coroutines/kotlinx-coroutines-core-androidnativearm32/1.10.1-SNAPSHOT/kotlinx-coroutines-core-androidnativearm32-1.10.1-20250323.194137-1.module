@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-core/1.10.1-SNAPSHOT/kotlinx-coroutines-core-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-core",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-androidNativeArm32Main-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-androidnativearm32-1.10.1-SNAPSHOT.klib",
+          "size": 880565,
+          "sha512": "5c7b589c1a45ea5e548ae0febd8a2fa79597b4c75feef354f444809e2041864113fe57d915ba11bd8b5acff5b7990d8823a5ea4f8c85a6df612e5211ca0eb8fa",
+          "sha256": "65cf000588213cf85d03395d1a9ebc2ec5fafe8ae74500bd78fe77df72ce42e4",
+          "sha1": "fb283ce67e1ba03ea47c13abb329bb1d6dfd46d7",
+          "md5": "94b5c989543345c02255a5ce75317fd8"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-androidnativearm32-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-core-androidnativearm32-1.10.1-SNAPSHOT-sources.jar",
+          "size": 326322,
+          "sha512": "3baa45410e34e627d94ce48b2ac83d746dc218c15ac61ad9248e2ecbbbd8100f3d2d669ac9b4e08c886cb43cbcf60dc511da381318912d8646cd02b71f0f8eca",
+          "sha256": "2e41aae66473253a7e059fc459fc565cca6cb1364e556b844b2118489f6d498b",
+          "sha1": "e6a5ebd30625c67b9e9f2f83e0adac8e09ae994d",
+          "md5": "8fde3447dbcd242e15d842cd47ddf9df"
+        }
+      ]
+    }
+  ]
+}

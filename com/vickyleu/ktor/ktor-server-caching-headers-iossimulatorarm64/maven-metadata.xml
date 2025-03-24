@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.vickyleu.ktor</groupId>
+  <artifactId>ktor-server-caching-headers-iossimulatorarm64</artifactId>
+  <versioning>
+    <latest>3.1.2-SNAPSHOT</latest>
+    <versions>
+      <version>3.1.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250323180051</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-resources/3.1.2-SNAPSHOT/ktor-server-resources-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-resources",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-resources",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-resources-linuxArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-resources-linuxarm64-3.1.2-SNAPSHOT.klib",
+          "size": 16995,
+          "sha512": "40331938bbc03bb321678038b6a7c72669d5b7a7e6c954640a11cdb654593538edbb1bc709b725dd7fe0070adda519a1cdea9bafa4b48e3353ae0f4660b9f5eb",
+          "sha256": "bf965bf5157db476a8ee134506b3f2af7eac2487da6323cf03350f11054e0fdd",
+          "sha1": "bbc46c0f0931a2e9db1d90b50ea9947e25d93b09",
+          "md5": "170124703a94a773a6606c40e829c3a0"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-resources-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-resources-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3456,
+          "sha512": "341b4a578b9ebeed6779043103d69d05421cbc4f4bd4575e0ed2cbf927bb7247ea2af1e63e213bdd82aa48c7ae94be811bcb59fbc18ddf44ecdfd436a088801e",
+          "sha256": "24beedbded7f80205153da78b2c26ceab9b9e0e89cef05ecec6756495b3c34ce",
+          "sha1": "522c7027cc1a26709d34e1ab38ad8973928954ba",
+          "md5": "d2961fdc8ea23431eea4362eb89b3637"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-darwin-legacy/3.1.2-SNAPSHOT/ktor-client-darwin-legacy-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-darwin-legacy",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-darwin-legacy-watchosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-darwin-legacy-watchossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 86584,
+          "sha512": "e7a021ffa4116935dd990d43e0398b2ba6f2823cd5d2cefcc5e68b779462057e5094ad89ffb19e6103aecc90ad6f7677ff102b89189d6e5faf69fe93a1be7191",
+          "sha256": "de288051e88804687b9be9d42be4ecb63f991b8e60eb4daa2699b59acf7828cd",
+          "sha1": "202b557ce14625f33c823bfeee139194a7a0dfed",
+          "md5": "2bc338877288f607985b9794e0f77bf3"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-darwin-legacy-watchossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-darwin-legacy-watchossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 21583,
+          "sha512": "a33bbccb06359ff2ebf521080a76ab2ecd34b301d3419dcf3303ee974c1bfd8912f94aab0c39371e71b5244551388f24827ba3b6d87b3ba0b741f6a07b8df568",
+          "sha256": "9b2a6888d14345b7aa8db1e9ad5dfcdbe7bc2cd4e336ad58326be1b96e6992ca",
+          "sha1": "79ab0165fe95797a7dd475ad4088641925592970",
+          "md5": "c6d8bf2a23b2f17b231fd52f412a3022"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-darwin-legacy-watchossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-darwin-legacy-watchossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 15252,
+          "sha512": "be9c6f11280408fc98fe47b497ef7218b761b0b1e372b28ba1dcd1cbffc6cec269528eb50a6853f86110091e20c4dc5deee747f2eef01fc2cdfe8503d244eef1",
+          "sha256": "48e6cde8c0bb114383e3965a8971b9a3004a39f0706a091c5d5bbf09db41c76e",
+          "sha1": "c27e3e2229c4ee6f1dbcc1a9e3fe5e444b077cb9",
+          "md5": "8ff5e1cd324c0452ae1224a3e673d176"
+        }
+      ]
+    }
+  ]
+}

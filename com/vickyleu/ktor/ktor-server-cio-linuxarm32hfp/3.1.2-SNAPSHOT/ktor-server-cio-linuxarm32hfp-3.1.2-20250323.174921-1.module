@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-cio/3.1.2-SNAPSHOT/ktor-server-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 76076,
+          "sha512": "314f344137336776b1baa0f6f5eb5655e37cff30c1ebe8212f6070997cf84706b1082567652e53248b6c73d816ffad71a8d7d39549af0942ce285948289e879e",
+          "sha256": "50fb4bb37dd0bddd8f9ff24906e2f4aa41f918cee39e2edf837a012e241b5675",
+          "sha1": "2e883643488969d5b028645b25ac2aa77882a67a",
+          "md5": "8ca7e3ac560cfba331a2ada4c45b9101"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-cio-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-cio-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 18396,
+          "sha512": "547ac82ddc4d5e9247a66ea7c49c03d8aa6ada9477e4a4901e54fdb649b57eea8635bfdc251d0283a11e66a1781eaba43df82ecacbe80a1e63a9d82d126e76f4",
+          "sha256": "2e3e779ec0e9272ef0065cc52d5c402003801cb183e436019c0267e889575da0",
+          "sha1": "fdca63164178e3c21ad64ddfa2adf73d3d06c928",
+          "md5": "efdcd323c4d8f8ed7b3bd78d8913d13b"
+        }
+      ]
+    }
+  ]
+}

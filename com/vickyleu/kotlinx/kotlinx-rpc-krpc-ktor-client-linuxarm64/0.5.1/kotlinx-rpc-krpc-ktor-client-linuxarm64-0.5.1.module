@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-client/0.5.1/kotlinx-rpc-krpc-ktor-client-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-client",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-client",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-linuxArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-client-linuxarm64-0.5.1.klib",
+          "size": 11936,
+          "sha512": "81946bc25d612b5d35304e2cd1e0b2e8100577379812cfb1f633f867326fe7d68ffbd50c2ea7cf1c2d493ed95c3becf943840434b1d20ada2362dfc56348cbdf",
+          "sha256": "6ac79340ad3ed6f32d7d13239da2823fecc0c82bbc637f0e562a45ad663273b6",
+          "sha1": "1177da8c338194c3079510050f275a346e6837b4",
+          "md5": "cc1e90fbc97031235dbd2be3e2afdc1c"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-linuxarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-client-linuxarm64-0.5.1-sources.jar",
+          "size": 3324,
+          "sha512": "2a29469277d9872d798ddc91c27d0f6737621c12a29d3c87c29525951eba56b0b97ba0c6cc894316d4776050b912f1c64d3b32738daa4f74ce1de7449cbc4de4",
+          "sha256": "1e15015e92429743b18c7a242a42e3fa38971d9034cf6979d6c5cc199bc6d53d",
+          "sha1": "c5269cc3aa65e334361c11a8e28df375f0d1d237",
+          "md5": "a246d63fe8d1dc585d2f8585d00ec781"
+        }
+      ]
+    }
+  ]
+}

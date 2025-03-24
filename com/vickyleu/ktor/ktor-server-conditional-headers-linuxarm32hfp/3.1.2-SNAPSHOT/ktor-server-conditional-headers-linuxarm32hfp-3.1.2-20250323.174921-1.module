@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-conditional-headers/3.1.2-SNAPSHOT/ktor-server-conditional-headers-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-conditional-headers",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-conditional-headers-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-conditional-headers-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 12695,
+          "sha512": "ef447ce42da27ec88afc5ccf58b9ef0f37c0f48127cbb30359eaeda9749c97e968a3ee6c83614e8f4abfe3431bad435ac4e6c2a59970cf97811544c7062c3717",
+          "sha256": "c54bb41833253ef0d7154ea46a1287f092dbef272b54a8c001718d2a657f643e",
+          "sha1": "e152bc56b340727bb8e61c876e13b5d2315058de",
+          "md5": "2b6bf3a1149acab3dc06d7f61f7e6af4"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-conditional-headers-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-conditional-headers-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3012,
+          "sha512": "1bc25c28c688d815af04b2a904e0bc529973a4598817dbfc08fa4330286c748d06e169f96998aeda2da5530482d32ec563617c0d869a8d689cb73fd14894526a",
+          "sha256": "df404c6f6c0e957120cf20a9aa04255d56a95e7e655dc6f3dac2263c034532ef",
+          "sha1": "5a68ff5619ddc990a456b3ae260e49876e042af0",
+          "md5": "f73366c4698e40cb75a23709ff53b932"
+        }
+      ]
+    }
+  ]
+}

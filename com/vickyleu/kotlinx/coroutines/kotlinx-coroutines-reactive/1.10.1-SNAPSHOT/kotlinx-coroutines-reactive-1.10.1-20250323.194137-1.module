@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-reactive",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-reactive-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-reactive-1.10.1-SNAPSHOT.jar",
+          "size": 68793,
+          "sha512": "a7d08a2b32702c147839833260712f0914394cf76a2f80953c00b1bedfa9697a4208b016cb1d84d07566dcb96c6061007c2af84de4d1ad53e0511ce9ed695f4e",
+          "sha256": "9184b99ed3f6b88de6b47195403a924d251fb67db07a7ffecbb6b079fc4b6d0e",
+          "sha1": "b198e3d233ec2ae0fb142f0dc7dde0fa958cbf02",
+          "md5": "2cc01fb3df693bf685c25c14c49c3604"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-reactive-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-reactive-1.10.1-SNAPSHOT.jar",
+          "size": 68793,
+          "sha512": "a7d08a2b32702c147839833260712f0914394cf76a2f80953c00b1bedfa9697a4208b016cb1d84d07566dcb96c6061007c2af84de4d1ad53e0511ce9ed695f4e",
+          "sha256": "9184b99ed3f6b88de6b47195403a924d251fb67db07a7ffecbb6b079fc4b6d0e",
+          "sha1": "b198e3d233ec2ae0fb142f0dc7dde0fa958cbf02",
+          "md5": "2cc01fb3df693bf685c25c14c49c3604"
+        }
+      ]
+    }
+  ]
+}

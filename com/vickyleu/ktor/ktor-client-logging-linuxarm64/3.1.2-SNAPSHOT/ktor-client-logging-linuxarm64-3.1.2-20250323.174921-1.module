@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-logging/3.1.2-SNAPSHOT/ktor-client-logging-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-logging",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-logging-linuxArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-logging-linuxarm64-3.1.2-SNAPSHOT.klib",
+          "size": 65378,
+          "sha512": "dd1890745674c88949bf24bf190081e41bda4135a0b66b8ac9d575c901f73dadf4831f8338d613369789a652bb7797a670884066e5f649343e87b9c965fe0a2d",
+          "sha256": "828f7a86081623c53e688a7ab68a1548be0305aeaf0651d8126ea4925e63edae",
+          "sha1": "e617c1943875f54778ee2c6d4a44d18a792441a6",
+          "md5": "6517bb741340f1a71bcc6da28a64396d"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-logging-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-logging-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12884,
+          "sha512": "d6c655e54a0140f79a081c3894fbbed45bb11b789e253bb89da518460ab7bc7a24d7fefe2f09f78e638f9ecab50faf3920b5db7ca2e4ef77614a05ea54dbdb1e",
+          "sha256": "c1b5e42a0f62aba40eb6e1b7be3b14b3b8e7a1faed66b70809d20ccf126dab5f",
+          "sha1": "7665416d5f350b1f050645318d6d500c49c0771f",
+          "md5": "58abd29cbd75848178782c0133745b8c"
+        }
+      ]
+    }
+  ]
+}

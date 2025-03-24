@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-core/0.5.1/kotlinx-rpc-krpc-serialization-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-linuxArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-core-linuxarm64-0.5.1.klib",
+          "size": 9078,
+          "sha512": "a6ebb543ec6dbc3fb45ba2bec2cd6bdbca415910c1cfb7a98eea06906cd22d253b6a25f38a7ebb919f969e31e98f8f7fd63e3ca525a0ab5e4a5b4d2e1f65dd22",
+          "sha256": "aa0d872d1ca53ae2e8f67bfd8b287b9b04997a489ce024accc147a5ba7e135c2",
+          "sha1": "246ae073bd15fc29273ff03ca04d66cc76016b3d",
+          "md5": "59d1d17dca0e75d697b45e5bbb5dc2d1"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-linuxarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-linuxarm64-0.5.1-sources.jar",
+          "size": 2900,
+          "sha512": "632cf30f421c4f5d16c7e4cfdb7abceadadb2aa6b78f6b9883b21724e62cdcb0f03a5959ba1d3538d2d101bca870066fa5ce211bbe0fcf2a6c0e1b1e453abea9",
+          "sha256": "e7aaa7fe1f037413fe15ae7491dd1d2cdd9596b170cf6973c5a2bde1fd269065",
+          "sha1": "e3f669e66041adc3c2f9c3ff8133a2a28410ec5d",
+          "md5": "b949ed5d91c37e620fb383140fc50e77"
+        }
+      ]
+    }
+  ]
+}

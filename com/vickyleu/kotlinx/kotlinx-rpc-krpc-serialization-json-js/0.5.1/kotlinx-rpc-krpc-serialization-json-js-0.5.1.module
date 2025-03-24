@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-json/0.5.1/kotlinx-rpc-krpc-serialization-json-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-json",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-json-js-0.5.1.klib",
+          "size": 5408,
+          "sha512": "8bfd84b3c76d3e4a8a2fa646a81bb8a0fd15b417636b075d41a7c0834837b23940a12b826360103efc27c07082183f3a7fe3db1cfab0c8fa17fa3392d92103cf",
+          "sha256": "5f450afe976cfa8d26e905885c5083c7a4aa0d7f7523fa3c2d4ed0b2603916f7",
+          "sha1": "f4177fda4b56051d023ef778b961f1f176d79b43",
+          "md5": "701ec9bd526c115ff1c47e78e638e3a1"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-json-js-0.5.1.klib",
+          "size": 5408,
+          "sha512": "8bfd84b3c76d3e4a8a2fa646a81bb8a0fd15b417636b075d41a7c0834837b23940a12b826360103efc27c07082183f3a7fe3db1cfab0c8fa17fa3392d92103cf",
+          "sha256": "5f450afe976cfa8d26e905885c5083c7a4aa0d7f7523fa3c2d4ed0b2603916f7",
+          "sha1": "f4177fda4b56051d023ef778b961f1f176d79b43",
+          "md5": "701ec9bd526c115ff1c47e78e638e3a1"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-js-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-js-0.5.1-sources.jar",
+          "size": 1798,
+          "sha512": "2086cb1b4aa13165230f4850920c3783e81ec5b7d6d05eebec712926fceae449d210fd1dd28c6f59389ca75cf2e5a0fa7bb39ed0a41349f4891530b2b0d1dccb",
+          "sha256": "3b20394fe01bd912868a137d96fe034c69bfc12f367bd9bacfc3347bb79f65b7",
+          "sha1": "83fe9f452dc22cdb84ef05410f92df7278351cea",
+          "md5": "a5805796c60dcf233c8fd6b4187ac2a3"
+        }
+      ]
+    }
+  ]
+}

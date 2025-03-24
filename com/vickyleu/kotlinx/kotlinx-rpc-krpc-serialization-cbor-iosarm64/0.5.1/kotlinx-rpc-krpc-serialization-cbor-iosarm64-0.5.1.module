@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-cbor/0.5.1/kotlinx-rpc-krpc-serialization-cbor-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-cbor",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-iosArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1.klib",
+          "size": 6005,
+          "sha512": "eab3ebaa861cfe7fd01c13757067ef7e28db8261f49d92c9ec9bbc4a28162459341c1ff92038bb274eebdc59a4fd13b505f6cb22e6c76b9ae738b94596c24224",
+          "sha256": "0716bb486ee19ac174ea55917dac449fda01eb3ec4d4f6b90fd5c5068dcab36c",
+          "sha1": "fde8c7aa1017ea1fa94d779238e1ec52bb55a182",
+          "md5": "afdfb33a6f2e30e7a471689627c2e4f4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1-sources.jar",
+          "size": 1837,
+          "sha512": "e1a38ea3dd9b0bfe95c4f50514efdf90abc77141251c922725b74d64db4aec0dd0a402dc4b3a66f3589deb3f894aaa1857aee02ba6a1d3e67650ffa697f4dfa8",
+          "sha256": "408e0301990ed0177e9be4300d03b26199cf1ec08006e2345823d3764afd4ee5",
+          "sha1": "8482660a6af8728c37763eb361700b106fc46559",
+          "md5": "c49b02ce05e3078bad387bcc627f9214"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-iosarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "8ad9ddd7474d6d3efd4d0a37ac163ce56d4ca64ce1c456ffec7fa597ddef24068448bf517d42829d0acc51f2c0016da1c2864b9696a2a861f2766e333cb6c394",
+          "sha256": "6e57637c0fd64ea36e28bb95748a935cb75d9169a9450afb658743dc37442a1b",
+          "sha1": "ab2881156066e1bc9eda9833b5cc9a377cc16d82",
+          "md5": "ed38aa72a499c6e1da636640313b80f5"
+        }
+      ]
+    }
+  ]
+}

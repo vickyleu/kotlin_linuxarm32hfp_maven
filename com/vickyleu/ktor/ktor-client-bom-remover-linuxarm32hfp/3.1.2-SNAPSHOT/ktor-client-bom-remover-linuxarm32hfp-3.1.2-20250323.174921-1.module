@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-bom-remover/3.1.2-SNAPSHOT/ktor-client-bom-remover-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-bom-remover",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-bom-remover-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 10280,
+          "sha512": "bcad3e1fc5caac47907093ed5e0cca0097921b14e1e5d4b25f8b2b86b3a58f17c0c576172161c4e0f9ff006e9b3ca119283ae5e22597ca7745acf896048557ff",
+          "sha256": "3949e0afc1bf17410c4a392447b35415621693662c9b3061af34cb1731789533",
+          "sha1": "8a75173175901bb5a1edd9ec0e3c95d84beaeda1",
+          "md5": "7e34f2e8011381f1d8e3a9176ecac6e7"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-bom-remover-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2250,
+          "sha512": "601d1b60ba994ecee1d35c9029023c73b7150c6dd9ba4144e00013972be24ae7ab903003720c2b7349b0d3bb98041e819e9c70c6ea5bcd5a18af97106c3f2e53",
+          "sha256": "5afb89a510b8d286b3287f61e18b9d473f518cb05d09db82a95894bf9d00866e",
+          "sha1": "63bf5f9eb5e0c5fe653543ebe814bf5a8d3f37f6",
+          "md5": "ef474c89c65a2d83b9ecbef2a413b7c1"
+        }
+      ]
+    }
+  ]
+}

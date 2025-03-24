@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-ios/3.1.2-SNAPSHOT/ktor-client-ios-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-ios",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-ios-tvosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-ios-tvossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 3413,
+          "sha512": "da41584364998c3efc78a9a046ac9af39896db47f2180b22b7241c1172d5528ebf8e51331296d08b4515cc2fe3049868db2c9d21b37429e9cb7b63bd5b326bf5",
+          "sha256": "53b18308f0bda8d6f24d3e56e2421720b6b01acf80e037209a12f4bda74941a2",
+          "sha1": "5df57c96f52cabba04a4b33e4deb0a674fbed70d",
+          "md5": "cb326e85f06e0e4485282c4fae45f2fe"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-ios-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-ios-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 610,
+          "sha512": "984c42d5b78d445a113f6b01fb303f5395c5c1e3e3d5d5d4729a3c20be37b7c5001d26f43d7cb1e8da7edd74dd5d4fe4ff5a1869c973fe8a6620627a0119adfa",
+          "sha256": "ec1e4aac2eae9f8bfa4dacd068c36867791923516ade2ad3a0815318fe1ba51c",
+          "sha1": "d3ce0611b116d33c56cc28fff15c981abc1a1ff0",
+          "md5": "79f6fc4ec52d4fb5d924a65da76dde1f"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-ios-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-ios-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 2431,
+          "sha512": "ee6894156f2e3b0efa8a89c0988f9f4dfe1954ab39a013b2d2660789faa24edf8467d0700bb310a2b0aa61870c60d7c0156be43df84cae4854f318976c6eede1",
+          "sha256": "036ea1f3490ac5b15fe74ec7c77e1359d02caccd237cd71f886392c7a38c46e5",
+          "sha1": "f0789b7cf56587a7dcce314efdcb370fdc1e0748",
+          "md5": "abf0e6f4afed90c9214bc49901ea59ad"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-protobuf/0.5.1/kotlinx-rpc-krpc-serialization-protobuf-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-protobuf",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-watchosArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1.klib",
+          "size": 6109,
+          "sha512": "9f759d24927170c9f6383a1982d68f64ebc3c86c47eed72448299057244c7809b46a5bc290fb9f1f5ffe980f8005c86824ad2b2655c210b6d6a3e64e6ca91874",
+          "sha256": "50068a9654e93b3e5cc8218f5a0b2a8e8cfcf7268041407ad6557328d6e2b261",
+          "sha1": "d7f6cbf8339c29652b15ded16d5dd2c4dc2b3f12",
+          "md5": "ef4b172cb97d3f5f2a7c69c34c57f3af"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1-sources.jar",
+          "size": 1873,
+          "sha512": "e9209f4cf666a4cf8edf6f7fa2532f7658ee28a96d1db5084cfad28bde3eea4abf92ab5d0052fac4af52dbd24ec16ee2498b534fb72da8ca1f8f313d5c52a537",
+          "sha256": "cf4fbd9c6889287af2dd983a3d478b0b1e1440e824a93c119c4a1355d069e58c",
+          "sha1": "991b37a09103cabb1c76cb78ae3b8128d73f88c1",
+          "md5": "d39b8e13e9f676f9ac005fdc9fdd0578"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-watchosarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
+          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
+          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
+          "md5": "522c72194fe93e98859d74527ae4f7aa"
+        }
+      ]
+    }
+  ]
+}

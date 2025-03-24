@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-method-override/3.1.2-SNAPSHOT/ktor-server-method-override-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-method-override",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-method-override-androidNativeArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-method-override-androidnativearm64-3.1.2-SNAPSHOT.klib",
+          "size": 6834,
+          "sha512": "89f2d62cf3bccac959154f3922ccdefd06faaad17e1a47bb7b3bdb975fbd67e9291a5a12c4324894f584b95dc97ca6b0febc21989d774194de8bf42d48c2c041",
+          "sha256": "05e4b830d5606d6c6ebcfbb7099c7f5eb8489366d37aa71a20367ad914150c51",
+          "sha1": "11b223d98da4cae23d595a78f7f1b2bdfe4eadd4",
+          "md5": "55a23062964ad7e253cc44c276e28e0d"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-method-override-androidnativearm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-method-override-androidnativearm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2076,
+          "sha512": "afc801d002869e568c4b161067f927345d3309599fa2e817341901aed806dca5517c1bfefd08f5e863cbb32007d6ed4f5610de27e8c53562bac4f15d32b7d01a",
+          "sha256": "6603e7b86c97043ea34a248208feaf3708a30ae2626f0bcc81ce97e7c9c574e1",
+          "sha1": "f7ba979af0b51b1ed0a4e242615073c938dfc354",
+          "md5": "c5c4f724c9a5250d5935327d4516e740"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-protobuf/0.5.1/kotlinx-rpc-krpc-serialization-protobuf-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-protobuf",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-macosArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-macosarm64-0.5.1.klib",
+          "size": 6091,
+          "sha512": "2c89f648138819280c6d4601031d90515fd7fe4386a4e6cf4a24290f1b6ebeb76ff9a160045d38b8cc2df35b6ab414af5657e4cc19eec3e593eb56d6778505bb",
+          "sha256": "dffb416924b034f2f74f5550b7fa078a4c90d154e19613e2d88604315d8cfa76",
+          "sha1": "bc4ca48febb6d54642f7059be5ed446cca2643dd",
+          "md5": "54fa90342ce591ed464b9a81fa778ee1"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-macosarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-macosarm64-0.5.1-sources.jar",
+          "size": 1873,
+          "sha512": "e9209f4cf666a4cf8edf6f7fa2532f7658ee28a96d1db5084cfad28bde3eea4abf92ab5d0052fac4af52dbd24ec16ee2498b534fb72da8ca1f8f313d5c52a537",
+          "sha256": "cf4fbd9c6889287af2dd983a3d478b0b1e1440e824a93c119c4a1355d069e58c",
+          "sha1": "991b37a09103cabb1c76cb78ae3b8128d73f88c1",
+          "md5": "d39b8e13e9f676f9ac005fdc9fdd0578"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-macosarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-macosarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
+          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
+          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
+          "md5": "522c72194fe93e98859d74527ae4f7aa"
+        }
+      ]
+    }
+  ]
+}

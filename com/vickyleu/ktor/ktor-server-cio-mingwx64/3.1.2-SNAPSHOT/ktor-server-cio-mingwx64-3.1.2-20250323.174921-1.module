@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-cio/3.1.2-SNAPSHOT/ktor-server-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-mingwX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-mingwx64-3.1.2-SNAPSHOT.klib",
+          "size": 76006,
+          "sha512": "4b2ff29bef663f6d1667d03f88d6d0b585cb8a6b278bd9af34af89d6167b93e88348c39bb7cad15e01938de2ceedda890bd3f486f0a88a914aa98c32f2823bb7",
+          "sha256": "3a003afa64418aed40e91c8ce6807c0526e6c0e3e2e19dc7b5fbe24da569aff4",
+          "sha1": "4419e2795df4a7260c81e126bb3211316fcb6e64",
+          "md5": "acb1dc1c6626db9d2f0e6dc9355c0f67"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-cio-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-cio-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 18396,
+          "sha512": "547ac82ddc4d5e9247a66ea7c49c03d8aa6ada9477e4a4901e54fdb649b57eea8635bfdc251d0283a11e66a1781eaba43df82ecacbe80a1e63a9d82d126e76f4",
+          "sha256": "2e3e779ec0e9272ef0065cc52d5c402003801cb183e436019c0267e889575da0",
+          "sha1": "fdca63164178e3c21ad64ddfa2adf73d3d06c928",
+          "md5": "efdcd323c4d8f8ed7b3bd78d8913d13b"
+        }
+      ]
+    }
+  ]
+}

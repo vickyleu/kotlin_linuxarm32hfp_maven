@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-mingwx64-7.0.6.klib",
+          "size": 61028,
+          "sha512": "23d6b1a39462f2aeb2ee5bd33e6b00703a7c49be5c11be09ba4193221d8162f0794584e1a74f792708f55dddb741573c3fd2205c4bcfa1cd8efa82c950aa5b43",
+          "sha256": "ece830a53fddb90a228599bfeb8c3302931caff8b18484b3e548d883f015d751",
+          "sha1": "1ff51d805cf1461ac21a903d5fd18b9df2428aca",
+          "md5": "22ae7fdea711c8aed11ac94b608dbe8b"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-mingwx64-7.0.6-sources.jar",
+          "url": "kotlin-logging-mingwx64-7.0.6-sources.jar",
+          "size": 20201,
+          "sha512": "4c7ca5e16cf801d9d315da093d1d9c7a43f5d3c0d68584610baaad205b061b26e145cff26aa717042f411a034c2a749ecdad993c78272520d23b8b94689a3cd9",
+          "sha256": "e17789d3323197aace91091e0c2563797ab53750466f6ff50f592b21c75ee0ad",
+          "sha1": "7ead86b2f539ec848cd1becb7e095295111d14a6",
+          "md5": "a5039892c87f0d38983d3ea938daba09"
+        }
+      ]
+    }
+  ]
+}

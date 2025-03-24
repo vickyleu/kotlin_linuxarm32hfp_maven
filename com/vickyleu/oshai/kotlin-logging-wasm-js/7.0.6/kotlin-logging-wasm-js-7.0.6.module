@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-wasm-js-7.0.6.klib",
+          "url": "kotlin-logging-wasm-js-7.0.6.klib",
+          "size": 64945,
+          "sha512": "96db4311a0a7cbfa8aba168d8eb11d9e0a5482ba7a9bd87c6d22f36f9bd65694df67904c68e65e23c8f160d81d27505c6c2860003cd637237134eee0a706ef52",
+          "sha256": "978c1954cbedcacad525a43ea6b83876d68107591b70df4d0662b75e7307ac22",
+          "sha1": "0afa82d8ce4768d56917afa38d92e352552e1dfe",
+          "md5": "b3f3de880779b070ffadeebec075888a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-wasm-js-7.0.6.klib",
+          "url": "kotlin-logging-wasm-js-7.0.6.klib",
+          "size": 64945,
+          "sha512": "96db4311a0a7cbfa8aba168d8eb11d9e0a5482ba7a9bd87c6d22f36f9bd65694df67904c68e65e23c8f160d81d27505c6c2860003cd637237134eee0a706ef52",
+          "sha256": "978c1954cbedcacad525a43ea6b83876d68107591b70df4d0662b75e7307ac22",
+          "sha1": "0afa82d8ce4768d56917afa38d92e352552e1dfe",
+          "md5": "b3f3de880779b070ffadeebec075888a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-wasm-js-7.0.6-sources.jar",
+          "url": "kotlin-logging-wasm-js-7.0.6-sources.jar",
+          "size": 19494,
+          "sha512": "574978bf26e4d0a6d63fc565ab89cc5d118122c3984d0fa29dc98743407dbcd9037e9de0caa386f8c4a3a92afcdd2276a3b16d0d48a0dde954921d0e0aabc4cb",
+          "sha256": "e7345cacde7f1863840f61e56fe9fc8fd58eddf3023cde9f731e6234c8087b6c",
+          "sha1": "b7eee9346a97a3a6ed6e18ba7352000366c898a5",
+          "md5": "062b7b0e110aeb84695f8b263f68e7a7"
+        }
+      ]
+    }
+  ]
+}

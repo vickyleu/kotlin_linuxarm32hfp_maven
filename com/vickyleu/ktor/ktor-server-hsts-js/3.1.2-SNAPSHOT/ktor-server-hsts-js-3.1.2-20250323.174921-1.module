@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-hsts/3.1.2-SNAPSHOT/ktor-server-hsts-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-hsts",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-hsts-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-hsts-js-3.1.2-SNAPSHOT.klib",
+          "size": 13004,
+          "sha512": "ae57552a02f3edc54e723d4313aaa461e94fdf5b7d45077c42a6c82d6251a6d8745bc35534b98e87d8bbe8bea32dadea2ef89dce8c772c8289d00753bf1d8eaf",
+          "sha256": "f5fa144aca85b8ffccc86027e6a3c077966b38fa911d1468d7ea28ab4dae2023",
+          "sha1": "73c8099f5cff93cb9a2cfed375dd508da8b19e24",
+          "md5": "d004e7cbb86bc470870fba9249c393cd"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-hsts-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-hsts-js-3.1.2-SNAPSHOT.klib",
+          "size": 13004,
+          "sha512": "ae57552a02f3edc54e723d4313aaa461e94fdf5b7d45077c42a6c82d6251a6d8745bc35534b98e87d8bbe8bea32dadea2ef89dce8c772c8289d00753bf1d8eaf",
+          "sha256": "f5fa144aca85b8ffccc86027e6a3c077966b38fa911d1468d7ea28ab4dae2023",
+          "sha1": "73c8099f5cff93cb9a2cfed375dd508da8b19e24",
+          "md5": "d004e7cbb86bc470870fba9249c393cd"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-hsts-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-hsts-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3323,
+          "sha512": "651edba1850a83d467c526b1b8b970f4d08350490283e4de3bcabd1a7eba3d4c096db53f975a433945868e7aaffb963ce4de3b5a2a049e7f0d33ff129f7fd977",
+          "sha256": "7c98706e0d2ce08552b15d0326a8df0211e7368f9fa0b42ca76b8a5f96479d09",
+          "sha1": "bdbda58ec2947691fa225823995da28d391522dc",
+          "md5": "72f5ccd82581b8becd1c3e4a4c705315"
+        }
+      ]
+    }
+  ]
+}

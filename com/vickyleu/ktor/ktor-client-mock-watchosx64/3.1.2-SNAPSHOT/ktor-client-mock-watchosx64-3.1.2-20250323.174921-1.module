@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-mock/3.1.2-SNAPSHOT/ktor-client-mock-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-mock",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-mock-watchosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-mock-watchosx64-3.1.2-SNAPSHOT.klib",
+          "size": 19446,
+          "sha512": "c634d562bf3d5abbc245e30248d97d10be7bf4cfb0964594311b62fd5ee4fdd7a60f1d3a0b04270f6e40f2d5c63b1a011c9db8609a3112fb52f5d52571138f9b",
+          "sha256": "75cce97a9b1b1020e8c3bdf204080b72e2ae37d7b388507b3fa53ce39f0c2340",
+          "sha1": "3f19e87fd3f2c92474d1261ad8c2becaac740731",
+          "md5": "0daccd783817318de5200565b9d2b1aa"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-mock-watchosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-mock-watchosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 4335,
+          "sha512": "659eae04da34cd1c8342ca545ad5ad774492ddaf211eb0814406ac63196e043340a15ae0798af6c5d3e0fa4c0cb29a1aa7a12cd6def3c94a4fa9c3482788f4ad",
+          "sha256": "8c47ed0e7a044a368ee139db4d9e372ab295931b8091fcc6027c6124de8eb7ef",
+          "sha1": "7fbff87081316babe6b26a885d2f4d5c4ad4f3b0",
+          "md5": "92895bd2f661401e157a3abc4d0b3f11"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-mock-watchosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-mock-watchosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "ee66636b429c0d715fd337471473d2a061beac193c8b38884a1f49c3976e6be6d93be0ccfae5c78d51ed020c23298b96a22cd841b90bbb7bef03fdb5b4020ffd",
+          "sha256": "ca6410e759095b9df817993e6c891c513de0b2a257e2915a59be88cc877c7af2",
+          "sha1": "b20bd81d3bfa513a315923a7f52e7c4a7722a158",
+          "md5": "1d74e1ee3dc4ecc5897a0abf581c0a82"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-androidnativex64-7.0.6.klib",
+          "size": 61045,
+          "sha512": "a4cdf39a7dbb718a0fa3462270edfae7a4325bd08ae8d2d3e535c683c84d8b38c96ff151069a93baf3c9c6f933ef01130d71d39292c2faec9ce6fbeb0ca1ec8b",
+          "sha256": "dda870715ed9bfb2af89faed75f124ecb0bc0b4a27d839ff904b7271ed60a1fb",
+          "sha1": "b54727477b8947e4829dc9a7d495b456a9f03867",
+          "md5": "702f2f2a33b74e2892b919809b82d474"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-androidnativex64-7.0.6-sources.jar",
+          "url": "kotlin-logging-androidnativex64-7.0.6-sources.jar",
+          "size": 20201,
+          "sha512": "4c7ca5e16cf801d9d315da093d1d9c7a43f5d3c0d68584610baaad205b061b26e145cff26aa717042f411a034c2a749ecdad993c78272520d23b8b94689a3cd9",
+          "sha256": "e17789d3323197aace91091e0c2563797ab53750466f6ff50f592b21c75ee0ad",
+          "sha1": "7ead86b2f539ec848cd1becb7e095295111d14a6",
+          "md5": "a5039892c87f0d38983d3ea938daba09"
+        }
+      ]
+    }
+  ]
+}

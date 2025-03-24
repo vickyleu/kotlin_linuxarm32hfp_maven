@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-rx2",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-reactive",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-rx2-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-rx2-1.10.1-SNAPSHOT.jar",
+          "size": 88092,
+          "sha512": "3e833485122e42c307df18f48cd076129c6fd0163c32c5173dadf1fa1f474a022204c93c2a428e83ae410580fc39659219d384db16a920f6eca6c234070f5d4f",
+          "sha256": "17ffa72335e7f3b4d97c0a47e98a3834574fb7b573abecb8e7a608e5cd2a8a2e",
+          "sha1": "21d5c19aceb13aabcebb89103fd3f9ad9c4ec82d",
+          "md5": "6f6b2b09fadc7d1adfc320344d8d5baa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-reactive",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-rx2-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-rx2-1.10.1-SNAPSHOT.jar",
+          "size": 88092,
+          "sha512": "3e833485122e42c307df18f48cd076129c6fd0163c32c5173dadf1fa1f474a022204c93c2a428e83ae410580fc39659219d384db16a920f6eca6c234070f5d4f",
+          "sha256": "17ffa72335e7f3b4d97c0a47e98a3834574fb7b573abecb8e7a608e5cd2a8a2e",
+          "sha1": "21d5c19aceb13aabcebb89103fd3f9ad9c4ec82d",
+          "md5": "6f6b2b09fadc7d1adfc320344d8d5baa"
+        }
+      ]
+    }
+  ]
+}

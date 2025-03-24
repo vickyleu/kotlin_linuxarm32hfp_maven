@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-events/3.1.2-SNAPSHOT/ktor-events-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-events",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-events-tvosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-events-tvosx64-3.1.2-SNAPSHOT.klib",
+          "size": 8882,
+          "sha512": "e1edbcbd8e28d8175f6946b78fdc1c6ba8728c24cc962235a0171a8fc5a19b44cb44e2b4c694ad5b8a2713e8455a49766e8d2c0da11b61a2e31323d83623a98b",
+          "sha256": "b2a66a2ce88aa9831cf2e873e314b5d27acbb463e9324ac415b1bd710696048e",
+          "sha1": "68a2af928e20b75dea431b0854d2cb9584dc3426",
+          "md5": "8fea4b6805223cbf17dbc99c45303f9d"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-events-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-events-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2148,
+          "sha512": "7daa847643accbec0d0ff76b1e315cbc1ba8ec279cf92e877b3f1861bc404fb80a8d13e760e1ab8147140475b64fb2be0713189f306fa92873ac9263fea93226",
+          "sha256": "25a4d89461d074f84b3f77d8bfe875832adfe744c83aee283f4586f37acdffc3",
+          "sha1": "40750b1d65bf1bb0e2740bc83fc54f83b5333808",
+          "md5": "97598efdaf9dcc0f013164ec1cce5b35"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-events-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-events-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "82b376efb1ef1489e39dd1c2e4d7a9b736554181221db493daabe103e0724886e05d37424e81842c49b265992ce31f9053c2579a1f6e7706fccc29fb9a532746",
+          "sha256": "c8fdbbe6c0e54e8e555b492facf469b592652a192bcd9f67048c95777f0f8feb",
+          "sha1": "a21aaf59e085f03cc25f07fd94bcab40b465126c",
+          "md5": "35c8a6ceb46e43d32453cc2563b9815e"
+        }
+      ]
+    }
+  ]
+}

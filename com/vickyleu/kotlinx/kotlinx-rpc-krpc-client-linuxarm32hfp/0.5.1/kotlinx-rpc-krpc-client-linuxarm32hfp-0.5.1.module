@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-client/0.5.1/kotlinx-rpc-krpc-client-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-client",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-client-linuxArm32HfpMain-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-client-linuxarm32hfp-0.5.1.klib",
+          "size": 40235,
+          "sha512": "1fa26f70386a4714ce3ec6bbd60ea52fd3df5038c0b9e137ac9f9331dec5a3c277ff96b7d613712eb7ddbceff9ddd2657d21fdb290dc845eeaa9ab90e86d8276",
+          "sha256": "cd42421601ef001950ecbc41d8319b61f5922004f0a44ff1c1d6595f9579f2a1",
+          "sha1": "f3969d9b14832b41a6ea5c1e22b646ed2e2e6307",
+          "md5": "a81ba9fd707857087ecc8b3f65bc194e"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-client-linuxarm32hfp-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-client-linuxarm32hfp-0.5.1-sources.jar",
+          "size": 5885,
+          "sha512": "338def426f7ced906ef667ec8bb6cc2b2577df18db9419ff6c4d9a22c8e59c00cd9b33cb61fe7e7401f9e794bc6c720200b032d996a1c72859bd3f5423213ab7",
+          "sha256": "4688f68db5017c4014e0ae8ce45ffeb7d8cc9dd563a322c8fbd605af66e919a4",
+          "sha1": "5e65539788c0377b4da18cdfaf675b21fbf79dfe",
+          "md5": "5ea56adac91bb44418b14dbdea2b8cd2"
+        }
+      ]
+    }
+  ]
+}

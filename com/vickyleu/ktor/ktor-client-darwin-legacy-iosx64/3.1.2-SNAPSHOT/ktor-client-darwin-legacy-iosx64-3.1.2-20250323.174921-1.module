@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-darwin-legacy/3.1.2-SNAPSHOT/ktor-client-darwin-legacy-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-darwin-legacy",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-darwin-legacy-iosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-darwin-legacy-iosx64-3.1.2-SNAPSHOT.klib",
+          "size": 86446,
+          "sha512": "502e6f715df019508ccaf6e9a206c250203d868763faab41410033db42b1c5942cc0738f87044f5acaeddda46aa95a845ac20d57169aefb0e8927161256bed96",
+          "sha256": "d7c08943d0927f8e01b37e5461285c593ffa60fc55813bb1a02dca42b91f9970",
+          "sha1": "bf53b16ca49caea7bf9464d14087e6db751719e2",
+          "md5": "35e98461a0137f18ccad3e3828423933"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-darwin-legacy-iosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-darwin-legacy-iosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 21583,
+          "sha512": "a33bbccb06359ff2ebf521080a76ab2ecd34b301d3419dcf3303ee974c1bfd8912f94aab0c39371e71b5244551388f24827ba3b6d87b3ba0b741f6a07b8df568",
+          "sha256": "9b2a6888d14345b7aa8db1e9ad5dfcdbe7bc2cd4e336ad58326be1b96e6992ca",
+          "sha1": "79ab0165fe95797a7dd475ad4088641925592970",
+          "md5": "c6d8bf2a23b2f17b231fd52f412a3022"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-darwin-legacy-iosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-darwin-legacy-iosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 15252,
+          "sha512": "c10e11d883ac04b28197ed98ebc5226a8cadaf6ddbda19cca048c6a19814a20f69ae4268d218bff99ba241b5e3df0bba494db709e41a9b7c2f1cc3ed2c3cd615",
+          "sha256": "122336f972e374da7c2b6cc6075df5e155951ca7905b814248956ca372d66450",
+          "sha1": "631d31be7accf2c1145021a84458d8fd0ad82701",
+          "md5": "4e6c1c1479d8143534e3355d07cf7e76"
+        }
+      ]
+    }
+  ]
+}

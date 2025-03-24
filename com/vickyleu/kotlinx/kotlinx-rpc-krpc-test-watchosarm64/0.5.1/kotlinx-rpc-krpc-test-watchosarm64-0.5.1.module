@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-test/0.5.1/kotlinx-rpc-krpc-test-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-test",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-test-watchosArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-test-watchosarm64-0.5.1.klib",
+          "size": 3515,
+          "sha512": "11a264cdb4e4ed3578596ded0c892626ccfba078d02bb1c57d7c4d53bb2f07af28ae16d0d284cc5a86dfdad80237450dd81e5acbe9a4bbef188858c53a06a767",
+          "sha256": "5f11a340ea095ee7ee65e62771f96608a418c0a2b60f06d24bec90307ca5867f",
+          "sha1": "3c939ca448b780a464328683ed5fa9b322db71e3",
+          "md5": "d296d78f403a4d16ca6a15302cd2e107"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-test-watchosarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-test-watchosarm64-0.5.1-sources.jar",
+          "size": 644,
+          "sha512": "16b83ce79591b095adf720df482abb2e14da3f3fd40a3c1a46ba59becf28f1d094aaf1ff99fc772f864e59e8b105e930693159fd80ae6d94f9eb24806a9ce020",
+          "sha256": "b3145b4e01e1f3412d297a56c86209350d08be1ba36a31a6126e98de2a006f25",
+          "sha1": "4c87a2cd579bf018fe4db89f467db3a78d0bbf97",
+          "md5": "fcbb59b898de6c68f8351d4bebbb2bfd"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-test-watchosarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-test-watchosarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "9e751a117c5945234d40f202718030f6ab7a036ec2061bcc4de58176c54b4bad0ce51c65d9f4613e03b38c65b2ef86d96786999331e102f28c5484e9281f2595",
+          "sha256": "33080be4061c3afca38e12d48b9c7423ab01e821c973d802c65ff962342085ae",
+          "sha1": "2dbd165a1e075aa848d7753995696b00d148d7c8",
+          "md5": "bfade4c25cf765e2c5c16d38b2abbf56"
+        }
+      ]
+    }
+  ]
+}

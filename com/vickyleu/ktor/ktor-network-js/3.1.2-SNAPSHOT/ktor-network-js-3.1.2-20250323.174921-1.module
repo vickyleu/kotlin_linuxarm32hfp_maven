@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-js-3.1.2-SNAPSHOT.klib",
+          "size": 77273,
+          "sha512": "e3aef58650cac960359806fe5556aa94f4387cb009bfab29ca0cfe98e256eaa4ad82a5151d1ef35e9eb9d6548f627cc054c46aff9982b20d9ffeb38fb8ca932c",
+          "sha256": "156566b9ccaab71435d5f37c1bd655915801e067df4fdb7f55387faf6652ceea",
+          "sha1": "6f2f30f5772ac806551be744642c6c3ddc74807c",
+          "md5": "d0d83f129cb8f0467c0213343776aec5"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-js-3.1.2-SNAPSHOT.klib",
+          "size": 77273,
+          "sha512": "e3aef58650cac960359806fe5556aa94f4387cb009bfab29ca0cfe98e256eaa4ad82a5151d1ef35e9eb9d6548f627cc054c46aff9982b20d9ffeb38fb8ca932c",
+          "sha256": "156566b9ccaab71435d5f37c1bd655915801e067df4fdb7f55387faf6652ceea",
+          "sha1": "6f2f30f5772ac806551be744642c6c3ddc74807c",
+          "md5": "d0d83f129cb8f0467c0213343776aec5"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-network-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 24050,
+          "sha512": "22ef0aaaaf629f413fc483ae1d7e75e25c4af05a275d357bd15ae6b99041959db1c65923950921b823bd10965fd217a141cd674d7a6902ac8a83ce402ad78fa1",
+          "sha256": "d276a674f0f22db92505d45317e2f3afcf09d649fad8fd43d9af107433e859a3",
+          "sha1": "566e660000937780a23442df72166f63d065accb",
+          "md5": "236a546bfcf98c580e96b67291c25dc5"
+        }
+      ]
+    }
+  ]
+}

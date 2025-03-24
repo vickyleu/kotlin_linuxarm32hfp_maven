@@ -1,0 +1,1193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-partial-content",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-partial-content-metadata-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-partial-content-3.1.2-SNAPSHOT.jar",
+          "size": 9433,
+          "sha512": "9dd7a1f519a36223f156864202ea79eeed2f500303fd825a7177e44ef1355f99839fa518299c4460e895e7d359423c29032fd45f26b2781ed4a2c5ba638bbfa9",
+          "sha256": "e91e4253eae25c131eba80d265f2067d28a65307c19c63f2febcf5ffc7fa6beb",
+          "sha1": "0556ebe632017c015abf3d2aaed86e0f486d0c58",
+          "md5": "c1bda99ceb0fbb757d41813e7f32b1eb"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ktor-server-partial-content-kotlin-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-partial-content-3.1.2-SNAPSHOT-sources.jar",
+          "size": 9829,
+          "sha512": "177a47f419cc1cab2ac347d67c9e7860e9f4eb123d4a739f872da6502722ce98dd0f354a58f16480555cb5c3ee860b0cbd54cefdbf83153fa17d1496032998c8",
+          "sha256": "ab59df6d4ca383c34b7d65aca4885793dc088506927708db7b483f6cadbce138",
+          "sha1": "78b5cf6305326244a6a483460b8731c34c5856bc",
+          "md5": "1ad683b27b5fae7cad5f1bde16c9b561"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativearm32/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativearm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativearm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativearm32/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativearm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativearm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativearm64/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativearm64/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativex64/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativex64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativex64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativex64/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativex64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativex64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativex86/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativex86-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativex86",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-androidnativex86/3.1.2-SNAPSHOT/ktor-server-partial-content-androidnativex86-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-androidnativex86",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-iosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-js/3.1.2-SNAPSHOT/ktor-server-partial-content-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-js/3.1.2-SNAPSHOT/ktor-server-partial-content-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-js/3.1.2-SNAPSHOT/ktor-server-partial-content-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-jvm/3.1.2-SNAPSHOT/ktor-server-partial-content-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-jvm/3.1.2-SNAPSHOT/ktor-server-partial-content-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-jvm/3.1.2-SNAPSHOT/ktor-server-partial-content-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-server-partial-content-linuxarm32hfp-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-linuxarm32hfp",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-server-partial-content-linuxarm32hfp-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-linuxarm32hfp",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-linuxarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-linuxarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-linuxarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-linuxarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-linuxarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-linuxarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-linuxx64/3.1.2-SNAPSHOT/ktor-server-partial-content-linuxx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-linuxx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-linuxx64/3.1.2-SNAPSHOT/ktor-server-partial-content-linuxx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-linuxx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-macosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-macosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-macosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-macosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-macosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-macosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-mingwx64/3.1.2-SNAPSHOT/ktor-server-partial-content-mingwx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-mingwx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-mingwx64/3.1.2-SNAPSHOT/ktor-server-partial-content-mingwx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-mingwx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-tvosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-wasm-js/3.1.2-SNAPSHOT/ktor-server-partial-content-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-wasm-js/3.1.2-SNAPSHOT/ktor-server-partial-content-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-wasm-js/3.1.2-SNAPSHOT/ktor-server-partial-content-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosarm32/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosarm32/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosarm32/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-server-partial-content-watchosx64/3.1.2-SNAPSHOT/ktor-server-partial-content-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-server-partial-content-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-protobuf/0.5.1/kotlinx-rpc-krpc-serialization-protobuf-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-protobuf",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-wasm-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-wasm-js-0.5.1.klib",
+          "size": 5679,
+          "sha512": "5c98058bf53a667536749080acd785980ae181156a437e56b155d53a8a46ddab311cfcec156857805efa0ef2e4f18d5ab0b4f76cf8e859bd904f892123a07335",
+          "sha256": "f8c73cf720af9332fafec2fae1ea62e7c1832fe8af11602174180f9155e2010c",
+          "sha1": "b3aa444e7155e1c2882e6962cc1fa0d99127fb7f",
+          "md5": "4734091edcf52995ab2b7d2791dcf7f8"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-wasm-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-wasm-js-0.5.1.klib",
+          "size": 5679,
+          "sha512": "5c98058bf53a667536749080acd785980ae181156a437e56b155d53a8a46ddab311cfcec156857805efa0ef2e4f18d5ab0b4f76cf8e859bd904f892123a07335",
+          "sha256": "f8c73cf720af9332fafec2fae1ea62e7c1832fe8af11602174180f9155e2010c",
+          "sha1": "b3aa444e7155e1c2882e6962cc1fa0d99127fb7f",
+          "md5": "4734091edcf52995ab2b7d2791dcf7f8"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-protobuf-wasm-js-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-protobuf-wasm-js-0.5.1-sources.jar",
+          "size": 1873,
+          "sha512": "e9209f4cf666a4cf8edf6f7fa2532f7658ee28a96d1db5084cfad28bde3eea4abf92ab5d0052fac4af52dbd24ec16ee2498b534fb72da8ca1f8f313d5c52a537",
+          "sha256": "cf4fbd9c6889287af2dd983a3d478b0b1e1440e824a93c119c4a1355d069e58c",
+          "sha1": "991b37a09103cabb1c76cb78ae3b8128d73f88c1",
+          "md5": "d39b8e13e9f676f9ac005fdc9fdd0578"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-websockets/3.1.2-SNAPSHOT/ktor-server-websockets-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-websockets",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-websockets-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-websockets-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 40533,
+          "sha512": "06d406d8ad1a59d1bd074dcd696f37893b763b4ddc7004fd5d9fc7ea8ce80568a82263f1927443756d05caa68213de011a70ea84286dee3896b243bde2c89cfe",
+          "sha256": "0cb0dc6a512d0b25b749edacc7e632d34074a604b73f148ba5f3a1fa12e2a500",
+          "sha1": "2ec34c76c6e9c9145d8e54a43d48ca09dffc7c61",
+          "md5": "49da6f7e9245436a5137a51e7263a8b9"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-websockets-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-websockets-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 9120,
+          "sha512": "fda89867e3d1f098f7519cfc056f807621cc201c619579f7406740189966f51ec9a23a5495d6c4de8b0553d44930782333283c891e6cfd34c7ddd0e1579aa071",
+          "sha256": "88a71890c75a2b5365b5f08fbcc7502a8ae943110fded3aa235d0e95d1e6ab1d",
+          "sha1": "4f61c6ce3e3603614c57b87a583cfdd6972f9784",
+          "md5": "293983f099e3d3b88c7c50f0d20f7a70"
+        }
+      ]
+    }
+  ]
+}

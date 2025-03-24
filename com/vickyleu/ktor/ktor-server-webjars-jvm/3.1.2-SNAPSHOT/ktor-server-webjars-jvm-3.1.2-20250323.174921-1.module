@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-webjars/3.1.2-SNAPSHOT/ktor-server-webjars-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-webjars",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "webjars-locator-core",
+          "version": {
+            "requires": "0.59"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-webjars-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-webjars-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 13845,
+          "sha512": "7ff5fd08d75b7d7cea2e7036f978ebee825c2aea07d45c12f9564038a9d65d1b0f5cfd26c32fe688e7cedb83810b104e49b402a8ae5bced59d3c12e4997e1061",
+          "sha256": "a822c4c9a256ba21e6212f3fb3c3a98c9214e485c0551204b97df63eee9f8a86",
+          "sha1": "e6c888f947cbc5050385770bb7cba1fe71feb51e",
+          "md5": "09268cd90aa8012b8b424d48e8c5cfb1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "webjars-locator-core",
+          "version": {
+            "requires": "0.59"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-webjars-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-webjars-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 13845,
+          "sha512": "7ff5fd08d75b7d7cea2e7036f978ebee825c2aea07d45c12f9564038a9d65d1b0f5cfd26c32fe688e7cedb83810b104e49b402a8ae5bced59d3c12e4997e1061",
+          "sha256": "a822c4c9a256ba21e6212f3fb3c3a98c9214e485c0551204b97df63eee9f8a86",
+          "sha1": "e6c888f947cbc5050385770bb7cba1fe71feb51e",
+          "md5": "09268cd90aa8012b8b424d48e8c5cfb1"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-webjars-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-webjars-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3343,
+          "sha512": "87fc9c86254c949ecd1293046899385da64bc469482047b1769054004c04a3d4db426abe089e0a19879ec8153d0a74b41160bb26b13674ce902f211eb5dec7ac",
+          "sha256": "a6b7a8d97444c423c2509f9c0e580d1e9232bad6ba28a4f6942dc098e9f68afb",
+          "sha1": "d7d8d1b86b86750763a13bf07280b2d53daf8bd1",
+          "md5": "09ab18b1b5ac8372a9d810bc799ac020"
+        }
+      ]
+    }
+  ]
+}

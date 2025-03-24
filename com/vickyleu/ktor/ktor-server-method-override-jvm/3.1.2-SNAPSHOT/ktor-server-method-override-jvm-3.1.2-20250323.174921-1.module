@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-method-override/3.1.2-SNAPSHOT/ktor-server-method-override-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-method-override",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-method-override-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-method-override-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 6716,
+          "sha512": "2a79c4406bced2f343a5cc10c3d5b01da0758bd2d5f2f0f9a6d25479d8e028669c49258353e9a458e9c4f18f2ac0adfb6da37f53083d5181bdd7a544df181772",
+          "sha256": "4bc7c580bf6ee50ca18637b2c698a380988674c63ba49ffbb714935e785c4176",
+          "sha1": "a5d59e7eec47ffe8de0b55525e14f2eb21c9b5b1",
+          "md5": "87f09a822bf439b139e20f63b4053746"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-method-override-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-method-override-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 6716,
+          "sha512": "2a79c4406bced2f343a5cc10c3d5b01da0758bd2d5f2f0f9a6d25479d8e028669c49258353e9a458e9c4f18f2ac0adfb6da37f53083d5181bdd7a544df181772",
+          "sha256": "4bc7c580bf6ee50ca18637b2c698a380988674c63ba49ffbb714935e785c4176",
+          "sha1": "a5d59e7eec47ffe8de0b55525e14f2eb21c9b5b1",
+          "md5": "87f09a822bf439b139e20f63b4053746"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-method-override-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-method-override-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2076,
+          "sha512": "afc801d002869e568c4b161067f927345d3309599fa2e817341901aed806dca5517c1bfefd08f5e863cbb32007d6ed4f5610de27e8c53562bac4f15d32b7d01a",
+          "sha256": "6603e7b86c97043ea34a248208feaf3708a30ae2626f0bcc81ce97e7c9c574e1",
+          "sha1": "f7ba979af0b51b1ed0a4e242615073c938dfc354",
+          "md5": "c5c4f724c9a5250d5935327d4516e740"
+        }
+      ]
+    }
+  ]
+}

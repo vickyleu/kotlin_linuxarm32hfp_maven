@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-tomcat-jakarta/3.1.2-SNAPSHOT/ktor-server-tomcat-jakarta-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-tomcat-jakarta",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-servlet-jakarta",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-catalina",
+          "version": {
+            "requires": "10.1.31"
+          }
+        },
+        {
+          "group": "org.apache.tomcat.embed",
+          "module": "tomcat-embed-core",
+          "version": {
+            "requires": "10.1.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-tomcat-jakarta-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-tomcat-jakarta-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 17053,
+          "sha512": "ca88a32b5de1f533d1fe874eb96020670006e02ed3e0980b9d4bfd1c1e5a8d6c76cf963a48bc92204c0d3cb9cad823971107435e2fbb21d13c797ccf05eb7ff1",
+          "sha256": "736d1509021150663745c6a57f648d0de34e0789cc192ff2977e4679f1cc227f",
+          "sha1": "d1f68e609f8e158e189b33b60eaf95a295a19a2b",
+          "md5": "b63615604b13d7a5ebaf401049725f58"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-servlet-jakarta",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-catalina",
+          "version": {
+            "requires": "10.1.31"
+          }
+        },
+        {
+          "group": "org.apache.tomcat.embed",
+          "module": "tomcat-embed-core",
+          "version": {
+            "requires": "10.1.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-tomcat-jakarta-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-tomcat-jakarta-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 17053,
+          "sha512": "ca88a32b5de1f533d1fe874eb96020670006e02ed3e0980b9d4bfd1c1e5a8d6c76cf963a48bc92204c0d3cb9cad823971107435e2fbb21d13c797ccf05eb7ff1",
+          "sha256": "736d1509021150663745c6a57f648d0de34e0789cc192ff2977e4679f1cc227f",
+          "sha1": "d1f68e609f8e158e189b33b60eaf95a295a19a2b",
+          "md5": "b63615604b13d7a5ebaf401049725f58"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-tomcat-jakarta-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-tomcat-jakarta-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 5070,
+          "sha512": "c51c9e1eedee1dbf285da48f0f9e6d85cf6e7d366224040a85b2a328c754859ad57ea50a62ab9cbc933500058805463029020d7e37b057452ac101fd2d97ce10",
+          "sha256": "62f955176b57bf92a34d731137ac158908fbaea7d406a6fb11c0d0276e6fcff4",
+          "sha1": "84d5a2ebf4ea336af223dca328231cf64b373f5e",
+          "md5": "9fd449f04cfd8618cbe4b72c7bd98687"
+        }
+      ]
+    }
+  ]
+}

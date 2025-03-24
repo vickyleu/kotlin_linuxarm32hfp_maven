@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-core/1.10.1-SNAPSHOT/kotlinx-coroutines-core-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-core",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-iosX64Main-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-iosx64-1.10.1-SNAPSHOT.klib",
+          "size": 885110,
+          "sha512": "116ae89aed04fc775b55b880476f9fcfd6d39d33b1edeadd334e65cf888dfe4ade66812252b1fe6ae994555e04773a53fceb584d0295f9d1569e413023474c7a",
+          "sha256": "8f0a12066577d990b7cf492d0c4a9eb2eb132257c0c7f7967e2dd75a076eee58",
+          "sha1": "9f58871937bb7faed14c475a6598a6a949ed1bd8",
+          "md5": "7e06e272984ccc71a58451fc3415a8fa"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-iosx64-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-core-iosx64-1.10.1-SNAPSHOT-sources.jar",
+          "size": 326899,
+          "sha512": "9d4892499ed632b3500f8915664100dd1d6a4ba9e4b54d70be3bc03b11e4448a6621bb39b5a807ad5b33fad948d8dedf651d33220b1b73aa9efdbcfe6292a354",
+          "sha256": "d15395d2dd17ba38c6bbce79c6f0b596d092e29f220b9aec5e0df85aee4f9afd",
+          "sha1": "0a289e9827a7dad4daf501d658ee05922a0479ac",
+          "md5": "e2d0cc73ef6f4d7fd7aca63892d36eb1"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-iosx64-1.10.1-SNAPSHOT-metadata.jar",
+          "url": "kotlinx-coroutines-core-iosx64-1.10.1-SNAPSHOT-metadata.jar",
+          "size": 3537,
+          "sha512": "73a45eb6452c094039519bc34bfdc294ded1aa53d83b76f1d9d9045db946fc1b8786cbf0a43328fbf7da9e4b80d68b4be3a73be67b8367afd06d2957acf0489b",
+          "sha256": "174d88ab1fe110066dbedb7539022600e123e69d7a96c7da40f74f9d2c19569b",
+          "sha1": "9a35267062b4be9f1d6650bbe927e624af5cd347",
+          "md5": "dd198df62a1fba34a9606aa09384ae1c"
+        }
+      ]
+    }
+  ]
+}

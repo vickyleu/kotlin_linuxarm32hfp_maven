@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-hsts/3.1.2-SNAPSHOT/ktor-server-hsts-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-hsts",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-hsts-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-hsts-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 12036,
+          "sha512": "7a6b4fc5292d7050930f1d57bd89bf2b5ee3a1e9e44622e10932a0c21c2d11841eff741780fb1c4d00f6f321e3d2b5953605d3d5d1162e493d9f26575e5440d0",
+          "sha256": "3e5aadf444c478d3fd68dd13c04d931a691e293b92c66f6f16f9a0e1d91368a4",
+          "sha1": "ebb0a1ba160cc28985eac24f178e82212b619846",
+          "md5": "bef8e343de20a71c2d77a47501141787"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-hsts-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-hsts-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 12036,
+          "sha512": "7a6b4fc5292d7050930f1d57bd89bf2b5ee3a1e9e44622e10932a0c21c2d11841eff741780fb1c4d00f6f321e3d2b5953605d3d5d1162e493d9f26575e5440d0",
+          "sha256": "3e5aadf444c478d3fd68dd13c04d931a691e293b92c66f6f16f9a0e1d91368a4",
+          "sha1": "ebb0a1ba160cc28985eac24f178e82212b619846",
+          "md5": "bef8e343de20a71c2d77a47501141787"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-hsts-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-hsts-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3323,
+          "sha512": "651edba1850a83d467c526b1b8b970f4d08350490283e4de3bcabd1a7eba3d4c096db53f975a433945868e7aaffb963ce4de3b5a2a049e7f0d33ff129f7fd977",
+          "sha256": "7c98706e0d2ce08552b15d0326a8df0211e7368f9fa0b42ca76b8a5f96479d09",
+          "sha1": "bdbda58ec2947691fa225823995da28d391522dc",
+          "md5": "72f5ccd82581b8becd1c3e4a4c705315"
+        }
+      ]
+    }
+  ]
+}

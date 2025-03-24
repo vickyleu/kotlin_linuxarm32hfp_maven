@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-encoding/3.1.2-SNAPSHOT/ktor-client-encoding-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-encoding",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-encoding-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-encoding-js-3.1.2-SNAPSHOT.klib",
+          "size": 22390,
+          "sha512": "0187fa2b8bb879ea0e85c0ee15f052310ed007e6607a4840af3a4b7b9b3cebebc6d193d26325eedfb2290861bdea923aaa3a0d54ecb03ff00baed4ddb08084ee",
+          "sha256": "a98b5ea5ab9fc1433092270a4f308ea0b7ab0e2f0bf7385e28928c81836701c2",
+          "sha1": "7adf4a867c303a2451269286671590f807bf862a",
+          "md5": "206140839776ef8ad71ae79369a8c966"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-encoding-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-encoding-js-3.1.2-SNAPSHOT.klib",
+          "size": 22390,
+          "sha512": "0187fa2b8bb879ea0e85c0ee15f052310ed007e6607a4840af3a4b7b9b3cebebc6d193d26325eedfb2290861bdea923aaa3a0d54ecb03ff00baed4ddb08084ee",
+          "sha256": "a98b5ea5ab9fc1433092270a4f308ea0b7ab0e2f0bf7385e28928c81836701c2",
+          "sha1": "7adf4a867c303a2451269286671590f807bf862a",
+          "md5": "206140839776ef8ad71ae79369a8c966"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-client-encoding-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-encoding-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3218,
+          "sha512": "7485eb61a1380e1be058b38bf5f7cd4c225d67f57dc2883cd701b61404ebad36414d8f1089bd641680c2b0f8e5a3156676e90cbc416f2b4a4bb76acf52100a47",
+          "sha256": "ce606b2cdc86a8287c01e12dff5a721fe8a37f2bd41ab69926fe1b5b5f4b252e",
+          "sha1": "80c2638ddc263fb7183f816fa964a5a798a82d8f",
+          "md5": "cf21e5d120a76f6aacb7059c0245091d"
+        }
+      ]
+    }
+  ]
+}

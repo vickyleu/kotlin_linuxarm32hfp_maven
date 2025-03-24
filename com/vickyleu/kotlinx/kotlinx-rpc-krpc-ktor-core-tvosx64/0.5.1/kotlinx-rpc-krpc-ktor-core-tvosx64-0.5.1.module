@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-core/0.5.1/kotlinx-rpc-krpc-ktor-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-tvosX64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-core-tvosx64-0.5.1.klib",
+          "size": 6288,
+          "sha512": "b8f28e913f5f47fbadf0c8e334b3add868b660bd12f8b33d569c5a1e0eb0f94c070fda2ae82817c94f755d296ee1446429bf467d21ce69c15790e56cf3b44520",
+          "sha256": "02eafe1096956ace341d4acd656ed97ef02b18486a9c2886c178dd87326366ae",
+          "sha1": "84190cbb8373796d6acab311ebd570ae1702caa4",
+          "md5": "f8a1f14663a5131ba045eef49f22fc56"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-tvosx64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-core-tvosx64-0.5.1-sources.jar",
+          "size": 1686,
+          "sha512": "44a6419ceeecc94824e017b415f80765af8cc82ace7dbba25d407260aa1f6546e5dd8a9e15c6c2b27edc556796806416ca68703a672c6e50506675500e897dd9",
+          "sha256": "aa04308edf1ce343ee7e2a5cb3d1ea2beb1ab591731d87a71e47c7b54722b900",
+          "sha1": "dc97cf7530cf4d5450e912d6cf9e0d58199ee9bc",
+          "md5": "6d8d30484c72ad16bc70dcdb8c6a7a16"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-tvosx64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-ktor-core-tvosx64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "dec00513faa935fde87a41e654c954c49b5daeae099d04ff07ab4267b17bb073877f53bf8ccdff75b9b7afa4310b6c89f4737acef1a6c31bf21995985c134704",
+          "sha256": "9891f62a27790a2f2cd0cb85fc4f67ff30e1f9d8493a82a44b885e5aa6ced103",
+          "sha1": "ca31dc590b21b24a5992a235604a07495ed0cc2c",
+          "md5": "a5e9386d6d768f1a8c6edd0b3d060404"
+        }
+      ]
+    }
+  ]
+}

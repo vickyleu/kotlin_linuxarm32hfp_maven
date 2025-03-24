@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-pebble/3.1.2-SNAPSHOT/ktor-server-pebble-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-pebble",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-pebble-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-pebble-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 11130,
+          "sha512": "efab0dfa39dc37c72a188a08bbbd1a0dc6057bf477e78c5d52be92cfb010e79cc380b6aa2928b276245a593d4152e2158099e6272f279eff5c57f4c90b1ff05f",
+          "sha256": "56cc6f57b356fa4153e56056c83664ae3b947904ada9bed6644b555a01870845",
+          "sha1": "e93965d4fe31b95b50db4cb2266fa9baba7ff934",
+          "md5": "793d2426dff672f1558aab7653ffcdf9"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-pebble-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-pebble-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 11130,
+          "sha512": "efab0dfa39dc37c72a188a08bbbd1a0dc6057bf477e78c5d52be92cfb010e79cc380b6aa2928b276245a593d4152e2158099e6272f279eff5c57f4c90b1ff05f",
+          "sha256": "56cc6f57b356fa4153e56056c83664ae3b947904ada9bed6644b555a01870845",
+          "sha1": "e93965d4fe31b95b50db4cb2266fa9baba7ff934",
+          "md5": "793d2426dff672f1558aab7653ffcdf9"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-pebble-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-pebble-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2731,
+          "sha512": "f21f2fe99f7fe2369f5144d6ffe0d330fb2957b27ae2beb6c4ad65b69207ea846840c4915775e923390423e3f39a1b3e4d9b9b132331a25dd998fda98fd912fb",
+          "sha256": "9cfbfab9074d5b22840c9fbde065862ef8d27ba16b7d589675ab1ef4f0aa2326",
+          "sha1": "16b035bffed966a427e32255703ccbe6409adf56",
+          "md5": "995ca2b2e270786973c5dc19da4b3fec"
+        }
+      ]
+    }
+  ]
+}

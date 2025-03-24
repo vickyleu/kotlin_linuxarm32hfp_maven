@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-test/1.10.1-SNAPSHOT/kotlinx-coroutines-test-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-test",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-test-macosArm64Main-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-test-macosarm64-1.10.1-SNAPSHOT.klib",
+          "size": 78345,
+          "sha512": "94dd5e76c703bf9cdbc337d3e893f13f46d441d2247f7181748611751a2222d60da8ef584bb1a0f89c3729bfd18b1e362b96fac063b52a615c6424b85c33037d",
+          "sha256": "39e4305c79c0b32a239a67cb0fcff990286b1f4dbea901bfc7927efe0c812a58",
+          "sha1": "8786a32fa07167aeceba9749c92a2de53294bf28",
+          "md5": "ae4e3a649d09bfa2ab5464cc3b895ec6"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-test-macosarm64-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-test-macosarm64-1.10.1-SNAPSHOT-sources.jar",
+          "size": 25551,
+          "sha512": "0b86541175c8bc10d764f2f4d295f4f92ca688ea46140a7bfc2df9b0118c70ca873915cd172b1b22aef84f5be8aa7b3c5595a554925a0ecfc6bfaf11347ccb9d",
+          "sha256": "1bd49665fd31fc15b841b13b70fca8820afb4f90c87043904e879dc1a80a3b0d",
+          "sha1": "70fde0188fb0a9d5d20929d348a22714d8389e19",
+          "md5": "afe9605896140cd48b74065440ca89fd"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-test-macosarm64-1.10.1-SNAPSHOT-metadata.jar",
+          "url": "kotlinx-coroutines-test-macosarm64-1.10.1-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "7d803dc9847e74620d0235766ae6e20b90243fbd64b31541c2c50f9c0c777fcfacac27abce8d224953543d48fbd4ae9487ec1783bf1d834e21f4bb18bc5d89fb",
+          "sha256": "bbaac8f85becc27ef9782314e299762a3f08b1fa583a8a509c8d95f42878a2d1",
+          "sha1": "60674daea833a025b3ae4fd037a70294adc84d09",
+          "md5": "4a0e811705cdc782a57fd47058f29776"
+        }
+      ]
+    }
+  ]
+}

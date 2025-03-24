@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-metrics-micrometer/3.1.2-SNAPSHOT/ktor-server-metrics-micrometer-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-metrics-micrometer",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.14.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-metrics-micrometer-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-metrics-micrometer-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 17671,
+          "sha512": "56c87d213d9f8f27e2594b17d438978d192106394cca0815c561722560c6486f89fec3f0e342a5432529f26f03d5ad9108a67e907342f7b4c5a7e907e525f9f8",
+          "sha256": "941012b5a6df2a5cc54a9098d9be945197972e918429a4dc5515258fa4d63f9c",
+          "sha1": "e578bccc4d65f8b9368fa3d8eade4e3b8b08dc76",
+          "md5": "1ccb4b54fcc1835546b68434ff3e79e7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.14.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-metrics-micrometer-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-metrics-micrometer-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 17671,
+          "sha512": "56c87d213d9f8f27e2594b17d438978d192106394cca0815c561722560c6486f89fec3f0e342a5432529f26f03d5ad9108a67e907342f7b4c5a7e907e525f9f8",
+          "sha256": "941012b5a6df2a5cc54a9098d9be945197972e918429a4dc5515258fa4d63f9c",
+          "sha1": "e578bccc4d65f8b9368fa3d8eade4e3b8b08dc76",
+          "md5": "1ccb4b54fcc1835546b68434ff3e79e7"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-metrics-micrometer-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-metrics-micrometer-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3593,
+          "sha512": "49af341d99a8056c59552c090b046cb095602963a0c90976785e71e789ec87ba0748b6300faa22e898ccec5695003b10a543f311cb8a6fab5700a379cc1f4263",
+          "sha256": "6c96ea003784fe88b9a7f4aafbd47eafaa2a01969735ca3a444ab99fa24b8be9",
+          "sha1": "9d52d018ca61dee9a3a785e6e4779f0c8b39e665",
+          "md5": "0dc990e20754b4ca57647f40d18878e1"
+        }
+      ]
+    }
+  ]
+}

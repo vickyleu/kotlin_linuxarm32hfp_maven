@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.5.1/kotlinx-rpc-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-linuxArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-core-linuxarm64-0.5.1.klib",
+          "size": 44557,
+          "sha512": "1d89ab6169ee7b15e985e2a336d5711a2f3105f009b4b498305801f01cf442e1c3a8164b3ece6d814bedc2e11d566a25492e28c035f44b09b6ef356f5f357770",
+          "sha256": "d8493d83e2f38b2ca87c87a52a6c7cdc0d84ddeb87a54971197a5381b0078085",
+          "sha1": "9f27457a2a3ba2eecc1b41d6e40cfe4eb0b32421",
+          "md5": "9858a234f0b031fa10f6f5bf08f5fd70"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-linuxarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-core-linuxarm64-0.5.1-sources.jar",
+          "size": 17372,
+          "sha512": "b9b0aadfb6b71a79781e47a36b2522549f31272c88cf2340aba79caaeaad696a328ccfc289dacf49cb4ed0b08ef36eac2881c49d4178a346da203ede4fa6a2d9",
+          "sha256": "741751a4c2d22e63ab4cd149f24c1dce5a4c78ec74bf4dcea90f4a72791f8a6e",
+          "sha1": "1e8e33797d6c7a026a41fbb3ae8120172e588c21",
+          "md5": "78aebfc001d54015a1c1aca6aa7228b1"
+        }
+      ]
+    }
+  ]
+}

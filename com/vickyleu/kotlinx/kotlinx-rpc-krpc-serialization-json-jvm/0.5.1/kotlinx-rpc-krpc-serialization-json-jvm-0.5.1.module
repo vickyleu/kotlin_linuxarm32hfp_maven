@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-json/0.5.1/kotlinx-rpc-krpc-serialization-json-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-json",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-jvm-0.5.1.jar",
+          "size": 4434,
+          "sha512": "85407522f810e86dc7a6ffec45ee5ddb2ef4a9e034c200b01f05f2fdb3883f3ab063fe9235b5943a6018d11d2c9185ce33967ae37fee5a978716e3b133232dd1",
+          "sha256": "230d19cbf768aa25e6860586c6deee77fe6ea4eb77bc9510e2db9310c159403c",
+          "sha1": "dd2afee458a78b0a0113a584179621b0a8ad2dfb",
+          "md5": "8facba3ddc4e3bed8beeccafd3e122b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-jvm-0.5.1.jar",
+          "size": 4434,
+          "sha512": "85407522f810e86dc7a6ffec45ee5ddb2ef4a9e034c200b01f05f2fdb3883f3ab063fe9235b5943a6018d11d2c9185ce33967ae37fee5a978716e3b133232dd1",
+          "sha256": "230d19cbf768aa25e6860586c6deee77fe6ea4eb77bc9510e2db9310c159403c",
+          "sha1": "dd2afee458a78b0a0113a584179621b0a8ad2dfb",
+          "md5": "8facba3ddc4e3bed8beeccafd3e122b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-jvm-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-jvm-0.5.1-sources.jar",
+          "size": 1798,
+          "sha512": "2086cb1b4aa13165230f4850920c3783e81ec5b7d6d05eebec712926fceae449d210fd1dd28c6f59389ca75cf2e5a0fa7bb39ed0a41349f4891530b2b0d1dccb",
+          "sha256": "3b20394fe01bd912868a137d96fe034c69bfc12f367bd9bacfc3347bb79f65b7",
+          "sha1": "83fe9f452dc22cdb84ef05410f92df7278351cea",
+          "md5": "a5805796c60dcf233c8fd6b4187ac2a3"
+        }
+      ]
+    }
+  ]
+}

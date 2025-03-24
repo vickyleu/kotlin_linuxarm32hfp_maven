@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-auth/3.1.2-SNAPSHOT/ktor-client-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-auth-linuxArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-auth-linuxarm64-3.1.2-SNAPSHOT.klib",
+          "size": 53513,
+          "sha512": "1987152c4aea70721af98dda03d120ea8486e5a99085938b39e0173e2d9d09ac76680d9509cadd35e03888df7e3f5df075bcfcd11cd1057f4a6e78006a37e046",
+          "sha256": "80f42dc0a390ca73fff3a8e0280fe56a4266f58741fb02fd04c19c26f0630864",
+          "sha1": "9911352128bc7a59405c1ecd5cc73443d517b714",
+          "md5": "ce6c6ed419274b5d55b5c961736604b7"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-auth-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-auth-linuxarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12670,
+          "sha512": "565278687b8b7d6d0f81174a538e3e36bec2abc6aae7e78283d0afc83759396844cf5d8c19c815bc0e43b87aa0523a92c06107eb6d310400f13ab25534298066",
+          "sha256": "d547799a79c9a25bae79fa8ac8322a7eb5a6f44867f2be7a925bf9d4a894f922",
+          "sha1": "7425b17152bc668e37ee3e15c572de3d4d5ac339",
+          "md5": "b6d07b98246acd355ac78681c561888d"
+        }
+      ]
+    }
+  ]
+}

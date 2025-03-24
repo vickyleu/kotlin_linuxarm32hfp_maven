@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-core/3.1.2-SNAPSHOT/ktor-server-core-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-core",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-core-mingwX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-core-mingwx64-3.1.2-SNAPSHOT.klib",
+          "size": 441999,
+          "sha512": "8feaadd5073ab1f9077740bc28d1b9cbb51086cec661d54eec61e7a853201f53037f7b1198ac88df5cfaa4577e053ad3d37aa667996752e7b7c9bc37645c333f",
+          "sha256": "e3d0b5910967376daaf51499da94e7781d8f80509549a8996df6ddc3e294d3e6",
+          "sha1": "c7ba533bb792b82d049527e1f38e8110d353e4b4",
+          "md5": "13c7a51b500dd161f9d943f908c6d601"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-core-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-core-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 118298,
+          "sha512": "4916441a7a90564fdd5b24f77c933e45c67366366287f333029d80bba703a46540377799d506a629976bbd50423f8281573a30e9085410066315dbad7d42c548",
+          "sha256": "82829d28cebf104b16c9da38cbcbfd2ddac82191545cdcfc630c1aea8170fc32",
+          "sha1": "f23b150b19c9474653e43d08c2111cdc33dc9865",
+          "md5": "fcd4347c9c229531e7c14c10cb7cd8e5"
+        }
+      ]
+    }
+  ]
+}

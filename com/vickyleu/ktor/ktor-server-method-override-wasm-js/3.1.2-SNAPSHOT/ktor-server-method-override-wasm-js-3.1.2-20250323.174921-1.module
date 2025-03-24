@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-method-override/3.1.2-SNAPSHOT/ktor-server-method-override-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-method-override",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-method-override-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-method-override-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 6406,
+          "sha512": "cf6e9f3ba9bbda1446cdff609b894b85ae8ed2b260110f3b313c941363e302ab875eceff44e6ccc6c0e5ff00362dce4a43d698bc73f448318bac69001f87f0e2",
+          "sha256": "ec85df149f9e4def0e0b3d5fcce7781189706274b8da06a24aa0b6c6d7388099",
+          "sha1": "9626104e8ef57c3a769190d32f9e2e4beb57468f",
+          "md5": "20b712d834b47c2d7246bed94f6e24ec"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-method-override-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-method-override-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 6406,
+          "sha512": "cf6e9f3ba9bbda1446cdff609b894b85ae8ed2b260110f3b313c941363e302ab875eceff44e6ccc6c0e5ff00362dce4a43d698bc73f448318bac69001f87f0e2",
+          "sha256": "ec85df149f9e4def0e0b3d5fcce7781189706274b8da06a24aa0b6c6d7388099",
+          "sha1": "9626104e8ef57c3a769190d32f9e2e4beb57468f",
+          "md5": "20b712d834b47c2d7246bed94f6e24ec"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-method-override-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-method-override-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2076,
+          "sha512": "afc801d002869e568c4b161067f927345d3309599fa2e817341901aed806dca5517c1bfefd08f5e863cbb32007d6ed4f5610de27e8c53562bac4f15d32b7d01a",
+          "sha256": "6603e7b86c97043ea34a248208feaf3708a30ae2626f0bcc81ce97e7c9c574e1",
+          "sha1": "f7ba979af0b51b1ed0a4e242615073c938dfc354",
+          "md5": "c5c4f724c9a5250d5935327d4516e740"
+        }
+      ]
+    }
+  ]
+}

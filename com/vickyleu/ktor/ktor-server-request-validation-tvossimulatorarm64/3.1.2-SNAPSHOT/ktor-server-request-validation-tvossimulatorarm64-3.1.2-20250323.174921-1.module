@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-request-validation/3.1.2-SNAPSHOT/ktor-server-request-validation-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-request-validation",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-request-validation-tvosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 17226,
+          "sha512": "e6fcde631354924a6219334249a8f9a5f80508877b93d346f7af8fae7041d580dcf68630444dd3192acdb6f6463594bd0ca5be42d91799dd9d0e72db6beb0666",
+          "sha256": "a85d3556f4a8e5439aaf3f7e070319d705cb9bb664578496f898dc057d76c6a6",
+          "sha1": "1029ca666879b0b76d7cac0b500965cbbe01ef86",
+          "md5": "d5e280ab2a68166cc135fd35e4f80348"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3915,
+          "sha512": "29fcbe444f845595152fc5b8ececdfc55a7730f0511addb49420407152e14dd73b7d7c9637cd2798b93e0afd295b3ac1f00f787341c3528604501fdf03040a1c",
+          "sha256": "00b4640b67a99489554b5944bf4a62742a2a58815298d32eb2a14e22f9572660",
+          "sha1": "479e7626d150c49eac816b296b91ce2593cf20f7",
+          "md5": "11c93c5d61e36d931515d34fa0f4726b"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-request-validation-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "8742967e4db268f35a286f8b289ab9af53dd6cca01ad589c8984ae269f8e8e554ce6df68effdf1f8fff00c0f1dd101e9c85c710323b415699599e9b627121def",
+          "sha256": "f80a4271efb6987ac1f6030d3a3b951b3e6a9b61711f9f52391f3f5e8a69e7d0",
+          "sha1": "7b069ca8c9556deae46578bd9bb633dbc3e09f65",
+          "md5": "70768d598a23eacc15ea3fd72c9d8455"
+        }
+      ]
+    }
+  ]
+}

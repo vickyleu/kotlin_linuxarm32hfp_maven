@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-test/1.10.1-SNAPSHOT/kotlinx-coroutines-test-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-test",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-test-androidNativeX64Main-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-test-androidnativex64-1.10.1-SNAPSHOT.klib",
+          "size": 78346,
+          "sha512": "c94bebc0459ba361d306652573171a95bc40b06468db66ad7c07b600753ebaf6f3d5bf6da4e6d0e5d0726cdd1c750c37b84452815a618458cf200cbade4ee306",
+          "sha256": "4a704f5140c5ad04b7f0a71f0612ae864c8bb14656a04cc7803f37a9831f8b64",
+          "sha1": "aa7d0e99847330f09baee7a55f8ec77062a4c7f4",
+          "md5": "95895ecad0e37635d97ac0f5f7ce4b7b"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-test-androidnativex64-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-test-androidnativex64-1.10.1-SNAPSHOT-sources.jar",
+          "size": 25551,
+          "sha512": "0b86541175c8bc10d764f2f4d295f4f92ca688ea46140a7bfc2df9b0118c70ca873915cd172b1b22aef84f5be8aa7b3c5595a554925a0ecfc6bfaf11347ccb9d",
+          "sha256": "1bd49665fd31fc15b841b13b70fca8820afb4f90c87043904e879dc1a80a3b0d",
+          "sha1": "70fde0188fb0a9d5d20929d348a22714d8389e19",
+          "md5": "afe9605896140cd48b74065440ca89fd"
+        }
+      ]
+    }
+  ]
+}

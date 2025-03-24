@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-core/0.5.1/kotlinx-rpc-krpc-serialization-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-tvosX64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-core-tvosx64-0.5.1.klib",
+          "size": 9053,
+          "sha512": "7a5ab229d75ffbc5ec56a142dab8453287b82cbec387bb6b34865ba7b412d717bb0f81111c581888bae8380d154eabad126a6ab223101d38578b1a821e52cc97",
+          "sha256": "9435e9bfb9023185c746d92b76e37a1f7a92b1871e5229e343ca0f2b3f3c133e",
+          "sha1": "f96ddf1682a9fab2d39a3b45a218706d018977b8",
+          "md5": "df39c373e1a22cf8a4347b14eaab668e"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-tvosx64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-tvosx64-0.5.1-sources.jar",
+          "size": 2900,
+          "sha512": "632cf30f421c4f5d16c7e4cfdb7abceadadb2aa6b78f6b9883b21724e62cdcb0f03a5959ba1d3538d2d101bca870066fa5ce211bbe0fcf2a6c0e1b1e453abea9",
+          "sha256": "e7aaa7fe1f037413fe15ae7491dd1d2cdd9596b170cf6973c5a2bde1fd269065",
+          "sha1": "e3f669e66041adc3c2f9c3ff8133a2a28410ec5d",
+          "md5": "b949ed5d91c37e620fb383140fc50e77"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-tvosx64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-tvosx64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
+          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
+          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
+          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-client/0.5.1/kotlinx-rpc-krpc-ktor-client-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-client",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-client",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-iosSimulatorArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-client-iossimulatorarm64-0.5.1.klib",
+          "size": 12005,
+          "sha512": "d934b6ed4c6a88f477aef53bb402fce734e5e02dbfd202f99292cb960f1a8c4f94361d831d88a7e691a7ac4ee5260f6d394cae619f2c42af9b6d475db8453c8a",
+          "sha256": "658014a9e31c40920996824569c9e8c86b665595a438b0cd4ffa74200cb9692b",
+          "sha1": "a3818cecf20c85248e17f9149753e09cb27f59f1",
+          "md5": "a0f42e6b549ea87e47a0ab83ee4e556a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-iossimulatorarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-client-iossimulatorarm64-0.5.1-sources.jar",
+          "size": 3324,
+          "sha512": "2a29469277d9872d798ddc91c27d0f6737621c12a29d3c87c29525951eba56b0b97ba0c6cc894316d4776050b912f1c64d3b32738daa4f74ce1de7449cbc4de4",
+          "sha256": "1e15015e92429743b18c7a242a42e3fa38971d9034cf6979d6c5cc199bc6d53d",
+          "sha1": "c5269cc3aa65e334361c11a8e28df375f0d1d237",
+          "md5": "a246d63fe8d1dc585d2f8585d00ec781"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-client",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-client-iossimulatorarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-ktor-client-iossimulatorarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "f9571f869fefbba646efce14f14ed1de1b3b89eaf1d0ac215ea7ad8699036fb426c74f60b12a50bca4b1128e7ccdc25f2737e1be1879dcd7c8145e1306bbd48f",
+          "sha256": "d00152f3ffaa1ab8b414836a8e50a17665ac28419484745cfc3852bc76b8ceb7",
+          "sha1": "dc8b97141dc098a9a1394d8c06282a4cf70811ef",
+          "md5": "4194cad9d4f7e7c5beb55cf3db954d02"
+        }
+      ]
+    }
+  ]
+}

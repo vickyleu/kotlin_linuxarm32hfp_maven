@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-bom-remover/3.1.2-SNAPSHOT/ktor-client-bom-remover-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-bom-remover",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-mingwX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-bom-remover-mingwx64-3.1.2-SNAPSHOT.klib",
+          "size": 10218,
+          "sha512": "c60dbf6a4ea6a5817e79e9b3bac097ce2c1fe9a4918a430ae18b215d1fa1975e80e5dcfc95f2cced1384792701061627f849d22cadfc7eca20c5d5d8d3f2399e",
+          "sha256": "43f591fcffcb875702efdd2644ab04758826e2877e1901bed842b8f9ad0dd8e4",
+          "sha1": "88c6e1f99e85fc613eacbf7acffdf5e83e3613b6",
+          "md5": "a387acec41295f02722f7b4a3e463fd3"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-bom-remover-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-bom-remover-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2250,
+          "sha512": "601d1b60ba994ecee1d35c9029023c73b7150c6dd9ba4144e00013972be24ae7ab903003720c2b7349b0d3bb98041e819e9c70c6ea5bcd5a18af97106c3f2e53",
+          "sha256": "5afb89a510b8d286b3287f61e18b9d473f518cb05d09db82a95894bf9d00866e",
+          "sha1": "63bf5f9eb5e0c5fe653543ebe814bf5a8d3f37f6",
+          "md5": "ef474c89c65a2d83b9ecbef2a413b7c1"
+        }
+      ]
+    }
+  ]
+}

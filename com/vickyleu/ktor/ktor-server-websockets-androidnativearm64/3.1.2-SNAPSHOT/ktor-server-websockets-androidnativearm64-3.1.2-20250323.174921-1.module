@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-websockets/3.1.2-SNAPSHOT/ktor-server-websockets-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-websockets",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-websockets-androidNativeArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-websockets-androidnativearm64-3.1.2-SNAPSHOT.klib",
+          "size": 40515,
+          "sha512": "38db5a7c6eaad9097627b7e30480c9efd8a33dfdc9ae320db04c1c2622e6d5ffd4e47bae7f0823daed13102af11470e3bb845d861882295dd6dfe9dbcc35683a",
+          "sha256": "dd1d869dddfc131de937bad27557faac2000f6e8756b5549d108bc88cf23853b",
+          "sha1": "48b42fbc3fdb9657a5261e06dde6863abce3d1b7",
+          "md5": "71313e95ae277f4ddf65a016ebdd5fe9"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-websockets-androidnativearm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-websockets-androidnativearm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 9120,
+          "sha512": "fda89867e3d1f098f7519cfc056f807621cc201c619579f7406740189966f51ec9a23a5495d6c4de8b0553d44930782333283c891e6cfd34c7ddd0e1579aa071",
+          "sha256": "88a71890c75a2b5365b5f08fbcc7502a8ae943110fded3aa235d0e95d1e6ab1d",
+          "sha1": "4f61c6ce3e3603614c57b87a583cfdd6972f9784",
+          "md5": "293983f099e3d3b88c7c50f0d20f7a70"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.5.1/kotlinx-rpc-krpc-logging-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-iosX64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-iosx64-0.5.1.klib",
+          "size": 12378,
+          "sha512": "802f708df6828bd38de57e87f5d8f2d2dd28eca76557bf7ba8a5a75b7835274fe54a1fb36238f5ddc0079613ba9d27dc28888fa1b0ff084725d14e126077945f",
+          "sha256": "db5dc79b7be934fcd022d39dcc8e917a1cee829475f0a0a3351d408cd8fe78bb",
+          "sha1": "f1ac209783801d9292c4f82c53a354892b8c8617",
+          "md5": "25a4fce9c5019e35cb9d9fde0e71f5d5"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-iosx64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-iosx64-0.5.1-sources.jar",
+          "size": 3141,
+          "sha512": "02123f3be3ee56a880ea0742c1ea34d5e0e61f63530f12524c374fcf6f5f083a687f36115fbdac268315f88b26e6132ab5b514b88d71dbf081e7127f8912f6d6",
+          "sha256": "8e48b530ee5752910707bf402ff89d304e9cd21d60d6b841a0b29bd4b6413cf0",
+          "sha1": "9a949afff48ebd85331320e4b8d5a8da07bb1f66",
+          "md5": "1da329d6bc94828d33ab4607a09699a0"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-iosx64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-logging-iosx64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "97185a558695a33c9db76e4d7b3881dd0d7a99883372b7e6c30714d1de6feebb1008d727226ce343c93eb6b29d313958d3e9c1d5c4623212904098a9ced0f915",
+          "sha256": "1ad20ba764a094af77110fb17c43891418947d5491c1a074573b85102e187848",
+          "sha1": "13cdb7299a619cdb5483b0de1454f62333f3a96a",
+          "md5": "93f43d0ffa0992898b7ef90d61ade243"
+        }
+      ]
+    }
+  ]
+}

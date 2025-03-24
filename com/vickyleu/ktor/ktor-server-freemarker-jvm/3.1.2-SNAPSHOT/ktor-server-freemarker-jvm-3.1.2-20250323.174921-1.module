@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-freemarker/3.1.2-SNAPSHOT/ktor-server-freemarker-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-freemarker",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-freemarker-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-freemarker-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 8092,
+          "sha512": "111a2b0a646165875822ff55fd3a33bc6ab3a366ab22923f209c531e607d84378279cc0615ec18d1a6714441c0744120c40b3153cf83ea8c49e5d991201cbcae",
+          "sha256": "ed3efb5afb1ac935725e48f715a1be373e57358772487ef3677f8bcfaa5c3cef",
+          "sha1": "c71f22dfc7077c09b674579702d37f79cf1aeff6",
+          "md5": "0db839095c9007e7856b40b06b466e7e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-freemarker-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-freemarker-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 8092,
+          "sha512": "111a2b0a646165875822ff55fd3a33bc6ab3a366ab22923f209c531e607d84378279cc0615ec18d1a6714441c0744120c40b3153cf83ea8c49e5d991201cbcae",
+          "sha256": "ed3efb5afb1ac935725e48f715a1be373e57358772487ef3677f8bcfaa5c3cef",
+          "sha1": "c71f22dfc7077c09b674579702d37f79cf1aeff6",
+          "md5": "0db839095c9007e7856b40b06b466e7e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-freemarker-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-freemarker-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2456,
+          "sha512": "29c72aebf2f9eaca306b54473498a6bc5b0fdcba105a93edc42c1c106cba4dbe212b99ec0daffef02dff3ed636d5b89cfcb8bdde7eae6731455fb584c3b16d9e",
+          "sha256": "b145f3757e735770d9b8b5b341bc71262b543a08f5e31b257ed23f8104b8b102",
+          "sha1": "c7ae3c1b88991a7e7497e79ef96df43906de8205",
+          "md5": "2434985aaf499009167726ed6786c149"
+        }
+      ]
+    }
+  ]
+}

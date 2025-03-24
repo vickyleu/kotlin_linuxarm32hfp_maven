@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-utils/3.1.2-SNAPSHOT/ktor-utils-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-utils",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-io",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-utils-watchosDeviceArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-utils-watchosdevicearm64-3.1.2-SNAPSHOT.klib",
+          "size": 303946,
+          "sha512": "5818c1644309e05872609fb1a5280432e2880466ddede1d78c8a076d9c3a7d8c0f17b9993642ed104975a3142fc37fc869b821ca5b98eaf750e3eb161308af1b",
+          "sha256": "9f5a7023c3f094a306ce901ead43c7c245e411ee1bd718ab6d309a1cb6fd0158",
+          "sha1": "54b88ef9ee0b46fc07604db8b04e8f591f3ac1a8",
+          "md5": "2bba6aa5b54b4368d64e66c7ffce1402"
+        },
+        {
+          "name": "ktor-utils-watchosDeviceArm64Cinterop-threadUtilsMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-utils-watchosdevicearm64-3.1.2-SNAPSHOT-cinterop-threadUtils.klib",
+          "size": 6591,
+          "sha512": "67216539eb4640a0cc65a4c51ed96d981daea85ad637de78f89bee1516a9873989af802d65b7bad99d65b45472bdf902c650805bd3c69b1ab4124597f81ae937",
+          "sha256": "a196747f83abc57f633a15b8261d431318443e436785dca9071184a3c3df4679",
+          "sha1": "bab2ece50e86931b92f56e5549f0e9e16a896402",
+          "md5": "38710f7561d6c94b5007026a5f9043b1"
+        }
+      ]
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-utils-watchosdevicearm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-utils-watchosdevicearm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 79276,
+          "sha512": "2577dd5624fef52f225bf2bbe72ca11ddb97901eced70d30a79567709158928483bd490a0ca5e90b9b14c98f413a061dbbcddf30222a1c2e9a92ec382f414bc2",
+          "sha256": "d70693069dceeac71482dc21a956fff610ae652a609cc4e195fc0059ce882aac",
+          "sha1": "bd61f9bf0c441895db38ae51c3e9f4b6dcafc5d5",
+          "md5": "614485d73f17d9599e31b5ed5be3c445"
+        }
+      ]
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-io",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-utils-watchosdevicearm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-utils-watchosdevicearm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 17505,
+          "sha512": "659cb542f3ab0f492daa84ed3ecf11e6b132b928ac863dbe23483b0ded10d164c064c3bbbec14bbe88be00da1f2997e9b0b5da2fd0f1dbd93a42a3b221d2e37d",
+          "sha256": "a5afa40ba76d4730fd4174698a4fff58fd221af0031c74ede42a1bda9365a743",
+          "sha1": "dfedde5a1a0d021ef618512740b2a39cd6e30429",
+          "md5": "fd1a76c9ecd5cbe25655ad2e75e7f063"
+        }
+      ]
+    }
+  ]
+}

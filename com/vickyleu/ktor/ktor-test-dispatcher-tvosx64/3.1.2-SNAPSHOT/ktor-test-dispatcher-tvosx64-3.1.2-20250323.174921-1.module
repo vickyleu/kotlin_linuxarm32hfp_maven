@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-test-dispatcher/3.1.2-SNAPSHOT/ktor-test-dispatcher-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-test-dispatcher",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-tvosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT.klib",
+          "size": 5942,
+          "sha512": "08cd954531fe0c0358234c0ab16399a9c72305e6c9be09d3237e220067be89082a6197449d08b2f613dc53abbf72892c470b933fb75f4641680be569f31bd258",
+          "sha256": "87056809cf6aaf68d207f2d0c27ec3c84a054d189b2a4a3877d245cbae65db5d",
+          "sha1": "4d6de3d193e684f28ffd6d8e472953b592cde855",
+          "md5": "fa293fa0259c24ca8fb6eed11d874242"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1709,
+          "sha512": "ac3abfd7db39f52d4cb36aa151c218fdf5edc8030b1c2c6f10f95e5f64f96f2d2d1f3adcfa1152a7f0b014b6768f41fbb956453103dbcac2056a6cf64228e90f",
+          "sha256": "cea9fab28f6912c524793f5b574b7d9a1388ccd4b31cc1e843b3569162285527",
+          "sha1": "43f9cbe6bf3389e8a12756d365996462d103a724",
+          "md5": "a2a060a98587c8a9d7ca1edb432b045c"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "a758e844d9c4dc1fa8701e9d6cf3e0f9efb244b58c7b901bab34b6c5f408e934cb2a7234c473179c06199dcae8da6003564b679e4cd97e1342add87997da09cb",
+          "sha256": "82dbe4e14aed1403cc57b9203d5554d89636aca5726e66f5cd46bea4f4bcb02a",
+          "sha1": "e1a9b762f3f2026f0d4d0fd8e748e14613fa75bf",
+          "md5": "1c8a430648495a4b145e3f5744816fdd"
+        }
+      ]
+    }
+  ]
+}

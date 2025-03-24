@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.5.1/kotlinx-rpc-krpc-logging-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
+          "size": 12023,
+          "sha512": "62fb478a58e4524c26e3b80898cf13b7cd839adeff9f0a76856fd9165c6a4d9adeab1625929a0e2f316cef2c9e873bb9f79570deadb496ed35081400964ee5c2",
+          "sha256": "1fce64be9b09321aedaca28e909daf0b072a9105b62098cefa1582bff0301e26",
+          "sha1": "eab4510a2187fb54da5243ca3a78154c44424465",
+          "md5": "eb3624d5585e163fce35a0111f03b757"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-js-0.5.1.klib",
+          "size": 12023,
+          "sha512": "62fb478a58e4524c26e3b80898cf13b7cd839adeff9f0a76856fd9165c6a4d9adeab1625929a0e2f316cef2c9e873bb9f79570deadb496ed35081400964ee5c2",
+          "sha256": "1fce64be9b09321aedaca28e909daf0b072a9105b62098cefa1582bff0301e26",
+          "sha1": "eab4510a2187fb54da5243ca3a78154c44424465",
+          "md5": "eb3624d5585e163fce35a0111f03b757"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-js-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-js-0.5.1-sources.jar",
+          "size": 3141,
+          "sha512": "02123f3be3ee56a880ea0742c1ea34d5e0e61f63530f12524c374fcf6f5f083a687f36115fbdac268315f88b26e6132ab5b514b88d71dbf081e7127f8912f6d6",
+          "sha256": "8e48b530ee5752910707bf402ff89d304e9cd21d60d6b841a0b29bd4b6413cf0",
+          "sha1": "9a949afff48ebd85331320e4b8d5a8da07bb1f66",
+          "md5": "1da329d6bc94828d33ab4607a09699a0"
+        }
+      ]
+    }
+  ]
+}

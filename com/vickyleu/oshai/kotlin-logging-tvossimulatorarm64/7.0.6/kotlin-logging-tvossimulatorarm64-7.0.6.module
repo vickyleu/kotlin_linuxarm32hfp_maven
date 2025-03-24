@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-tvossimulatorarm64-7.0.6.klib",
+          "size": 53159,
+          "sha512": "f153a9e9561a588fc6b779e5422f1895abb5707cfeb6e049dc9344a6039dd5461661a8e5d8a09cc6e3e39a479f766540c21a6136bdb7b8a63ec0783f09d544bf",
+          "sha256": "31f55e784f9b1fbfcfecfd7f26cf0b68067592beeb857f508d37cf9e7a480e95",
+          "sha1": "a7e071831c781ab41e92729f01212580c9e5da7a",
+          "md5": "3d5c83c310e30fbdb7a6a60110350795"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-tvossimulatorarm64-7.0.6-sources.jar",
+          "url": "kotlin-logging-tvossimulatorarm64-7.0.6-sources.jar",
+          "size": 16496,
+          "sha512": "bd1dab8709b1a2d3cc798bf285bf936216e5ea5759f80e89e8af56bcf76e52d30352deaf335e0dc0fe8bb230482e02b022c7c872377418038668a3f372015996",
+          "sha256": "4e273ad46eff6f1878a64f6b6ff98477709223dfecaa6d63fd3019fbb4da6162",
+          "sha1": "2bfe758ad68d35ee3131001cd5dff984e52c890b",
+          "md5": "50ce16cbbf7a625e8b862c29d87b3b79"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-tvossimulatorarm64-7.0.6-metadata.jar",
+          "url": "kotlin-logging-tvossimulatorarm64-7.0.6-metadata.jar",
+          "size": 9248,
+          "sha512": "d54a59d84bacf0f22dd1ec21a0eaf4fc323da60cc33dd7455e478c2bfc32f32c703e657be007a0596f82461e4cd0f2098aff234b08a6c1346311afb14bbc8e45",
+          "sha256": "13726e72f27274f2ca3f2610d1fccfeded33f2907c1ad1df67a0b7da6570bc21",
+          "sha1": "007d82837be4fa28e058ed01396b8585915b0350",
+          "md5": "c9896dfd82dd6fdc2fd7f07eb4d5e3ca"
+        }
+      ]
+    }
+  ]
+}

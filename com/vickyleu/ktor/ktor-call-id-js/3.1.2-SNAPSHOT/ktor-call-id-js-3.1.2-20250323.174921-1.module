@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-call-id/3.1.2-SNAPSHOT/ktor-call-id-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-call-id",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-call-id-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-call-id-js-3.1.2-SNAPSHOT.klib",
+          "size": 5090,
+          "sha512": "fe7905b08f9a6729338bd6a9be9e8914e42a9acd395e684a008fdc82e1eca906ac5a3007b7f7747ef7e8f24be1f2d86943471e0628c0b7aaf828304e91403dc4",
+          "sha256": "88097aa09822cfc4cadfef74bfc4715f9ab2096b085e2d30e28aed211e405778",
+          "sha1": "7d3698bd708f3c9417b4e1d172e83373117c5e85",
+          "md5": "8aea22f52e4936ca8d2309f2af5ba9c9"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-call-id-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-call-id-js-3.1.2-SNAPSHOT.klib",
+          "size": 5090,
+          "sha512": "fe7905b08f9a6729338bd6a9be9e8914e42a9acd395e684a008fdc82e1eca906ac5a3007b7f7747ef7e8f24be1f2d86943471e0628c0b7aaf828304e91403dc4",
+          "sha256": "88097aa09822cfc4cadfef74bfc4715f9ab2096b085e2d30e28aed211e405778",
+          "sha1": "7d3698bd708f3c9417b4e1d172e83373117c5e85",
+          "md5": "8aea22f52e4936ca8d2309f2af5ba9c9"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-call-id-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-call-id-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1414,
+          "sha512": "65d139b76c81b7698762646c6d7b77f9abdf4d40135f376dc6ef454332adcfdd4e73b4f78f2bb47b496d6091ce0b986ff7b8666900f499350756c86a60627a6f",
+          "sha256": "0271d192d924e609c6b5e25de6deba80e6384ed0f4bf8cd2a33b26cd3d52e9dd",
+          "sha1": "ff8d4cf17a592129db6fad5ae7e8a64712b75d35",
+          "md5": "bc3a005c746c04911cd0981ded54df9e"
+        }
+      ]
+    }
+  ]
+}

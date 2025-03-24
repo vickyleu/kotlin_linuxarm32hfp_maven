@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-auth/3.1.2-SNAPSHOT/ktor-client-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-auth-macosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-auth-macosx64-3.1.2-SNAPSHOT.klib",
+          "size": 53493,
+          "sha512": "6a20f7ae68e4aaa0830cb30c1708e5a0e19468cdabc7367ad6310ea3d371e7548990f42956aaa010250fd4dc993dec303b8704b31d820b0c2156d24e7680503c",
+          "sha256": "c42054ea82508b57e57a12247f217a7e38d6ad559297ec0b782bea5dc446a300",
+          "sha1": "6b1451ec83dc0ab34eb263655d24a8ae5e532111",
+          "md5": "1d80b18caecadc278b0ce96ac0006d7e"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-auth-macosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-auth-macosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12670,
+          "sha512": "565278687b8b7d6d0f81174a538e3e36bec2abc6aae7e78283d0afc83759396844cf5d8c19c815bc0e43b87aa0523a92c06107eb6d310400f13ab25534298066",
+          "sha256": "d547799a79c9a25bae79fa8ac8322a7eb5a6f44867f2be7a925bf9d4a894f922",
+          "sha1": "7425b17152bc668e37ee3e15c572de3d4d5ac339",
+          "md5": "b6d07b98246acd355ac78681c561888d"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-auth-macosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-auth-macosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "4d3927924d47c1d32b2b1949eb9d94e82945ccb152902ebc971aebe5b430578f82ce450afdf57fa78452f88bfc2eec44eaeb4fd460112e507f676ddf74776f16",
+          "sha256": "775830904bb6e878ba50fc61b7895ab9e17dbc290936794f4a66102523ccf91c",
+          "sha1": "bc81fc41a5dd6911d290054180891b1f16d674f6",
+          "md5": "f430d849623573ba535ec4659052200c"
+        }
+      ]
+    }
+  ]
+}

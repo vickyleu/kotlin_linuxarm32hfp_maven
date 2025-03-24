@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-macosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-macosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 150157,
+          "sha512": "d45fca1f687ca587c1de1695b0d056b83bd2b744279b31573cfd1f494747c5416ed3625e18f34bb193eaaa67e5720a67cdeb7b07cadc9ee829db351c220392c3",
+          "sha256": "d101616b0d4b3cb48e4f45b608be34e4f72fb5fefd92f0daf3dd903aba5d6be9",
+          "sha1": "aff2ce2c87984964e04d7563cfb824dd8dfdd7e0",
+          "md5": "cf13a48e88067e76aad1abaedf3b0c52"
+        },
+        {
+          "name": "ktor-network-macosArm64Cinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-macosarm64-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 9393,
+          "sha512": "0a167b6ebf4bf604c1b3dfaa775991d5af950ad2cfaae8f7dc94243d49b72496d1ea6c2798a03e6a48060cf13d89a021ee63ac9bfb247dd5a2bce82404bc3eb0",
+          "sha256": "2b391cd5c97ad3fe78b3e4070c73f835f1b799eabf03bcca2d5ffb798bc66ca6",
+          "sha1": "3f07f7ab3ed473d62a7b97f01f4a084e96041550",
+          "md5": "0d07041137dacbb5dd7b6c781725137f"
+        },
+        {
+          "name": "ktor-network-macosArm64Cinterop-unMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-macosarm64-3.1.2-SNAPSHOT-cinterop-un.klib",
+          "size": 4776,
+          "sha512": "5190e9e59b091568ac4e33759c636a7594965bf739d2118b7493d35d79727e9afffb87fad88ae84f123776c0382bb55cba7d7d4ee31dc2f3b7e76d39a03b281d",
+          "sha256": "ed0b692fea2a153cfcbb2d4a3316c5f315947af5781d1891873567d25f14a436",
+          "sha1": "2573d7638bd0e99a8fa852e334543069b4d57482",
+          "md5": "b57f8ddca92d2ae046a89346e7bb8206"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-macosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-macosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 43807,
+          "sha512": "6883ac65ca0a540aef6c1725630a17b8071113d747c4bb150191095b353e78e7029e964e5563b7bb2fc3e3f4ab46cc73835b9d1547372da59ffbe9b432c3579f",
+          "sha256": "b3c2bdb013318f8a6ec427e3270834ff0b6ba387ac503f7e4a53bfcf75f56b26",
+          "sha1": "739464bb7440d081d731dfbf60d1b70b7ee0a44f",
+          "md5": "4b4b554db73b06c4e35332d0eaaa806f"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-network-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 64049,
+          "sha512": "fcefa5d4d8b4330b40b1e4a9a85dd0975c63c6db4c6316a0b05fd55ba929de4fa3156e68320c2837e505e4245e7ac2e6c8212be0b284e357f6b0653ff0a78e68",
+          "sha256": "77d7ec37dc195c449e4f84a91c47c907d7c2575338a479a74e6fa4785721bc5e",
+          "sha1": "12d7b3db56620cf4ef297bdefe62a4bb454688a3",
+          "md5": "b3e97f8dfb3bd01d04d7b583e4ed8280"
+        }
+      ]
+    }
+  ]
+}

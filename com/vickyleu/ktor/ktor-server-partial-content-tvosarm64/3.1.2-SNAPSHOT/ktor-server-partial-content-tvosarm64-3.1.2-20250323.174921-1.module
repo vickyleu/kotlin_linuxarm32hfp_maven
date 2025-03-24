@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-partial-content/3.1.2-SNAPSHOT/ktor-server-partial-content-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-partial-content",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-partial-content-tvosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 36155,
+          "sha512": "dc27452d4780ffeceb6f74672bdd1b79861411ff8e3f76ff16e3cee8459adcae7dff7ddb2ccd5914817a75ef9a2d756d4044dfd86dd28ed18107a478e489f72d",
+          "sha256": "1b2a98884bacf76adb814663838464136813942959eb7511c5343cf583cac77a",
+          "sha1": "7915cd8131c5655c1038ee03fa8cb0ef5f3ba5f4",
+          "md5": "09c61bcf0e3c93b412690dc30873979c"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 8313,
+          "sha512": "3c28628d36fbacfcadcd9586baca4dcef8281c134056877cd7411f8c370e4835d9b708ef676ac36a37dd3d1bbf6016ff0c735799f8e56a7afebb8314111877a9",
+          "sha256": "8953db2e324693cb88dd15a6d61c1121c704668a2e2b4c5dc69d302c233be25a",
+          "sha1": "0782c8734fb24bb9bfb88c632667a96147c4702e",
+          "md5": "1e7a99ef238ae8ce68ef8a5850b5a114"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-partial-content-tvosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "6a9d004b7b1dbe705338ab536e104e89b0c862c50f44e0cab2ff6041e46cba33ef3f92575c5bf0fdc4942568bd734a128b7fb9d6562f654c6ec08838fcdaa4b2",
+          "sha256": "8e5a91cf6a6a8c101028b864ce58545222eac0d8f09cefd157a43eff5ebfff8b",
+          "sha1": "3c8053787b0e3743f462f67f349fa71610295352",
+          "md5": "48cc397b0448d1e872e818ca2efd11f8"
+        }
+      ]
+    }
+  ]
+}

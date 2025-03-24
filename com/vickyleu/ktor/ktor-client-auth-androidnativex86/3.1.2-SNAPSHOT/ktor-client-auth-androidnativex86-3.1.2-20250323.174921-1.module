@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-auth/3.1.2-SNAPSHOT/ktor-client-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-auth-androidNativeX86Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-auth-androidnativex86-3.1.2-SNAPSHOT.klib",
+          "size": 53511,
+          "sha512": "5f8d7de2aa4fd619d617856938f24827554fcc850d470c372ca1a789877cc4b05540eac7d8c6a118645fdb254e80031fc5a83ab6687277385e20a0dd1eacd395",
+          "sha256": "0f52ae132543149d102cc59bfa190bb1c3d53c82bb087d7ab769923b0771a920",
+          "sha1": "0cbcbc7cc1de9ddf89822741b2d13d6aba3269d7",
+          "md5": "a85bfe635dcaf6d7e8767e16157af976"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-auth-androidnativex86-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-auth-androidnativex86-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12670,
+          "sha512": "565278687b8b7d6d0f81174a538e3e36bec2abc6aae7e78283d0afc83759396844cf5d8c19c815bc0e43b87aa0523a92c06107eb6d310400f13ab25534298066",
+          "sha256": "d547799a79c9a25bae79fa8ac8322a7eb5a6f44867f2be7a925bf9d4a894f922",
+          "sha1": "7425b17152bc668e37ee3e15c572de3d4d5ac339",
+          "md5": "b6d07b98246acd355ac78681c561888d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-json/0.5.1/kotlinx-rpc-krpc-serialization-json-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-json",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-watchosSimulatorArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-json-watchossimulatorarm64-0.5.1.klib",
+          "size": 5935,
+          "sha512": "8e57a280869c43a67e8343ce8d1c5787571e1b8827af236638aea9995123928054ad0f35826b33f11edfe85871973d11b38ae278d10f9992ac4d47cf59511003",
+          "sha256": "d8a90e9951c0d4fcac830da85c81269b1939e461f1110b8ea5725f1f94feb3e6",
+          "sha1": "d13917591f73d9a9ef70a93139dfd8c0931c95ac",
+          "md5": "95a096d9bda0c9017e161c228277ba0d"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-watchossimulatorarm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-watchossimulatorarm64-0.5.1-sources.jar",
+          "size": 1798,
+          "sha512": "2086cb1b4aa13165230f4850920c3783e81ec5b7d6d05eebec712926fceae449d210fd1dd28c6f59389ca75cf2e5a0fa7bb39ed0a41349f4891530b2b0d1dccb",
+          "sha256": "3b20394fe01bd912868a137d96fe034c69bfc12f367bd9bacfc3347bb79f65b7",
+          "sha1": "83fe9f452dc22cdb84ef05410f92df7278351cea",
+          "md5": "a5805796c60dcf233c8fd6b4187ac2a3"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-watchossimulatorarm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-watchossimulatorarm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "27e28261993606b32892ae90743792ddc6705e38d70f61fb83efc053fabf2f7f6175e9da45f3fdf6543641dac41f1ff7e3d6bdd52388e25193379494cb9e5cb5",
+          "sha256": "200fb0f1e3d86a1dd81b192ac95b37998e36f760bdb1fb97507c58ddbca74c98",
+          "sha1": "cd11d13562958e26e4b8970b798f7c7d6ccb1500",
+          "md5": "522c72194fe93e98859d74527ae4f7aa"
+        }
+      ]
+    }
+  ]
+}

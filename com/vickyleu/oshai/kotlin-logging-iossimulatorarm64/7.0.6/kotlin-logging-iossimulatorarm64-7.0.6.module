@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-iossimulatorarm64-7.0.6.klib",
+          "size": 53150,
+          "sha512": "a5111f9439cae6db3d1e211cb05d0d1463c986423d11f330f72cf9daed7087cf26678d41fc254dcf55044b206f824aa59367058033b817019234f5e383b871bd",
+          "sha256": "ff5756f785db156e9daf69491c91faaad9f0aced1a99eca572376a9c9cd68f77",
+          "sha1": "d5331b6958cd6179d8e1c92f7a4f4f7cb428c7d0",
+          "md5": "fc7e45072df1a515cb823294e3b3b530"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-iossimulatorarm64-7.0.6-sources.jar",
+          "url": "kotlin-logging-iossimulatorarm64-7.0.6-sources.jar",
+          "size": 16496,
+          "sha512": "bd1dab8709b1a2d3cc798bf285bf936216e5ea5759f80e89e8af56bcf76e52d30352deaf335e0dc0fe8bb230482e02b022c7c872377418038668a3f372015996",
+          "sha256": "4e273ad46eff6f1878a64f6b6ff98477709223dfecaa6d63fd3019fbb4da6162",
+          "sha1": "2bfe758ad68d35ee3131001cd5dff984e52c890b",
+          "md5": "50ce16cbbf7a625e8b862c29d87b3b79"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-iossimulatorarm64-7.0.6-metadata.jar",
+          "url": "kotlin-logging-iossimulatorarm64-7.0.6-metadata.jar",
+          "size": 9248,
+          "sha512": "ade987c60f56201011d86bad4dd2c6c7cfe42a2d8bd57fca32374fa616d4bd8d75e76efe8fccbdf6e56897d141d0045d8643a1070a3072490456ec962b909797",
+          "sha256": "9ae64b2ba31575547cd3b418b37c05aa84954e9aa0741fcd391add84d95d3fdc",
+          "sha1": "1d7d0700f7bc854f72f6a17ce4d329ef9b131c38",
+          "md5": "22f0a4e6b6337e82776d26be1c958e1b"
+        }
+      ]
+    }
+  ]
+}

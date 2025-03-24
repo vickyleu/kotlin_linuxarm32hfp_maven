@@ -1,0 +1,1196 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-test-dispatcher",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-metadata-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-test-dispatcher-3.1.2-SNAPSHOT.jar",
+          "size": 5665,
+          "sha512": "09e0e25f0a189b763425285b8ff277a092c5c8bc99e1683bddf30d70643986d75ca1c5163bc1b685f38bb485b0c7d527b47f9575d3b254e7c67f42d3cb83b317",
+          "sha256": "20057c9e798d8b8f8803a28d128bace44ed090eb7258f09b54bca5b62037ba24",
+          "sha1": "355e6b0cd746611769d49d18f99be15ee35568ad",
+          "md5": "624b8a88ea6e8f76931b0ea573ca6092"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-kotlin-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-test-dispatcher-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1709,
+          "sha512": "dd661a7c807f8929bbae7caa7fb09fde3a681e104357dc64a56d7f96ed0808bb99f4613fc0eefcf6ad36a13b09ab97570e3e0dacf01921d09cec946688ad680b",
+          "sha256": "f9334e6e7f490e7e1cd233e6a5ade9a3422b0a032aa81866ea7c503c679c6f36",
+          "sha1": "53625669633acdf619cd2b03de9c215cadd34af6",
+          "md5": "d3de08469f18fd43a04a3f4fc3aa7790"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativearm32/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativearm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativearm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativearm32/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativearm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativearm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativearm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativearm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativex64/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativex64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativex64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativex64/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativex64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativex64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativex86/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativex86-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativex86",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-androidnativex86/3.1.2-SNAPSHOT/ktor-test-dispatcher-androidnativex86-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-androidnativex86",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-iosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-iosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-iosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-js/3.1.2-SNAPSHOT/ktor-test-dispatcher-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-js/3.1.2-SNAPSHOT/ktor-test-dispatcher-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-js/3.1.2-SNAPSHOT/ktor-test-dispatcher-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-jvm/3.1.2-SNAPSHOT/ktor-test-dispatcher-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-jvm/3.1.2-SNAPSHOT/ktor-test-dispatcher-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-jvm/3.1.2-SNAPSHOT/ktor-test-dispatcher-jvm-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-jvm",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-test-dispatcher-linuxarm32hfp-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-linuxarm32hfp",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-test-dispatcher-linuxarm32hfp-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-linuxarm32hfp",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-linuxarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-linuxarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-linuxarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-linuxarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-linuxarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-linuxarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-linuxx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-linuxx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-linuxx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-linuxx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-linuxx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-linuxx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-macosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-macosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-macosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-macosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-macosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-macosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-macosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-macosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-macosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-macosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-mingwx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-mingwx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-mingwx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-mingwx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-mingwx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-mingwx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-tvosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-tvosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-tvosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-wasm-js/3.1.2-SNAPSHOT/ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-wasm-js/3.1.2-SNAPSHOT/ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-wasm-js/3.1.2-SNAPSHOT/ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-wasm-js",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosarm32/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosarm32/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosarm32/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosarm32-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosarm32",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosdevicearm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosdevicearm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosdevicearm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchossimulatorarm64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchossimulatorarm64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchossimulatorarm64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-test-dispatcher-watchosx64/3.1.2-SNAPSHOT/ktor-test-dispatcher-watchosx64-3.1.2-SNAPSHOT.module",
+        "group": "com.vickyleu.ktor",
+        "module": "ktor-test-dispatcher-watchosx64",
+        "version": "3.1.2-SNAPSHOT"
+      }
+    }
+  ]
+}

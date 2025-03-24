@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.5.1/kotlinx-rpc-krpc-logging-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-logging-jvm-0.5.1.jar",
+          "size": 9981,
+          "sha512": "609c6f139a69e8bc3419b7d1743bff8c2a87449482611a9f0227a4ec47079ef21e3600e129459a843c02906e5334cc6535435e6f50dff1908d6776840ef0577b",
+          "sha256": "5235bde3bc261cc2f4b46ad483725b81608153c723611c69c2cd12a9fcd8b8cf",
+          "sha1": "f3eff2bf8bc2dbbb3e5165c907c21e9628990ee2",
+          "md5": "68d2cee54eb3e3f4226e5bec53442be4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-logging-jvm-0.5.1.jar",
+          "size": 9981,
+          "sha512": "609c6f139a69e8bc3419b7d1743bff8c2a87449482611a9f0227a4ec47079ef21e3600e129459a843c02906e5334cc6535435e6f50dff1908d6776840ef0577b",
+          "sha256": "5235bde3bc261cc2f4b46ad483725b81608153c723611c69c2cd12a9fcd8b8cf",
+          "sha1": "f3eff2bf8bc2dbbb3e5165c907c21e9628990ee2",
+          "md5": "68d2cee54eb3e3f4226e5bec53442be4"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-jvm-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-jvm-0.5.1-sources.jar",
+          "size": 3141,
+          "sha512": "02123f3be3ee56a880ea0742c1ea34d5e0e61f63530f12524c374fcf6f5f083a687f36115fbdac268315f88b26e6132ab5b514b88d71dbf081e7127f8912f6d6",
+          "sha256": "8e48b530ee5752910707bf402ff89d304e9cd21d60d6b841a0b29bd4b6413cf0",
+          "sha1": "9a949afff48ebd85331320e4b8d5a8da07bb1f66",
+          "md5": "1da329d6bc94828d33ab4607a09699a0"
+        }
+      ]
+    }
+  ]
+}

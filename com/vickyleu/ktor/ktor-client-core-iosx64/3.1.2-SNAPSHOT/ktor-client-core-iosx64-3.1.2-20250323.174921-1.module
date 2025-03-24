@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-core/3.1.2-SNAPSHOT/ktor-client-core-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-core",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-sse",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-core-iosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-core-iosx64-3.1.2-SNAPSHOT.klib",
+          "size": 525303,
+          "sha512": "2c72eed6fe6a95dc9721c7c43d0513dcad40f8172cac6e8cdc47466c08504a80aced19d4450e164e5aca264b1d7928aacaef3bb1e579b09b52a0f87d15e33e56",
+          "sha256": "4418e89c608e0151b67d982c12ffc7a2314cccad7ca9a7aca1df248f299e494b",
+          "sha1": "c2c4ef3e83fe15fc747f54a8741b171552aa7c44",
+          "md5": "3aab059794396f7bd3dc8098d36b098e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-core-iosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-core-iosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 133211,
+          "sha512": "546183eee26150400e907e0baf8d8853abe4962caf82459c02a483dc7138a102829fa117b7d54f20636059f4371337d65b630dc7db67fbf27e9e59ec2552bcc2",
+          "sha256": "ce74e184062264f5413aaee18ac4a87f703c390802094932caacb4a8138cc7bf",
+          "sha1": "6e77c97475829bd32b0b5bbd3b8061aff50fd686",
+          "md5": "5805ce6bf741495e612fe5b6f6ed6c68"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-sse",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-core-iosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-core-iosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "7b55b7b73343777e1508538c76c71afaed7646c8733e07d3916fd79d4ba69ff43d89b8a2b77d0d04f834323e000d71c1ccaf2ffeaf941b2ad19d98ce844d323b",
+          "sha256": "e32f418b7b7888afc1c3d11f0671f9fdab60075aa1aa6af2781fbdc1a1134a85",
+          "sha1": "8ab00c962f8e412e78eab6d71a86ba2d030e4f07",
+          "md5": "747c037f256122490ad12fbcb06ce85d"
+        }
+      ]
+    }
+  ]
+}

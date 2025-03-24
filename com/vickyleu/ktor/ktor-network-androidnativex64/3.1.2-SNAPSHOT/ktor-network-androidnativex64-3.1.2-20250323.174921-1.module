@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-androidNativeX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-androidnativex64-3.1.2-SNAPSHOT.klib",
+          "size": 149962,
+          "sha512": "8ad74fc19b6912bb4759cb854a411d8dd8cc5afdc3fe27f7c541b5494f82dd8b4c41e0b1163dc080ff79cf69f5ead5158662e66b54cbbbd898ea31755612fd81",
+          "sha256": "9a4d3f2b05fdb5d4fdd480f03a4201cb61be646c332d582093cef6ca544c5d5c",
+          "sha1": "5366451a4cd6e83739c21297553e0566168fea39",
+          "md5": "ec1f106e75a0869cdc4b03a91ad86ff9"
+        },
+        {
+          "name": "ktor-network-androidNativeX64Cinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-androidnativex64-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 10591,
+          "sha512": "c5e007b001529b5e319216bdb2b231a3913b09650929e73a5a3ac2dbf3ebdfb8fd82a3c2a6b005e3872281211c3a08a719fbf35f22673228ff0121d4043ff51a",
+          "sha256": "1ae253c798baad1d388cc1b945eac51c344da7dc44f72565c180e14032a061f7",
+          "sha1": "7ef587be1b1e506fa9077ee60285675932bf359e",
+          "md5": "a42b114d8028205f0291219135aaf06f"
+        },
+        {
+          "name": "ktor-network-androidNativeX64Cinterop-unMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-androidnativex64-3.1.2-SNAPSHOT-cinterop-un.klib",
+          "size": 5873,
+          "sha512": "53de139ccc801c0b3087e03ba29ca42def6350693d7098690dfcb7d48566a654e282d0e66a960ec6d9103fe3fad0078a3a8e17cad80a05e4d66c64b5300ea3c3",
+          "sha256": "c879b10d04864d61af3617d890f1fcf50c76c7da3c315b8c7ac4bb885c7e6141",
+          "sha1": "93eb48ef0d2a9746484adbcbb4551e99cbff06bd",
+          "md5": "7e86ddee8480b86b66cba07846804b13"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-androidnativex64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-androidnativex64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 43408,
+          "sha512": "8a4ed9db6544c1d4f68ffda559badf556c32fba0fcb32c9fb2175d7aa7ac5ef6f14cad5eabf9ede92867f9bb8824886a812bcc9e440435818870a49493a11cb7",
+          "sha256": "2a2f3655163a42894441b6855f9fda70e3da507437086e9a162eea36f57d3a12",
+          "sha1": "26b415b461c523509c449b5beeb8f929d391c096",
+          "md5": "f42a6a9ebb80eb35fb48bdfaf376a4a0"
+        }
+      ]
+    }
+  ]
+}

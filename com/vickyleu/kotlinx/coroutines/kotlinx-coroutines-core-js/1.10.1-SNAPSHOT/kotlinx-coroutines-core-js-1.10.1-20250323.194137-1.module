@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-core/1.10.1-SNAPSHOT/kotlinx-coroutines-core-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-core",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-js",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-js-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-js-1.10.1-SNAPSHOT.klib",
+          "size": 854733,
+          "sha512": "345194ae9532d15aaabe6a0e0d9776e38623cee32ff760a27df0c905234eb142967d92ec2a6bc59f8410b4ced17bc5c45be6b7ce90337fa7f5a370b41f2f5e66",
+          "sha256": "2d05046f5186844150071bd4e18d91bbc2ac57a7f7242d2a8d515c92dd968ee6",
+          "sha1": "77c3dc6a905c00b1633f029e749a0b0703c6062f",
+          "md5": "528639c21f143c26ab312c67f477712b"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-js",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-js-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-js-1.10.1-SNAPSHOT.klib",
+          "size": 854733,
+          "sha512": "345194ae9532d15aaabe6a0e0d9776e38623cee32ff760a27df0c905234eb142967d92ec2a6bc59f8410b4ced17bc5c45be6b7ce90337fa7f5a370b41f2f5e66",
+          "sha256": "2d05046f5186844150071bd4e18d91bbc2ac57a7f7242d2a8d515c92dd968ee6",
+          "sha1": "77c3dc6a905c00b1633f029e749a0b0703c6062f",
+          "md5": "528639c21f143c26ab312c67f477712b"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-js-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-core-js-1.10.1-SNAPSHOT-sources.jar",
+          "size": 317824,
+          "sha512": "8a306ab1c6d3b6c87c516d41b7c1a674472b022d313fd6f6a4fca099d52920976c422a6074413e4f66d9e7e3a8541f5a14f93d4986877a72a2db7f5d42ec247b",
+          "sha256": "b0539971f979d24862797fb706fa6d5f069e20ee33ea48b4c225437b243966d2",
+          "sha1": "5a879b496b0a0ebbf7525208f715de0c9d3f52cf",
+          "md5": "10a738d125e9c9604895aae845467f71"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.5.1/kotlinx-rpc-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-js-0.5.1.klib",
+          "url": "kotlinx-rpc-core-js-0.5.1.klib",
+          "size": 46869,
+          "sha512": "73fb1b7894c9e0f5b0d4d6bd831b55427a68fd81bb240deedd82efcb9e82fd0ce1a24966bb2450cbdea93c2c29c5128b899987af434c66c1266afdbdc2ac23cc",
+          "sha256": "c296584fb68c7c39bf30b8b8ffd72d700a623f9f04bc6458862906b426bd71b9",
+          "sha1": "3d8aa8fbb0548c5b6db4c1c20dee4233524f0c0c",
+          "md5": "431367ad1db7c11ff3b3b77c0b5f7330"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-js",
+          "version": {
+            "requires": "2025.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-js-0.5.1.klib",
+          "url": "kotlinx-rpc-core-js-0.5.1.klib",
+          "size": 46869,
+          "sha512": "73fb1b7894c9e0f5b0d4d6bd831b55427a68fd81bb240deedd82efcb9e82fd0ce1a24966bb2450cbdea93c2c29c5128b899987af434c66c1266afdbdc2ac23cc",
+          "sha256": "c296584fb68c7c39bf30b8b8ffd72d700a623f9f04bc6458862906b426bd71b9",
+          "sha1": "3d8aa8fbb0548c5b6db4c1c20dee4233524f0c0c",
+          "md5": "431367ad1db7c11ff3b3b77c0b5f7330"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-js-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-core-js-0.5.1-sources.jar",
+          "size": 17677,
+          "sha512": "03684e6e563a2e7c288bc2eb563a1d74d34e3133b989ec090ff86e5967df173e432d12340418eb7e062502e1cec1312ae0eafa5e02403d1475fee135aa91f231",
+          "sha256": "f977a8fcaffb2c7cfa82193a15328db35dac4b20d39bbea023cf0b163d9d2e13",
+          "sha1": "fdad8430b0fa35c4d98217ff71901a3a6c163a6c",
+          "md5": "a9627d85e12c6966968286a21d808f28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-utils/0.5.1/kotlinx-rpc-utils-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-utils",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-wasm-js-0.5.1.klib",
+          "url": "kotlinx-rpc-utils-wasm-js-0.5.1.klib",
+          "size": 28231,
+          "sha512": "5d9756cc700f0e46eec24343bffb730fd2ef79f7ca70eec145f61bd10d8e86759565885b4e7b07e6a6521c413ba31cf219c635c8b31f84442a72475ae4e61e1c",
+          "sha256": "815e1a84da754c202fe49242cbb3b0a7eae2c36aaeb3bb6c6278befcfddd3551",
+          "sha1": "a9636663bab01867d48ee02d1e220c3a94fec90f",
+          "md5": "713bc9b0eec88a1edb57a395354fc5ac"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-wasm-js-0.5.1.klib",
+          "url": "kotlinx-rpc-utils-wasm-js-0.5.1.klib",
+          "size": 28231,
+          "sha512": "5d9756cc700f0e46eec24343bffb730fd2ef79f7ca70eec145f61bd10d8e86759565885b4e7b07e6a6521c413ba31cf219c635c8b31f84442a72475ae4e61e1c",
+          "sha256": "815e1a84da754c202fe49242cbb3b0a7eae2c36aaeb3bb6c6278befcfddd3551",
+          "sha1": "a9636663bab01867d48ee02d1e220c3a94fec90f",
+          "md5": "713bc9b0eec88a1edb57a395354fc5ac"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-wasm-js-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-utils-wasm-js-0.5.1-sources.jar",
+          "size": 7748,
+          "sha512": "a9df15f85b9568b7bba5901c46a9feaab89887d2870ff239503253f03b824c21ee333f847055a8825178ffa2ba1493b7e2f3773eceedcac75f43c0588aa1477c",
+          "sha256": "06b07740cdc9d44f80c6adbf2a94079de9617c1720a6db2d0fb3ab34ceb8c44e",
+          "sha1": "669be793c2a5a07d034bd890788aca842e8ba420",
+          "md5": "3d0e132f8cc2d7f980af49f3b31d6afa"
+        }
+      ]
+    }
+  ]
+}

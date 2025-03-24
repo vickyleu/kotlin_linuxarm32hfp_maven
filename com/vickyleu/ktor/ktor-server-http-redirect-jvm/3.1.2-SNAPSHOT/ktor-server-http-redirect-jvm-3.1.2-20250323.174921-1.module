@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-http-redirect/3.1.2-SNAPSHOT/ktor-server-http-redirect-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-http-redirect",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-http-redirect-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-http-redirect-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 8602,
+          "sha512": "2a191c1023c24924a6b909d9973076d8315734c9e2d87dfd001ba85e2e22aa1e87dae9572fa1e53c7c6410f22a664310e4de4c3897709127e3831031d09f8d1d",
+          "sha256": "93a614d56c1afbb3737cce8d6d9e1d15a86a8ea6e16c16359ec6e351b3e4f578",
+          "sha1": "d972a46cb9929a435c9c5880ba6d472ebfffcdad",
+          "md5": "ac2761c95e752568a46138587b5d8a7f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-http-redirect-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-http-redirect-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 8602,
+          "sha512": "2a191c1023c24924a6b909d9973076d8315734c9e2d87dfd001ba85e2e22aa1e87dae9572fa1e53c7c6410f22a664310e4de4c3897709127e3831031d09f8d1d",
+          "sha256": "93a614d56c1afbb3737cce8d6d9e1d15a86a8ea6e16c16359ec6e351b3e4f578",
+          "sha1": "d972a46cb9929a435c9c5880ba6d472ebfffcdad",
+          "md5": "ac2761c95e752568a46138587b5d8a7f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-http-redirect-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-http-redirect-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2310,
+          "sha512": "061b03df84e56c8c04b20feb0be9c45fdc5d1a5b274b7739f30b05a73cc4f902ea92b7231c63472efe772bb92295544179947c96f5fb1e587ac8e5547dc5639c",
+          "sha256": "0c00540fd6da40f611568a886aa44b9e2655bb66696f76f203cca10f9e3afd6a",
+          "sha1": "ff99ba0cf98cd46e5bf40848715540cf941163a1",
+          "md5": "bd681ac1a10519c780f969859d2d528a"
+        }
+      ]
+    }
+  ]
+}

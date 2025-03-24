@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-swing",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-swing-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-swing-1.10.1-SNAPSHOT.jar",
+          "size": 8899,
+          "sha512": "cef74b1173f717a0b472fbf8e8fb2e3c55feb501bb5eb2ad4026f55a3fc00a61fb112cd516631d28febb506e032ca6c50be86287313bbf282031cc2f773adecc",
+          "sha256": "3911c8947326d2199354cb948aee602bad568082cbfffe5ba085ffe0af34cfb7",
+          "sha1": "58e8d65002a92ce01a899a7c6d99857f73c0bc0f",
+          "md5": "64aba9f0c377c2279f41143f5904e3d6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx.coroutines",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.10.1-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-swing-1.10.1-SNAPSHOT.jar",
+          "url": "kotlinx-coroutines-swing-1.10.1-SNAPSHOT.jar",
+          "size": 8899,
+          "sha512": "cef74b1173f717a0b472fbf8e8fb2e3c55feb501bb5eb2ad4026f55a3fc00a61fb112cd516631d28febb506e032ca6c50be86287313bbf282031cc2f773adecc",
+          "sha256": "3911c8947326d2199354cb948aee602bad568082cbfffe5ba085ffe0af34cfb7",
+          "sha1": "58e8d65002a92ce01a899a7c6d99857f73c0bc0f",
+          "md5": "64aba9f0c377c2279f41143f5904e3d6"
+        }
+      ]
+    }
+  ]
+}

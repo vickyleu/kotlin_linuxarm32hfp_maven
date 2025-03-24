@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-cbor/0.5.1/kotlinx-rpc-krpc-serialization-cbor-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-cbor",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.jar",
+          "size": 4434,
+          "sha512": "18b3345516f28e654468ecec791e62c3f19e5daadb8d49296cf43e57138402f33f62655affc0ba8ff83a7f88d31503251198c101a371c3bc1ca2c38a11310dfc",
+          "sha256": "bf5c452bbd9eb953a57bf0cd6c929bdb016e9a71d634475ff40471b11e388472",
+          "sha1": "3a17ed8f488877b22ae015189def9f49ae245240",
+          "md5": "6efc512833c4dd8e6a9950b309ea67a6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1.jar",
+          "size": 4434,
+          "sha512": "18b3345516f28e654468ecec791e62c3f19e5daadb8d49296cf43e57138402f33f62655affc0ba8ff83a7f88d31503251198c101a371c3bc1ca2c38a11310dfc",
+          "sha256": "bf5c452bbd9eb953a57bf0cd6c929bdb016e9a71d634475ff40471b11e388472",
+          "sha1": "3a17ed8f488877b22ae015189def9f49ae245240",
+          "md5": "6efc512833c4dd8e6a9950b309ea67a6"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-cbor-jvm-0.5.1-sources.jar",
+          "size": 1837,
+          "sha512": "e1a38ea3dd9b0bfe95c4f50514efdf90abc77141251c922725b74d64db4aec0dd0a402dc4b3a66f3589deb3f894aaa1857aee02ba6a1d3e67650ffa697f4dfa8",
+          "sha256": "408e0301990ed0177e9be4300d03b26199cf1ec08006e2345823d3764afd4ee5",
+          "sha1": "8482660a6af8728c37763eb361700b106fc46559",
+          "md5": "c49b02ce05e3078bad387bcc627f9214"
+        }
+      ]
+    }
+  ]
+}

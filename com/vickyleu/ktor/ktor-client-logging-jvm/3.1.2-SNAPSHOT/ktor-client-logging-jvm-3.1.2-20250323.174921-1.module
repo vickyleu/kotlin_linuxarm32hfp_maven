@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-logging/3.1.2-SNAPSHOT/ktor-client-logging-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-logging",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-slf4j",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-logging-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-logging-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 101561,
+          "sha512": "9c32e2e33d5fb326ca90f802b18d3e6eb0fcd0bb7d9e67e0efcbf6117ef80b07ae073403a398f947612c232b5c903b2f378fa9c2896b91511b433762d233820e",
+          "sha256": "8222ecb68d828ac92dddc322c48e3b0a4484d607155480a41303fe1f9867cf4c",
+          "sha1": "d3df6dac8dcb0cdb950089faea127340b2bae5ef",
+          "md5": "5664146a2502623a129886136101fe35"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-slf4j",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-logging-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-logging-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 101561,
+          "sha512": "9c32e2e33d5fb326ca90f802b18d3e6eb0fcd0bb7d9e67e0efcbf6117ef80b07ae073403a398f947612c232b5c903b2f378fa9c2896b91511b433762d233820e",
+          "sha256": "8222ecb68d828ac92dddc322c48e3b0a4484d607155480a41303fe1f9867cf4c",
+          "sha1": "d3df6dac8dcb0cdb950089faea127340b2bae5ef",
+          "md5": "5664146a2502623a129886136101fe35"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-client-logging-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-logging-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 13839,
+          "sha512": "cb6e88eddff03bb237f431e400945d704fee96e77dd9542cfa1bedbd5bcb9eaa8447092c5d5cb0b039f50b5e0dcd3477a590904aef8e5ba705803bddfee8ee31",
+          "sha256": "4ac316b70a1fa7dd06c17926de41340d24c045b3a96e87139f5a7debb6d78a9a",
+          "sha1": "c4224c9d5139c5a7cca124e47c0257a894e1df52",
+          "md5": "f74bc6b2a2b09eb2c970a613053223a7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-method-override/3.1.2-SNAPSHOT/ktor-server-method-override-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-method-override",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-method-override-mingwX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-method-override-mingwx64-3.1.2-SNAPSHOT.klib",
+          "size": 6778,
+          "sha512": "f225d3bd58f3e704a8499600b0b90aa075a344781ad1a56e60ba015fe237cc2836f33507714a28c75744887ad753e0b972ec0a3da3778adb98ca5ce997102646",
+          "sha256": "e131fbd4e9430af8ff34ec2543ba6b020303f453174025f04343f325491f3ebe",
+          "sha1": "f4c86651a544818f47c31abc8a2e601e3b0a8a6c",
+          "md5": "9f8db77d28933d15b3ac51ccb73859d3"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-method-override-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-method-override-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2076,
+          "sha512": "afc801d002869e568c4b161067f927345d3309599fa2e817341901aed806dca5517c1bfefd08f5e863cbb32007d6ed4f5610de27e8c53562bac4f15d32b7d01a",
+          "sha256": "6603e7b86c97043ea34a248208feaf3708a30ae2626f0bcc81ce97e7c9c574e1",
+          "sha1": "f7ba979af0b51b1ed0a4e242615073c938dfc354",
+          "md5": "c5c4f724c9a5250d5935327d4516e740"
+        }
+      ]
+    }
+  ]
+}

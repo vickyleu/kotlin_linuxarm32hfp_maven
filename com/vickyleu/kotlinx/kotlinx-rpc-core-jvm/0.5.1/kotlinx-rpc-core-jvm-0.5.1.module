@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.5.1/kotlinx-rpc-core-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-core-jvm-0.5.1.jar",
+          "size": 58287,
+          "sha512": "0db95db597ebc6f60cc4c4f7d2f8e890db54bf2862f9fa5f154ef14166284154dd5c3948b659e884e98512ecac7b06c5f270243d38596894082226afc2e1f5b6",
+          "sha256": "9580ac10aef69631b7ff3fe72da43ab0fc2a811955e750d05ede8cced3095c11",
+          "sha1": "ef2e0a95687edd7d0b8c3f099ac193e8cac9e9c2",
+          "md5": "42a5e05cc023b4115eb1218eff464d11"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-jvm-0.5.1.jar",
+          "url": "kotlinx-rpc-core-jvm-0.5.1.jar",
+          "size": 58287,
+          "sha512": "0db95db597ebc6f60cc4c4f7d2f8e890db54bf2862f9fa5f154ef14166284154dd5c3948b659e884e98512ecac7b06c5f270243d38596894082226afc2e1f5b6",
+          "sha256": "9580ac10aef69631b7ff3fe72da43ab0fc2a811955e750d05ede8cced3095c11",
+          "sha1": "ef2e0a95687edd7d0b8c3f099ac193e8cac9e9c2",
+          "md5": "42a5e05cc023b4115eb1218eff464d11"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-jvm-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-core-jvm-0.5.1-sources.jar",
+          "size": 17309,
+          "sha512": "33e0663bef25dda80cf4891e0ce0b986c6a7e87365773d054da7fc32f70d2131e296a9a934a56c97d8f68153ebe7aa69a5540091a3b852e97bc795a9138fda2d",
+          "sha256": "cfb80206de844250934586f8b561793bdd46de7b38862c609642c80842e947ab",
+          "sha1": "a1d91a192c289f16eea5be45d756d037dbe6f7cf",
+          "md5": "6d8736acf6e90b2a35d8a232efe0555c"
+        }
+      ]
+    }
+  ]
+}

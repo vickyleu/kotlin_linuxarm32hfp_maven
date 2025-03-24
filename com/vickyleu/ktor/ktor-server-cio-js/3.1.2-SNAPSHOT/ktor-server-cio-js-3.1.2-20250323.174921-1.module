@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-cio/3.1.2-SNAPSHOT/ktor-server-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-js-3.1.2-SNAPSHOT.klib",
+          "size": 75957,
+          "sha512": "3bfb6e845df74b0dfe47baba6a450cd6522226d5238e3e56a0fd784b19d9b14d2acde127974c2989dab4e4589514f477a53d2bf52af265961fc1de6d9c276c9b",
+          "sha256": "e7c62ba6ed9713d5399e6d9f40446fff19833944d6bab1544c60714ca0beed41",
+          "sha1": "674e646242bc505f6460b4bb2f3e488fed0e5084",
+          "md5": "547f52ce0e0c9293549081ce0e3ca6a3"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-cio-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-cio-js-3.1.2-SNAPSHOT.klib",
+          "size": 75957,
+          "sha512": "3bfb6e845df74b0dfe47baba6a450cd6522226d5238e3e56a0fd784b19d9b14d2acde127974c2989dab4e4589514f477a53d2bf52af265961fc1de6d9c276c9b",
+          "sha256": "e7c62ba6ed9713d5399e6d9f40446fff19833944d6bab1544c60714ca0beed41",
+          "sha1": "674e646242bc505f6460b4bb2f3e488fed0e5084",
+          "md5": "547f52ce0e0c9293549081ce0e3ca6a3"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-cio-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-cio-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 18588,
+          "sha512": "17b5eccba824007a639895e020497b8628138a9dbb13d2a7caddfb7edec34b55f243186ae95f1b6ff2ea0612c03a7d3403a06d3e4b25a4e0d1cc2e8f3fafedfa",
+          "sha256": "c6060bd5915d3d8473397f10a104aa3a261c25f458deb8a8f2b1790f8ee05b4f",
+          "sha1": "10e7e88c693e73dff0f9287b1e8e0543eb2b3e5e",
+          "md5": "81cc59725d71495208ca7fdce80c7a6b"
+        }
+      ]
+    }
+  ]
+}

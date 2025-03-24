@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-json/0.5.1/kotlinx-rpc-krpc-serialization-json-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-json",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-macosX64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-serialization-json-macosx64-0.5.1.klib",
+          "size": 5815,
+          "sha512": "8f4e674ce47693b4f7f1dd54edcab82b2307141c44245d553a998e699acacc2523822d463f735702d2f3a18ca45628eec3b24be11dc579df666cdc59b31de059",
+          "sha256": "0d86e89b65a1f123e84949a8d30d0e46a68620023bd3ecac77581056b9dc0c53",
+          "sha1": "b210ed7463d063fb78df8ba7f6560fd4edec961e",
+          "md5": "1b70b08a400e6d90088ae4bca467958a"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-macosx64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-macosx64-0.5.1-sources.jar",
+          "size": 1798,
+          "sha512": "2086cb1b4aa13165230f4850920c3783e81ec5b7d6d05eebec712926fceae449d210fd1dd28c6f59389ca75cf2e5a0fa7bb39ed0a41349f4891530b2b0d1dccb",
+          "sha256": "3b20394fe01bd912868a137d96fe034c69bfc12f367bd9bacfc3347bb79f65b7",
+          "sha1": "83fe9f452dc22cdb84ef05410f92df7278351cea",
+          "md5": "a5805796c60dcf233c8fd6b4187ac2a3"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-json-macosx64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-serialization-json-macosx64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "f450e671ffdb426dac4d408e2ca6d1a3e96ef306b7261656d712e2be88d4f7b158bd17d94cd4d712e6861943703ee4895de19c7e2777aecf7bebb5fb5f8b22ee",
+          "sha256": "2f9693ed914eec9ecadb66f36dcf279a78ef726a7aafb4d0a6290d5b8d35144f",
+          "sha1": "dcb890f0d4635d36ccc98a237742c81cdea916fd",
+          "md5": "2cd90cd1979360661410e2230fff6bf5"
+        }
+      ]
+    }
+  ]
+}

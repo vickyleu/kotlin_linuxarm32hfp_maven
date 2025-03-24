@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-csrf/3.1.2-SNAPSHOT/ktor-server-csrf-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-csrf",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-csrf-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-csrf-js-3.1.2-SNAPSHOT.klib",
+          "size": 17495,
+          "sha512": "bb257ccbebfc703b3ff049e0b9792092019df576388b9cea780642a672b55561630a622d0ec8cb911621784179365a2ec4c1a52b0a2bb60ca3f7f31260a8373b",
+          "sha256": "79d438eaea10753350234d880f6cac1f7d5a03a838415d94292fb2f7d0288254",
+          "sha1": "39bff64cfddc6c68c3daaeeee6fb6f006e748298",
+          "md5": "c548dac7fa440145895a0b0ae2fb8a48"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-csrf-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-csrf-js-3.1.2-SNAPSHOT.klib",
+          "size": 17495,
+          "sha512": "bb257ccbebfc703b3ff049e0b9792092019df576388b9cea780642a672b55561630a622d0ec8cb911621784179365a2ec4c1a52b0a2bb60ca3f7f31260a8373b",
+          "sha256": "79d438eaea10753350234d880f6cac1f7d5a03a838415d94292fb2f7d0288254",
+          "sha1": "39bff64cfddc6c68c3daaeeee6fb6f006e748298",
+          "md5": "c548dac7fa440145895a0b0ae2fb8a48"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-csrf-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-csrf-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 4424,
+          "sha512": "60fcb4ddb39380b51f361d616127a8d7b101932a515d97453096add7202c3235d99e8a4258390595bc938c53ac0eff00a01b046ec80ef2257d9504bd8d52b0e5",
+          "sha256": "e28717c81150f938ca6cf9b202f3e35d706365758c3f07de4b329ec3f51127de",
+          "sha1": "6bb5678adf5d1a517b8ba757b767cd545e028594",
+          "md5": "fabc639b295497ce9e8fd186c3468e17"
+        }
+      ]
+    }
+  ]
+}

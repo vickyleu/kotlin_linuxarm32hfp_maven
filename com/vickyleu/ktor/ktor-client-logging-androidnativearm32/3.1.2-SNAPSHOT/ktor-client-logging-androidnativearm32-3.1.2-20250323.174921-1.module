@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-logging/3.1.2-SNAPSHOT/ktor-client-logging-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-logging",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-logging-androidNativeArm32Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-logging-androidnativearm32-3.1.2-SNAPSHOT.klib",
+          "size": 65394,
+          "sha512": "bead411b803ef4915aa1f067a92c60be7ce00b3df2365ec68459042520672afe7702ee9982fe15d0e61169e3ed15d444d041b19091cfcf356fcd903cc04e5b1c",
+          "sha256": "4b08a99af2243b9615575f207f48f7d36e7f42ec5b444f12d87942321c25d8e9",
+          "sha1": "5fc2796b97049507813f228febe2f4c636c250b2",
+          "md5": "335faf4fa3e4f44814ee470ba6316393"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-logging-androidnativearm32-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-logging-androidnativearm32-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12884,
+          "sha512": "d6c655e54a0140f79a081c3894fbbed45bb11b789e253bb89da518460ab7bc7a24d7fefe2f09f78e638f9ecab50faf3920b5db7ca2e4ef77614a05ea54dbdb1e",
+          "sha256": "c1b5e42a0f62aba40eb6e1b7be3b14b3b8e7a1faed66b70809d20ccf126dab5f",
+          "sha1": "7665416d5f350b1f050645318d6d500c49c0771f",
+          "md5": "58abd29cbd75848178782c0133745b8c"
+        }
+      ]
+    }
+  ]
+}

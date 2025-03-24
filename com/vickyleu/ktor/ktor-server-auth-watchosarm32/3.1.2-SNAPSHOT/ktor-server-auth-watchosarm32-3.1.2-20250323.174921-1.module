@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-auth/3.1.2-SNAPSHOT/ktor-server-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-auth-watchosArm32Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-auth-watchosarm32-3.1.2-SNAPSHOT.klib",
+          "size": 127391,
+          "sha512": "f51ccfa07114006cdf2371a1b55ae997c19468d4437979922477040fb67019dfe93db1f37bf1233c9597b555b4fb928882b948f2dde10dc4c99be6b0d5926edf",
+          "sha256": "0de501d701394172109454018443b426ef9b4108521e16a9e6baf5a77131b2c7",
+          "sha1": "0278ce507acde00dc46b3d4fcb1d1ecc82d663f0",
+          "md5": "1b17f1945c3c14d499fccf8b423b8aff"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-auth-watchosarm32-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-auth-watchosarm32-3.1.2-SNAPSHOT-sources.jar",
+          "size": 29613,
+          "sha512": "bc57a737fee9a07657827b097e0d28607269d22535f873acd3e96ff3f8c34e5a6a173095abbd132b15ce73fba3c855d83a935c5e57446093f8524932e903c859",
+          "sha256": "943ef60f2d07fa40cbd472769703c5f2820af21a71661b343afd7e0de3c1bf69",
+          "sha1": "78355f0ed7ec37b30a5bb124e7fbb19bf775da6f",
+          "md5": "436d0c5127a63071ee5ccad8dd90c943"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-auth-watchosarm32-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-auth-watchosarm32-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "adb867db5f44823d2f43d0a954e2e1177f30fc1b794e501239d9e048bc551a38e32f7ba296606aa46b1d72c92ebbfad13fbac227dc44d81666b068245e91355c",
+          "sha256": "39f92b3e0ddf2e2b234ed09151e00f42e1de83e71dda482145ceded69f4fbc11",
+          "sha1": "daf912eca9708ab91a4f8adf192b0853946709a7",
+          "md5": "58e96cfde90d449b795698dd69306781"
+        }
+      ]
+    }
+  ]
+}

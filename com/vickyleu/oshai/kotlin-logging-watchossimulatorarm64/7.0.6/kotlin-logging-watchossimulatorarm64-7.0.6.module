@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-watchossimulatorarm64-7.0.6.klib",
+          "size": 53185,
+          "sha512": "f373648f7c5cd01706808966d93ef3e7e962651ad8f7ee613a15051bddd826a55482a844e0193a7b0b76c01111f65f71aae27622a6924441858555d261973830",
+          "sha256": "7ad952c95a12def1ca79a14f1cc16e168d6598fb612cc6ba2d4f7a42eb152fda",
+          "sha1": "5ed6b19f6676c7f4bbca21b31478c8beb1c63c99",
+          "md5": "828df1871667e92f7fea83164e2efc9c"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-watchossimulatorarm64-7.0.6-sources.jar",
+          "url": "kotlin-logging-watchossimulatorarm64-7.0.6-sources.jar",
+          "size": 16496,
+          "sha512": "bd1dab8709b1a2d3cc798bf285bf936216e5ea5759f80e89e8af56bcf76e52d30352deaf335e0dc0fe8bb230482e02b022c7c872377418038668a3f372015996",
+          "sha256": "4e273ad46eff6f1878a64f6b6ff98477709223dfecaa6d63fd3019fbb4da6162",
+          "sha1": "2bfe758ad68d35ee3131001cd5dff984e52c890b",
+          "md5": "50ce16cbbf7a625e8b862c29d87b3b79"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-watchossimulatorarm64-7.0.6-metadata.jar",
+          "url": "kotlin-logging-watchossimulatorarm64-7.0.6-metadata.jar",
+          "size": 9248,
+          "sha512": "a874084ebc1867e7b12966f0517b17fea8ffe1fe8ab0cfc5c8901ff6fc9257b2a277d7772fd2a18567b1aa4c5c3e61565b9d330ff580ba6be6c85d8d2ceacbd9",
+          "sha256": "78d71a372dda60efef045b41bf317b98d7c18a7a9d26004f715d715e78200fa2",
+          "sha1": "90c066c5a561ce793e86528b160108f3e1e1708d",
+          "md5": "70495cb6d2f9b1aef9472abdddee4fd1"
+        }
+      ]
+    }
+  ]
+}

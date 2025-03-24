@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-coroutines-core/1.10.1-SNAPSHOT/kotlinx-coroutines-core-1.10.1-SNAPSHOT.module",
+    "group": "com.vickyleu.kotlinx.coroutines",
+    "module": "kotlinx-coroutines-core",
+    "version": "1.10.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.26.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-linuxArm32HfpMain-1.10.1-SNAPSHOT.klib",
+          "url": "kotlinx-coroutines-core-linuxarm32hfp-1.10.1-SNAPSHOT.klib",
+          "size": 880583,
+          "sha512": "1bad0b3623dd6851aec418456434ef3bc48e1ed451b34ea35c96ab877854315b1f0081e92cc5f1694248cb1e6c6f6ec07877d901bab72d3342da99e7579bf08f",
+          "sha256": "05a5b5ee133e9f9b87fe4bedf3a82c93b6464fd4e9ce5ce2eff9e5c09b7e4699",
+          "sha1": "1db492901b814205355add26ea0579abf1f5216c",
+          "md5": "5c924820563622e7bc31d882c6148218"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-core-linuxarm32hfp-1.10.1-SNAPSHOT-sources.jar",
+          "url": "kotlinx-coroutines-core-linuxarm32hfp-1.10.1-SNAPSHOT-sources.jar",
+          "size": 326322,
+          "sha512": "3baa45410e34e627d94ce48b2ac83d746dc218c15ac61ad9248e2ecbbbd8100f3d2d669ac9b4e08c886cb43cbcf60dc511da381318912d8646cd02b71f0f8eca",
+          "sha256": "2e41aae66473253a7e059fc459fc565cca6cb1364e556b844b2118489f6d498b",
+          "sha1": "e6a5ebd30625c67b9e9f2f83e0adac8e09ae994d",
+          "md5": "8fde3447dbcd242e15d842cd47ddf9df"
+        }
+      ]
+    }
+  ]
+}

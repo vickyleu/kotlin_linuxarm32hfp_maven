@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network-tls-certificates/3.1.2-SNAPSHOT/ktor-network-tls-certificates-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network-tls-certificates",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tls-certificates-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-network-tls-certificates-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 30258,
+          "sha512": "a0dab224ce744fcdf6df8091c484b9974775feae882fe3432532f9dda0d41a201d7fe0aada402aa1b6fcdd90708aa69ebc2681a4207bf33e82a7f1c26fd8c3e0",
+          "sha256": "68f606ae82e0a3a913f8fc9b379f627bd7cc0ac1d540229ba13b468b9456179c",
+          "sha1": "d0cc4867d18b26cd142063fe22c4d58a884db901",
+          "md5": "3ce010752d7335f9149dd66e01681daa"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tls-certificates-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-network-tls-certificates-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 30258,
+          "sha512": "a0dab224ce744fcdf6df8091c484b9974775feae882fe3432532f9dda0d41a201d7fe0aada402aa1b6fcdd90708aa69ebc2681a4207bf33e82a7f1c26fd8c3e0",
+          "sha256": "68f606ae82e0a3a913f8fc9b379f627bd7cc0ac1d540229ba13b468b9456179c",
+          "sha1": "d0cc4867d18b26cd142063fe22c4d58a884db901",
+          "md5": "3ce010752d7335f9149dd66e01681daa"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-network-tls-certificates-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-tls-certificates-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 7596,
+          "sha512": "a99f0e5f53699a203883ea15c36a7913e57802ee64bb933b465fe925acd15cd0c2f982bddfb3dbebfcf1c1c75a66a6b485a4459d434f34b0e44a79d12933a9eb",
+          "sha256": "4eb8683660b0e0f35a319272fb984d0772efeee1212ad8ed3768e448031e445d",
+          "sha1": "bbd38374184c5c129377059937670bd3662bd5b9",
+          "md5": "04247231a9536b4f0c4aa8e5a7d1794b"
+        }
+      ]
+    }
+  ]
+}

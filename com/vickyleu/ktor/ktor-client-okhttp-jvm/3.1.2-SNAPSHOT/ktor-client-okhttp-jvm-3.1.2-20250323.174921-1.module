@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-okhttp/3.1.2-SNAPSHOT/ktor-client-okhttp-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-okhttp",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-sse",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-okhttp-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-okhttp-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 59048,
+          "sha512": "74c87977600cff016454502d0ac1a19e30fbfe11a0c00cf95c00b03ab5ad318cc6fe729f988a6d222efefa65eebcd1c22cab39dacf8c0d79f4caabe3866bf6c3",
+          "sha256": "31e31bbd705a2b6c89875e810d3afb32633ba8ace4e3140b0a0b926db6b8f192",
+          "sha1": "00e4d3d9622156f5e5594bfbc745b244415cac7b",
+          "md5": "63e7aa2cc30643c3e0f5a6cec3638a27"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-sse",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-okhttp-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-okhttp-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 59048,
+          "sha512": "74c87977600cff016454502d0ac1a19e30fbfe11a0c00cf95c00b03ab5ad318cc6fe729f988a6d222efefa65eebcd1c22cab39dacf8c0d79f4caabe3866bf6c3",
+          "sha256": "31e31bbd705a2b6c89875e810d3afb32633ba8ace4e3140b0a0b926db6b8f192",
+          "sha1": "00e4d3d9622156f5e5594bfbc745b244415cac7b",
+          "md5": "63e7aa2cc30643c3e0f5a6cec3638a27"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-client-okhttp-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-okhttp-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 10565,
+          "sha512": "60e546062f6aa859ca3999d5f3d68a4c30ea57d865864d390abd44038f780d73937ec9dfe217dce54f7b258c734ac47cbcccdd867db854f3556d60d5bf6b3fe8",
+          "sha256": "971d58d9025ba24ab95d441bfd8f0e3394b51a4d9d4819da8ca7038ccb52b177",
+          "sha1": "95daa8438e1fa21f1007768ca9e14dd26b72f7c4",
+          "md5": "c48fa6e35c2df856b6eb1c41f8886ab8"
+        }
+      ]
+    }
+  ]
+}

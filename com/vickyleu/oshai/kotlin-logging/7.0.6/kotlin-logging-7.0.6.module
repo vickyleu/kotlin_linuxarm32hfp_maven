@@ -1,0 +1,1170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-metadata-7.0.6.jar",
+          "url": "kotlin-logging-7.0.6.jar",
+          "size": 26086,
+          "sha512": "7ea144d9e7f35e1168770cdb06d593241761ae6ff3ca0e32cc1a77796d1f0744ce6f68de0c4875824927ea851e9a89438baf273a37e742412de8bc77dcf74fd2",
+          "sha256": "dcb7c2310b96ca3c41126554cafb391b2d1dc7c6a81d15b91edec8e494e96ddc",
+          "sha1": "fe117d449093adb750fc62487214dfd077fd2e01",
+          "md5": "2e765ae94a43f4d55b70f91cd3934cf1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-kotlin-7.0.6-sources.jar",
+          "url": "kotlin-logging-7.0.6-sources.jar",
+          "size": 31298,
+          "sha512": "5616bde3906c90823326adc63ee6cdfe93665af24b5d2e9135391582b2cc8283a6a064220733f707f1e9385adf467834876ad87364759c3fc38c306fabeafe72",
+          "sha256": "c89e1d91b449038c2f866d0e03e986a60ee46361d4326d955307091ff37c2a43",
+          "sha1": "979113fbce9d82b14b0f6409d3964b7c28ed85c2",
+          "md5": "7fd9adc2cf85bbe44a9a0800a7991839"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-android-debug/7.0.6/kotlin-logging-android-debug-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-android-debug",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-android-debug/7.0.6/kotlin-logging-android-debug-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-android-debug",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-android-debug/7.0.6/kotlin-logging-android-debug-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-android-debug",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-android/7.0.6/kotlin-logging-android-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-android",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-android/7.0.6/kotlin-logging-android-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-android",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-android/7.0.6/kotlin-logging-android-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-android",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativearm32/7.0.6/kotlin-logging-androidnativearm32-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativearm32",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativearm32/7.0.6/kotlin-logging-androidnativearm32-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativearm32",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativearm64/7.0.6/kotlin-logging-androidnativearm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativearm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativearm64/7.0.6/kotlin-logging-androidnativearm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativearm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativex64/7.0.6/kotlin-logging-androidnativex64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativex64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativex64/7.0.6/kotlin-logging-androidnativex64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativex64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativex86/7.0.6/kotlin-logging-androidnativex86-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativex86",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-androidnativex86/7.0.6/kotlin-logging-androidnativex86-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-androidnativex86",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iosarm64/7.0.6/kotlin-logging-iosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iosarm64/7.0.6/kotlin-logging-iosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iosarm64/7.0.6/kotlin-logging-iosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iossimulatorarm64/7.0.6/kotlin-logging-iossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iossimulatorarm64/7.0.6/kotlin-logging-iossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iossimulatorarm64/7.0.6/kotlin-logging-iossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iosx64/7.0.6/kotlin-logging-iosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iosx64/7.0.6/kotlin-logging-iosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-iosx64/7.0.6/kotlin-logging-iosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-iosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-js/7.0.6/kotlin-logging-js-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-js",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-js/7.0.6/kotlin-logging-js-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-js",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-js/7.0.6/kotlin-logging-js-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-js",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-jvm/7.0.6/kotlin-logging-jvm-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-jvm",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-jvm/7.0.6/kotlin-logging-jvm-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-jvm",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-jvm/7.0.6/kotlin-logging-jvm-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-jvm",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-linuxarm32hfp/7.0.6/kotlin-logging-linuxarm32hfp-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-linuxarm32hfp",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-linuxarm32hfp/7.0.6/kotlin-logging-linuxarm32hfp-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-linuxarm32hfp",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-linuxarm64/7.0.6/kotlin-logging-linuxarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-linuxarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-linuxarm64/7.0.6/kotlin-logging-linuxarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-linuxarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-linuxx64/7.0.6/kotlin-logging-linuxx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-linuxx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-linuxx64/7.0.6/kotlin-logging-linuxx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-linuxx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-macosarm64/7.0.6/kotlin-logging-macosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-macosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-macosarm64/7.0.6/kotlin-logging-macosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-macosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-macosarm64/7.0.6/kotlin-logging-macosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-macosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-macosx64/7.0.6/kotlin-logging-macosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-macosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-macosx64/7.0.6/kotlin-logging-macosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-macosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-macosx64/7.0.6/kotlin-logging-macosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-macosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-mingwx64/7.0.6/kotlin-logging-mingwx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-mingwx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-mingwx64/7.0.6/kotlin-logging-mingwx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-mingwx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvosarm64/7.0.6/kotlin-logging-tvosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvosarm64/7.0.6/kotlin-logging-tvosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvosarm64/7.0.6/kotlin-logging-tvosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvossimulatorarm64/7.0.6/kotlin-logging-tvossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvossimulatorarm64/7.0.6/kotlin-logging-tvossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvossimulatorarm64/7.0.6/kotlin-logging-tvossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvosx64/7.0.6/kotlin-logging-tvosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvosx64/7.0.6/kotlin-logging-tvosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-tvosx64/7.0.6/kotlin-logging-tvosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-tvosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-wasm-js/7.0.6/kotlin-logging-wasm-js-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-wasm-js",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-wasm-js/7.0.6/kotlin-logging-wasm-js-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-wasm-js",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-wasm-js/7.0.6/kotlin-logging-wasm-js-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-wasm-js",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosarm64/7.0.6/kotlin-logging-watchosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosarm64/7.0.6/kotlin-logging-watchosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosarm64/7.0.6/kotlin-logging-watchosarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchossimulatorarm64/7.0.6/kotlin-logging-watchossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchossimulatorarm64/7.0.6/kotlin-logging-watchossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchossimulatorarm64/7.0.6/kotlin-logging-watchossimulatorarm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchossimulatorarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosx64/7.0.6/kotlin-logging-watchosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosx64/7.0.6/kotlin-logging-watchosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosx64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosx64/7.0.6/kotlin-logging-watchosx64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosx64",
+        "version": "7.0.6"
+      }
+    }
+  ]
+}

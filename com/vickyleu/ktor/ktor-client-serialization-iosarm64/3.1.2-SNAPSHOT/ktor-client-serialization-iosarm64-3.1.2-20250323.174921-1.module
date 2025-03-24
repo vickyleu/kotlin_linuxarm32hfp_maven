@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-serialization/3.1.2-SNAPSHOT/ktor-client-serialization-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-serialization",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-serialization-iosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-serialization-iosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 14264,
+          "sha512": "79e62c1ae99f31e3ab57325d46d0969182aeeadaecedbce0e44f931cad12d92e67fa788ff52465825ea32068e1fa2d6a9ae5c09b2aa607e8a7d8e27aa711d872",
+          "sha256": "b638a8c687a3a842bfcd9ddfc65e22dd9429f72de58dc7d9c7da3b71236f5034",
+          "sha1": "1a26925e72fbfdd9ae8f6e4c8ccfed2f49fc6d92",
+          "md5": "bf6bbd09f75aa48c1ea55d9d24ebe97c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-serialization-iosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-serialization-iosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3394,
+          "sha512": "eea49ae1a94a5d00db16695a67180ed24f798e17c2c81504c3e2dcd90db917049269f10755edd6def16aa2e5aed2522d8217075c379d1aeeb680a037487e04f5",
+          "sha256": "9f9285d261c3855649a0c4514451321a043edcafa3489c64e61ee0f2388f63d3",
+          "sha1": "216426f0558308f7c9c460f10e29ee50bb4feca8",
+          "md5": "a739bed8bcf9bb4951030df82e403d35"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-serialization-iosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-serialization-iosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "23eae42b2a8e76e0e14b8337fa23e89ab6e0a71c6538204ea98bf4a96fe0dc72e4b2c5f8ef5690e0a7e143e199458698a518b6b940a40fffeba87eb4e0328233",
+          "sha256": "4ff61db4e31d9d63f868d77f8ed19da976690018217a65fa456ee7ac5ee7d124",
+          "sha1": "ed6acbe4e7c972503e67710775e9b4cafc76d466",
+          "md5": "a7257005c4089a31ad47c806af8f0728"
+        }
+      ]
+    }
+  ]
+}

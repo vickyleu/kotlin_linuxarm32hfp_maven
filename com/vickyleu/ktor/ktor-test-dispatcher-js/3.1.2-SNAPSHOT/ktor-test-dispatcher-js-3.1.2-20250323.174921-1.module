@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-test-dispatcher/3.1.2-SNAPSHOT/ktor-test-dispatcher-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-test-dispatcher",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-test-dispatcher-js-3.1.2-SNAPSHOT.klib",
+          "size": 5818,
+          "sha512": "01d89d3b26e9fea21201f7a9d9e26d5cf49900055dece3fb5f306566d9443061faca3fbe9b0e37f5c60a7ea1fc4fb3c0dc9b25736ac1938616958392a7ce75ea",
+          "sha256": "adf2de0739242af8e8b9b0e2a284fb9c63387904ebc5a90a8c86852f3ac115ba",
+          "sha1": "87f33f18660a92452cb1c988968fbbe03c6cdec6",
+          "md5": "250609a38cda4176971a0fcae5d4fa8d"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-test-dispatcher-js-3.1.2-SNAPSHOT.klib",
+          "size": 5818,
+          "sha512": "01d89d3b26e9fea21201f7a9d9e26d5cf49900055dece3fb5f306566d9443061faca3fbe9b0e37f5c60a7ea1fc4fb3c0dc9b25736ac1938616958392a7ce75ea",
+          "sha256": "adf2de0739242af8e8b9b0e2a284fb9c63387904ebc5a90a8c86852f3ac115ba",
+          "sha1": "87f33f18660a92452cb1c988968fbbe03c6cdec6",
+          "md5": "250609a38cda4176971a0fcae5d4fa8d"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-test-dispatcher-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1717,
+          "sha512": "2fed5d1bfd7b2cad1a07b9c90bf4a86ae2180dd24594e914ec9b74d00ae9a27a1bd936bd7ea6641d8316b246ef6528c3114a136dc59dad6d42a3c423949b372c",
+          "sha256": "ac03c355897e8c26d3c55365db0462b77aaa75b700a5a32571871040b4a6a89b",
+          "sha1": "cab06d9c52bd78e31aa1cd73577862dbf065c889",
+          "md5": "38a946c6a335225beeef0144a1eefd98"
+        }
+      ]
+    }
+  ]
+}
