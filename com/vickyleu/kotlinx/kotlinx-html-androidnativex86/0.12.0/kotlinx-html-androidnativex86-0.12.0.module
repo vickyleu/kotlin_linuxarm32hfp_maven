@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-html/0.12.0/kotlinx-html-0.12.0.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-html",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html.klib",
+          "url": "kotlinx-html-androidnativex86-0.12.0.klib",
+          "size": 474215,
+          "sha512": "0b387e34caaae4f825d21ea2f73efac53f377791d8b0b21c33cb40bfffcbd39c3df67c43dd54053232e3435694113fc1ea2fbcc5f1575b5a49c700e1e4f67c62",
+          "sha256": "5ce5c7933bea98cee5111c9d852f5a204eaf3f4d798c0e90018e98ccf55bb6d9",
+          "sha1": "450d586c897256e23aa72b32dc235f8eae514398",
+          "md5": "47df66057006226b7fba9025fab88f15"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-html-androidnativex86-0.12.0-sources.jar",
+          "url": "kotlinx-html-androidnativex86-0.12.0-sources.jar",
+          "size": 55168,
+          "sha512": "629a6a5b08800f9382a4df5188ea8e6c413cdb5074b7c4e119f83f165c6243e2f28df27546def18e0e9c2f0bf84e96cf262c8db28d753a990797a10201ee1da2",
+          "sha256": "f6a09275546d8ad23d08aaee028fb28a990bb1030d039016633ef618e3ec36a2",
+          "sha1": "10527b70184b7ebe1807d471eacb550c98e2e362",
+          "md5": "8f2db0811ea4f1b7b0a792845dfdd05d"
+        }
+      ]
+    }
+  ]
+}

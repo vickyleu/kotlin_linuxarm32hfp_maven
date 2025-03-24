@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-html/0.12.0/kotlinx-html-0.12.0.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-html",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html.klib",
+          "url": "kotlinx-html-tvossimulatorarm64-0.12.0.klib",
+          "size": 474291,
+          "sha512": "25bd259880fd7c602a5707b2f5aea745f129361bce2a9c5c3c8089aea7c9727f7b61e19aec68ea3d7369e949010672fa8d704bff40e7fa47eccd1f67977a0de8",
+          "sha256": "a1597513dfc328187f4ef870595fc0204b4c836c8bf6007552ff640772e82061",
+          "sha1": "82effcfa16732cbe6419cf8786c3772dcd63d7ae",
+          "md5": "c69ab2a94f51bf5ccb5e528627186311"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-html-tvossimulatorarm64-0.12.0-sources.jar",
+          "url": "kotlinx-html-tvossimulatorarm64-0.12.0-sources.jar",
+          "size": 55168,
+          "sha512": "629a6a5b08800f9382a4df5188ea8e6c413cdb5074b7c4e119f83f165c6243e2f28df27546def18e0e9c2f0bf84e96cf262c8db28d753a990797a10201ee1da2",
+          "sha256": "f6a09275546d8ad23d08aaee028fb28a990bb1030d039016633ef618e3ec36a2",
+          "sha1": "10527b70184b7ebe1807d471eacb550c98e2e362",
+          "md5": "8f2db0811ea4f1b7b0a792845dfdd05d"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html-tvossimulatorarm64-0.12.0-metadata.jar",
+          "url": "kotlinx-html-tvossimulatorarm64-0.12.0-metadata.jar",
+          "size": 261,
+          "sha512": "687f06f6a93691b5ab281129b566e1b140f7eece59ecb397108e4cae5c7fe7c3ec60c1177806baddb0f8c387b649229fa1d8358650f35ffb11d528c2b3d9df1b",
+          "sha256": "3a5619da1453261c07ad5172a07765f4b86262a9e9ea28e333549206ff9618ca",
+          "sha1": "b46f1e9b800f8325584f8fbb9f5e1bdc1c787569",
+          "md5": "827624b892447f5494f119f9b9aaea16"
+        }
+      ]
+    }
+  ]
+}

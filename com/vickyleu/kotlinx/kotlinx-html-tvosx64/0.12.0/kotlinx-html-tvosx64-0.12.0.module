@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-html/0.12.0/kotlinx-html-0.12.0.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-html",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html.klib",
+          "url": "kotlinx-html-tvosx64-0.12.0.klib",
+          "size": 474189,
+          "sha512": "1f1b8ebbc50b32c54e97c841a7fdc2493fa5cfb74edd781f087c190afd63d3b74890350356a40a6106c92ba0e99e2ba26d95f645a8dd3c49555cba8258abf3b3",
+          "sha256": "9e94092ab9ff705cdc47975990063b9b4c5d2ca13eade0a5f9b8e57815c31825",
+          "sha1": "49764f7c9e3fcde1cd8e8f7c4a09a61b22feb184",
+          "md5": "0a6562d030081e0a38fdf745e3658be3"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-html-tvosx64-0.12.0-sources.jar",
+          "url": "kotlinx-html-tvosx64-0.12.0-sources.jar",
+          "size": 55168,
+          "sha512": "629a6a5b08800f9382a4df5188ea8e6c413cdb5074b7c4e119f83f165c6243e2f28df27546def18e0e9c2f0bf84e96cf262c8db28d753a990797a10201ee1da2",
+          "sha256": "f6a09275546d8ad23d08aaee028fb28a990bb1030d039016633ef618e3ec36a2",
+          "sha1": "10527b70184b7ebe1807d471eacb550c98e2e362",
+          "md5": "8f2db0811ea4f1b7b0a792845dfdd05d"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html-tvosx64-0.12.0-metadata.jar",
+          "url": "kotlinx-html-tvosx64-0.12.0-metadata.jar",
+          "size": 261,
+          "sha512": "18dd3e00868079021a226c38d79f140fcaf09412aa2222a3ef8fba9352089c1446abd191dd7536f5fb06b88338059da502bd3341a0a18010c306cbfd2a91288b",
+          "sha256": "47d40462f34b3a086a89820a882a63042f683819f5dc06c8becffe5a47e4c6b2",
+          "sha1": "0302d506744f58caf36cf4188e5005d0b0e46c68",
+          "md5": "111bc5114537be631030ecaf4ecb8cf2"
+        }
+      ]
+    }
+  ]
+}

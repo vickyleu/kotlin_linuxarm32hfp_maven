@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-html/0.12.0/kotlinx-html-0.12.0.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-html",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html.klib",
+          "url": "kotlinx-html-watchosarm64-0.12.0.klib",
+          "size": 474232,
+          "sha512": "abc0bebcbf7c713f85f265591166252ec33a456731039c3fac4d7ae27dc4fbb9d6448c43cfd9a85a2f14bbebbb5db6333452e07018e27a27abfe4904ad1133fb",
+          "sha256": "8885288d522c3559eb89d64ea44f490c2279d6f6e846f210018383cb747e8184",
+          "sha1": "97c019b8e11511c22fcef2f200b3ddd5b9eae8fc",
+          "md5": "4a1f78d657992828a78a0a649b21448b"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-html-watchosarm64-0.12.0-sources.jar",
+          "url": "kotlinx-html-watchosarm64-0.12.0-sources.jar",
+          "size": 55168,
+          "sha512": "629a6a5b08800f9382a4df5188ea8e6c413cdb5074b7c4e119f83f165c6243e2f28df27546def18e0e9c2f0bf84e96cf262c8db28d753a990797a10201ee1da2",
+          "sha256": "f6a09275546d8ad23d08aaee028fb28a990bb1030d039016633ef618e3ec36a2",
+          "sha1": "10527b70184b7ebe1807d471eacb550c98e2e362",
+          "md5": "8f2db0811ea4f1b7b0a792845dfdd05d"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html-watchosarm64-0.12.0-metadata.jar",
+          "url": "kotlinx-html-watchosarm64-0.12.0-metadata.jar",
+          "size": 261,
+          "sha512": "8425f88575fe21d6a3cf86e79553a91e8aa83f2fc1a8bfb7971d51945f8293da3421c86dc6d875904e5c625fc4e0c04acae4e9d635eec90653c116a4d50c1675",
+          "sha256": "10e7d2f733fdfb025e30f6c9739ad1e45832e835cd0e542183adbf0e60ea7940",
+          "sha1": "4d60665586898515146ea8433a794edafe5d12aa",
+          "md5": "4d80e9bd2cfa6509dd22f567fa6f16d5"
+        }
+      ]
+    }
+  ]
+}

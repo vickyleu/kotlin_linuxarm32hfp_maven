@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-html/0.12.0/kotlinx-html-0.12.0.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-html",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html.klib",
+          "url": "kotlinx-html-iosarm64-0.12.0.klib",
+          "size": 474197,
+          "sha512": "b312d3f2b5187a67dd2c65d24e9dc3feca43b84ac321078ddb7a79df081e6edf62232e194888ccf3678dc8310fc839a393d30add3cd2726998fe28c1b429e84c",
+          "sha256": "8449014d9cb73340c4b0950d3bafefa116e29f6092e107963db44778b3ad1e58",
+          "sha1": "378b4cbeee8dcdf90d5762f287cb11e35b3e98b5",
+          "md5": "fa7fe188fb5510f70d6ccd444708ba1e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-html-iosarm64-0.12.0-sources.jar",
+          "url": "kotlinx-html-iosarm64-0.12.0-sources.jar",
+          "size": 55168,
+          "sha512": "629a6a5b08800f9382a4df5188ea8e6c413cdb5074b7c4e119f83f165c6243e2f28df27546def18e0e9c2f0bf84e96cf262c8db28d753a990797a10201ee1da2",
+          "sha256": "f6a09275546d8ad23d08aaee028fb28a990bb1030d039016633ef618e3ec36a2",
+          "sha1": "10527b70184b7ebe1807d471eacb550c98e2e362",
+          "md5": "8f2db0811ea4f1b7b0a792845dfdd05d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html-iosarm64-0.12.0-metadata.jar",
+          "url": "kotlinx-html-iosarm64-0.12.0-metadata.jar",
+          "size": 261,
+          "sha512": "531f1c4d4546c9465ce7cdd7bf4faa5ff611f28e040bbb4201bcf794b3eb4deb7de54e5b2e321dddd262f3049561a3c7b22aa6476e6666186f775a3dc9ca3890",
+          "sha256": "bf8788ec13b6d93e72a07bfa7f4a87a5c5399140e67136285ee25d6c90062615",
+          "sha1": "e0b59a1f85582d268de3864e35bca5abb18434e4",
+          "md5": "5449b53f760305186ba141fcfb38231c"
+        }
+      ]
+    }
+  ]
+}
