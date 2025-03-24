@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pbandk-runtime/0.16.1-SNAPSHOT/pbandk-runtime-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.pbandk",
+          "module": "pbandk-protos",
+          "version": {
+            "requires": "0.16.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-release.aar",
+          "url": "pbandk-runtime-android-0.16.1-SNAPSHOT.aar",
+          "size": 1107713,
+          "sha512": "42a8bbe0fd448046da3e3cf88cbd32d1901f49a5cc8fb9deb367afd46e6eb824377cc062621d388f0b15f771b4a2e92ad42d08257cb68c2489cbab72b4d9234e",
+          "sha256": "f7a972962688c01bdb257c194faf1fc995463727e945514aa2f29d59dd305f4d",
+          "sha1": "63556d6aec3618145ef136c5a4cf5367a11cf5a5",
+          "md5": "1f62d8f5d81e5f25248d9410e8277c1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.pbandk",
+          "module": "pbandk-protos",
+          "version": {
+            "requires": "0.16.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-release.aar",
+          "url": "pbandk-runtime-android-0.16.1-SNAPSHOT.aar",
+          "size": 1107713,
+          "sha512": "42a8bbe0fd448046da3e3cf88cbd32d1901f49a5cc8fb9deb367afd46e6eb824377cc062621d388f0b15f771b4a2e92ad42d08257cb68c2489cbab72b4d9234e",
+          "sha256": "f7a972962688c01bdb257c194faf1fc995463727e945514aa2f29d59dd305f4d",
+          "sha1": "63556d6aec3618145ef136c5a4cf5367a11cf5a5",
+          "md5": "1f62d8f5d81e5f25248d9410e8277c1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-android-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-android-0.16.1-SNAPSHOT-sources.jar",
+          "size": 98204,
+          "sha512": "7f8accf58a23701bba68ab02ebe8b7558cd9b3b05eb730d718c198b43c53f01ad8e151d389580007a973cd4a422d9e5eb24d1cd846670840045ef3ba8a95beee",
+          "sha256": "c9c56a558bfd2942075eb0e37220227dc89ecbf600cebb952e8448167d12c981",
+          "sha1": "f796905423e201de1104c614fdbb9edf01d65ad2",
+          "md5": "ffb789044cdd521a3cca1a71a91f315a"
+        }
+      ]
+    }
+  ]
+}

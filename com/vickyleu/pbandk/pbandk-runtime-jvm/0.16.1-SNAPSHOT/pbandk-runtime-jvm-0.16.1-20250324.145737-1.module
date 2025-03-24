@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pbandk-runtime/0.16.1-SNAPSHOT/pbandk-runtime-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.pbandk",
+          "module": "pbandk-protos",
+          "version": {
+            "requires": "0.16.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-jvm-0.16.1-SNAPSHOT.jar",
+          "url": "pbandk-runtime-jvm-0.16.1-SNAPSHOT.jar",
+          "size": 1272859,
+          "sha512": "957a37c2240a4008d0d53f1ab94894ac9a9d173399761940864e96a6e339ed434ce686b7e46d3b5e98fcef40de50f820a8aec881832f1f9a8a6f12e8c0798758",
+          "sha256": "02c1c6249bb6109aa4e3d185ae6f84138e5247e5e7a548609cf7f82c5e6ed1b8",
+          "sha1": "72a7c7d2c9477f1a7d0e8f95dcdad4735a18e09b",
+          "md5": "c537a8a58f1deff9143c46cbf040d739"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.pbandk",
+          "module": "pbandk-protos",
+          "version": {
+            "requires": "0.16.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-jvm-0.16.1-SNAPSHOT.jar",
+          "url": "pbandk-runtime-jvm-0.16.1-SNAPSHOT.jar",
+          "size": 1272859,
+          "sha512": "957a37c2240a4008d0d53f1ab94894ac9a9d173399761940864e96a6e339ed434ce686b7e46d3b5e98fcef40de50f820a8aec881832f1f9a8a6f12e8c0798758",
+          "sha256": "02c1c6249bb6109aa4e3d185ae6f84138e5247e5e7a548609cf7f82c5e6ed1b8",
+          "sha1": "72a7c7d2c9477f1a7d0e8f95dcdad4735a18e09b",
+          "md5": "c537a8a58f1deff9143c46cbf040d739"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-jvm-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-jvm-0.16.1-SNAPSHOT-sources.jar",
+          "size": 98084,
+          "sha512": "092ca9bf87ec6f7eadfe27267c99a7d8729a8e3f6f99c0cffb96fd308458f37b0646efb1b02954f673d9db8e295436d027ee6883a3505c92aa470eb193ba07a3",
+          "sha256": "6bbd77ad8228da561e1f96eb903ebc33700f78f6b9f889de0336bfd6ad2a82db",
+          "sha1": "ca3583871f68b6c42dca5fcdaee0defabc1a9f25",
+          "md5": "d70aeb83e1fd0c66cb515605a149330c"
+        }
+      ]
+    }
+  ]
+}

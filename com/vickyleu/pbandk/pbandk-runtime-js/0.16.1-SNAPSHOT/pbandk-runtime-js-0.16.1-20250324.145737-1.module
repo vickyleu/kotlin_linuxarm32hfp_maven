@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pbandk-runtime/0.16.1-SNAPSHOT/pbandk-runtime-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-js-0.16.1-SNAPSHOT.klib",
+          "url": "pbandk-runtime-js-0.16.1-SNAPSHOT.klib",
+          "size": 675193,
+          "sha512": "220348505d34877412ed871291eaaa1eb03ef6e1b3597e647c47485ca6385329ff50002de3326fbadbd5d0285c106989b8cd850aa8326f60d40ed8efd0c54b84",
+          "sha256": "78ad3f9ce73b54b8aaeb2fc3caecfd7f50d61db162646d20218caa5353491068",
+          "sha1": "ebfeac7c73cba2ad34616dcd8083a6891339be4f",
+          "md5": "43b48134316db035670a0584e9d8158f"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-js-0.16.1-SNAPSHOT.klib",
+          "url": "pbandk-runtime-js-0.16.1-SNAPSHOT.klib",
+          "size": 675193,
+          "sha512": "220348505d34877412ed871291eaaa1eb03ef6e1b3597e647c47485ca6385329ff50002de3326fbadbd5d0285c106989b8cd850aa8326f60d40ed8efd0c54b84",
+          "sha256": "78ad3f9ce73b54b8aaeb2fc3caecfd7f50d61db162646d20218caa5353491068",
+          "sha1": "ebfeac7c73cba2ad34616dcd8083a6891339be4f",
+          "md5": "43b48134316db035670a0584e9d8158f"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-js-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-js-0.16.1-SNAPSHOT-sources.jar",
+          "size": 89199,
+          "sha512": "83cb406017b781a751dabeb4051d5fbcefd51957320331004715fddff0cda3d97ebb01995c5ac11b68a5bb5022b02deb3c325b31784c9b04d6ffc184004b38ba",
+          "sha256": "088fe75b3e3444ecad271a9d9eaf3ed78c6834578a5cc7a55b04d0e1dbebf757",
+          "sha1": "69d0b2509fb78e6bfcded325e889f252b94e6a61",
+          "md5": "b3a634226ca35a4af466ea36ee673ae0"
+        }
+      ]
+    }
+  ]
+}

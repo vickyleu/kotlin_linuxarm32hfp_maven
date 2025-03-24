@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../protoc-gen-pbandk-lib/0.16.1-SNAPSHOT/protoc-gen-pbandk-lib-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "protoc-gen-pbandk-lib",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protoc-gen-pbandk-lib-jvm-0.16.1-SNAPSHOT.jar",
+          "url": "protoc-gen-pbandk-lib-jvm-0.16.1-SNAPSHOT.jar",
+          "size": 182222,
+          "sha512": "bd95193eba02521182b88466523768d69a939a7399a24ef973be199e6798803095920c5fffe331abd32001d693a380d1762d496a0e9f1056429e845ff9bdff06",
+          "sha256": "1c4088ef36cbd45c65eb62ca377b6b1a2d77cf6d2a931b5608c6efa92b9cb1e8",
+          "sha1": "334d9a431cde0052ad114a930f4c60eb1e82a7a9",
+          "md5": "e0ffdc340b1187147e7c89109e49c9e9"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "4.28.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.pbandk",
+          "module": "pbandk-runtime",
+          "version": {
+            "requires": "0.16.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protoc-gen-pbandk-lib-jvm-0.16.1-SNAPSHOT.jar",
+          "url": "protoc-gen-pbandk-lib-jvm-0.16.1-SNAPSHOT.jar",
+          "size": 182222,
+          "sha512": "bd95193eba02521182b88466523768d69a939a7399a24ef973be199e6798803095920c5fffe331abd32001d693a380d1762d496a0e9f1056429e845ff9bdff06",
+          "sha256": "1c4088ef36cbd45c65eb62ca377b6b1a2d77cf6d2a931b5608c6efa92b9cb1e8",
+          "sha1": "334d9a431cde0052ad114a930f4c60eb1e82a7a9",
+          "md5": "e0ffdc340b1187147e7c89109e49c9e9"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "protoc-gen-pbandk-lib-jvm-0.16.1-SNAPSHOT-sources.jar",
+          "url": "protoc-gen-pbandk-lib-jvm-0.16.1-SNAPSHOT-sources.jar",
+          "size": 23951,
+          "sha512": "fec5bd947a544eeec2821fe9fd1534f229e263e8640d372aa06cf9e4b99d2e754bb1e0f5320eeb31ccb84922c1c6efe6079a1105defc988c966e244476269c87",
+          "sha256": "0e5313336c718befb8abbd55c7ae13ec105847c77d21c1b60c408367f5de2bfd",
+          "sha1": "1acedaa005fbb54f0a4c8d82b62b6134e819b140",
+          "md5": "e5818a8b888ef62520cf880e04aadc98"
+        }
+      ]
+    }
+  ]
+}

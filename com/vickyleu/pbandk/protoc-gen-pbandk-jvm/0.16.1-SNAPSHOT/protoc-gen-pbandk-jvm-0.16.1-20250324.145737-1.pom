@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vickyleu.pbandk</groupId>
+  <artifactId>protoc-gen-pbandk-jvm</artifactId>
+  <version>0.16.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>protoc-gen-pbandk-jvm</name>
+  <description>Kotlin code generator for Protocol Buffers. This executable runs as a protoc plugin.</description>
+  <url>https://github.com/streem/pbandk</url>
+  <organization>
+    <name>Streem, LLC</name>
+    <url>https://github.com/streem</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>streem</id>
+      <name>Streem, LLC</name>
+      <url>https://github.com/streem</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:streem/pbandk.git</connection>
+    <developerConnection>scm:git:git@github.com:streem/pbandk.git</developerConnection>
+    <url>git@github.com:streem/pbandk.git</url>
+  </scm>
+</project>
