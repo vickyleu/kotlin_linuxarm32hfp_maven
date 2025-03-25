@@ -3,32 +3,32 @@
   <groupId>com.vickyleu.annotation</groupId>
   <artifactId>annotation-jvm</artifactId>
   <versioning>
-    <lastUpdated>20250325075248</lastUpdated>
+    <lastUpdated>20250325094020</lastUpdated>
     <snapshot>
-      <timestamp>20250325.075248</timestamp>
+      <timestamp>20250325.094020</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>9999.0.0-20250325.075248-1</value>
-        <updated>20250325075248</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>9999.0.0-20250325.075248-1</value>
-        <updated>20250325075248</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>9999.0.0-20250325.075248-1</value>
-        <updated>20250325075248</updated>
+        <value>9999.0.0-20250325.094020-1</value>
+        <updated>20250325094020</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>9999.0.0-20250325.075248-1</value>
-        <updated>20250325075248</updated>
+        <value>9999.0.0-20250325.094020-1</value>
+        <updated>20250325094020</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>9999.0.0-20250325.094020-1</value>
+        <updated>20250325094020</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>9999.0.0-20250325.094020-1</value>
+        <updated>20250325094020</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

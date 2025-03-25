@@ -41,11 +41,11 @@
         {
           "name": "annotation-9999.0.0-SNAPSHOT.jar",
           "url": "annotation-9999.0.0-SNAPSHOT.jar",
-          "size": 7548,
-          "sha512": "7b866f4d774288b9ee48c00be8b96de667f1baf4494bb17fb19af7f501765e75b6cc07704e9c44cec52d8d8e7d916b44fcaccb37cf87d6e92504c3ff82453af8",
-          "sha256": "960f461fcb232d4b302627b0110005ebf14f52923831cac0edafd4202926bc74",
-          "sha1": "8b6043361b47e845ec39f55ceb2096b1a647c873",
-          "md5": "ee4620708de07d3f9a7a444b8e3ca1c9"
+          "size": 7554,
+          "sha512": "078e14d38d20290b3f6f402c1e0c89acfe42ae2e6dabdc4bcc2a6e5fd1f972fde32e1f94c6560c9604aba53c44f9a9dcc118ad69568bdfebb164274277f56d01",
+          "sha256": "d1fd857e9b4d0e2281f55f7771e930e6ccabf4c6b53188bbcfe6ebacd2480205",
+          "sha1": "69ded95d912a9b96bce7fdd81222ff6eabf91042",
+          "md5": "81b416c6f25d7fc522afe63c45a3d037"
         }
       ]
     },
@@ -890,6 +890,58 @@
         "url": "../../annotation-watchosarm64/9999.0.0-SNAPSHOT/annotation-watchosarm64-9999.0.0-SNAPSHOT.module",
         "group": "com.vickyleu.annotation",
         "module": "annotation-watchosarm64",
+        "version": "9999.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../annotation-watchosdevicearm64/9999.0.0-SNAPSHOT/annotation-watchosdevicearm64-9999.0.0-SNAPSHOT.module",
+        "group": "com.vickyleu.annotation",
+        "module": "annotation-watchosdevicearm64",
+        "version": "9999.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../annotation-watchosdevicearm64/9999.0.0-SNAPSHOT/annotation-watchosdevicearm64-9999.0.0-SNAPSHOT.module",
+        "group": "com.vickyleu.annotation",
+        "module": "annotation-watchosdevicearm64",
+        "version": "9999.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../annotation-watchosdevicearm64/9999.0.0-SNAPSHOT/annotation-watchosdevicearm64-9999.0.0-SNAPSHOT.module",
+        "group": "com.vickyleu.annotation",
+        "module": "annotation-watchosdevicearm64",
         "version": "9999.0.0-SNAPSHOT"
       }
     },
