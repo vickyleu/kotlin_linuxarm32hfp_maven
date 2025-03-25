@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-mingwX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-mingwx64-3.1.2-SNAPSHOT.klib",
+          "size": 24260,
+          "sha512": "5483184e841d2f110cd56122872ba6c526784b6f6f2b073b3319ca16362e990efae24217c2e31d4d29654d7350c195af437bc98972d7f063d7531c8c2497bd27",
+          "sha256": "56e7b4542ee5d1cb648159e2a16ff7e4de7f501cc52c8ab7e551d116682ae4e9",
+          "sha1": "6d127c012b6ccf9dcd5241eaad5fc99c7c01cfe1",
+          "md5": "e157d3ec14fe6e18ee29ba3973b09036"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-mingwx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 6796,
+          "sha512": "da0898e6d6250bc2b13fa90ae6dfd3e9ddf3cdb9b0b929dc7e5cd6740a829cc9ab91a4305e59c79d6d2f1171b9610478692a6252934c00ce9618b0ceef106a23",
+          "sha256": "154373a2e865760e6ba4622dfc2acce2ff82943d1cdcc8de19d325cf90645335",
+          "sha1": "44d6b1f0bcf4e302f36afcf9117332b3fb2cb295",
+          "md5": "a365b7b81d888d4a0e5eaec42fd103fd"
+        }
+      ]
+    }
+  ]
+}

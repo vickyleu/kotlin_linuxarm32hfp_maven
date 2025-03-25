@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-cio/3.1.2-SNAPSHOT/ktor-client-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-cio-linuxX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-cio-linuxx64-3.1.2-SNAPSHOT.klib",
+          "size": 70664,
+          "sha512": "66e36f4e0a6044a19a1671fcb2830f02458c6c42338caec751410ba1302cfba60fdb73bcaf4e51e18ca40ef5c96b1045fcc8a03e293fec60bf03f01eb39ec606",
+          "sha256": "0013cea3ad82ba3a0fe0b2d27a07482590d3a317c6a2d1ea2ac95a722bc79d84",
+          "sha1": "bd4e8a0a08bec42ebf3e1632a894201a7f39da2f",
+          "md5": "cfc2a4f4548df55a41104de9ae4e088e"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-cio-linuxx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-cio-linuxx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 15985,
+          "sha512": "e7c59c75df5229e8bc521b447b17a3acded61e885ac7514992d7200ea0fd2ea62ecbb06d5ae99c1f9a9faf851ba683e121fadcd5081203fe31b64e2485a041b9",
+          "sha256": "fc95d95d571b6502e05f1fa2a3e94bddc88034c78c64fbd8ce850cdff910ccda",
+          "sha1": "8d61e6c44b169aea23c9fc6fcf128ec0058700cf",
+          "md5": "cfdf105d59b25045788ce77af2911f98"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-double-receive/3.1.2-SNAPSHOT/ktor-server-double-receive-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-double-receive",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-double-receive-iosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-double-receive-iosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 23190,
+          "sha512": "11ad1260b75040b51e9b87f98c23d4c94ad3dd80a92c2152884a3b2d1463008f16e8eb58fe6d139f497b3e696086e8f1807767b8a9cacc81cd9835f03b9a04df",
+          "sha256": "0c4845c3ba704ffc9938a35fda94975033a427b148e3eed524daa04fd1a35364",
+          "sha1": "07871533c97ded0a3e47d5d0d9fa87811ee70d0f",
+          "md5": "c9eee50af037350d9651c33fc64346ba"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-double-receive-iosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-double-receive-iosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 7243,
+          "sha512": "f4ab371064a5ddbe99c957d85ce93ab1b8b9af2b7782913846e0ee540919ae0fa2eb317b7abb23c258f07b9b9c462d2dc110f15d9f0854a6989b0750444de85b",
+          "sha256": "d31cf7c6a6b0ff00b18cfb9f1cd622ee70e64be0c505d1141ebcc61115d6936c",
+          "sha1": "45f922896fdd1a97360dbead8657de50b0f2aba0",
+          "md5": "90d091b4a2b5cfbb9b25db2082360d5e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-double-receive-iosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-double-receive-iosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "be041b1ad3ec53809397d16380b8d3d811cef633005ebd25ed55e3927a0573261fe906b58122321bafc943fca4b722418103c0e2e17cc4518e99b8fd3db7bfe9",
+          "sha256": "807433297dec1d0af97d799eb6ee7561bf36d6814ca082a20bc381d7f6791ca9",
+          "sha1": "3881227971e8042b2eed67b78fc0edac06ba03c9",
+          "md5": "87f00e47fae81cfdfc1e3e7607005408"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-content-negotiation/3.1.2-SNAPSHOT/ktor-client-content-negotiation-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-content-negotiation",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-content-negotiation-androidNativeX86Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-content-negotiation-androidnativex86-3.1.2-SNAPSHOT.klib",
+          "size": 22827,
+          "sha512": "835c04de1e9bc232927b55a8c7f5101ef790f69e4cd7ecbe1c42416c886e1dd62bd139ebbf8cf1e0f3d0286a06d64d0ce838d5955bb35a79757567da4d76bf59",
+          "sha256": "9595343dd46542eea2e12f46bad90ca3578dcf646229a5a951f96101d058286e",
+          "sha1": "f7c6c8c2a9f78df7b9d39628a30309c041af33e3",
+          "md5": "1ecdbd0982795e117aba48124890ab25"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-content-negotiation-androidnativex86-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-content-negotiation-androidnativex86-3.1.2-SNAPSHOT-sources.jar",
+          "size": 5541,
+          "sha512": "166ecb1486c61188e275e5e7a33d3bcf6f43e048bccafc145e8c9e0a819750065e4ab45cbbee056bdb12ec14cf2c91429becc261925c46a7692df450752c4fa2",
+          "sha256": "5787bc15d42038cad551b274b6c88b9672470c408e27db6a035ae1d42e3fdc7f",
+          "sha1": "f3c1785f9e9a969fdcb56943e51f8aa05e33aa3b",
+          "md5": "d2d8489404addc6f624e366a8b77ef34"
+        }
+      ]
+    }
+  ]
+}

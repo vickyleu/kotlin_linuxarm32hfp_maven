@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-html-builder/3.1.2-SNAPSHOT/ktor-server-html-builder-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-html-builder",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-html",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-html-builder-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-html-builder-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 16193,
+          "sha512": "9f1ffcd2b177eac11570b7690207cc9fcfa7d58e6ddbffaa79b55d0d04324f118df2ddfef7efd7fd4a76d33e05f9a862fb884897225d7df114dad3668ee0fa49",
+          "sha256": "11fd5b59d83fe3cd0f2cba67803187b3da9a4050a8dea4f4cbeda1b833ad10a1",
+          "sha1": "9b62a20447c8a0806c3783a13d4e822ac75808d8",
+          "md5": "4c0fcf34f22a8523469d1c863aa6208b"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-html-builder-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-html-builder-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3624,
+          "sha512": "ae49215733d475fb2907f74f88eb3a35d19aa7c1d551ead30ccd2d249fe7c7f6202b56f068d0c446585d364c73dc6a5d4a3f40c3f6db5b4a8aacb7e68e620324",
+          "sha256": "a99b379ad0a12c0b88263bed2344f4912bafc8b2a1fad50426b7af85dbd6a831",
+          "sha1": "ba1b0434aaade1511092dd908b61086894bdf31e",
+          "md5": "a33f6166580925e7c3c33680a951369b"
+        }
+      ]
+    }
+  ]
+}

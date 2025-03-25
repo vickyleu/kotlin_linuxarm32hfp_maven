@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-hsts/3.1.2-SNAPSHOT/ktor-server-hsts-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-hsts",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-hsts-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-hsts-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 13445,
+          "sha512": "07c8abccc02e7b1ffb266ffa4cb3f93689b7d04c5d2d40ee118a1e60b1da37e9c77652c83ad8a4c024780e9ce3d77d62de74437bbf83fc6e9d33f96e3b36e212",
+          "sha256": "c705615dd41d44ccafa93f7d36b37cd7ec8215589db045ff78b8685e4e0e096b",
+          "sha1": "4ee13402f8405983d06f406bd64eb4f366687caf",
+          "md5": "92356d7eb1f834ab95de20ad4b88b01c"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-hsts-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-hsts-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3323,
+          "sha512": "651edba1850a83d467c526b1b8b970f4d08350490283e4de3bcabd1a7eba3d4c096db53f975a433945868e7aaffb963ce4de3b5a2a049e7f0d33ff129f7fd977",
+          "sha256": "7c98706e0d2ce08552b15d0326a8df0211e7368f9fa0b42ca76b8a5f96479d09",
+          "sha1": "bdbda58ec2947691fa225823995da28d391522dc",
+          "md5": "72f5ccd82581b8becd1c3e4a4c705315"
+        }
+      ]
+    }
+  ]
+}

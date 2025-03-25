@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-serialization/3.1.2-SNAPSHOT/ktor-client-serialization-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-serialization",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-serialization-androidNativeArm32Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-serialization-androidnativearm32-3.1.2-SNAPSHOT.klib",
+          "size": 14297,
+          "sha512": "a972ee0b04a206531cfef75047eda05c33754e8ef51a6320df248859cabf3a0afa6d5a8ff0ba602a28261d60e89039d541278b56c1f75dfdd43d88c79f193c8d",
+          "sha256": "3fae7c38622f907904e3c6702c3ea60c8f6907203931e9231ee0c3edf4904aa2",
+          "sha1": "7c8977a60973d012cfb03ecaa1aee9a5c4f4c028",
+          "md5": "4cbf81d665eef0acd04d7f3e210ef713"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-serialization-androidnativearm32-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-serialization-androidnativearm32-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3394,
+          "sha512": "eea49ae1a94a5d00db16695a67180ed24f798e17c2c81504c3e2dcd90db917049269f10755edd6def16aa2e5aed2522d8217075c379d1aeeb680a037487e04f5",
+          "sha256": "9f9285d261c3855649a0c4514451321a043edcafa3489c64e61ee0f2388f63d3",
+          "sha1": "216426f0558308f7c9c460f10e29ee50bb4feca8",
+          "md5": "a739bed8bcf9bb4951030df82e403d35"
+        }
+      ]
+    }
+  ]
+}

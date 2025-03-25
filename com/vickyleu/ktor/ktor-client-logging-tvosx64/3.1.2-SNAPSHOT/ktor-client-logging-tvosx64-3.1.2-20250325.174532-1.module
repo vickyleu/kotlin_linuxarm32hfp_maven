@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-logging/3.1.2-SNAPSHOT/ktor-client-logging-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-logging",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-logging-tvosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-logging-tvosx64-3.1.2-SNAPSHOT.klib",
+          "size": 65352,
+          "sha512": "377f8932a048cbf75a3bdd61f9ad29c1eb69566e9cd253cea32f9a685d6975dc5e9d10dbd6d7e61dc2953e2620cf625babf3df1e8d7c4b0181cc2093acb01647",
+          "sha256": "7ca6f8dcfae39f55c65efd8ab561357e01d75c80a5ee5f14f86e9a813674eb8f",
+          "sha1": "d062fe5229fdad25929163f87ec443ad8c83c9fc",
+          "md5": "407609b84f8a09b192b3b028c36386a4"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-logging-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-logging-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12884,
+          "sha512": "d6c655e54a0140f79a081c3894fbbed45bb11b789e253bb89da518460ab7bc7a24d7fefe2f09f78e638f9ecab50faf3920b5db7ca2e4ef77614a05ea54dbdb1e",
+          "sha256": "c1b5e42a0f62aba40eb6e1b7be3b14b3b8e7a1faed66b70809d20ccf126dab5f",
+          "sha1": "7665416d5f350b1f050645318d6d500c49c0771f",
+          "md5": "58abd29cbd75848178782c0133745b8c"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-logging-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-logging-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f0ed45b427a4f30a83b0f7e6a1be8445b18cd7af371e1a5a758cce6f82083e05c199acfe6f283257f3c23e0085b30b8fcde1271fd606d90b640332bc845a6023",
+          "sha256": "64e736d1304bce49ab4448422b65c27b65315ad826ec268ec089c4d7b77814b9",
+          "sha1": "2d0f8da60322a6957742388ee3c5c7a2cfee3ff2",
+          "md5": "40506315b585662a21209627983118ab"
+        }
+      ]
+    }
+  ]
+}

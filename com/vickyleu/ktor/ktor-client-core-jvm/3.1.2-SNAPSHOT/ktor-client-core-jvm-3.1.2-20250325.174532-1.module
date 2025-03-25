@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-core/3.1.2-SNAPSHOT/ktor-client-core-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-core",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-sse",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-core-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-core-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 828348,
+          "sha512": "a4887a1819b298aeed517215a12ef8dab89a08cffe82f2633c577773a096220e2465f0e2f771391237d625e876f09eb8557f0bc98a606261a5bc2b6c485ced27",
+          "sha256": "4ff6f18bf87b69c473d15cf763d6b6855eb9bbb50b51bede6db536adbe80392c",
+          "sha1": "e08ce913b47356cea3d4e322aa6938a4dc432feb",
+          "md5": "60af766b4e78bab6ee4c8ee9926d6061"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-sse",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-slf4j",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-core-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-core-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 828348,
+          "sha512": "a4887a1819b298aeed517215a12ef8dab89a08cffe82f2633c577773a096220e2465f0e2f771391237d625e876f09eb8557f0bc98a606261a5bc2b6c485ced27",
+          "sha256": "4ff6f18bf87b69c473d15cf763d6b6855eb9bbb50b51bede6db536adbe80392c",
+          "sha1": "e08ce913b47356cea3d4e322aa6938a4dc432feb",
+          "md5": "60af766b4e78bab6ee4c8ee9926d6061"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-client-core-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-core-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 137370,
+          "sha512": "15059e660132bf8207095632c33a880a74e35840247a09ada9bdd6c67b1c08002250d023ab9e28cf1db7dd7e6ccce792613da34164f72f1ea3e8f686834c3752",
+          "sha256": "1fdd7dce632106ca4bbf15fbf566a212e2323e940001c5f3e51b5d7af989dc49",
+          "sha1": "19e865551c3eaf35eb56d1fc39ce79cc78a64485",
+          "md5": "155e7e545c45d1487c70804762167709"
+        }
+      ]
+    }
+  ]
+}

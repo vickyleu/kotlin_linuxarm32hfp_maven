@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-auth/3.1.2-SNAPSHOT/ktor-client-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-auth-tvosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-auth-tvossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 53589,
+          "sha512": "4615e977baf822f99e374648cd313498fc93aa44ba3a0a88bdee3d36ee06c9ee1f8610016d2bc1ec481166a8463e76e53745649ba467a80c9f2af241e5b720b8",
+          "sha256": "16bbe378ac9e671fb4c4dd771eae8a4935fa5244fcd95601589100c7df5863db",
+          "sha1": "1e2f53b0cc65eec04a654c05b272c4cb9689a0d2",
+          "md5": "a1ce501f756130a4f10e698d518614fa"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-auth-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-auth-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 12670,
+          "sha512": "565278687b8b7d6d0f81174a538e3e36bec2abc6aae7e78283d0afc83759396844cf5d8c19c815bc0e43b87aa0523a92c06107eb6d310400f13ab25534298066",
+          "sha256": "d547799a79c9a25bae79fa8ac8322a7eb5a6f44867f2be7a925bf9d4a894f922",
+          "sha1": "7425b17152bc668e37ee3e15c572de3d4d5ac339",
+          "md5": "b6d07b98246acd355ac78681c561888d"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-auth-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-auth-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f7ce4696deb71c96eee0e322877cb2decca4ecf5596086b793522fa2d34f0b95810455477168d718423bdf311a58c712eb3879ffb3722b2dfb76e27d409a1bb5",
+          "sha256": "a60b24053b9078fdfe7924f0eae83ab07543cd7270eca9101895a9e3af12c85d",
+          "sha1": "6960475ab0c49d1fcb455344ebb755a80fc306e2",
+          "md5": "68507f67596efe887d3f296a1f698957"
+        }
+      ]
+    }
+  ]
+}

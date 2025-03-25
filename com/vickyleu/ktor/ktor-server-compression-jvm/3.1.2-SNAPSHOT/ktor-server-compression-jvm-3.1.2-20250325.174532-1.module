@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-compression/3.1.2-SNAPSHOT/ktor-server-compression-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-compression",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-compression-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-compression-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 36795,
+          "sha512": "23425619cc6f7023a9a3e2fe1ab3261c145b9de254bbf5c51806aad0274ed8f9041fe3110e23e13fbe4f1808c0950e9398892987eca4d170cab479ad4e44d401",
+          "sha256": "39f1c38f1b0931ab84bcc412be276aa5175a546fdaa643fc9717782add4b4d62",
+          "sha1": "2c98c4544371694e7fea103ee62eb4bb17474622",
+          "md5": "e1844e4bd8d73ed6b9e8792883b08143"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-compression-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-compression-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 36795,
+          "sha512": "23425619cc6f7023a9a3e2fe1ab3261c145b9de254bbf5c51806aad0274ed8f9041fe3110e23e13fbe4f1808c0950e9398892987eca4d170cab479ad4e44d401",
+          "sha256": "39f1c38f1b0931ab84bcc412be276aa5175a546fdaa643fc9717782add4b4d62",
+          "sha1": "2c98c4544371694e7fea103ee62eb4bb17474622",
+          "md5": "e1844e4bd8d73ed6b9e8792883b08143"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-compression-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-compression-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 6041,
+          "sha512": "06f10f1ba4e9bc37cf21e6285d407c9347d9ff8d356ae3b5ac358b2ca3d060ce8becf5c8ab357a30ff505a3335f79b80d3aba4831fdfbcfbb43dd8fc4ddd8efa",
+          "sha256": "53656f93bd34d1e925290566e8e45ca328bed9b3a0fedf08a40ad93276cd8085",
+          "sha1": "56ca3dff4cf861232b52946eb93360a445d69098",
+          "md5": "009d7a21d720b00783608bfca0df73d1"
+        }
+      ]
+    }
+  ]
+}

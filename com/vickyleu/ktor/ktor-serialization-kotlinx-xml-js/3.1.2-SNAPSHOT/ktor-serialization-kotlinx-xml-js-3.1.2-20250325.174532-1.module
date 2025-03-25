@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx-xml/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-xml-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx-xml",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.github.pdvrieze.xmlutil",
+          "module": "serialization",
+          "version": {
+            "requires": "0.90.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-xml-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-xml-js-3.1.2-SNAPSHOT.klib",
+          "size": 5055,
+          "sha512": "77fb4f2ec8bd83669ebd017eb071c1c3834e064ccdf9aced597f4bbc1094ff5997be2e4a01bd1db5ab8169b2882dc46208f7d5eae633570f8abd02a64eec5c84",
+          "sha256": "26bc48086c9ea68376c8fbfe6a5fd280f3b6fea92eb82107c772246663d2ca50",
+          "sha1": "a2c08e57e4a1cedabb0b0fbe4c1d996ec6cb739b",
+          "md5": "39efb086cf85d3f885193376f2ca54c6"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.github.pdvrieze.xmlutil",
+          "module": "serialization",
+          "version": {
+            "requires": "0.90.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-xml-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-xml-js-3.1.2-SNAPSHOT.klib",
+          "size": 5055,
+          "sha512": "77fb4f2ec8bd83669ebd017eb071c1c3834e064ccdf9aced597f4bbc1094ff5997be2e4a01bd1db5ab8169b2882dc46208f7d5eae633570f8abd02a64eec5c84",
+          "sha256": "26bc48086c9ea68376c8fbfe6a5fd280f3b6fea92eb82107c772246663d2ca50",
+          "sha1": "a2c08e57e4a1cedabb0b0fbe4c1d996ec6cb739b",
+          "md5": "39efb086cf85d3f885193376f2ca54c6"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-xml-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-xml-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1979,
+          "sha512": "9aeeb7fd7a99a42bb8fc12361313ec8b33177f610db3aefbc58ec4e0e698642dad6c2d2a9d2acd98cc6e72bac7b50790f6102ea9aa95623d490824e787cc1434",
+          "sha256": "06d3f51b2b8f577df6d04f8a0bbc5d3653666f1834672941b87734824b2c67e6",
+          "sha1": "2d19e6c70429404897b572b2bf182973c645bbec",
+          "md5": "3058ef2254c9096c9ab3776df05857ff"
+        }
+      ]
+    }
+  ]
+}

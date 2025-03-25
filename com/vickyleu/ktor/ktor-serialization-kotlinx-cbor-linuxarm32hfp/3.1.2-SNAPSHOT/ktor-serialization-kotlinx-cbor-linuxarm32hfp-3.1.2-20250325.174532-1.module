@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx-cbor/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-cbor-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx-cbor",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-cbor-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-cbor-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 5210,
+          "sha512": "17829a84adfa003c6798c496fc6d4024c9b28b8b6634581ad00e6f32f049189aa3ef86890259e584938163cc3f346a01f6a561d80e2a173627b3f36f829e8497",
+          "sha256": "e51e45025c7dc86f9a596d5ee77901c7a9537b290bf7e1d8574e9dc3629eadf4",
+          "sha1": "eb3b18c8d458fd165efdc12664a2134c8133bdb2",
+          "md5": "0fb7f704c68f2493e6293ee275326c55"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-cbor-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-cbor-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1870,
+          "sha512": "6527ba6b86a11193af0974c540bcd1153547c67ca907b3f669e620b95f121efe55a4c9add5935df90079b7c56419e572f4357298da1087183803e527463b4065",
+          "sha256": "e2f73880e358d8e66a29281ba5e2c3f36753ab6d6e055ac2c47b18faa226b06f",
+          "sha1": "20f0173fafbc1c6b72488a503626e2dcc77f65cf",
+          "md5": "4ea1beebfdfdba67e54875899da0c7fc"
+        }
+      ]
+    }
+  ]
+}

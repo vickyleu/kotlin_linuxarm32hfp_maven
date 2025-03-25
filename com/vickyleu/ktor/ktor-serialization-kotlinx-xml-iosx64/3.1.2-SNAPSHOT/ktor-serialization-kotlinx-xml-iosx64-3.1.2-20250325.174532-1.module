@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx-xml/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-xml-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx-xml",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.github.pdvrieze.xmlutil",
+          "module": "serialization",
+          "version": {
+            "requires": "0.90.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-xml-iosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-xml-iosx64-3.1.2-SNAPSHOT.klib",
+          "size": 5433,
+          "sha512": "863ba8fe1e924e7859eabb60322fe5b230efbceb4cd33cff305d3217263c4dd3839081193e6ad05bc5682bacf1ef02ffcbcf3ca1b69cf266b7cbe47cb1167776",
+          "sha256": "9079abc0d77d652817d5dfd5cdeab0e01af6df7c969edf8524230172c26782e0",
+          "sha1": "5cfbaa30238656e9cd6b8edaa353c30cdbb18b52",
+          "md5": "cda4f91b945bd5b9818743652a5fca2b"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-xml-iosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-xml-iosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1979,
+          "sha512": "9aeeb7fd7a99a42bb8fc12361313ec8b33177f610db3aefbc58ec4e0e698642dad6c2d2a9d2acd98cc6e72bac7b50790f6102ea9aa95623d490824e787cc1434",
+          "sha256": "06d3f51b2b8f577df6d04f8a0bbc5d3653666f1834672941b87734824b2c67e6",
+          "sha1": "2d19e6c70429404897b572b2bf182973c645bbec",
+          "md5": "3058ef2254c9096c9ab3776df05857ff"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.github.pdvrieze.xmlutil",
+          "module": "serialization",
+          "version": {
+            "requires": "0.90.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-xml-iosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-serialization-kotlinx-xml-iosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "fd1a3d8fea78c8df4e22d4a19bf5a3a5f5a550f96890f64a70209b0a254bd478945c1df855fccfbd09ea3db235cb8b6413f6d818d88b6387140b5600ebf2b0ad",
+          "sha256": "906a55cb281411ada415b624d5abbb10068f22f11be912873d9b67e0fb156ccf",
+          "sha1": "5d3d00d6e04f1a57eff490e1834f29a2d63779ae",
+          "md5": "d55fe395c6f3ffbb9deca2bc520a0be6"
+        }
+      ]
+    }
+  ]
+}

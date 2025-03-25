@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-http-redirect/3.1.2-SNAPSHOT/ktor-server-http-redirect-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-http-redirect",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-http-redirect-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-http-redirect-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 8792,
+          "sha512": "a7cf81a36c5da431b2437749933df48bbd9fb530fcd9bbab37f9ee8e421d693b6dc261d39dd5f24299fa3b2baeb8ada25cc7c9318218400c5c65b0b7b2c1a141",
+          "sha256": "0cd20a729cfa740ae851871794f6cc9d17269ca7c9b635c7da1fef79bdbd17c5",
+          "sha1": "306f79aa481e165463d08fc36697f08e02626317",
+          "md5": "32dfb954653ac1b2d0b2ca93e5a358b0"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-http-redirect-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-http-redirect-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 8792,
+          "sha512": "a7cf81a36c5da431b2437749933df48bbd9fb530fcd9bbab37f9ee8e421d693b6dc261d39dd5f24299fa3b2baeb8ada25cc7c9318218400c5c65b0b7b2c1a141",
+          "sha256": "0cd20a729cfa740ae851871794f6cc9d17269ca7c9b635c7da1fef79bdbd17c5",
+          "sha1": "306f79aa481e165463d08fc36697f08e02626317",
+          "md5": "32dfb954653ac1b2d0b2ca93e5a358b0"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-http-redirect-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-http-redirect-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2310,
+          "sha512": "061b03df84e56c8c04b20feb0be9c45fdc5d1a5b274b7739f30b05a73cc4f902ea92b7231c63472efe772bb92295544179947c96f5fb1e587ac8e5547dc5639c",
+          "sha256": "0c00540fd6da40f611568a886aa44b9e2655bb66696f76f203cca10f9e3afd6a",
+          "sha1": "ff99ba0cf98cd46e5bf40848715540cf941163a1",
+          "md5": "bd681ac1a10519c780f969859d2d528a"
+        }
+      ]
+    }
+  ]
+}

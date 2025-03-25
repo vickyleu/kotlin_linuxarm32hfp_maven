@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-jetty/3.1.2-SNAPSHOT/ktor-client-jetty-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-jetty",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.http2",
+          "module": "http2-client",
+          "version": {
+            "requires": "9.4.57.v20241219"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-openjdk8-client",
+          "version": {
+            "requires": "9.4.57.v20241219"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-java-client",
+          "version": {
+            "requires": "9.4.57.v20241219"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-jetty-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-jetty-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 48772,
+          "sha512": "b09b09ba8ddacd43078ac33c3cda9611d98cd48a612b34eab47debcbdbc71111415c4ccf36eddfea62988aeb69c7848936b2de3e92e413ba26dab88f5af3cc33",
+          "sha256": "14144efe41c8b621aeaecd2baf47e176984b20fa14d0efc3864bd9bb528996ac",
+          "sha1": "e66fc036d119ebb16536bb7b7a23529c46fdf0ef",
+          "md5": "617e1b78731ba75b4f9930c66ddd5f64"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.http2",
+          "module": "http2-client",
+          "version": {
+            "requires": "9.4.57.v20241219"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-openjdk8-client",
+          "version": {
+            "requires": "9.4.57.v20241219"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-java-client",
+          "version": {
+            "requires": "9.4.57.v20241219"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-jetty-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-jetty-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 48772,
+          "sha512": "b09b09ba8ddacd43078ac33c3cda9611d98cd48a612b34eab47debcbdbc71111415c4ccf36eddfea62988aeb69c7848936b2de3e92e413ba26dab88f5af3cc33",
+          "sha256": "14144efe41c8b621aeaecd2baf47e176984b20fa14d0efc3864bd9bb528996ac",
+          "sha1": "e66fc036d119ebb16536bb7b7a23529c46fdf0ef",
+          "md5": "617e1b78731ba75b4f9930c66ddd5f64"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-client-jetty-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-jetty-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 8130,
+          "sha512": "b6d4d0f6f88aecd67774d9f682c861b387f6991932532274af67711384193a9e801616918e78234dd4aa84e378736e4ea3845de9b7a62c72a1b7f1b5ec0fc6af",
+          "sha256": "bbe757c9958fd9f064ab3360d66da58e2d82cd8350b4debe93005b5f9e5fbb51",
+          "sha1": "a941c5202d4f8985a2f268bc187bea4a9608d75a",
+          "md5": "cea00677cea3813e4fc8e9a6b1f899c0"
+        }
+      ]
+    }
+  ]
+}

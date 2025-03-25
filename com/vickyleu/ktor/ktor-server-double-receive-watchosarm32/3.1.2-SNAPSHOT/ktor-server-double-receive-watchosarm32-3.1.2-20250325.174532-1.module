@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-double-receive/3.1.2-SNAPSHOT/ktor-server-double-receive-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-double-receive",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-double-receive-watchosArm32Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-double-receive-watchosarm32-3.1.2-SNAPSHOT.klib",
+          "size": 23224,
+          "sha512": "de323c805e958e39d6c10db577ccc598d057398cc28b038606de90533afc5b5a70f2d03a4ba383b6cd8329b12c1be994c5f6468119f11d4365754f69aaff85c9",
+          "sha256": "e8bbc3fb488b88f79035cf38e2e403d2e8c86d1f9f32355f93c83863054a1302",
+          "sha1": "bec408de950f6eb16d52005ac69c34672bee916d",
+          "md5": "3696017e9078c73c8265a3ab96127595"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-double-receive-watchosarm32-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-double-receive-watchosarm32-3.1.2-SNAPSHOT-sources.jar",
+          "size": 7243,
+          "sha512": "f4ab371064a5ddbe99c957d85ce93ab1b8b9af2b7782913846e0ee540919ae0fa2eb317b7abb23c258f07b9b9c462d2dc110f15d9f0854a6989b0750444de85b",
+          "sha256": "d31cf7c6a6b0ff00b18cfb9f1cd622ee70e64be0c505d1141ebcc61115d6936c",
+          "sha1": "45f922896fdd1a97360dbead8657de50b0f2aba0",
+          "md5": "90d091b4a2b5cfbb9b25db2082360d5e"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-double-receive-watchosarm32-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-double-receive-watchosarm32-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "be041b1ad3ec53809397d16380b8d3d811cef633005ebd25ed55e3927a0573261fe906b58122321bafc943fca4b722418103c0e2e17cc4518e99b8fd3db7bfe9",
+          "sha256": "807433297dec1d0af97d799eb6ee7561bf36d6814ca082a20bc381d7f6791ca9",
+          "sha1": "3881227971e8042b2eed67b78fc0edac06ba03c9",
+          "md5": "87f00e47fae81cfdfc1e3e7607005408"
+        }
+      ]
+    }
+  ]
+}

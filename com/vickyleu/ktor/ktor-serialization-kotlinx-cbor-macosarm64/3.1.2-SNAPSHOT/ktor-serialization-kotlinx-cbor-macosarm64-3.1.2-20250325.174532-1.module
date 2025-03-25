@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx-cbor/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-cbor-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx-cbor",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-cbor-macosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-cbor-macosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 5177,
+          "sha512": "2f0b75216bd2786d7f89f3b4d33796454fcb646f869f90d8e5f9e263d69236b30360600e61c3282e651096d39a46c12487666c8fb3a6ff72932dec5354d14b8a",
+          "sha256": "1f62257c8bda99769185abc6e0c9f5fdbff303304d7224358119cf33196302e5",
+          "sha1": "c772a8e4f388248175be968c9f1e0187ec021192",
+          "md5": "31e13c9e21781796509b4c0be0b1f431"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-cbor-macosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-cbor-macosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1870,
+          "sha512": "6527ba6b86a11193af0974c540bcd1153547c67ca907b3f669e620b95f121efe55a4c9add5935df90079b7c56419e572f4357298da1087183803e527463b4065",
+          "sha256": "e2f73880e358d8e66a29281ba5e2c3f36753ab6d6e055ac2c47b18faa226b06f",
+          "sha1": "20f0173fafbc1c6b72488a503626e2dcc77f65cf",
+          "md5": "4ea1beebfdfdba67e54875899da0c7fc"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-cbor-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-serialization-kotlinx-cbor-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "68dda16e0fbbd6b871aca24e7bf998c3fac0ec0f1a90f8db0a978a2f2644ace561160164d0ec58ad5cba19b1cf9e67a042725e6b6d18da7193a500a9724aa552",
+          "sha256": "43d2fa780c25ed1539611d140e469f6b41c24e275002cf62e0f951bd871450dd",
+          "sha1": "c2956241dc0a2e5a7a11bf31bac7560b1861f64e",
+          "md5": "97977cd8535ec2ffe7bb06480bc501a8"
+        }
+      ]
+    }
+  ]
+}

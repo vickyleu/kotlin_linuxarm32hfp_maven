@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tvosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 150276,
+          "sha512": "1c4fc603ce22dd4f094176735602b0788ffca29710e572599985afd92f01f35f0e0e2db018b9c6316481168624fb8b1770b061df69d8c45993968a2495e1cf62",
+          "sha256": "2142d12d36bcda07aa4a336d3c3e9aa9640f57a4eb84681231fac6b30e1b0599",
+          "sha1": "bad90ff76f3b7a6f75dd5c03cf0d6c2ffb0ec1ea",
+          "md5": "e161e75f5c08dfb188a70cffd51d24fd"
+        },
+        {
+          "name": "ktor-network-tvosSimulatorArm64Cinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 9511,
+          "sha512": "2146613f44dec05e2779eefe9cf081ddb0613576503b792fb8a129dafea3cb468dd93c4e3460306f0e666da78f5aee64686bec703be85d0f31679883022e88c4",
+          "sha256": "3a0bd49173ea677af54014f165b0a107f88b393745e6ec236e933e9d86270031",
+          "sha1": "1008aea1d98aeb46a09ea5c8f5a8ecc587306ef8",
+          "md5": "b0e86dbeb7b3855278c1dc9f8fea5ce6"
+        },
+        {
+          "name": "ktor-network-tvosSimulatorArm64Cinterop-unMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT-cinterop-un.klib",
+          "size": 6044,
+          "sha512": "93b327a6553e395c6c1feca422cd078ee5fbf6e9719d58354adc895124664a9f86e9d447d264475abc1506f0578e5b909d7d6cad305a0d65a75ea6cdcf2c191f",
+          "sha256": "659e85faade148e140a46a1ce8fa04b387aa938f067c1eb4ecdd45b1609311e5",
+          "sha1": "f94013dd0ee74610606f76b53912461c1440e48f",
+          "md5": "ab1a92aa575e1c3f082a1277a00db3c9"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 43793,
+          "sha512": "b5969533e0ad9bed1bb5bdfa81b663ae5d13215ceb23de36f753a2243b3e45239ae4db8cb3577bd33d5a8636a547f443276282771947e3a01d21a801040bd238",
+          "sha256": "48adc28547f0a572adc26861a33caec12ab04e4fdbb28a19984353769f777a2e",
+          "sha1": "78ba3a7e5c9716aaf3072c7e91cb675312c1403c",
+          "md5": "39a08ae0fec08890f023cd50d7c8ef30"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-network-tvossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 64049,
+          "sha512": "4ebd5ce772eda9e6d3d0462e3178b8f3dff9c1cefd3658f208eb9e83fc4c02f74d834b670d8e8ca217dc3c7814bca201d50c6f408ebbfc290a5752486ece07fe",
+          "sha256": "f179c66a9ccd01bc520c530f98d108d9b23bfd6196d51cd4140baa0cd5021c1e",
+          "sha1": "95cf6b1923f53e21a31c553c6cb221357499d9a2",
+          "md5": "ec2dbe89b85c45aea0848a36a710a00c"
+        }
+      ]
+    }
+  ]
+}

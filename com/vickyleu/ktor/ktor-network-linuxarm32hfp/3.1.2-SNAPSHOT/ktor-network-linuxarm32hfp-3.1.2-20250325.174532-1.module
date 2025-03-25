@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
+          "size": 149416,
+          "sha512": "05988f6ca593608cd61313f94cd15936ed471ae6a309cc9dc8bd02bc0662253ab5d3f633a1614e3f306727b2eb7c1093c779cea974c05b9bd40c13b4e0b98855",
+          "sha256": "562ecee3166defa924d42238cbf7ea6310a41499fae6872eb5c812e627185ae0",
+          "sha1": "d4700b522691174f0b814c4d4f88ce8e92c2d71c",
+          "md5": "a76417af11f8ceae88262dfa60f9ea36"
+        },
+        {
+          "name": "ktor-network-linuxArm32HfpCinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-linuxarm32hfp-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 9843,
+          "sha512": "6b4a02bdc19c5a98391ce18dc547a650719fbe93f768f7c95b150c35512d3967176fd33e5467eafe1773b68c4d00a129e7239e37614d3d507148f12768d90019",
+          "sha256": "074aab9f0b947c85b9676f5dc6149f4677b73fc3450d6865d2172c37c17cc0e8",
+          "sha1": "79783dc5e6fa1bf8f14dedfab8f82dad06eceb34",
+          "md5": "641e835d0e08e485c7ac1391542de315"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-linuxarm32hfp-3.1.2-SNAPSHOT-sources.jar",
+          "size": 42752,
+          "sha512": "35c1a8de545f7497d81ce194ec2a38f97d1299c1eb44e446ebbce9418e97f22696dda2dfd88a5ef4645f0504de01c00e367d943a59b0c460ca52c27764e00f58",
+          "sha256": "72126a634dd86dc862083c8e12cad4789c2c3cb0dc002a167bdb70dbf076a780",
+          "sha1": "53493160b1a9ff6ef9e929e0073595f6d6f9e509",
+          "md5": "3d5a5581fc03f453e0b03443572dd9b6"
+        }
+      ]
+    }
+  ]
+}

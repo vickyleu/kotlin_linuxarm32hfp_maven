@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-json/3.1.2-SNAPSHOT/ktor-client-json-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-json",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-json-watchosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-json-watchosx64-3.1.2-SNAPSHOT.klib",
+          "size": 20935,
+          "sha512": "90f41fba3f9efbf77f830fa6cd9655f9b93ecefe8c6ba1338546dff75613848e1a093a998259beae549e8ef15dc1b864700ffbcc075d2883f296e3367a534ee0",
+          "sha256": "8765b4fc8961c303bea4d8f7164f54a44ec00b35aa2188841a605c2577cce19f",
+          "sha1": "b3f104eb8d3c473e855f6ed3a7eb836e7e265f8b",
+          "md5": "4befd0ca6eef5868891d100f36bfe030"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-json-watchosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-json-watchosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 6671,
+          "sha512": "0949ac750b6561d37b9726f73d195152834b7bb51d427c75f664bd5e7fc17b4f8d2b58ef3de1a1de3ef8afaee3a5136471d846062d7074bbdd8f83b43c198f4c",
+          "sha256": "b19ea5224717044ca8b54efee9a4aefd77bed2442761d68c1c54d0ca88a16172",
+          "sha1": "6bfe9d319f114e982e3eeaa18451a07131eab82a",
+          "md5": "fa340d1d8eb189f8cb81992a75a7c0dc"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-json-watchosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-json-watchosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f0ed45b427a4f30a83b0f7e6a1be8445b18cd7af371e1a5a758cce6f82083e05c199acfe6f283257f3c23e0085b30b8fcde1271fd606d90b640332bc845a6023",
+          "sha256": "64e736d1304bce49ab4448422b65c27b65315ad826ec268ec089c4d7b77814b9",
+          "sha1": "2d0f8da60322a6957742388ee3c5c7a2cfee3ff2",
+          "md5": "40506315b585662a21209627983118ab"
+        }
+      ]
+    }
+  ]
+}

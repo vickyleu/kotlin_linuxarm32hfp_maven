@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-encoding/3.1.2-SNAPSHOT/ktor-client-encoding-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-encoding",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-encoding-iosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-encoding-iosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 22786,
+          "sha512": "d089b4ac573bbc2c70aab044659be6208defab62383872e8c30d80dce45aac8e20f2d5830d952de39c2d1a5828df9d40cb50864f9d16215905f4d0fd838a2b07",
+          "sha256": "772e2fd2991e4f113007d69aff12e5302af9f70609abbc50fbdfd7a2582c9274",
+          "sha1": "00829a1684b9c450f59d9eef704f10bed6bbeb06",
+          "md5": "d88cbf4e0c31c68fcc0ce57682eb9f9e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-encoding-iosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-encoding-iosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3218,
+          "sha512": "7485eb61a1380e1be058b38bf5f7cd4c225d67f57dc2883cd701b61404ebad36414d8f1089bd641680c2b0f8e5a3156676e90cbc416f2b4a4bb76acf52100a47",
+          "sha256": "ce606b2cdc86a8287c01e12dff5a721fe8a37f2bd41ab69926fe1b5b5f4b252e",
+          "sha1": "80c2638ddc263fb7183f816fa964a5a798a82d8f",
+          "md5": "cf21e5d120a76f6aacb7059c0245091d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-encoding-iosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-encoding-iosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "c63d3ace91658197ee4e1d92386477522dab2f02d93337799fb105a99124f70f00b3daf9ba927f335415eec32dd7f8113c6c53c038f7b01ab4782a8f9bc9bc82",
+          "sha256": "9df8bd5cdace24f97c92cfac2bc191e2a87aed017c128143afa2e81c6ae880d6",
+          "sha1": "66e5dc1ee2a00372bbf623eced0be91aaf606828",
+          "md5": "e40368f191121df53289a63e74939425"
+        }
+      ]
+    }
+  ]
+}

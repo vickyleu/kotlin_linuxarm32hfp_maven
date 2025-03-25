@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-caching-headers/3.1.2-SNAPSHOT/ktor-server-caching-headers-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-caching-headers",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-caching-headers-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-caching-headers-js-3.1.2-SNAPSHOT.klib",
+          "size": 15193,
+          "sha512": "ad2cdb23e361120dc39a82d50376361ce2cf962d72d60ccf0b6a33ae688038a5523b769a04d2647a737df8c2b46631238f15343a304b319aacf50770920cb653",
+          "sha256": "6550776ac156c2826177ac20f2c207ddb1637a875ea7c7aa09de07d0246ec647",
+          "sha1": "f52059b4225c1203989e8f86e7a6c92682e3b200",
+          "md5": "dd96f67d8ac9012c47a1044788c86b6f"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-caching-headers-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-caching-headers-js-3.1.2-SNAPSHOT.klib",
+          "size": 15193,
+          "sha512": "ad2cdb23e361120dc39a82d50376361ce2cf962d72d60ccf0b6a33ae688038a5523b769a04d2647a737df8c2b46631238f15343a304b319aacf50770920cb653",
+          "sha256": "6550776ac156c2826177ac20f2c207ddb1637a875ea7c7aa09de07d0246ec647",
+          "sha1": "f52059b4225c1203989e8f86e7a6c92682e3b200",
+          "md5": "dd96f67d8ac9012c47a1044788c86b6f"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-server-caching-headers-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-caching-headers-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3764,
+          "sha512": "58343a5fc9e812f9deb65c82653a1601c3c960ac9435649ff674fa583b5554399be5222884569806c764d597a7689f6164b92fd33f1d2e24d5f8d4bca664475e",
+          "sha256": "7e62d7c4439346be094e988839b8dc58b0432f1e8257827dc0e257d536d9982b",
+          "sha1": "652163fa0c69e2349eb7e812300555005889109d",
+          "md5": "03c222a2c8a458caaaa14bf1046328f9"
+        }
+      ]
+    }
+  ]
+}

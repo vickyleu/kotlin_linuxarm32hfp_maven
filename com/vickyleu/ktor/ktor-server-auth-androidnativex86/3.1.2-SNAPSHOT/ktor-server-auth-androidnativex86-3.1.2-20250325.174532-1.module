@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-auth/3.1.2-SNAPSHOT/ktor-server-auth-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-auth",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-auth-androidNativeX86Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-auth-androidnativex86-3.1.2-SNAPSHOT.klib",
+          "size": 127375,
+          "sha512": "b3d011b9399d38724d83bdfd3dc6655c571e20c51e52c8ea0c80f5252eeaaa1831790917a8c7a40a031224396bbf41b1ddd4e27786b48654208560fb872f43c8",
+          "sha256": "5a62a7087edc77fdaf33dc4e8a3de0a7d243a3d7094e4d1def97213bd3db71a0",
+          "sha1": "59d3462d395d1e4de46545548ac90e3b3bb53cb5",
+          "md5": "e6e89a90bf5194de620b7fbdf39bcf1d"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-auth-androidnativex86-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-auth-androidnativex86-3.1.2-SNAPSHOT-sources.jar",
+          "size": 29613,
+          "sha512": "bc57a737fee9a07657827b097e0d28607269d22535f873acd3e96ff3f8c34e5a6a173095abbd132b15ce73fba3c855d83a935c5e57446093f8524932e903c859",
+          "sha256": "943ef60f2d07fa40cbd472769703c5f2820af21a71661b343afd7e0de3c1bf69",
+          "sha1": "78355f0ed7ec37b30a5bb124e7fbb19bf775da6f",
+          "md5": "436d0c5127a63071ee5ccad8dd90c943"
+        }
+      ]
+    }
+  ]
+}

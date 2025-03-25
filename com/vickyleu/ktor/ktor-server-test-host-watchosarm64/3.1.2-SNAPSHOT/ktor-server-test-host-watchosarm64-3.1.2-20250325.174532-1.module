@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-test-host/3.1.2-SNAPSHOT/ktor-server-test-host-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-test-host",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-test-dispatcher",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-test-host-watchosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-test-host-watchosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 71937,
+          "sha512": "731e6316f92921165b652ad28a09a4196b4af59410b0999268ffbc842ee0cbf9bb34797b4e098f74f9b572341f1ece9c231a0d84554e24e8d23a9d99dc6e17fe",
+          "sha256": "044985d3e26f87903f2af353b6e401bd3438abd9a85bfd0192c7c4aa521d676d",
+          "sha1": "b727630ef935fa104b3b9f409a16b20b6df6419b",
+          "md5": "9ffd6bd8c2590828955e78ec074cd488"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-test-host-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-test-host-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 20315,
+          "sha512": "be1a96e67d35a4102d1d831db44a194d14fa01a22d610f8656067d07c01d64f93a86b419c6873104fbb87b1784578645b37c12f24bb00f4c9eacd52c90fe6c27",
+          "sha256": "d17d4f64bd1847976cdd491819ccf75f3b311068326c047715ee26e848b85446",
+          "sha1": "6b93af2844d5df797ea6370f10a501cf43fbee5e",
+          "md5": "41c9bb78c88599343991000b5f7867ed"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-test-dispatcher",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-test-host-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-test-host-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "6f2b6388bcd9351c7c7192c1869361fec0e3535e06219850ac2a2f3b3db8224d27f8b28a59ef8ca758beb133d0ecefe30ca849ae898d7ffb2fef6e95c3d22efe",
+          "sha256": "5ec8b09f4ff9d123b673732901765ee2f2f68ea759aa564739a57859ee453e2d",
+          "sha1": "8686b79f3e66ef97499d2d033291ef9390ff17e2",
+          "md5": "958e1478d5459f7dc5052e0b9921cf6d"
+        }
+      ]
+    }
+  ]
+}

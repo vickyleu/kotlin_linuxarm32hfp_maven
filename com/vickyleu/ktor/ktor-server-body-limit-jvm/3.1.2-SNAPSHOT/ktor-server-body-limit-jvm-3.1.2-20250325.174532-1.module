@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-body-limit/3.1.2-SNAPSHOT/ktor-server-body-limit-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-body-limit",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-body-limit-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-body-limit-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 13671,
+          "sha512": "b42c3316cca4f6c8dedaaa6cd850f83af746bdfc7260bbee261a51c48d6bf3d661d7ef2f6d80df9731798b288935785a59f8403010e7fd8b1edd36e006601ef9",
+          "sha256": "08e2c361fed1264c959027727611d5f55b89b2d6765aef3bf7e79f7e4fd4b207",
+          "sha1": "423cd853cc14de491256c40c0d958d64802db3d8",
+          "md5": "7ff58bfe4b6be0c4e23ba19f494bd9c3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-body-limit-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-body-limit-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 13671,
+          "sha512": "b42c3316cca4f6c8dedaaa6cd850f83af746bdfc7260bbee261a51c48d6bf3d661d7ef2f6d80df9731798b288935785a59f8403010e7fd8b1edd36e006601ef9",
+          "sha256": "08e2c361fed1264c959027727611d5f55b89b2d6765aef3bf7e79f7e4fd4b207",
+          "sha1": "423cd853cc14de491256c40c0d958d64802db3d8",
+          "md5": "7ff58bfe4b6be0c4e23ba19f494bd9c3"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-body-limit-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-body-limit-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2302,
+          "sha512": "1fe49fe1e96d0841045bb151fc8490f761c5c575cb7acad2a5bf076e41e418f7029490236ef35f81dfa0d15187fccb77f80a894aea42ea16b8ed7171b9b2f7a3",
+          "sha256": "826cb7e25738122cd5bbc4a6b31bcaea147fd77d806e27211858dc6bc1bc3158",
+          "sha1": "407d1eb0bf5b46fac46965247f4f147c5d6ec0fb",
+          "md5": "84968e6e84e9497c4ef4155c8e3b5e68"
+        }
+      ]
+    }
+  ]
+}

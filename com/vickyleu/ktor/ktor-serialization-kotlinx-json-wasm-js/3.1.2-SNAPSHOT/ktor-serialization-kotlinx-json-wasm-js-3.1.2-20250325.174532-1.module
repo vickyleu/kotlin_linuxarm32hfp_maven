@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-kotlinx-json/3.1.2-SNAPSHOT/ktor-serialization-kotlinx-json-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization-kotlinx-json",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-io",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-json-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-json-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 17450,
+          "sha512": "d0922133e45423bc7c03e1fe32291aba3569cc84434fd187563f121820dd2fdf12027c3f75f9c4d7ee8b47ac7a4d370f6f1f9720996d2a8896e93ae57422bdeb",
+          "sha256": "5f12bc7165820f9ed63dfc35d7049a2e3c6cd6299b0f9c78bfe168e7a9b74a4f",
+          "sha1": "d3f89e281365cd1701aba361e48b8aa2dccdfae9",
+          "md5": "a7218815778475913291999c5a86d8d2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-io",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-json-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-kotlinx-json-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 17450,
+          "sha512": "d0922133e45423bc7c03e1fe32291aba3569cc84434fd187563f121820dd2fdf12027c3f75f9c4d7ee8b47ac7a4d370f6f1f9720996d2a8896e93ae57422bdeb",
+          "sha256": "5f12bc7165820f9ed63dfc35d7049a2e3c6cd6299b0f9c78bfe168e7a9b74a4f",
+          "sha1": "d3f89e281365cd1701aba361e48b8aa2dccdfae9",
+          "md5": "a7218815778475913291999c5a86d8d2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-kotlinx-json-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-kotlinx-json-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 6031,
+          "sha512": "2abb5e00a337e17d20b2d2878995c7a9537bca38dc507d411578465d6cf92f41b2427061c0266044b887fde1f12bb34e329fbf029ae2b34e2aac98502e6ce044",
+          "sha256": "bea43ce34f163760705bf1c7fd39f48ba7d04780f460377551013fdfddd7c247",
+          "sha1": "1a9ec77f308655d6c2e3f526b5f80f5cd31e860e",
+          "md5": "8165fbf3b7f729a8f9f045ec45da2e21"
+        }
+      ]
+    }
+  ]
+}

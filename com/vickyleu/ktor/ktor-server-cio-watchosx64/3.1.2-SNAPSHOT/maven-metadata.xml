@@ -3,55 +3,55 @@
   <groupId>com.vickyleu.ktor</groupId>
   <artifactId>ktor-server-cio-watchosx64</artifactId>
   <versioning>
-    <lastUpdated>20250323174921</lastUpdated>
+    <lastUpdated>20250325174532</lastUpdated>
     <snapshot>
-      <timestamp>20250323.174921</timestamp>
+      <timestamp>20250325.174532</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>kdoc</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>3.1.2-20250323.174921-1</value>
-        <updated>20250323174921</updated>
+        <value>3.1.2-20250325.174532-1</value>
+        <updated>20250325174532</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

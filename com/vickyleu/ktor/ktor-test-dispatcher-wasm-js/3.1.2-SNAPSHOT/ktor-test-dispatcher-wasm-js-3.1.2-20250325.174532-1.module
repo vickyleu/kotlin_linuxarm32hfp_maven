@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-test-dispatcher/3.1.2-SNAPSHOT/ktor-test-dispatcher-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-test-dispatcher",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 5822,
+          "sha512": "1351a44a454de0d438b4c44532fe91a121bdec5ef254653a25f117f50628e152f92fd319e61283871fca7f3668ad848dc1049285cd1fd056ca0699f83d7af7af",
+          "sha256": "e9a8b57960ffb6f346d20b6c6b2aff14c637daca3ad6fe76cc7044f0a5263d65",
+          "sha1": "449073af1166c9ddbc1c66972957771559067912",
+          "md5": "f76a5f591edea480d08df27a296d4d6e"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT.klib",
+          "size": 5822,
+          "sha512": "1351a44a454de0d438b4c44532fe91a121bdec5ef254653a25f117f50628e152f92fd319e61283871fca7f3668ad848dc1049285cd1fd056ca0699f83d7af7af",
+          "sha256": "e9a8b57960ffb6f346d20b6c6b2aff14c637daca3ad6fe76cc7044f0a5263d65",
+          "sha1": "449073af1166c9ddbc1c66972957771559067912",
+          "md5": "f76a5f591edea480d08df27a296d4d6e"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-test-dispatcher-wasm-js-3.1.2-SNAPSHOT-sources.jar",
+          "size": 1744,
+          "sha512": "883ed48bba1d320fbc55f14b55d0015d422aeb8db76935b17a7e5dc7e65d40c9f6885ab6fdf27d88f4f7bf861e7650bbb4d118fcd5344612342c58330d5134bc",
+          "sha256": "001aa3aaef715cd8abf0d81cf85759e8a86e6f86d4c4f59ed3c3c2742da61869",
+          "sha1": "06da37d799bb0360e6d62978d21038de08281c28",
+          "md5": "79d3c59bf08d027dace44042e252393d"
+        }
+      ]
+    }
+  ]
+}

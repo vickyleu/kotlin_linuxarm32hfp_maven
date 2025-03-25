@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization/3.1.2-SNAPSHOT/ktor-serialization-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-serialization",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-macosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-serialization-macosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 12208,
+          "sha512": "16b7263d57ab3f25f004d9426fd1b832490396986cf5664bf76d7942697471e89439045bef11205b32b306f5977ab5f389cc3c0a0331f25ef357e3c03bc6049c",
+          "sha256": "180447d8d3fcce236c85af7e6f77d0fd77a3714bc92328b409c05d21f80d9d1c",
+          "sha1": "7d64f3b2d9238e07e271a885c2053dfd037ca1cf",
+          "md5": "47a4a16a4c20cbe6bf6e7266ef158aeb"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-serialization-macosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-serialization-macosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3585,
+          "sha512": "b4f3ee4444748661cb4af8adb4119570d4b06abb622e7f3926156684e8d70610a7e2422b46dec88ee6d27dbb72f2950d8d6991132d6122042057477ba4b7a098",
+          "sha256": "ddc84dd1f279b1c7cd2e476a2b214c1960577116e7abe15c469f8b37fbb46483",
+          "sha1": "9947206077a04db4904641c7324fcdc5e5b49ca8",
+          "md5": "38a4b496744ca0e47c3a656adb7c0580"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-serialization-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f95f8c0781164c1b4f708b7ff1e8f48bbb006a7fa4e2981df37a22faff467e10776d0e03fefde3044e464d4e92ba28564089e12f784a9c64c49cdd92d36101ea",
+          "sha256": "2839d5f0868fcd2469c748ef62d28c4fca805a5eb6e238e120bdad0dc53489f0",
+          "sha1": "f1a310f6e50d1caa90770d9bc18b24d4b327a723",
+          "md5": "b0ebd94800104b2d1c23aa5c17817cfb"
+        }
+      ]
+    }
+  ]
+}

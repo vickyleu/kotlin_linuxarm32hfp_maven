@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-conditional-headers/3.1.2-SNAPSHOT/ktor-server-conditional-headers-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-conditional-headers",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-conditional-headers-watchosArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-server-conditional-headers-watchosarm64-3.1.2-SNAPSHOT.klib",
+          "size": 12678,
+          "sha512": "f009fa3c6808d7dac9f0ee97d3caa613cb8bb3de63732f637146c83af7e40472f6237f5d82ba381eaeb0fef894b1fc3d4455aba0ca6d030ed1f737748210c4c5",
+          "sha256": "b97ff92feebc41f254a855139f4e04731b719536b55cc69e9be5c6bc0239f68b",
+          "sha1": "8686d23aa8b524e1bedc247e0f0d9c66a408c422",
+          "md5": "3838050f28f610d7564b86f9ae40dd21"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-server-conditional-headers-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-conditional-headers-watchosarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 3012,
+          "sha512": "1bc25c28c688d815af04b2a904e0bc529973a4598817dbfc08fa4330286c748d06e169f96998aeda2da5530482d32ec563617c0d869a8d689cb73fd14894526a",
+          "sha256": "df404c6f6c0e957120cf20a9aa04255d56a95e7e655dc6f3dac2263c034532ef",
+          "sha1": "5a68ff5619ddc990a456b3ae260e49876e042af0",
+          "md5": "f73366c4698e40cb75a23709ff53b932"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-conditional-headers-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-server-conditional-headers-watchosarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "fb7b5a3dc38c944f42be8a7af1fb6c8aa066bb3a058e2240b037f61b475da72df1e0f22572b67c831b2a153f7342cede9bbb9cfe935139cfcf568d94ec641045",
+          "sha256": "f77367f467b067c332acb583693820efff8d3ebcd7b93a149d948d5b54cf0b52",
+          "sha1": "67a686d2216510a28bdf2375ab9488056e1fbbcf",
+          "md5": "1f46c4d0d76db1bf447565a33e5511ba"
+        }
+      ]
+    }
+  ]
+}

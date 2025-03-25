@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-iosSimulatorArm64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT.klib",
+          "size": 150214,
+          "sha512": "5fcf3ff0322a8984566d16caed9ed9ae4d0c02f98356a8cd0aacc88e97fcb1e35ef09315734c6189f492a4d565c3f6309518eb323dd322cd75b7fbc6e581ecde",
+          "sha256": "e8884ae687d167f41f69c7ec29c4c2a9a30c5de2d8ccabcf09c050a5fbce03d9",
+          "sha1": "448f965aa55781f7dacf81b7470eea450e9c3ab9",
+          "md5": "1680309a9d0a22a65c3216c5da69c773"
+        },
+        {
+          "name": "ktor-network-iosSimulatorArm64Cinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 9491,
+          "sha512": "1a0b0801fe5288f759a82e9b14ee04e99d4c07f0d87fd12d3073168bdb4bbb4bcfa76156b3c075aed8b943148dff116640fb9d66dba27506637b12e0820e4152",
+          "sha256": "82ff0e00fa99d43073ccd165706a50b22e219d36248ffedd0918c30b98919307",
+          "sha1": "c479e69fbbf725326bd098e1ff768f6848320899",
+          "md5": "62c3e5b2b9bd20365205e38addcae293"
+        },
+        {
+          "name": "ktor-network-iosSimulatorArm64Cinterop-unMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT-cinterop-un.klib",
+          "size": 6028,
+          "sha512": "c090591ddcf8279341fa48cf3ef37c7fe373c1bb8d74af6548d88604a8fe6c65768fceb81fc4167940d3efb3ee9d8ea7acc61c118bfc61fe2cc2ae969c2916d5",
+          "sha256": "8e8f0c29552bb6503e2fbfa6ce45cca82aa401736778485cdd3c11ac9e6211f0",
+          "sha1": "fb64e474258a4f732d6a32e14296addbc3274eb1",
+          "md5": "c937be9a50ad347783537fe91c934f9f"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 43779,
+          "sha512": "5e3557b9a18bfe04b12e11aa2677e92dbab460d7091004130e99a7d7330f3399b77dd8424faf0ca10860190be78e89c9894abe5e43689101e7dcabdbf3d33c3f",
+          "sha256": "b66e04c631dd2dd5fbfd11af4337b879e647ba1595bd9dfaec0c729c1520d745",
+          "sha1": "5fb65b2bbdb5fdc54c7c065627bed4bce0bb8cd7",
+          "md5": "4743bc2e8e0e4f39fe5c2d6b87b71b91"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-network-iossimulatorarm64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 64049,
+          "sha512": "8634d7bd5bba1dcb96639262ce54a1a31f8e505a4be8cde3767b826172a5936f20bddb2b482cd3e984c33f3dd7633b0b68f3a595453536dffa153757a4820cf1",
+          "sha256": "30f615444570878650100013bf5074e0decf020116df5da5c1c241eabb9e149c",
+          "sha1": "d385063dc6e29cad2b7d82c22fe04097355bda9d",
+          "md5": "714372b95bf806836b339a66ced77279"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-mustache/3.1.2-SNAPSHOT/ktor-server-mustache-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-server-mustache",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.github.spullara.mustache.java",
+          "module": "compiler",
+          "version": {
+            "requires": "0.9.14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-mustache-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-mustache-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 9670,
+          "sha512": "a8a4b5f0a48c3ec274afbbfaf37371eebad3a314ab7e109db701c8ec5ee8a2a054eee146038900af60603f49e871999d7e05b70089a91610824dc2bd19b39cfc",
+          "sha256": "aa29bdd4debe886be1c568b8c4cfe480616ff94835e0ebf4c54e4b093492e95b",
+          "sha1": "8683f10411d27ff930e46a694222bb6515c8c78d",
+          "md5": "68144d76b7be132edde7ddfeef0d6daa"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.github.spullara.mustache.java",
+          "module": "compiler",
+          "version": {
+            "requires": "0.9.14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-mustache-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-server-mustache-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 9670,
+          "sha512": "a8a4b5f0a48c3ec274afbbfaf37371eebad3a314ab7e109db701c8ec5ee8a2a054eee146038900af60603f49e871999d7e05b70089a91610824dc2bd19b39cfc",
+          "sha256": "aa29bdd4debe886be1c568b8c4cfe480616ff94835e0ebf4c54e4b093492e95b",
+          "sha1": "8683f10411d27ff930e46a694222bb6515c8c78d",
+          "md5": "68144d76b7be132edde7ddfeef0d6daa"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-server-mustache-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-server-mustache-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 2450,
+          "sha512": "e7f1f0b189da740f8a50e653a58371fe408d3b287f1b3cd418509275df26ec1726284994bd4e6387965afda2db0edbc3f275d686c9e3f06988ca797f0a0bc3e9",
+          "sha256": "2a5e5384e9d40a48a3912a91098f50c7b62da6cd9325bef569ec940a29c4f18b",
+          "sha1": "df48f427f0f4a6bc74f9b427a544a60eeefd2f77",
+          "md5": "c89d7e6c32d2be494189917d95ff40be"
+        }
+      ]
+    }
+  ]
+}

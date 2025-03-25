@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-cio/3.1.2-SNAPSHOT/ktor-client-cio-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-cio",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-cio-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-cio-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 109426,
+          "sha512": "e6766248d86b14638ef3368984ee120d15c8c6d7faef712d901f8750dbed78d3874721a80eb3038d8c2a459ae4cbcdbc54fc5bc94cba045c72eb55f2c90842f2",
+          "sha256": "11b7da31591a1c6e0537ed4d70c58151d78bf4b380ee296438c3d30a8e438560",
+          "sha1": "02926459c9b397e050ad43eeae5be2ab6236b743",
+          "md5": "9fb4eeaab588d84ac6cfa480e09fd20d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-cio-jvm-3.1.2-SNAPSHOT.jar",
+          "url": "ktor-client-cio-jvm-3.1.2-SNAPSHOT.jar",
+          "size": 109426,
+          "sha512": "e6766248d86b14638ef3368984ee120d15c8c6d7faef712d901f8750dbed78d3874721a80eb3038d8c2a459ae4cbcdbc54fc5bc94cba045c72eb55f2c90842f2",
+          "sha256": "11b7da31591a1c6e0537ed4d70c58151d78bf4b380ee296438c3d30a8e438560",
+          "sha1": "02926459c9b397e050ad43eeae5be2ab6236b743",
+          "md5": "9fb4eeaab588d84ac6cfa480e09fd20d"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-client-cio-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-cio-jvm-3.1.2-SNAPSHOT-sources.jar",
+          "size": 18192,
+          "sha512": "2f6175febb43a5b158932c71107b85329907a20996752a14eb7ce58bfa7593779dd5ba91774116e7fc03885e6110b2ff19f3d3b224092b49ba5c7f3adda8a447",
+          "sha256": "efbedd4f67d00e5a460b1dc1d632b474a8c9aed739960ecbe28daeb8e9cabb70",
+          "sha1": "54a8a9e3a71c8fbb5a2183b6eed6ba164caa5190",
+          "md5": "38b83fbca82d31cab1eb780156b89768"
+        }
+      ]
+    }
+  ]
+}

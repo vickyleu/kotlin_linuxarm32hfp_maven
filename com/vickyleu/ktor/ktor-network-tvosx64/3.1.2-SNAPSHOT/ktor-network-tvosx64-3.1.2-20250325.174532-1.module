@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.1.2-SNAPSHOT/ktor-network-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-network",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tvosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tvosx64-3.1.2-SNAPSHOT.klib",
+          "size": 150173,
+          "sha512": "de5d6378e2c5692f053db7f872c4ab5e422566967f7dce2234fc3c5ec3899a4012f29229691cbc4047b6fe92e67dd8129db9062a62561715ec63d8c6fa9f1269",
+          "sha256": "d9194c211740b6b0bd2996d9c8ac2ab978e2f14993cdddf94ba2751b02e28887",
+          "sha1": "6e9d617b3f35db0bbfaa141a2faafbf69ef0aa2f",
+          "md5": "9e9a2bbeeb81c04a06cc91cc7301963e"
+        },
+        {
+          "name": "ktor-network-tvosX64Cinterop-networkMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tvosx64-3.1.2-SNAPSHOT-cinterop-network.klib",
+          "size": 8707,
+          "sha512": "202b5ada41403d8797ad161cd33ee3e64b7cda3ec9570fca3a69d48cdc22e634502d125a3bbba117bc13bdad7cb96dc9b76fab5d31b63fe3d4c2750b9d5ce207",
+          "sha256": "c93ab4b7dcefc814e54ca5eb068d554ade7bc3dc986a6f9cba30971c1d341d04",
+          "sha1": "42051d847bce9f2758f6a17fd64f32640558fab7",
+          "md5": "edd95240a0a13f77dabea3a00be1de53"
+        },
+        {
+          "name": "ktor-network-tvosX64Cinterop-unMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-network-tvosx64-3.1.2-SNAPSHOT-cinterop-un.klib",
+          "size": 5953,
+          "sha512": "2c2f7a1856257548adbce2d22098a04c2b1418afbe2713e00beca0476911b53ff68978684c2d096515d1c8d6b42b9599c95805d3a0fd2bdd21496f0ed0775a4c",
+          "sha256": "40e800671d504d5fb984c07b5340db96e3680679d7d490ecd94affd7fdf323c9",
+          "sha1": "155750d97df7ad7e7550bfb4c95af88a0748fd4a",
+          "md5": "19517609316b91337746df493e0e35f4"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-network-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-network-tvosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 43793,
+          "sha512": "b5969533e0ad9bed1bb5bdfa81b663ae5d13215ceb23de36f753a2243b3e45239ae4db8cb3577bd33d5a8636a547f443276282771947e3a01d21a801040bd238",
+          "sha256": "48adc28547f0a572adc26861a33caec12ab04e4fdbb28a19984353769f777a2e",
+          "sha1": "78ba3a7e5c9716aaf3072c7e91cb675312c1403c",
+          "md5": "39a08ae0fec08890f023cd50d7c8ef30"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-network-tvosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 64049,
+          "sha512": "bb0bc9638c091a053c026cc5abc982df7d1d7d06996e44578bccb3c221b94442d2fbfae19bf06e29268521e1194596ed21fca7e9dd517b4794749e904a8327a8",
+          "sha256": "2b812997d672a148e84b61a5cb195364a91b7eeb5c08c4c3c903fd1e4a4a7812",
+          "sha1": "0dc5455a490bd8a8cea113cdb9efb12faa72dbc3",
+          "md5": "2f48bd51e7d37036747ffb7ae6711f4e"
+        }
+      ]
+    }
+  ]
+}
