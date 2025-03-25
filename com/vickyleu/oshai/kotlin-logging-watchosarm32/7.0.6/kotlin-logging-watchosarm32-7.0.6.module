@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.6/kotlin-logging-7.0.6.module",
+    "group": "com.vickyleu.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging.klib",
+          "url": "kotlin-logging-watchosarm32-7.0.6.klib",
+          "size": 53099,
+          "sha512": "8cd1493db3a7d4cf91dae51461ea1792ed070701bfdd6d9bbee5d791a4868dd28f9ec276fd732cd4dd8b425d6e2f30c379c670e9a5cffc55303c27beb2c9a4d3",
+          "sha256": "bd98d4dedd127e6f046a1a9bba4675ed5bf713b457d05a404502927143a9f58d",
+          "sha1": "c9152da7758445e4b083b9ab7c2481bee55ac528",
+          "md5": "2bc47498ad10d5380c2260ff4c656eec"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-watchosarm32-7.0.6-sources.jar",
+          "url": "kotlin-logging-watchosarm32-7.0.6-sources.jar",
+          "size": 16496,
+          "sha512": "bd1dab8709b1a2d3cc798bf285bf936216e5ea5759f80e89e8af56bcf76e52d30352deaf335e0dc0fe8bb230482e02b022c7c872377418038668a3f372015996",
+          "sha256": "4e273ad46eff6f1878a64f6b6ff98477709223dfecaa6d63fd3019fbb4da6162",
+          "sha1": "2bfe758ad68d35ee3131001cd5dff984e52c890b",
+          "md5": "50ce16cbbf7a625e8b862c29d87b3b79"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-watchosarm32-7.0.6-metadata.jar",
+          "url": "kotlin-logging-watchosarm32-7.0.6-metadata.jar",
+          "size": 9248,
+          "sha512": "cd1e3224dc03e1104ff1e8c3ee304e4498c02479b01eb410739d54d046265c5b21842b87a08f5f5347fda76e6a2aa70b3e6bc8cc7c420a26f5cbf460b86457ad",
+          "sha256": "05764ab27088f44460f9db9c0909327db11192ebee9fc915a039a966276801dc",
+          "sha1": "d7dcf8b7b2e2a4eaef2b84b484d7ec187f6a6c9d",
+          "md5": "b534917a02123f8215abaebda32d2848"
+        }
+      ]
+    }
+  ]
+}

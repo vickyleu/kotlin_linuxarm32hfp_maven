@@ -35,11 +35,11 @@
         {
           "name": "kotlin-logging-metadata-7.0.6.jar",
           "url": "kotlin-logging-7.0.6.jar",
-          "size": 26086,
-          "sha512": "7ea144d9e7f35e1168770cdb06d593241761ae6ff3ca0e32cc1a77796d1f0744ce6f68de0c4875824927ea851e9a89438baf273a37e742412de8bc77dcf74fd2",
-          "sha256": "dcb7c2310b96ca3c41126554cafb391b2d1dc7c6a81d15b91edec8e494e96ddc",
-          "sha1": "fe117d449093adb750fc62487214dfd077fd2e01",
-          "md5": "2e765ae94a43f4d55b70f91cd3934cf1"
+          "size": 26106,
+          "sha512": "c3a53861e7e7f35e67464eebfdf1b081b5e6fb410b04ec74bc9b2e6228f5c2d2bc3432261ece08907a0ec4d1b0810005e1ecfa341cf6247f30bce18db949b4a2",
+          "sha256": "fb11a7b54257c07093ab83f84b3d343ddb0a6775e92c2dde2cf0451182410448",
+          "sha1": "b6a0f8ec3c97135535f7f2187843e9d0cf023079",
+          "md5": "e71163cb488e58f47267932e69534663"
         }
       ]
     },
@@ -1011,6 +1011,58 @@
       }
     },
     {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosarm32/7.0.6/kotlin-logging-watchosarm32-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosarm32",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosarm32/7.0.6/kotlin-logging-watchosarm32-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosarm32",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosarm32/7.0.6/kotlin-logging-watchosarm32-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosarm32",
+        "version": "7.0.6"
+      }
+    },
+    {
       "name": "watchosArm64ApiElements-published",
       "attributes": {
         "artifactType": "org.jetbrains.kotlin.klib",
@@ -1059,6 +1111,58 @@
         "url": "../../kotlin-logging-watchosarm64/7.0.6/kotlin-logging-watchosarm64-7.0.6.module",
         "group": "com.vickyleu.oshai",
         "module": "kotlin-logging-watchosarm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosdevicearm64/7.0.6/kotlin-logging-watchosdevicearm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosdevicearm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosdevicearm64/7.0.6/kotlin-logging-watchosdevicearm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosdevicearm64",
+        "version": "7.0.6"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlin-logging-watchosdevicearm64/7.0.6/kotlin-logging-watchosdevicearm64-7.0.6.module",
+        "group": "com.vickyleu.oshai",
+        "module": "kotlin-logging-watchosdevicearm64",
         "version": "7.0.6"
       }
     },

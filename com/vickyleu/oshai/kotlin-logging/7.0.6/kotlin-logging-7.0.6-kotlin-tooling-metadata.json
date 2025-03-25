@@ -235,7 +235,29 @@
       "platformType": "native",
       "extras": {
         "native": {
+          "konanTarget": "watchos_arm32",
+          "konanVersion": "2.0.21",
+          "konanAbiVersion": "1.8.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget",
+      "platformType": "native",
+      "extras": {
+        "native": {
           "konanTarget": "watchos_arm64",
+          "konanVersion": "2.0.21",
+          "konanAbiVersion": "1.8.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "watchos_device_arm64",
           "konanVersion": "2.0.21",
           "konanAbiVersion": "1.8.0"
         }
