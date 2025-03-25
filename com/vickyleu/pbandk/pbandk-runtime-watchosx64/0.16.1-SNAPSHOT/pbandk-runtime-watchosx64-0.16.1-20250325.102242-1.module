@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pbandk-runtime/0.16.1-SNAPSHOT/pbandk-runtime-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime.klib",
+          "url": "pbandk-runtime-watchosx64-0.16.1-SNAPSHOT.klib",
+          "size": 678460,
+          "sha512": "c7cd97ff00639bee89d1a490cf89bcc47b33aa017582dd48722ccc053f714503890803e60fa4c891ab32def9c8790372475749e77d2a37c4eb2e463b3db17ce9",
+          "sha256": "55233f88f42f3c84605a96dbc286ed3525f28d75c10c78825dc0d795e3b9fee5",
+          "sha1": "858a240060656f51f46ff79378a20a28cb0c2bbf",
+          "md5": "5e17e4269a216bfb67eefee7cc831e85"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-watchosx64-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-watchosx64-0.16.1-SNAPSHOT-sources.jar",
+          "size": 89500,
+          "sha512": "036c717c886c7f2c66b568ad3f05a1cb159fa5c07ee64235fbe6c226562682e11c912094acbd57cc82fa03b81919ca35c59763c042e88d3d5c74138950020ff7",
+          "sha256": "51e2b29d585dbda1123cca39bc5e65c2495759858466323d67a5c02fd1fb998b",
+          "sha1": "4d74b3fac1961c3b7cf671023c4d8af87873ec17",
+          "md5": "e33355a59f03ba7232f002d0d24d31e2"
+        }
+      ]
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-watchosx64-0.16.1-SNAPSHOT-metadata.jar",
+          "url": "pbandk-runtime-watchosx64-0.16.1-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "071b43dc07e12953524ba4471dddb637ed3478d25b4b71e9ba7052a37483285076f0b22e01e42e3cbf9c47dd9e970730b749a833add38d8609c98f382eda270a",
+          "sha256": "c8522dbf6502741a24d6aedc016b4fdf02c2731a97a1c53f72a129e750a6d221",
+          "sha1": "6c7f219dc756083b7797a7d347e50c6dd41b730d",
+          "md5": "1736f240c826a8c9f04772d53a02fe93"
+        }
+      ]
+    }
+  ]
+}

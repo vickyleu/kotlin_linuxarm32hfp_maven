@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-protos",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-protos-0.16.1-SNAPSHOT.jar",
+          "url": "pbandk-protos-0.16.1-SNAPSHOT.jar",
+          "size": 39882,
+          "sha512": "15894dead188a14dfc4bebda92ac46ae0bbbca443cbc42ded1441a5396392e784724baa8012533abe48a5c0a4a6b67b6379771db25c1b9109706bc80363a8fb3",
+          "sha256": "053af01c88d6ec8d254a9badb4be54eaa1fb976f846411db755d05a3dbe21cdb",
+          "sha1": "c645bb94e8433e60ea2828d723423046b3604ad2",
+          "md5": "041439e53327ee925d119b0f48d27621"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-protos-0.16.1-SNAPSHOT.jar",
+          "url": "pbandk-protos-0.16.1-SNAPSHOT.jar",
+          "size": 39882,
+          "sha512": "15894dead188a14dfc4bebda92ac46ae0bbbca443cbc42ded1441a5396392e784724baa8012533abe48a5c0a4a6b67b6379771db25c1b9109706bc80363a8fb3",
+          "sha256": "053af01c88d6ec8d254a9badb4be54eaa1fb976f846411db755d05a3dbe21cdb",
+          "sha1": "c645bb94e8433e60ea2828d723423046b3604ad2",
+          "md5": "041439e53327ee925d119b0f48d27621"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pbandk-protos-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-protos-0.16.1-SNAPSHOT-sources.jar",
+          "size": 39882,
+          "sha512": "c4c2981f20c44b892c15b303d38ec9deed6fa09622bbeded6066e618a9366e4c46e9c0a0c3d213a409a4d296135c4d344a0096c29eb7200151f52d38e6150118",
+          "sha256": "b254ab1910c8101c1c5c0e36042124e666e085197203af4baa93e60f4b602884",
+          "sha1": "f755db102b4fba69a9496c4decb9b94281d45c87",
+          "md5": "20cdaa9b6c97072fd18c14379d4e258f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pbandk-protos-0.16.1-SNAPSHOT-javadoc.jar",
+          "url": "pbandk-protos-0.16.1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "aa8fb0e1e1535f055abbb0fb451f993ff1eadd90fd201d1822b962edb663db2727ff06ad0855d39da8abe87d83f473b19bce8b083419ffdf4c91f41243b60747",
+          "sha256": "2ea4cea35e91be9f93eb4b017eb1b246be0b01cf1fea68cd4c5ff5c5e64d36fc",
+          "sha1": "12ffa34e0fedbeb7a963958c451af42484598985",
+          "md5": "2d9ce4c631282d033d50d76857954918"
+        }
+      ]
+    }
+  ]
+}

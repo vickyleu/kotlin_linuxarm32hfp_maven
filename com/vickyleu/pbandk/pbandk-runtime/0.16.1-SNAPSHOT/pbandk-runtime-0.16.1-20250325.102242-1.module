@@ -1,0 +1,1281 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-metadata-0.16.1-SNAPSHOT.jar",
+          "url": "pbandk-runtime-0.16.1-SNAPSHOT.jar",
+          "size": 65738,
+          "sha512": "f51177598af6e9bbb29334734ea6e9c8089ed73117c4f941e0b84c01ba7f3bea11b83223389cc43caf7af012c9f1c2c141cb70bc4c6f1000f11d13618a813f64",
+          "sha256": "bf2c1353519af81af4fa508f87354a433639f8780f8b87440fc7756eb14fcf58",
+          "sha1": "8779f27d4add55ed468d89b01ec8501136bb7598",
+          "md5": "16f7e9ba34209a5cd3261107deae7d23"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-kotlin-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-0.16.1-SNAPSHOT-sources.jar",
+          "size": 89500,
+          "sha512": "ed004e1f9ee7eb12fc9906d9e119e685552ab2ce75fb9c6a90d905ab09077735fb9f25e169aadc0a4a18b0962267e329812b3a7a9e87880a93ac91414779d835",
+          "sha256": "de90d7fd8a5a89f10f2d15c12a966b17418bbd396e0c87040b1ad14481c007e8",
+          "sha1": "cdbafca89c6f688401f69c01c03ff440bce16092",
+          "md5": "6bfa0b5ffc4aaa4e63b8d69a145dc0d9"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-android-debug/0.16.1-SNAPSHOT/pbandk-runtime-android-debug-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-android-debug",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-android-debug/0.16.1-SNAPSHOT/pbandk-runtime-android-debug-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-android-debug",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-android-debug/0.16.1-SNAPSHOT/pbandk-runtime-android-debug-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-android-debug",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-android/0.16.1-SNAPSHOT/pbandk-runtime-android-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-android",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-android/0.16.1-SNAPSHOT/pbandk-runtime-android-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-android",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-android/0.16.1-SNAPSHOT/pbandk-runtime-android-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-android",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativearm32/0.16.1-SNAPSHOT/pbandk-runtime-androidnativearm32-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativearm32",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativearm32/0.16.1-SNAPSHOT/pbandk-runtime-androidnativearm32-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativearm32",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativearm64/0.16.1-SNAPSHOT/pbandk-runtime-androidnativearm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativearm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativearm64/0.16.1-SNAPSHOT/pbandk-runtime-androidnativearm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativearm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativex64/0.16.1-SNAPSHOT/pbandk-runtime-androidnativex64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativex64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativex64/0.16.1-SNAPSHOT/pbandk-runtime-androidnativex64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativex64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativex86/0.16.1-SNAPSHOT/pbandk-runtime-androidnativex86-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativex86",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-androidnativex86/0.16.1-SNAPSHOT/pbandk-runtime-androidnativex86-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-androidnativex86",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iosarm64/0.16.1-SNAPSHOT/pbandk-runtime-iosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iosarm64/0.16.1-SNAPSHOT/pbandk-runtime-iosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iosarm64/0.16.1-SNAPSHOT/pbandk-runtime-iosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-iossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-iossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-iossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iosx64/0.16.1-SNAPSHOT/pbandk-runtime-iosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iosx64/0.16.1-SNAPSHOT/pbandk-runtime-iosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-iosx64/0.16.1-SNAPSHOT/pbandk-runtime-iosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-iosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-js/0.16.1-SNAPSHOT/pbandk-runtime-js-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-js",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-js/0.16.1-SNAPSHOT/pbandk-runtime-js-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-js",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-js/0.16.1-SNAPSHOT/pbandk-runtime-js-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-js",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-jvm/0.16.1-SNAPSHOT/pbandk-runtime-jvm-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-jvm",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-jvm/0.16.1-SNAPSHOT/pbandk-runtime-jvm-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-jvm",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-jvm/0.16.1-SNAPSHOT/pbandk-runtime-jvm-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-jvm",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-linuxarm32hfp/0.16.1-SNAPSHOT/pbandk-runtime-linuxarm32hfp-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-linuxarm32hfp",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-linuxarm32hfp/0.16.1-SNAPSHOT/pbandk-runtime-linuxarm32hfp-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-linuxarm32hfp",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-linuxarm64/0.16.1-SNAPSHOT/pbandk-runtime-linuxarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-linuxarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-linuxarm64/0.16.1-SNAPSHOT/pbandk-runtime-linuxarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-linuxarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-linuxx64/0.16.1-SNAPSHOT/pbandk-runtime-linuxx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-linuxx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-linuxx64/0.16.1-SNAPSHOT/pbandk-runtime-linuxx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-linuxx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-macosarm64/0.16.1-SNAPSHOT/pbandk-runtime-macosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-macosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-macosarm64/0.16.1-SNAPSHOT/pbandk-runtime-macosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-macosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-macosarm64/0.16.1-SNAPSHOT/pbandk-runtime-macosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-macosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-macosx64/0.16.1-SNAPSHOT/pbandk-runtime-macosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-macosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-macosx64/0.16.1-SNAPSHOT/pbandk-runtime-macosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-macosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-macosx64/0.16.1-SNAPSHOT/pbandk-runtime-macosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-macosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-mingwx64/0.16.1-SNAPSHOT/pbandk-runtime-mingwx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-mingwx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-mingwx64/0.16.1-SNAPSHOT/pbandk-runtime-mingwx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-mingwx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvosarm64/0.16.1-SNAPSHOT/pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvosarm64/0.16.1-SNAPSHOT/pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvosarm64/0.16.1-SNAPSHOT/pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-tvossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-tvossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-tvossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvosx64/0.16.1-SNAPSHOT/pbandk-runtime-tvosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvosx64/0.16.1-SNAPSHOT/pbandk-runtime-tvosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-tvosx64/0.16.1-SNAPSHOT/pbandk-runtime-tvosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-tvosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-wasm-js/0.16.1-SNAPSHOT/pbandk-runtime-wasm-js-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-wasm-js",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-wasm-js/0.16.1-SNAPSHOT/pbandk-runtime-wasm-js-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-wasm-js",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-wasm-js/0.16.1-SNAPSHOT/pbandk-runtime-wasm-js-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-wasm-js",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosarm32/0.16.1-SNAPSHOT/pbandk-runtime-watchosarm32-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosarm32",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosarm32/0.16.1-SNAPSHOT/pbandk-runtime-watchosarm32-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosarm32",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosarm32/0.16.1-SNAPSHOT/pbandk-runtime-watchosarm32-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosarm32",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosarm64/0.16.1-SNAPSHOT/pbandk-runtime-watchosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosarm64/0.16.1-SNAPSHOT/pbandk-runtime-watchosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosarm64/0.16.1-SNAPSHOT/pbandk-runtime-watchosarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosdevicearm64/0.16.1-SNAPSHOT/pbandk-runtime-watchosdevicearm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosdevicearm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosdevicearm64/0.16.1-SNAPSHOT/pbandk-runtime-watchosdevicearm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosdevicearm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosdevicearm64/0.16.1-SNAPSHOT/pbandk-runtime-watchosdevicearm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosdevicearm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-watchossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-watchossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchossimulatorarm64/0.16.1-SNAPSHOT/pbandk-runtime-watchossimulatorarm64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchossimulatorarm64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosx64/0.16.1-SNAPSHOT/pbandk-runtime-watchosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosx64/0.16.1-SNAPSHOT/pbandk-runtime-watchosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pbandk-runtime-watchosx64/0.16.1-SNAPSHOT/pbandk-runtime-watchosx64-0.16.1-SNAPSHOT.module",
+        "group": "com.vickyleu.pbandk",
+        "module": "pbandk-runtime-watchosx64",
+        "version": "0.16.1-SNAPSHOT"
+      }
+    }
+  ]
+}

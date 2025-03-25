@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pbandk-runtime/0.16.1-SNAPSHOT/pbandk-runtime-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime.klib",
+          "url": "pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT.klib",
+          "size": 678451,
+          "sha512": "011e16e6763a0636a7e95a58b43e9d7987c9fb7b0ae2f190cd1d552739830561a9f34b8df6d2047f4486efb46eda1fc7af085119a354af2eebfd847bbc071a0a",
+          "sha256": "65b564eb9ea291a122c9e0ec46b65e9b9843a17e4c240417a9464cd0ab54a3c7",
+          "sha1": "4c03a18f49aeb8a8cceaaff9afbbfbec2eb5a3a4",
+          "md5": "1263605efe28209de0e3c1aff65d390f"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT-sources.jar",
+          "size": 89500,
+          "sha512": "036c717c886c7f2c66b568ad3f05a1cb159fa5c07ee64235fbe6c226562682e11c912094acbd57cc82fa03b81919ca35c59763c042e88d3d5c74138950020ff7",
+          "sha256": "51e2b29d585dbda1123cca39bc5e65c2495759858466323d67a5c02fd1fb998b",
+          "sha1": "4d74b3fac1961c3b7cf671023c4d8af87873ec17",
+          "md5": "e33355a59f03ba7232f002d0d24d31e2"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT-metadata.jar",
+          "url": "pbandk-runtime-tvosarm64-0.16.1-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "0f899e823cffdc8820154ef7113d1f4bca0b450014f2ff738185f76e87c36a2ce3280073e2f92f5641b4fd11bc55791f7c30b2a5e75f2c7b812ba24c373f98b9",
+          "sha256": "12759d82aeef3711bea81e6ed97d631026d8c22b176169ec8b803ecc2f2b472b",
+          "sha1": "a5801351ac957c3f5d2c6eeee8a44b723f180c09",
+          "md5": "0c8b4fbcd5652a309d4e2477feff4802"
+        }
+      ]
+    }
+  ]
+}

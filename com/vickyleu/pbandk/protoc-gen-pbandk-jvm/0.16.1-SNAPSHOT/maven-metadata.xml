@@ -3,22 +3,22 @@
   <groupId>com.vickyleu.pbandk</groupId>
   <artifactId>protoc-gen-pbandk-jvm</artifactId>
   <versioning>
-    <lastUpdated>20250324145737</lastUpdated>
+    <lastUpdated>20250325102242</lastUpdated>
     <snapshot>
-      <timestamp>20250324.145737</timestamp>
+      <timestamp>20250325.102242</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>jvm8</classifier>
-        <extension>jar</extension>
-        <value>0.16.1-20250324.145737-1</value>
-        <updated>20250324145737</updated>
+        <extension>pom</extension>
+        <value>0.16.1-20250325.102242-1</value>
+        <updated>20250325102242</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.16.1-20250324.145737-1</value>
-        <updated>20250324145737</updated>
+        <classifier>jvm8</classifier>
+        <extension>jar</extension>
+        <value>0.16.1-20250325.102242-1</value>
+        <updated>20250325102242</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pbandk-runtime/0.16.1-SNAPSHOT/pbandk-runtime-0.16.1-SNAPSHOT.module",
+    "group": "com.vickyleu.pbandk",
+    "module": "pbandk-runtime",
+    "version": "0.16.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime.klib",
+          "url": "pbandk-runtime-iosarm64-0.16.1-SNAPSHOT.klib",
+          "size": 678442,
+          "sha512": "3a25de970da11a7307d198f7244f49859aeed602ff37294d2ae664c5ecf1e6735277b9da1b8041c001ff6109d750ac3a6bc9c6258f3cb2dd866f7cd63a97082b",
+          "sha256": "75da157e2572471cbc11d3ba62aa4dff4a308f618ac90485e76f89519eaf6e5f",
+          "sha1": "229bfde83defb8d31b14bbf85d06b38454eaba5a",
+          "md5": "67c30f64567f47ea6679bc5e79b5e20c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pbandk-runtime-iosarm64-0.16.1-SNAPSHOT-sources.jar",
+          "url": "pbandk-runtime-iosarm64-0.16.1-SNAPSHOT-sources.jar",
+          "size": 89500,
+          "sha512": "036c717c886c7f2c66b568ad3f05a1cb159fa5c07ee64235fbe6c226562682e11c912094acbd57cc82fa03b81919ca35c59763c042e88d3d5c74138950020ff7",
+          "sha256": "51e2b29d585dbda1123cca39bc5e65c2495759858466323d67a5c02fd1fb998b",
+          "sha1": "4d74b3fac1961c3b7cf671023c4d8af87873ec17",
+          "md5": "e33355a59f03ba7232f002d0d24d31e2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pbandk-runtime-iosarm64-0.16.1-SNAPSHOT-metadata.jar",
+          "url": "pbandk-runtime-iosarm64-0.16.1-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "ba7a884b454e02389341323b6bc53cd0dde6282b047de9587e78fa926ef9d2259925e07d88f6f426dbac1783b49e1da0cabc76cb86175789df97d6ecb850bd34",
+          "sha256": "536e6863bc98c61039d9908f9c19ff258cf0e30f97c9b13d2f11424ef232ee2a",
+          "sha1": "e9f3593df5a59b47820077838aa664502541b4e6",
+          "md5": "e94a61e31d713247734f03841ba91a4d"
+        }
+      ]
+    }
+  ]
+}
