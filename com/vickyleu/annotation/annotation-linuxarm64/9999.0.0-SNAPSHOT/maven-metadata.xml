@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.vickyleu.annotation</groupId>
+  <artifactId>annotation-linuxarm64</artifactId>
+  <versioning>
+    <lastUpdated>20250325075248</lastUpdated>
+    <snapshot>
+      <timestamp>20250325.075248</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>9999.0.0-20250325.075248-1</value>
+        <updated>20250325075248</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>9999.0.0-20250325.075248-1</value>
+        <updated>20250325075248</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>9999.0.0-20250325.075248-1</value>
+        <updated>20250325075248</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9999.0.0-20250325.075248-1</value>
+        <updated>20250325075248</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>9999.0.0-SNAPSHOT</version>
+</metadata>

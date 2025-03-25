@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.annotation",
+    "module": "annotation-linuxx64",
+    "version": "9999.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-linuxX64Main-9999.0.0-SNAPSHOT.klib",
+          "url": "annotation-linuxx64-9999.0.0-SNAPSHOT.klib",
+          "size": 27525,
+          "sha512": "326e5707a08e83855998e29e485f7121aab51a826ceaa539a35b34fe250edc21c96e5343d81939fc5115556ae739cab797981f4597ca6e9e022977c467d91cc5",
+          "sha256": "1bb907f08158f55cf0ae11fadd543a7d3c79b71f4f41c52fd220d5e24f4a910a",
+          "sha1": "71903987f4dcb1cc472174cb2f8dec85efaa15e2",
+          "md5": "7ccc75cc2c52e325b1405076c243c99c"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "annotation-linuxx64-9999.0.0-SNAPSHOT-sources.jar",
+          "url": "annotation-linuxx64-9999.0.0-SNAPSHOT-sources.jar",
+          "size": 25046,
+          "sha512": "25798f3568df31f81eb0bcfe18a3fa8a0af36e38200f0a8b5887c8c3daf38e7202c107e404930ec54065d2cd021ef1a2a43f26a88094e56af7d365435611ed95",
+          "sha256": "768b81005ebd26d9441a064ef52c02dc98df7490585701af8d81e8e15828510f",
+          "sha1": "8f7d0a0ea94eac1d3a340eb0cb69887af6b6f2f0",
+          "md5": "6d417dcec41447c8575ccb2a429ba141"
+        }
+      ]
+    }
+  ]
+}
