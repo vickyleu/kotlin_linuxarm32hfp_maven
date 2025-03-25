@@ -63,11 +63,11 @@
         {
           "name": "kotlinx-rpc-core-metadata-0.5.1.jar",
           "url": "kotlinx-rpc-core-0.5.1.jar",
-          "size": 18658,
-          "sha512": "cd8fbc54c3d1695fe14a03a6d582cf968e19885d92f09b2cca44d3023eee890c3cb717c035dbef1e12348034b1134d0e2f6b907d8bdf2fd33a641420a685531d",
-          "sha256": "f5a9fd12cb56d5bf26536127934348fbc4567be5ccb64a70cb60b6763ed4a4b5",
-          "sha1": "a3c09cd1bbca7510ceca799286c5df21f487e7fd",
-          "md5": "1452333ece08c80d657e9cd39209a845"
+          "size": 18688,
+          "sha512": "5fb06b280ce525af8a4d4ef6d4cd38278df5e52e91ca6b969e1a6c325a0edeecebe1eac1b1cafe5b0d82f038e193a975a184f6ceb069b9d289aa38337c360b60",
+          "sha256": "1e64a2a0aeee06851f5d97bbc946b21d198ead5e74c3c5784ec674fc0576d0fb",
+          "sha1": "2fcc293ba07fcb40d293f4328301938bf36522e9",
+          "md5": "493e1e5fa487213cc5937b0a4daf8198"
         }
       ]
     },
@@ -559,6 +559,41 @@
       }
     },
     {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-mingwx64/0.5.1/kotlinx-rpc-core-mingwx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-mingwx64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-mingwx64/0.5.1/kotlinx-rpc-core-mingwx64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-mingwx64",
+        "version": "0.5.1"
+      }
+    },
+    {
       "name": "tvosArm64ApiElements-published",
       "attributes": {
         "artifactType": "org.jetbrains.kotlin.klib",
@@ -607,6 +642,58 @@
         "url": "../../kotlinx-rpc-core-tvosarm64/0.5.1/kotlinx-rpc-core-tvosarm64-0.5.1.module",
         "group": "com.vickyleu.kotlinx",
         "module": "kotlinx-rpc-core-tvosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-tvossimulatorarm64/0.5.1/kotlinx-rpc-core-tvossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-tvossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-tvossimulatorarm64/0.5.1/kotlinx-rpc-core-tvossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-tvossimulatorarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-tvossimulatorarm64/0.5.1/kotlinx-rpc-core-tvossimulatorarm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-tvossimulatorarm64",
         "version": "0.5.1"
       }
     },
@@ -763,6 +850,58 @@
       }
     },
     {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-watchosarm32/0.5.1/kotlinx-rpc-core-watchosarm32-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-watchosarm32",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-watchosarm32/0.5.1/kotlinx-rpc-core-watchosarm32-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-watchosarm32",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-watchosarm32/0.5.1/kotlinx-rpc-core-watchosarm32-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-watchosarm32",
+        "version": "0.5.1"
+      }
+    },
+    {
       "name": "watchosArm64ApiElements-published",
       "attributes": {
         "artifactType": "org.jetbrains.kotlin.klib",
@@ -811,6 +950,58 @@
         "url": "../../kotlinx-rpc-core-watchosarm64/0.5.1/kotlinx-rpc-core-watchosarm64-0.5.1.module",
         "group": "com.vickyleu.kotlinx",
         "module": "kotlinx-rpc-core-watchosarm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-watchosdevicearm64/0.5.1/kotlinx-rpc-core-watchosdevicearm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-watchosdevicearm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-watchosdevicearm64/0.5.1/kotlinx-rpc-core-watchosdevicearm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-watchosdevicearm64",
+        "version": "0.5.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotlinx-rpc-core-watchosdevicearm64/0.5.1/kotlinx-rpc-core-watchosdevicearm64-0.5.1.module",
+        "group": "com.vickyleu.kotlinx",
+        "module": "kotlinx-rpc-core-watchosdevicearm64",
         "version": "0.5.1"
       }
     },

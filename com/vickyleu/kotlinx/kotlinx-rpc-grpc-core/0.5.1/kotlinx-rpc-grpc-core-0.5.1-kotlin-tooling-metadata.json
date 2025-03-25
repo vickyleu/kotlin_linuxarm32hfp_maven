@@ -123,11 +123,33 @@
       "platformType": "common"
     },
     {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTargetWithHostTests",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "mingw_x64",
+          "konanVersion": "2.1.10",
+          "konanAbiVersion": "1.201.0"
+        }
+      }
+    },
+    {
       "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget",
       "platformType": "native",
       "extras": {
         "native": {
           "konanTarget": "tvos_arm64",
+          "konanVersion": "2.1.10",
+          "konanAbiVersion": "1.201.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTargetWithSimulatorTests",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "tvos_simulator_arm64",
           "konanVersion": "2.1.10",
           "konanAbiVersion": "1.201.0"
         }
@@ -159,7 +181,29 @@
       "platformType": "native",
       "extras": {
         "native": {
+          "konanTarget": "watchos_arm32",
+          "konanVersion": "2.1.10",
+          "konanAbiVersion": "1.201.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget",
+      "platformType": "native",
+      "extras": {
+        "native": {
           "konanTarget": "watchos_arm64",
+          "konanVersion": "2.1.10",
+          "konanAbiVersion": "1.201.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "watchos_device_arm64",
           "konanVersion": "2.1.10",
           "konanAbiVersion": "1.201.0"
         }

@@ -50,7 +50,7 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-serialization-core-macosX64Main-0.5.1.klib",
+          "name": "krpc-serialization-core-macosX64Main-0.5.1.klib",
           "url": "kotlinx-rpc-krpc-serialization-core-macosx64-0.5.1.klib",
           "size": 9052,
           "sha512": "a850c6dd490d4ec418ef46386c724a8a09acc512e1d16b61a8f89aac4aae6371353e097b8d351b44f0f7785aac9a6aa9ff268563063f804ac33687e6046b7dbd",
@@ -73,7 +73,7 @@
       },
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-serialization-core-macosx64-0.5.1-sources.jar",
+          "name": "krpc-serialization-core-macosx64-0.5.1-sources.jar",
           "url": "kotlinx-rpc-krpc-serialization-core-macosx64-0.5.1-sources.jar",
           "size": 2900,
           "sha512": "632cf30f421c4f5d16c7e4cfdb7abceadadb2aa6b78f6b9883b21724e62cdcb0f03a5959ba1d3538d2d101bca870066fa5ce211bbe0fcf2a6c0e1b1e453abea9",
@@ -118,7 +118,7 @@
       ],
       "files": [
         {
-          "name": "kotlinx-rpc-krpc-serialization-core-macosx64-0.5.1-metadata.jar",
+          "name": "krpc-serialization-core-macosx64-0.5.1-metadata.jar",
           "url": "kotlinx-rpc-krpc-serialization-core-macosx64-0.5.1-metadata.jar",
           "size": 261,
           "sha512": "4e4c5f4b8acb0ada76c2c5e684218e5c8508a79942fd676615b6714a7b1b926668c047fad2b2e8090bc9d2176d32c66e8d2ed8a0e0daae18f8e5f59978e433e3",

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.5.1/kotlinx-rpc-krpc-logging-0.5.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-watchosDeviceArm64Main-0.5.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-watchosdevicearm64-0.5.1.klib",
+          "size": 12480,
+          "sha512": "52472f4c9f380db2a79951d65d0471b0ebd1535f3924e565c9e9c1bead8ecd4ce7423ee6ad9267db23164a8fa9be92bfd3fa2899c55fb7b2cfd187fccd143877",
+          "sha256": "aa9273c9081ced6204e851a9b4511dedd6766fe24c2549c78a705edc2b472d27",
+          "sha1": "85cdd59ac6bd5a7f27b679ee99d8ba4ba0253eb6",
+          "md5": "3090340a87a4e3894fa141565de89c83"
+        }
+      ]
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-watchosdevicearm64-0.5.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-watchosdevicearm64-0.5.1-sources.jar",
+          "size": 3141,
+          "sha512": "02123f3be3ee56a880ea0742c1ea34d5e0e61f63530f12524c374fcf6f5f083a687f36115fbdac268315f88b26e6132ab5b514b88d71dbf081e7127f8912f6d6",
+          "sha256": "8e48b530ee5752910707bf402ff89d304e9cd21d60d6b841a0b29bd4b6413cf0",
+          "sha1": "9a949afff48ebd85331320e4b8d5a8da07bb1f66",
+          "md5": "1da329d6bc94828d33ab4607a09699a0"
+        }
+      ]
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-watchosdevicearm64-0.5.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-logging-watchosdevicearm64-0.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "3b23796b59ce12e95390c8cb4ca3ded5f6f12640c292622d524e63d1400a0e733128aa7645922891e7b136368b35d6a7b87979007441a1cac56706a41c0883a6",
+          "sha256": "afef69f1548692c3a90eab11bf76d1bfedbf1aca138f25fc08ec97bf02e4f9ad",
+          "sha1": "70bd359baf45ae6db8a3c70761989547bf5a4992",
+          "md5": "db0fdbb13d52ffd9f3edb48615ed2a9d"
+        }
+      ]
+    }
+  ]
+}
