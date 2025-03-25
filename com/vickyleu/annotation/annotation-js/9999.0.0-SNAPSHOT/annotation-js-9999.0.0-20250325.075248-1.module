@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../annotation/9999.0.0-SNAPSHOT/annotation-9999.0.0-SNAPSHOT.module",
+    "group": "com.vickyleu.annotation",
+    "module": "annotation",
+    "version": "9999.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-js-9999.0.0-SNAPSHOT.klib",
+          "url": "annotation-js-9999.0.0-SNAPSHOT.klib",
+          "size": 27627,
+          "sha512": "8912db8032ade34107b2a2a07e313badaec4009992191322e737cff67468f9bd6abf56c550b0067f7b734c66c2ac34c802a6f97370eddd4f4ffb4e037aeaf609",
+          "sha256": "79d570a98a333a98fde9023f038f8643d934adfc43d34dd081f8443fa6926d39",
+          "sha1": "8862709d592f820696ef39192479bf3c9d9aaa13",
+          "md5": "e47cdd318f405699216973da46a94a9c"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-js-9999.0.0-SNAPSHOT.klib",
+          "url": "annotation-js-9999.0.0-SNAPSHOT.klib",
+          "size": 27627,
+          "sha512": "8912db8032ade34107b2a2a07e313badaec4009992191322e737cff67468f9bd6abf56c550b0067f7b734c66c2ac34c802a6f97370eddd4f4ffb4e037aeaf609",
+          "sha256": "79d570a98a333a98fde9023f038f8643d934adfc43d34dd081f8443fa6926d39",
+          "sha1": "8862709d592f820696ef39192479bf3c9d9aaa13",
+          "md5": "e47cdd318f405699216973da46a94a9c"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "annotation-js-9999.0.0-SNAPSHOT-sources.jar",
+          "url": "annotation-js-9999.0.0-SNAPSHOT-sources.jar",
+          "size": 25046,
+          "sha512": "b6bc5c54cb62943ea645bbc272e279fc9a5c09a069eb5bfaae4f618ef20debabccec9354b4bed5c0527935c22f1f8b459e73544b2a9112fa72e37df3b1742022",
+          "sha256": "706eb1c09bbc2ad74bf0f173e1fe77ac46fd7945efd9b6409053fb3f8763eff2",
+          "sha1": "6e41c5bab9458ad24f11b7b58c54fbe17d9fc1b2",
+          "md5": "d7b2ae4b5a2a3e3b353c1b8db09fab45"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../annotation/9999.0.0-SNAPSHOT/annotation-9999.0.0-SNAPSHOT.module",
+    "group": "com.vickyleu.annotation",
+    "module": "annotation",
+    "version": "9999.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-tvosX64Main-9999.0.0-SNAPSHOT.klib",
+          "url": "annotation-tvosx64-9999.0.0-SNAPSHOT.klib",
+          "size": 27517,
+          "sha512": "fdb213fe204938759ea43c9497cea5dc510449a77db952126e5ee387511a330840fda4a0ca8f89dea5bddafbd3a1df180a0ba5b4577dd945de6f90c3b5efea71",
+          "sha256": "b37af152379452acad0fdf9bdc5dcb6e817305a5517b8e58a7c830a14c50865f",
+          "sha1": "0a3ed553aa4a69d5bb8206de3cabf24acbc21936",
+          "md5": "7b233c2cbe57086f0f024376df9350c0"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "annotation-tvosx64-9999.0.0-SNAPSHOT-sources.jar",
+          "url": "annotation-tvosx64-9999.0.0-SNAPSHOT-sources.jar",
+          "size": 25046,
+          "sha512": "25798f3568df31f81eb0bcfe18a3fa8a0af36e38200f0a8b5887c8c3daf38e7202c107e404930ec54065d2cd021ef1a2a43f26a88094e56af7d365435611ed95",
+          "sha256": "768b81005ebd26d9441a064ef52c02dc98df7490585701af8d81e8e15828510f",
+          "sha1": "8f7d0a0ea94eac1d3a340eb0cb69887af6b6f2f0",
+          "md5": "6d417dcec41447c8575ccb2a429ba141"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-tvosx64-9999.0.0-SNAPSHOT-metadata.jar",
+          "url": "annotation-tvosx64-9999.0.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

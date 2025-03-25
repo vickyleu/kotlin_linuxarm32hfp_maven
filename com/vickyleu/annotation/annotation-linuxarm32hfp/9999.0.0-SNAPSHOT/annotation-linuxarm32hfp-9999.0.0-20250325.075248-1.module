@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.annotation",
+    "module": "annotation-linuxarm32hfp",
+    "version": "9999.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-linuxArm32HfpMain-9999.0.0-SNAPSHOT.klib",
+          "url": "annotation-linuxarm32hfp-9999.0.0-SNAPSHOT.klib",
+          "size": 27577,
+          "sha512": "7e8bddb0201cb0cb43a674af91c3b309239dc1538679ce82a3fc68d909aa218d03daeb57afa68e72125f8ca0a80661335a9d46302eba8632272cef0530fa127f",
+          "sha256": "ea7b23497689ac115695943384b049d007a65fe637d3001c850866d13506e24b",
+          "sha1": "1fb7e6a08be2206b51ec50175fbc8556238f50e9",
+          "md5": "9de5e15e7cca7db5ad8513efa6de61b9"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "annotation-linuxarm32hfp-9999.0.0-SNAPSHOT-sources.jar",
+          "url": "annotation-linuxarm32hfp-9999.0.0-SNAPSHOT-sources.jar",
+          "size": 25046,
+          "sha512": "25798f3568df31f81eb0bcfe18a3fa8a0af36e38200f0a8b5887c8c3daf38e7202c107e404930ec54065d2cd021ef1a2a43f26a88094e56af7d365435611ed95",
+          "sha256": "768b81005ebd26d9441a064ef52c02dc98df7490585701af8d81e8e15828510f",
+          "sha1": "8f7d0a0ea94eac1d3a340eb0cb69887af6b6f2f0",
+          "md5": "6d417dcec41447c8575ccb2a429ba141"
+        }
+      ]
+    }
+  ]
+}
