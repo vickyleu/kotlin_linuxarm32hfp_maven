@@ -3,55 +3,55 @@
   <groupId>com.vickyleu.ktor</groupId>
   <artifactId>ktor-client-curl-mingwx64</artifactId>
   <versioning>
-    <lastUpdated>20250326174138</lastUpdated>
+    <lastUpdated>20250326184942</lastUpdated>
     <snapshot>
-      <timestamp>20250326.174138</timestamp>
+      <timestamp>20250326.184942</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>kdoc</classifier>
+        <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>cinterop-libcurl</classifier>
-        <extension>klib</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250326.174138-1</value>
-        <updated>20250326174138</updated>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>cinterop-libcurl</classifier>
+        <extension>klib</extension>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>kdoc</classifier>
+        <extension>jar</extension>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>3.1.2-20250326.184942-1</value>
+        <updated>20250326184942</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
