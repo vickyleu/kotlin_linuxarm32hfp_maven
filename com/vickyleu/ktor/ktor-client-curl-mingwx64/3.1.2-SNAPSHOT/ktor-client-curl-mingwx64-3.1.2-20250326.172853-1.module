@@ -66,11 +66,11 @@
         {
           "name": "ktor-client-curl-mingwX64Main-3.1.2-SNAPSHOT.klib",
           "url": "ktor-client-curl-mingwx64-3.1.2-SNAPSHOT.klib",
-          "size": 81803,
-          "sha512": "03ccf7949aea00a4c5f4d8f3b0049d352678b98ca9f39c4e3f97558080a3f5128d44c13a6a4d7d12fae70b6528a48dfbdd071466b3816711ad7de13abaa230c8",
-          "sha256": "5d98cd62c2e9b0bf19d57b386a1e6196a29cce39b85f97a5c7091dd43860b3d5",
-          "sha1": "f65065ed7e71a531be51255682625c620c68f7d6",
-          "md5": "854d4974cc90615b76c72f4dfe90f183"
+          "size": 81793,
+          "sha512": "f0363aa9567d1b3e27004af300ac2625dbf438f28ac076fba7ca450b40f77b94cd77737098d9dcfb2a5246dee608be65a1b11cf3a9314bb2d316accbfad9c980",
+          "sha256": "da5158f856936153d4023afae3ad24613f0006b3d812d4ca8a92164a2cb2a550",
+          "sha1": "845bd01a2377c315269edab1ea5ef72f4b2e64d0",
+          "md5": "ff5af4b184ad208b76345d2f1e9bd46b"
         },
         {
           "name": "ktor-client-curl-mingwX64Cinterop-libcurlMain-3.1.2-SNAPSHOT.klib",

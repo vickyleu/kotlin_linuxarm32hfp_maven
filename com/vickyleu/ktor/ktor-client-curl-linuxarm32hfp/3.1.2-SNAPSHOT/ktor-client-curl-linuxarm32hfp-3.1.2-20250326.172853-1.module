@@ -66,20 +66,28 @@
         {
           "name": "ktor-client-curl-linuxArm32HfpMain-3.1.2-SNAPSHOT.klib",
           "url": "ktor-client-curl-linuxarm32hfp-3.1.2-SNAPSHOT.klib",
-          "size": 81827,
-          "sha512": "910008b7eec85b32fd0fda1aafdcf2746c09181a85596bb9e062cb57fcd65439b2e1b79f9898a9bda8c54f97b1052c8a62895dd278fc619a1d47059977595276",
-          "sha256": "96e105147194ff32eff1aaa10779c6e990da483e09f6e22deb47c30bd4fb4017",
-          "sha1": "386cbe35796c454a5726a44a8c9b3b81c1ecfac7",
-          "md5": "6dc88cb5f9d6d9dddfb37c88b10807c2"
+          "size": 81817,
+          "sha512": "7a5f7bcdee7d91aafaee541c27498d030ba8ab6f8250fc45be4ba3e5daf0753f956982908474b24d24e29c069b347a9b36760e4b4ff02b39d44fcb94b6ac6fa2",
+          "sha256": "fec48519b2ebf252241a205008a7ce52f4446e19513e55862b06070558e10ec4",
+          "sha1": "27150713c1e68af61c2559ea49221e0559c0842d",
+          "md5": "f207ba99f6c494c224690f5e6fe48675"
         },
         {
           "name": "ktor-client-curl-linuxArm32HfpCinterop-libcurlMain-3.1.2-SNAPSHOT.klib",
           "url": "ktor-client-curl-linuxarm32hfp-3.1.2-SNAPSHOT-cinterop-libcurl.klib",
+<<<<<<<< HEAD:com/vickyleu/ktor/ktor-client-curl-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-client-curl-linuxarm32hfp-3.1.2-20250326.172853-1.module
           "size": 43499,
           "sha512": "579bf20d457828d35c4f9fca57bbfb2b23dfae8245ea3a67dc924c52b3ccbd92500ff68c2ea934ff3838fed9988e1b2aadb658fc3e1f881fd85229123d46548a",
           "sha256": "1735c6a42f9379ce5e5c7798c41583eda04ad4bc02d120fdd43889d3d7577546",
           "sha1": "f0a0b29f6686975ef09a6785817e01c01be91fa9",
           "md5": "c0ef16380a6857eb8c61a42e83d18fb5"
+========
+          "size": 2003288,
+          "sha512": "3a9465fb44c3ef6845e28b2d6786d1cf5174bd0af316bfcdacc6c36d3dda2010c0b0008c6a7a75580c7d593090c1fa3d4ae6506929d79a3ea9a694b68ad3fabc",
+          "sha256": "4c66a350dedd1314f32df4d2caf69569efbb0f1818e00d52fa58671ca90596e3",
+          "sha1": "f4af5bf57262e2c8d485a259e946088cf48da77e",
+          "md5": "41bdc2cfa062f9ad844c1d9376d5968a"
+>>>>>>>> origin/main:com/vickyleu/ktor/ktor-client-curl-linuxarm32hfp/3.1.2-SNAPSHOT/ktor-client-curl-linuxarm32hfp-3.1.2-20250326.084641-1.module
         }
       ]
     },

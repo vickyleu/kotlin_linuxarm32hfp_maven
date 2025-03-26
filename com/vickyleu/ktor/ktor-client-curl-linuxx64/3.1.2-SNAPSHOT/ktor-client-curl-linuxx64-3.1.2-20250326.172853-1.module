@@ -66,11 +66,11 @@
         {
           "name": "ktor-client-curl-linuxX64Main-3.1.2-SNAPSHOT.klib",
           "url": "ktor-client-curl-linuxx64-3.1.2-SNAPSHOT.klib",
-          "size": 81821,
-          "sha512": "51438637f9a3476cc7c0e34c63668ef59f2e5b10a34af73e499fbfd0e53f393ddc1a35e845c70720bcc5b846578c5d575d8b4c2503948d4021baaef3603b72d8",
-          "sha256": "4873de41da8491db4366cae13295e58f377aba95111aa1a3db861e3cf7437723",
-          "sha1": "3e4d0a8948e0976d444bda0b91b5a78f53b27f52",
-          "md5": "735bbf31800f4aa4adb34225edc0d8ee"
+          "size": 81810,
+          "sha512": "5c9911a7c9d5ed5cc107589690416f51b035e36c2e083e71b857e901675d8e1131428a3a062bdc802a37b2c32d8ae0db4de4479e6b0efe61f1558ca299cd781f",
+          "sha256": "415cee46363c90b965227a922ed65f4c54593dfc97ce580f8e54102b83655590",
+          "sha1": "10b6253bde720dfa31936ea23c72a324b0808903",
+          "md5": "884048b918f6ea570615334e023c4acf"
         },
         {
           "name": "ktor-client-curl-linuxX64Cinterop-libcurlMain-3.1.2-SNAPSHOT.klib",

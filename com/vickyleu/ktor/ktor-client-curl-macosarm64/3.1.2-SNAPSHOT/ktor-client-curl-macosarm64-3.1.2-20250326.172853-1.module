@@ -66,11 +66,11 @@
         {
           "name": "ktor-client-curl-macosArm64Main-3.1.2-SNAPSHOT.klib",
           "url": "ktor-client-curl-macosarm64-3.1.2-SNAPSHOT.klib",
-          "size": 81838,
-          "sha512": "2627dd231abed146686d7ef54a4640d9c42ebd7e6122056154479109f7db16af45532d93759251f524d56fa10a24be9f6d167357d96fc6776ce6651bbb19077a",
-          "sha256": "f3968fb0419c7676d52ceda20c00a5fc4b3624436956138971261022c7d5078e",
-          "sha1": "539e8dea53c3ceb10a187e3ced2b0dcc62712687",
-          "md5": "71fa51431b3d71f8f612e62295b59c39"
+          "size": 81827,
+          "sha512": "0dca564cc9a574cb6d5de5bf7f79dcfc9604021e657a336b5863adc711c0a2a0a73819a40cb7944497c170a9e291992fdd793380ec3641ed0e37b12e6d72903d",
+          "sha256": "f068147d09fb106ce5518e46b4a725855b5b00c4f1e119dc6d3443953b2f72dd",
+          "sha1": "a7604a2e19d62bc5562f35c9976e649d7de06595",
+          "md5": "3a16e957bedce98f1b43b09efb8b2770"
         },
         {
           "name": "ktor-client-curl-macosArm64Cinterop-libcurlMain-3.1.2-SNAPSHOT.klib",
@@ -158,10 +158,17 @@
           "name": "ktor-client-curl-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
           "url": "ktor-client-curl-macosarm64-3.1.2-SNAPSHOT-metadata.jar",
           "size": 89839,
+<<<<<<<< HEAD:com/vickyleu/ktor/ktor-client-curl-macosarm64/3.1.2-SNAPSHOT/ktor-client-curl-macosarm64-3.1.2-20250326.172853-1.module
           "sha512": "23a3dc1a1f705c92a8bf195feae79cd08fbda858c3464d4dc963e40d29b0a6fe31fbc508e07aae47d59d8bec76e4afbb0fefb703b0472b33f92a2bf31993701e",
           "sha256": "89ce036845b6407a1b05a537bdfe86bfa04cbd48dca40ea4e3de74eeec5736fa",
           "sha1": "8c8f058aacfe58f8d6ba4f5d602035e34674a490",
           "md5": "643d0bfc172c3a172ab855ed92d3c738"
+========
+          "sha512": "af8b15d7f38ee9a42ab5a042ce15650b4b8108511ac4bcb2083252d4ac7d22afef8dd4ba34de7a39a7a6f48b05d0a4bd7edfc4ca5cbc8549a2bbe1eb32a19524",
+          "sha256": "6f1bbb053d4e654c6b7e65abaa985e9da701bb513a37d4c40047551ed11bdb95",
+          "sha1": "4aad2063b8138d77fcf03791ae2687f6f78abdee",
+          "md5": "91f00da03c81ce74038d8fe5725de5a5"
+>>>>>>>> origin/main:com/vickyleu/ktor/ktor-client-curl-macosarm64/3.1.2-SNAPSHOT/ktor-client-curl-macosarm64-3.1.2-20250326.084641-1.module
         }
       ]
     }
