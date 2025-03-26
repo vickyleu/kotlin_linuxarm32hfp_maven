@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-client-curl/3.1.2-SNAPSHOT/ktor-client-curl-3.1.2-SNAPSHOT.module",
+    "group": "com.vickyleu.ktor",
+    "module": "ktor-client-curl",
+    "version": "3.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-curl-macosX64Main-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-curl-macosx64-3.1.2-SNAPSHOT.klib",
+          "size": 81821,
+          "sha512": "131ee4eea806d2a5a7b6da96150a3901d86da8de8210c8f56c30a8cc8d81c9d24973759e24ff05ace7c340d506e8c356e5ac1832c355994cb9167a6feed5f591",
+          "sha256": "db83f2f6bf3301038f6c188aa2db2341d6bb465f2e6527fd3b53ccfbc18c007f",
+          "sha1": "78e068af1e8d62b863a1b4fd7c5fadb152443e2b",
+          "md5": "4efe5ebaf0939def803462a6ae50cb35"
+        },
+        {
+          "name": "ktor-client-curl-macosX64Cinterop-libcurlMain-3.1.2-SNAPSHOT.klib",
+          "url": "ktor-client-curl-macosx64-3.1.2-SNAPSHOT-cinterop-libcurl.klib",
+          "size": 459408,
+          "sha512": "ccf020bc25461fb132649be369a0aab74f79b7d44cd2c4f9e4f9781a2764f3c976a4a3ca913d1cda47c68967fa39c148e659afd9ed09400f0d262291a5790ec2",
+          "sha256": "2b44c2e43a44a35868675bbe5dfff70bb9d37a7d7e6f503ae297a940d44d7a7b",
+          "sha1": "45b50ab5e5ee4ed58f578563dd3e4bce8ed0f340",
+          "md5": "6198500a88c9c2df53fc2ddd81c31120"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktor-client-curl-macosx64-3.1.2-SNAPSHOT-sources.jar",
+          "url": "ktor-client-curl-macosx64-3.1.2-SNAPSHOT-sources.jar",
+          "size": 17431,
+          "sha512": "6b8c36dde71c7e31362996ab8946c599ed783d504297ef0871ada375e1719e3bcad4366f42424a550a233ed3631c94e705c43b30675500fa9e4e0366f2dd69b3",
+          "sha256": "e4a473788e24d20ea17d9164a657140a76c027642b98b464adabf7d2f3417d86",
+          "sha1": "ac789b266dd22c087ce792a4ee0e17e827986f93",
+          "md5": "fc26ea2b4dab9d6f503ac4bef27b2e64"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.vickyleu.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-client-curl-macosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "url": "ktor-client-curl-macosx64-3.1.2-SNAPSHOT-metadata.jar",
+          "size": 89839,
+          "sha512": "eb848932ffce5cbca6d4d9f881a148dc1fd70b51110ff89236bee176534b2bec5f7cc0083257f65f0667f26b7e9a63157d284bea0a528ef4bdf36fb6db7609a9",
+          "sha256": "815c33c58c4b4dceb18ba56faccca42b9db6be79e5d535ea09ef96bee14e7f6c",
+          "sha1": "348a23b2f51ccd2cfbaa6ca262220cf9ed349f31",
+          "md5": "ecb5d53bfba5910d35ff9becab973f7a"
+        }
+      ]
+    }
+  ]
+}
