@@ -3,38 +3,38 @@
   <groupId>com.vickyleu.ktor</groupId>
   <artifactId>ktor-client-curl</artifactId>
   <versioning>
-    <lastUpdated>20250327122303</lastUpdated>
+    <lastUpdated>20250327124618</lastUpdated>
     <snapshot>
-      <timestamp>20250327.122303</timestamp>
+      <timestamp>20250327.124618</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>3.1.2-20250327.122303-1</value>
-        <updated>20250327122303</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>3.1.2-20250327.122303-1</value>
-        <updated>20250327122303</updated>
+        <classifier>kotlin-tooling-metadata</classifier>
+        <extension>json</extension>
+        <value>3.1.2-20250327.124618-1</value>
+        <updated>20250327124618</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>3.1.2-20250327.122303-1</value>
-        <updated>20250327122303</updated>
+        <value>3.1.2-20250327.124618-1</value>
+        <updated>20250327124618</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>kotlin-tooling-metadata</classifier>
-        <extension>json</extension>
-        <value>3.1.2-20250327.122303-1</value>
-        <updated>20250327122303</updated>
+        <extension>pom</extension>
+        <value>3.1.2-20250327.124618-1</value>
+        <updated>20250327124618</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.1.2-20250327.124618-1</value>
+        <updated>20250327124618</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.1.2-20250327.122303-1</value>
-        <updated>20250327122303</updated>
+        <value>3.1.2-20250327.124618-1</value>
+        <updated>20250327124618</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
