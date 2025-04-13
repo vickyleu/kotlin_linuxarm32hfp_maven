@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-utils/0.6.1/kotlinx-rpc-utils-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-utils",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-iosX64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-utils-iosx64-0.6.1.klib",
+          "size": 27808,
+          "sha512": "6bd7aec83add3ef2e820ee4fe4caa5c8edaf63ecd91894c039d55b59e6e7520e80bd44f0d23e2da55126944b99340dad84180d5811eaeece2cc5d6d671b67bd7",
+          "sha256": "a053a68e399c0fad9e305c2b50f40aa08da6d84b609d507cf50e3895396d052c",
+          "sha1": "2554b7a6ed120e15e70f34b51be0316ca8131a00",
+          "md5": "d049c80bdcbe974b31c020f4c859726d"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-iosx64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-utils-iosx64-0.6.1-sources.jar",
+          "size": 7507,
+          "sha512": "aedfdd66916af230740256c5932aa17985574a01438edfe87b1443469c6a3be475590456ba15047f0fe1e84f258299727d576aea82df6ca345d32c2147a0d387",
+          "sha256": "9cfe016675c6292201b38c1982d18281a7eff777346996a26c6d694f4ebe5125",
+          "sha1": "ed4db80b8e31b0ada811c174bd9f8aeda3e6ce5d",
+          "md5": "7e3f438d2700ff558bab6374fa6aeddd"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-iosx64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-utils-iosx64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "e5d8ada7a4b9088dcdfc58871468d3c7c65362744af5a55ca0d205e715b93aa67e5fc9693e49e4a8ba15a698de1a3764b03bb436d88dd48ae24b76e62c673bf9",
+          "sha256": "8188cb03f4f1b721810aaa7a80fc03fe4bd49d7b552e4b39098381459a71914d",
+          "sha1": "e613d17ae5ae9ffebab24f3ba26a5b88f5979669",
+          "md5": "2f1f3e2eafab6858add9508ef771d316"
+        }
+      ]
+    }
+  ]
+}

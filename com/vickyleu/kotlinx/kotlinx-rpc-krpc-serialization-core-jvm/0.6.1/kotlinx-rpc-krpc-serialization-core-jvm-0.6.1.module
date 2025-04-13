@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-serialization-core/0.6.1/kotlinx-rpc-krpc-serialization-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-serialization-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-jvm-0.6.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-jvm-0.6.1.jar",
+          "size": 9661,
+          "sha512": "6c0e598bd8bbc9019ba25b21441b0752da326cad936a3399ab93b373c4515f9feb50d7a0806cbeabc7b1516622bccf441e55ff86aa7929dcb4e3edb3235b7358",
+          "sha256": "e34e588024a89de6e5755e72e2820a5fdcd39966f7c358262a27c8566eb67a8a",
+          "sha1": "9d9a81195ce05b564fc1f444a355c8575ed078c2",
+          "md5": "a02d8028b119f895e9885968d8b91256"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-jvm-0.6.1.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-jvm-0.6.1.jar",
+          "size": 9661,
+          "sha512": "6c0e598bd8bbc9019ba25b21441b0752da326cad936a3399ab93b373c4515f9feb50d7a0806cbeabc7b1516622bccf441e55ff86aa7929dcb4e3edb3235b7358",
+          "sha256": "e34e588024a89de6e5755e72e2820a5fdcd39966f7c358262a27c8566eb67a8a",
+          "sha1": "9d9a81195ce05b564fc1f444a355c8575ed078c2",
+          "md5": "a02d8028b119f895e9885968d8b91256"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-serialization-core-jvm-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-serialization-core-jvm-0.6.1-sources.jar",
+          "size": 2900,
+          "sha512": "632cf30f421c4f5d16c7e4cfdb7abceadadb2aa6b78f6b9883b21724e62cdcb0f03a5959ba1d3538d2d101bca870066fa5ce211bbe0fcf2a6c0e1b1e453abea9",
+          "sha256": "e7aaa7fe1f037413fe15ae7491dd1d2cdd9596b170cf6973c5a2bde1fd269065",
+          "sha1": "e3f669e66041adc3c2f9c3ff8133a2a28410ec5d",
+          "md5": "b949ed5d91c37e620fb383140fc50e77"
+        }
+      ]
+    }
+  ]
+}

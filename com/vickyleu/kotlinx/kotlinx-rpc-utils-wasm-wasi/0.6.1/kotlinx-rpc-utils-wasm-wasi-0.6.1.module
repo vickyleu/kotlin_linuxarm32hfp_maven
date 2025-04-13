@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-utils/0.6.1/kotlinx-rpc-utils-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-utils",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-wasm-wasi-0.6.1.klib",
+          "url": "kotlinx-rpc-utils-wasm-wasi-0.6.1.klib",
+          "size": 27560,
+          "sha512": "095ead6538efcbed7f3d16d3fa45fab07452f5215cec22f172f541a7de7ab78d8eef8948e1d9a5275021fcbbcf9199e26b84cc63c09ff063ad4aae47f3f0e344",
+          "sha256": "8df0da355f35c069f551aec3019b3a5b25208d679f2f3b23becf5b04b48f8028",
+          "sha1": "3e0faa3bb7a57da83f6929112ab56d1679d9465a",
+          "md5": "cead041979b7c8686554d67fc365be91"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-wasm-wasi-0.6.1.klib",
+          "url": "kotlinx-rpc-utils-wasm-wasi-0.6.1.klib",
+          "size": 27560,
+          "sha512": "095ead6538efcbed7f3d16d3fa45fab07452f5215cec22f172f541a7de7ab78d8eef8948e1d9a5275021fcbbcf9199e26b84cc63c09ff063ad4aae47f3f0e344",
+          "sha256": "8df0da355f35c069f551aec3019b3a5b25208d679f2f3b23becf5b04b48f8028",
+          "sha1": "3e0faa3bb7a57da83f6929112ab56d1679d9465a",
+          "md5": "cead041979b7c8686554d67fc365be91"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-wasm-wasi-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-utils-wasm-wasi-0.6.1-sources.jar",
+          "size": 7527,
+          "sha512": "dff63f63606d7c692f55726c0ac0cb69e405c8bfbf0153f627169b1e8e83ada2fcb6c8ce0edb1927059eb4118b7e7a0ef24009c16559a7f36217977d1f46c7c7",
+          "sha256": "7234ad0c6a7d1280069d9d28c852791ac23bbaec29f857b9e85fe6d242ac5348",
+          "sha1": "bb1adaf2a0b7326c25c000e972547669829fbb36",
+          "md5": "0eff4621dd53000e1bca3ff017787f1a"
+        }
+      ]
+    }
+  ]
+}

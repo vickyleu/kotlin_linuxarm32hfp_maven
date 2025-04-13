@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-grpc-core/0.6.1/kotlinx-rpc-grpc-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-grpc-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-iosSimulatorArm64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-grpc-core-iossimulatorarm64-0.6.1.klib",
+          "size": 27181,
+          "sha512": "c483e5509c2a19f90fab0754d2bc1fa9d7d5a05e4e5041488db39f5bea9a5d54854106131bc02cc60221111f3fa236d9a205e0a3b1c9dad4ab53f1c8f33eefec",
+          "sha256": "f8c3c703dcde1e791db7efdf6254f6f4c5eeffde6a6c7282aafd1882638b0781",
+          "sha1": "b22e5b346e16edc5e15ee4aabda60a6d1aefb686",
+          "md5": "f70ca4507f8e48f7cb794e6c9dd99e2d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-iossimulatorarm64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-grpc-core-iossimulatorarm64-0.6.1-sources.jar",
+          "size": 12689,
+          "sha512": "7d50e449c7acdb60079b28dbe554a6ffb0c5c84cf679e6013561008cd548a79d80be56eaba38b34bd05967a609be711318b49a3172602e05686b516cd5f4ea07",
+          "sha256": "199dc72e8e623740fb662e07e7d426ff04091aaf1b85cd47b9d08ee0b1534cb9",
+          "sha1": "acb53d5ee96cbcc885180eea01ba3e365c83046d",
+          "md5": "8800d13186e4bf41d9ff45d73e422dc0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-iossimulatorarm64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-grpc-core-iossimulatorarm64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "73bb84da1c0831decded53ef734697d1e11340e437ad75ed91bbde968a5f542ccb72ef1d24ce07003044d24394cf5c94acd2ac6f20aafc4c51b52291a8e81c4d",
+          "sha256": "87017e84015962afd330573f545935560a1ae403406a2c4004e27d3d98e38a55",
+          "sha1": "949cfd36f4ffecb1de4135708049bdc6d787d53e",
+          "md5": "fe708a264497287101fb235edb4e8562"
+        }
+      ]
+    }
+  ]
+}

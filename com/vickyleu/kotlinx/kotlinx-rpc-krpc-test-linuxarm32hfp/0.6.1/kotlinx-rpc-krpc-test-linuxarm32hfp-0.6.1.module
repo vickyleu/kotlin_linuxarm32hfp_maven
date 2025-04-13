@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-test/0.6.1/kotlinx-rpc-krpc-test-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-test",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-server",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-client",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-serialization-json",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-test-linuxArm32HfpMain-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-test-linuxarm32hfp-0.6.1.klib",
+          "size": 177709,
+          "sha512": "0cc7a3377678b3aa3e559eb165342bb2f6375e337a5d13008c62d278bed12c1f2201b974c19e79d8f80963b6ee8e90a50806ff55838b5b1c1e0b3fa6655c9b3b",
+          "sha256": "dc0aefe227f09987eb9cb033be6af3b39ba699928cb08853dfe8a2302e0dfc0c",
+          "sha1": "09760adf87d61bb846f798940d22d9efea812478",
+          "md5": "7d6cef95efbae33196733aaec105f06c"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-test-linuxarm32hfp-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-test-linuxarm32hfp-0.6.1-sources.jar",
+          "size": 13144,
+          "sha512": "320328969bfa77d2a05663e3b86c6b5435a9bfd9c32724eed9774b3f7d5c795fb16f578381cdfd77fc96fb5ff869e65404fb9b73727ac35e48f0dd855e3fa262",
+          "sha256": "c465a50c8be8bf521c7f1ecf29197997b3ccc1ff8a1638828f8fc38025dd9106",
+          "sha1": "d8706452b03901f74376e213397c5dbf41486f14",
+          "md5": "b0cfedaf41860020a58ce12b8682fb2e"
+        }
+      ]
+    }
+  ]
+}

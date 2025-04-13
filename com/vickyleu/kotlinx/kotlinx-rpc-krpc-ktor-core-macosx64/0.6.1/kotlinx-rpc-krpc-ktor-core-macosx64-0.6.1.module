@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-core/0.6.1/kotlinx-rpc-krpc-ktor-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-macosX64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-core-macosx64-0.6.1.klib",
+          "size": 6293,
+          "sha512": "6a8c6f8f3db3cd2ac6aaff6b1d3e7d0731feaa0b638c7bcbf48c8c15681f82b4b58564640d7e04cd759656d6924d84afb5a194c052a7a23329f1145c0e17d5ef",
+          "sha256": "b1a636bc4312b70e719063414c2c3110c4514bc381113d0dd3a89370f3458784",
+          "sha1": "9cc8f42025bc78d5026fa133c3be8a5f04c0ea32",
+          "md5": "e7bff84dafe5f7fb0a89900a2a136c69"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-macosx64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-core-macosx64-0.6.1-sources.jar",
+          "size": 1686,
+          "sha512": "44a6419ceeecc94824e017b415f80765af8cc82ace7dbba25d407260aa1f6546e5dd8a9e15c6c2b27edc556796806416ca68703a672c6e50506675500e897dd9",
+          "sha256": "aa04308edf1ce343ee7e2a5cb3d1ea2beb1ab591731d87a71e47c7b54722b900",
+          "sha1": "dc97cf7530cf4d5450e912d6cf9e0d58199ee9bc",
+          "md5": "6d8d30484c72ad16bc70dcdb8c6a7a16"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-macosx64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-ktor-core-macosx64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "ee0f1228da8919a8c26a84b4964138c595d7a07bbdfc8fe18dfe9e5369ddf94b6a3ca5379df175056c93f85533a0daa1fdeba42da1474f38836e4cc9030706f7",
+          "sha256": "34e55786d67bb02df82fc878348f59cf5ac225180877cd11773cc12662c4b5bc",
+          "sha1": "2308c82ac44808708cc79e1fbbac882955980030",
+          "md5": "7a37f5822bb36545760adbb9b16b6c90"
+        }
+      ]
+    }
+  ]
+}

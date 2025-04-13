@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-server/0.6.1/kotlinx-rpc-krpc-server-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-server",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-server-tvosSimulatorArm64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-server-tvossimulatorarm64-0.6.1.klib",
+          "size": 42422,
+          "sha512": "89d4e31218b61dbdb4cc5ea9f24e74775dba56367b466e4a0c30cb1b104a7ad7cb9cfb9402aef374f3a136f787af4ba2d1674cf15b53fcead457058949dfe77b",
+          "sha256": "b0738a98de1a28b2b6a32356007998d3ed006a038590a2a3df68faa37963eb82",
+          "sha1": "72b28960cd1d3846a84ab7007a3a582b4b2df469",
+          "md5": "d76932b0e9c5428ea4043db2ed44a190"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-server-tvossimulatorarm64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-server-tvossimulatorarm64-0.6.1-sources.jar",
+          "size": 7795,
+          "sha512": "dab747c254a291835a087392352bbf371a64ccfef1a1f012821a925489aa2130e8a59f509d5a6c9fa21feb7f691823da216cf6e468b85df45488e71178a3ccab",
+          "sha256": "b21d4320b915e9556d3bf0374af7083fb20eebc57770a1b9d1f517203ebec8f3",
+          "sha1": "02b71bc565858c2e6bfac594c0275b30adbc7a9f",
+          "md5": "b8e970bd61d7e997bbe8a29b83b2d89e"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-server-tvossimulatorarm64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-server-tvossimulatorarm64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "f7b1541abce67919a8ccca7e31ce542f29c839c53ae626094acef4f736a30fffc41e0dfc72932976c64fc4b78d022003fc97e1118b593032be95f5a968a12762",
+          "sha256": "fc6abca7470fb2ff3c5945799c5972fad6abbbd2e256c1c98053ba44b5b8cbbe",
+          "sha1": "ff699ad5fd336297cacf1e52be9b5245c7003ce9",
+          "md5": "dcabe144cf9ed7a8724aae6c0b8f4f75"
+        }
+      ]
+    }
+  ]
+}

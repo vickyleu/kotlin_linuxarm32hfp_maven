@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.6.1/kotlinx-rpc-krpc-logging-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-macosArm64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-macosarm64-0.6.1.klib",
+          "size": 12430,
+          "sha512": "fb631af68d9731efd2c7aafaa0faa6a2e53170b4864f460d58dbe0a60705a01f2f143fca06fddb3e18575e34b0154ab3c88ff88557680e3dbe8b1fc9c265a972",
+          "sha256": "0ec74d0f16bbf8a3e27589ffad903499659ef79e0ac2d45c9a234420274b5937",
+          "sha1": "ef5d04a08fc08b67c04e74c368de7ba7d33ef643",
+          "md5": "7329580480ae1faa33c6fe24627a2228"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-macosarm64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-macosarm64-0.6.1-sources.jar",
+          "size": 3229,
+          "sha512": "e36b85fcc5688731538388bf4d650c193949ea6fb9a17be0885307c29e800027e16922a4f3bb122240814a7cdc45fd05cf142be45f7c9387c71bb8ba248abcd0",
+          "sha256": "ddd60f836a0fc7a4dee15f2cafb2db9be6467e1edc63431a56e613f9823a801c",
+          "sha1": "6f1774cfc2cc5973b8ec30826900eea5cffea0c0",
+          "md5": "167be9061aa6d05310bb5855afb440b9"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-macosarm64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-logging-macosarm64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "500902f86457a31355e0d9ea97eb03339b1f984be9f5cea63d39f88251e9413950c69f27e63911b8dcb0b4b97b2e0b3da6408bacae235f1d55d6a8bc9d6cc49a",
+          "sha256": "b3288a0db5bef6685c62e108c65b9a659592e6dfb541ad1c79857e5fa9279f30",
+          "sha1": "3606e53d34c5f7abe54d9880bcb07b6973140725",
+          "md5": "964db0cf14f6f97ed472786ff1271c13"
+        }
+      ]
+    }
+  ]
+}

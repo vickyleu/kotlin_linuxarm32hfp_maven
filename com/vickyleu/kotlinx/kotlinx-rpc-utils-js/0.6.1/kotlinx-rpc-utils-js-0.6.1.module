@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-utils/0.6.1/kotlinx-rpc-utils-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-utils",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-js-0.6.1.klib",
+          "url": "kotlinx-rpc-utils-js-0.6.1.klib",
+          "size": 27561,
+          "sha512": "8f4511a29a9b24e54e78c84b418e918f056fb25f3891db0b3cc4ec79dbfa3968d8468dc0a706728ff9fed5a1223c3192ae4d390b10f9bd70b3c06f39be53e0fe",
+          "sha256": "e80f4422a1a0ba871a839f1199782cb449888657f357d7c96633b00c4bcd9e0d",
+          "sha1": "0a7779101859ffbe02175dc09f44d6fccd7c500c",
+          "md5": "bfa706238436d9354a43353e152a5488"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-js-0.6.1.klib",
+          "url": "kotlinx-rpc-utils-js-0.6.1.klib",
+          "size": 27561,
+          "sha512": "8f4511a29a9b24e54e78c84b418e918f056fb25f3891db0b3cc4ec79dbfa3968d8468dc0a706728ff9fed5a1223c3192ae4d390b10f9bd70b3c06f39be53e0fe",
+          "sha256": "e80f4422a1a0ba871a839f1199782cb449888657f357d7c96633b00c4bcd9e0d",
+          "sha1": "0a7779101859ffbe02175dc09f44d6fccd7c500c",
+          "md5": "bfa706238436d9354a43353e152a5488"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-js-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-utils-js-0.6.1-sources.jar",
+          "size": 7443,
+          "sha512": "124b8ad181fa11d393d9132c6120ebb4e0ea3c16f478af730b8ec1fac52d919a1e6b8276feee667ba5b545b48e7f81bdb0ca611282e5de5ce77a47674784a8b5",
+          "sha256": "c58e66671e7600f102b72f7c42a3c7e5044bf0fda2a5c401779e32334cbebacb",
+          "sha1": "c0783884b1c2252ccd4f5bb6bbea5652a8f90a07",
+          "md5": "556180c23a48509094ac26b074113455"
+        }
+      ]
+    }
+  ]
+}

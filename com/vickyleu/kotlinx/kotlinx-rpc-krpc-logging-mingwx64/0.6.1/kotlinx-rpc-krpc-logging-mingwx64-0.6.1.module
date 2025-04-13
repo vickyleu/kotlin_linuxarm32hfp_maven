@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.6.1/kotlinx-rpc-krpc-logging-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-mingwX64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-mingwx64-0.6.1.klib",
+          "size": 12414,
+          "sha512": "b99d48d3e4b9f76376542e8e51c931636afb2bcdd7c587cef98cccc327421cd5ce92571b5fa0af5edfcf95d6ef6c0a96a2438b4debd651b783ec8d8cbf4b6da6",
+          "sha256": "27bf28614c2d08293587ea15735856b908d9cea02d3e8bf238fb63f5993f1f39",
+          "sha1": "0e1f850143895c037af8afb2a3a900adf7b8cd70",
+          "md5": "1fb0d16e60acc618e4be15b65a53179a"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-mingwx64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-mingwx64-0.6.1-sources.jar",
+          "size": 3229,
+          "sha512": "e36b85fcc5688731538388bf4d650c193949ea6fb9a17be0885307c29e800027e16922a4f3bb122240814a7cdc45fd05cf142be45f7c9387c71bb8ba248abcd0",
+          "sha256": "ddd60f836a0fc7a4dee15f2cafb2db9be6467e1edc63431a56e613f9823a801c",
+          "sha1": "6f1774cfc2cc5973b8ec30826900eea5cffea0c0",
+          "md5": "167be9061aa6d05310bb5855afb440b9"
+        }
+      ]
+    }
+  ]
+}

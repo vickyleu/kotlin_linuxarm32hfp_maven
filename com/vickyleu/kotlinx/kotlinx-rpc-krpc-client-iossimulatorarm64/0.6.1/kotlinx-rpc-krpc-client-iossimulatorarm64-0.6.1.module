@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-client/0.6.1/kotlinx-rpc-krpc-client-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-client",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-client-iosSimulatorArm64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-client-iossimulatorarm64-0.6.1.klib",
+          "size": 45756,
+          "sha512": "446abbe8fc49d61f4a377e95844f7aac1270f2ec587c7af643060a1cf84b111b2e92dabdc8d85181f2eb45d90a66c0cf6e43e44cc3f3d448863466d20882eea7",
+          "sha256": "0ca3855fc2ab600e9025e28df667c93cafb0598972ff0df83a010544143990f3",
+          "sha1": "b42fa47a5cfae4d8c3e8420b781fe8ec9a03c743",
+          "md5": "c0db358d7019aa04e7a6d2302b99d9c3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-client-iossimulatorarm64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-client-iossimulatorarm64-0.6.1-sources.jar",
+          "size": 6629,
+          "sha512": "c41385d25779fb1f49bdebcc0ccc528985158fac0628d1d6f2ec2cb581dd98b729b6c00b652d338357de8b368d200290eedff096fe86d411e7a7c604aafd6044",
+          "sha256": "429c30db854106ccd18d984799d7a2bcbab9a19caed372ab84723fca880e0259",
+          "sha1": "df20f618a9a4b99d88bf4b62c87594f069261930",
+          "md5": "3cc09f0b9640df8e809fa24926ed8f9d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-logging",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-client-iossimulatorarm64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-client-iossimulatorarm64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "d6990c0508acb4241c829bf8a4fa51ec248dc91c3fbf75859d8b7f35cc805c92a71ab313bca57d67d219d015e71fd23792c86ec936f2792432e00077993f90ab",
+          "sha256": "19ff6c6557b91f6706f993c125dcd2d91d02f34d527ec928f4a7ffec9e8d37dc",
+          "sha1": "bb9343422c791a43d98d9e5c1837889607f8c029",
+          "md5": "7a89028bca9e915b43b3c2d10f6e8cbe"
+        }
+      ]
+    }
+  ]
+}

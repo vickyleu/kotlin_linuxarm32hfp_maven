@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.6.1/kotlinx-rpc-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-wasm-wasi-0.6.1.klib",
+          "url": "kotlinx-rpc-core-wasm-wasi-0.6.1.klib",
+          "size": 45311,
+          "sha512": "a4fc7771d29bc6a980579337940ccb9d35faa8d10f2ac5f03dc861b6d1a9f27b6f5f94cd7bd5a74f7eb6f9c5888e2a8b44719bf10fccff8772e594a33fe91cf4",
+          "sha256": "8fc00f8bfdc9223997e439e1a889ba2f6949c84fd4af491d4de0b70c32d8f265",
+          "sha1": "0b678f7ee01e38ec0866a28b58ff8a073c72d482",
+          "md5": "dac91d498dbcbf22c60cf3a47149bff2"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-wasm-wasi-0.6.1.klib",
+          "url": "kotlinx-rpc-core-wasm-wasi-0.6.1.klib",
+          "size": 45311,
+          "sha512": "a4fc7771d29bc6a980579337940ccb9d35faa8d10f2ac5f03dc861b6d1a9f27b6f5f94cd7bd5a74f7eb6f9c5888e2a8b44719bf10fccff8772e594a33fe91cf4",
+          "sha256": "8fc00f8bfdc9223997e439e1a889ba2f6949c84fd4af491d4de0b70c32d8f265",
+          "sha1": "0b678f7ee01e38ec0866a28b58ff8a073c72d482",
+          "md5": "dac91d498dbcbf22c60cf3a47149bff2"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-wasm-wasi-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-core-wasm-wasi-0.6.1-sources.jar",
+          "size": 17635,
+          "sha512": "62c466611d0e11a9dc82e4873b8db551877fbf2022dd3a9ffc294573d0470351b9d5237a23d74bb7867c6430d6817064ac64d43bca7acda9c8dd3f5422de5a25",
+          "sha256": "5547871a10ef85c46b09e74a4d8dc8088ef6e12b8f49ec772c202daf3dd61376",
+          "sha1": "a50ba4b462043a8c1df15cd2156a4acc6b6636d4",
+          "md5": "d2e0abe9c5e37778776c596d6d625dbe"
+        }
+      ]
+    }
+  ]
+}

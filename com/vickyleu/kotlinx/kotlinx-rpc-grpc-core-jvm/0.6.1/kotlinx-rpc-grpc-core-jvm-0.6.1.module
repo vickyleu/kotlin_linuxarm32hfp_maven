@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-grpc-core/0.6.1/kotlinx-rpc-grpc-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-grpc-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-util",
+          "version": {
+            "requires": "1.69.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.69.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.69.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-kotlin-stub",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "4.29.3"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-kotlin",
+          "version": {
+            "requires": "4.29.3"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-jvm-0.6.1.jar",
+          "url": "kotlinx-rpc-grpc-core-jvm-0.6.1.jar",
+          "size": 37664,
+          "sha512": "9ef0418acd27927dedc059f94a8e89563fc6e038e6a1e6945f0b0b18876aafff91232c16be842ac3da7ec34d1433760f68cf60aa7ba996160da35a1495fbab66",
+          "sha256": "a8f6b93b0c957ad7dede21a7e9651dd1d8ecd1d096b7e86280ace2fad5f8bddb",
+          "sha1": "680413e0ecc1dc9120b9f870cb77fe0dd6fa7106",
+          "md5": "a43df6eae2a3274cf8f0a871a7ac420c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-util",
+          "version": {
+            "requires": "1.69.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.69.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.69.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-kotlin-stub",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "4.29.3"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-kotlin",
+          "version": {
+            "requires": "4.29.3"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-jvm-0.6.1.jar",
+          "url": "kotlinx-rpc-grpc-core-jvm-0.6.1.jar",
+          "size": 37664,
+          "sha512": "9ef0418acd27927dedc059f94a8e89563fc6e038e6a1e6945f0b0b18876aafff91232c16be842ac3da7ec34d1433760f68cf60aa7ba996160da35a1495fbab66",
+          "sha256": "a8f6b93b0c957ad7dede21a7e9651dd1d8ecd1d096b7e86280ace2fad5f8bddb",
+          "sha1": "680413e0ecc1dc9120b9f870cb77fe0dd6fa7106",
+          "md5": "a43df6eae2a3274cf8f0a871a7ac420c"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-jvm-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-grpc-core-jvm-0.6.1-sources.jar",
+          "size": 14067,
+          "sha512": "d0064c5e186cba951019cf4d922d017aeb09ee64a50f22e7d7f94244eb95c67f97575ad1102b44e599f6d68197d8960ebda6ebd5d9f6166a08cbea470bedb120",
+          "sha256": "a5f8f793226582df2b6f8e1abf4ffb7c5a5e37cdd6ca5fab4da5a301672f72ee",
+          "sha1": "e6f0993ba76836a999955b6fc84323a4ca973009",
+          "md5": "67b3e75602e6179142e7dbaeabf01444"
+        }
+      ]
+    }
+  ]
+}

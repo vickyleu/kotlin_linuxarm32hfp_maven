@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-compiler-plugin-cli",
+    "version": "2.1.20-0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-cli-2.1.20-0.6.1.jar",
+          "url": "kotlinx-rpc-compiler-plugin-cli-2.1.20-0.6.1.jar",
+          "size": 5889,
+          "sha512": "e600d93f74ab16c9dbdb55cc9851ba5953b09c99cd8d1f16ea5b9944b10fcd686e999dcddbcf0155f963379997a0d3d69ecdacff6bee256f34a7e5bfe5496c1a",
+          "sha256": "749ff19a7eed6a2e4ba9d6790ae98d38528f8262305288bbaecb8a4f146d7ccf",
+          "sha1": "65f7b6ea3a6dbc5c87e075ee4ef245db4e293da9",
+          "md5": "48bc91f355daaeed4d68dd041ec192b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-compiler-plugin-k2",
+          "version": {
+            "requires": "2.1.20-0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-compiler-plugin-common",
+          "version": {
+            "requires": "2.1.20-0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-compiler-plugin-backend",
+          "version": {
+            "requires": "2.1.20-0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-cli-2.1.20-0.6.1.jar",
+          "url": "kotlinx-rpc-compiler-plugin-cli-2.1.20-0.6.1.jar",
+          "size": 5889,
+          "sha512": "e600d93f74ab16c9dbdb55cc9851ba5953b09c99cd8d1f16ea5b9944b10fcd686e999dcddbcf0155f963379997a0d3d69ecdacff6bee256f34a7e5bfe5496c1a",
+          "sha256": "749ff19a7eed6a2e4ba9d6790ae98d38528f8262305288bbaecb8a4f146d7ccf",
+          "sha1": "65f7b6ea3a6dbc5c87e075ee4ef245db4e293da9",
+          "md5": "48bc91f355daaeed4d68dd041ec192b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-cli-2.1.20-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-compiler-plugin-cli-2.1.20-0.6.1-sources.jar",
+          "size": 2363,
+          "sha512": "8579070ba02e7a779b2b86eedb113e6fcee8371eda72fe6f033ff99e8cdc5993514e737f1a53611347d76b26df5be5304d8dbca0c583642b00cae250b1999517",
+          "sha256": "efb17b11555881cf3a95487d1b6a2c5b182eabfbef6f0e654b5a577b49b34cef",
+          "sha1": "457f0c1e5084c358a32f55e55e899bda09c2127f",
+          "md5": "1b08d023971e59785b589b4baa7f99e8"
+        }
+      ]
+    }
+  ]
+}

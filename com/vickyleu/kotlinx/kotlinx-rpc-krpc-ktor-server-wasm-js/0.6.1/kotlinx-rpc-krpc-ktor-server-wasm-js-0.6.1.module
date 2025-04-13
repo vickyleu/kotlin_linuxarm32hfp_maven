@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-server/0.6.1/kotlinx-rpc-krpc-ktor-server-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-server",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-server",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-server-wasm-js-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-server-wasm-js-0.6.1.klib",
+          "size": 15972,
+          "sha512": "fb8f7d43738c4e492995e640216d6b43e68347ebdf77da26f32f1dc037c1154fad8054c4cec45cbae09ef74fc2d38e42cf477b39b08878db58fe5b11168b994d",
+          "sha256": "b332d5f6f903cb2664f3e8ebba374e394851c75b94b730eeed604790f35f7af1",
+          "sha1": "f7951306ad611103d216a22591296a1ed1774696",
+          "md5": "62075ece25aa463a9af8f6089057f227"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-server",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-ktor-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-browser",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-server-wasm-js-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-server-wasm-js-0.6.1.klib",
+          "size": 15972,
+          "sha512": "fb8f7d43738c4e492995e640216d6b43e68347ebdf77da26f32f1dc037c1154fad8054c4cec45cbae09ef74fc2d38e42cf477b39b08878db58fe5b11168b994d",
+          "sha256": "b332d5f6f903cb2664f3e8ebba374e394851c75b94b730eeed604790f35f7af1",
+          "sha1": "f7951306ad611103d216a22591296a1ed1774696",
+          "md5": "62075ece25aa463a9af8f6089057f227"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-server-wasm-js-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-server-wasm-js-0.6.1-sources.jar",
+          "size": 4130,
+          "sha512": "e7335ff86532b2576e9a93bf285145f5710fbf2ff3fa08d76031aa66efe182756e5c4d89984d94b5bb2c04389c774410ef13ee8594bd2f921c60a7d687b953a7",
+          "sha256": "e85d3c36e11d60635e12c7f52d22574a505a4cb5616f10436576a6d1470cf915",
+          "sha1": "58495b65a3cfed725bb4fc971850d64bf1d08652",
+          "md5": "2b910f18cce4f4de1e8c236b06f19270"
+        }
+      ]
+    }
+  ]
+}

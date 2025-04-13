@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.6.1/kotlinx-rpc-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-watchosArm32Main-0.6.1.klib",
+          "url": "kotlinx-rpc-core-watchosarm32-0.6.1.klib",
+          "size": 45292,
+          "sha512": "07a91d909091154f567c58fce5e652271edc1785b73fe4dac5d0613ebfdc2499ed7968385a09a35b6acf33accc1ea50da1393aef252fc9b81ea2fcfcd8d0cf59",
+          "sha256": "cfc0d57dc97dc60a15f5f31522b7c226b8fefdcf36e9864a08e8d11a90d8e885",
+          "sha1": "a90b18dba2fba988675fd6abb8a3d3e18b715111",
+          "md5": "f2b150d85f4866f3d2a82971582ff39e"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-watchosarm32-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-core-watchosarm32-0.6.1-sources.jar",
+          "size": 17643,
+          "sha512": "d5079406f665df410bfe7dfc4d7c5e8f924a285aa8520fede845b7b98244eb441141be1d882ce120d3b6d2cda5bb1f80a6ba4e3cc766ec0b667b5db14b64ff70",
+          "sha256": "30dc0fa83f09c7e8f6e25637144e8e9797cd3f03a3c66d37c25550d2200aee15",
+          "sha1": "32507c5a36ee55fed957f3dec52c885017a05f11",
+          "md5": "4338e230a12fbeaa91826bd5d229e5aa"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-watchosarm32-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-core-watchosarm32-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "a098ffde003b7feb9334fcb51eb3d4007041628e2089f5f02dc8bba3e0906201f2be85d2460ee4370a1fd244b7c8c398707f4e54340db184444d90e3f8b71eeb",
+          "sha256": "97d0f1c53e7ea8b9157602fb3060aab7ba445793de3bfda95bf35da84f3cde67",
+          "sha1": "c34429e943490e5fe043eb67dd85eb821acd8716",
+          "md5": "798cc20b1ff7fdd7f11106aeefefbc60"
+        }
+      ]
+    }
+  ]
+}

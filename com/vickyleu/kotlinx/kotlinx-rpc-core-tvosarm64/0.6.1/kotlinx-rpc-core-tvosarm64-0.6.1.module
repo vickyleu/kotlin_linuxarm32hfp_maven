@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-core/0.6.1/kotlinx-rpc-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-tvosArm64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-core-tvosarm64-0.6.1.klib",
+          "size": 45266,
+          "sha512": "76fb4838358b7a6b1eb80c7e64287a727044559fc0d47a2b4d5f29639887657ab362b732c18e002265de2a1301ee6845507a88c98b0a42b2deba260380f49fbc",
+          "sha256": "ad7d45ec2a95174495037bd9146f2259b331dd7100555b04876d0c2c8ca0b602",
+          "sha1": "c2264b31cb990a7a71208f967af9218b3e567f41",
+          "md5": "b06c78dacbfd4d723a3eb5013e367856"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-tvosarm64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-core-tvosarm64-0.6.1-sources.jar",
+          "size": 17643,
+          "sha512": "d5079406f665df410bfe7dfc4d7c5e8f924a285aa8520fede845b7b98244eb441141be1d882ce120d3b6d2cda5bb1f80a6ba4e3cc766ec0b667b5db14b64ff70",
+          "sha256": "30dc0fa83f09c7e8f6e25637144e8e9797cd3f03a3c66d37c25550d2200aee15",
+          "sha1": "32507c5a36ee55fed957f3dec52c885017a05f11",
+          "md5": "4338e230a12fbeaa91826bd5d229e5aa"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-core-tvosarm64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-core-tvosarm64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "a6dc26d5beb67eb8b548a5075ce970840e0726d6edbc67170e231dad9be4786716a7fb9cbe6b71425fc7204bd532eee5aaa8951332006a5f7e219c8bfddff885",
+          "sha256": "51d766832e7cae481a6c36d66e07044a017f98cbaf80379be2d9e9434f58af82",
+          "sha1": "bad8490e5396f7a3fc60accda06e933865cbadd5",
+          "md5": "4147997b36b541b5aa0134e33afda966"
+        }
+      ]
+    }
+  ]
+}
