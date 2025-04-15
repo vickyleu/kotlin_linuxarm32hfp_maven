@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx.rpc",
+    "module": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1.jar",
+          "url": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1.jar",
+          "size": 67522,
+          "sha512": "95ffadb245e9a519bb41a695bc08c90b8ae0c4f5b0a861c3dd2b05093a0c5d39ce7f18cc1691a99ce5c32ac503e268cbe59510c7a1302a40daba801a20cd8f31",
+          "sha256": "fc6d51d52d59d5b9045bb32a77edf893834c1928a11887620877a4a17cf0a6c1",
+          "sha1": "7f08a6e819c09615504fc1ea66b33100c0bd5008",
+          "md5": "71150e287b52dfda9a0fb0d5436cfecb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-gradle-plugin",
+          "version": {
+            "requires": "0.9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1.jar",
+          "url": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1.jar",
+          "size": 67522,
+          "sha512": "95ffadb245e9a519bb41a695bc08c90b8ae0c4f5b0a861c3dd2b05093a0c5d39ce7f18cc1691a99ce5c32ac503e268cbe59510c7a1302a40daba801a20cd8f31",
+          "sha256": "fc6d51d52d59d5b9045bb32a77edf893834c1928a11887620877a4a17cf0a6c1",
+          "sha1": "7f08a6e819c09615504fc1ea66b33100c0bd5008",
+          "md5": "71150e287b52dfda9a0fb0d5436cfecb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1-sources.jar",
+          "url": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1-sources.jar",
+          "size": 7334,
+          "sha512": "da823ea9eca99fa6d8242edf9c3461cde47c05b5b3f1408eaf76faeae1395d11a87ed50f05184a5736eaeddbb8beb859421875d448eaf0a910ba151ce99ee77b",
+          "sha256": "89f662898c709528262d5b4df796eb515a36def20ee60181558fddd176ff24c5",
+          "sha1": "5ac255ee52692dc06ea87bac9681c4644dba7b95",
+          "md5": "5af1dbca33501359985d2d48234ded7b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1-javadoc.jar",
+          "url": "org.jetbrains.kotlinx.rpc.plugin.gradle.plugin-0.6.1-javadoc.jar",
+          "size": 261,
+          "sha512": "b01e55128ecbbc184c9318c8e8dd67dd48e610516c4574d5e040d5a5bb7e09cd188bd9202b2e04bd6bf526f29eae9bf6d7812cfe22f48ee961e12f753e1e9019",
+          "sha256": "53bb0e21b9f5daa1e00660c298e4cafbf375550c7c4a8e2e095cf8a79e62c917",
+          "sha1": "aaad4ac0970caf21b8f7e590d733c3f81da9a438",
+          "md5": "0b18d12c18308f5a5eee899dc236b871"
+        }
+      ]
+    }
+  ]
+}
