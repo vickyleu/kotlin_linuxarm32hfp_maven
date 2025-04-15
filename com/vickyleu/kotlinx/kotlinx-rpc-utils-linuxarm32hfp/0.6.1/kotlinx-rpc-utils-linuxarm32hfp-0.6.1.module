@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-utils/0.6.1/kotlinx-rpc-utils-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-utils",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-linuxArm32HfpMain-0.6.1.klib",
+          "url": "kotlinx-rpc-utils-linuxarm32hfp-0.6.1.klib",
+          "size": 27877,
+          "sha512": "ee4c482e7fa23aca304774a14d266a8fe8cb2db0f60b4dac8bb33edca9baf94853728e2b06167ddc7db51c07391c0445d98dbe95dca0f0ba8fb58f4c1dd27fd0",
+          "sha256": "9b9334ceb521f2e4c0501cb3b7078c40a2d50728e093cf81d3fc8d547c1863a6",
+          "sha1": "3319c0a330579e360f88b94ca559baa51670d548",
+          "md5": "89b1edd9929d678325ee3f343b7e972c"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-utils-linuxarm32hfp-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-utils-linuxarm32hfp-0.6.1-sources.jar",
+          "size": 7507,
+          "sha512": "aedfdd66916af230740256c5932aa17985574a01438edfe87b1443469c6a3be475590456ba15047f0fe1e84f258299727d576aea82df6ca345d32c2147a0d387",
+          "sha256": "9cfe016675c6292201b38c1982d18281a7eff777346996a26c6d694f4ebe5125",
+          "sha1": "ed4db80b8e31b0ada811c174bd9f8aeda3e6ce5d",
+          "md5": "7e3f438d2700ff558bab6374fa6aeddd"
+        }
+      ]
+    }
+  ]
+}

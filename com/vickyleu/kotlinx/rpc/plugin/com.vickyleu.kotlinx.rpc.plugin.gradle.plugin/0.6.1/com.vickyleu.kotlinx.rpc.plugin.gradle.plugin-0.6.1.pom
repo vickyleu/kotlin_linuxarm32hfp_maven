@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vickyleu.kotlinx.rpc.plugin</groupId>
+  <artifactId>com.vickyleu.kotlinx.rpc.plugin.gradle.plugin</artifactId>
+  <version>0.6.1</version>
+  <packaging>pom</packaging>
+  <name>gradle-plugin</name>
+  <description>kotlinx.rpc, a Kotlin library for adding asynchronous RPC services to your applications.</description>
+  <url>https://github.com/Kotlin/kotlinx-rpc</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JetBrains</id>
+      <name>JetBrains Team</name>
+      <organization>JetBrains</organization>
+      <organizationUrl>https://www.jetbrains.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Kotlin/kotlinx-rpc.git</connection>
+    <developerConnection>scm:git:git@github.com:Kotlin/kotlinx-rpc.git</developerConnection>
+    <url>https://github.com/Kotlin/kotlinx-rpc</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.vickyleu.kotlinx</groupId>
+      <artifactId>kotlinx-rpc-gradle-plugin</artifactId>
+      <version>0.6.1</version>
+    </dependency>
+  </dependencies>
+</project>

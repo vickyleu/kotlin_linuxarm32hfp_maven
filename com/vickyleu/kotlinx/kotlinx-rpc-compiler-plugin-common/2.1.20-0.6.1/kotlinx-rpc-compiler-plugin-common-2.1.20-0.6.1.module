@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-compiler-plugin-common",
+    "version": "2.1.20-0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-common-2.1.20-0.6.1.jar",
+          "url": "kotlinx-rpc-compiler-plugin-common-2.1.20-0.6.1.jar",
+          "size": 5672,
+          "sha512": "d3d97beac3bbf92c65d5f268e0f655454ea2be892bfcdbd7a59bce37573bd1a576ebdb5f981080a7d638f6dc7cb87135d0752206e53be5e134b47644702fde8c",
+          "sha256": "c7c578c46385d01b9b1beeb930f67fbfb3ac7db7edd77d3dbbed90cfbbefd6e9",
+          "sha1": "47567e97cb147b9e618163880461ebca44e46a8a",
+          "md5": "51489c4f73608dc0117357c2c09a252f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-common-2.1.20-0.6.1.jar",
+          "url": "kotlinx-rpc-compiler-plugin-common-2.1.20-0.6.1.jar",
+          "size": 5672,
+          "sha512": "d3d97beac3bbf92c65d5f268e0f655454ea2be892bfcdbd7a59bce37573bd1a576ebdb5f981080a7d638f6dc7cb87135d0752206e53be5e134b47644702fde8c",
+          "sha256": "c7c578c46385d01b9b1beeb930f67fbfb3ac7db7edd77d3dbbed90cfbbefd6e9",
+          "sha1": "47567e97cb147b9e618163880461ebca44e46a8a",
+          "md5": "51489c4f73608dc0117357c2c09a252f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-common-2.1.20-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-compiler-plugin-common-2.1.20-0.6.1-sources.jar",
+          "size": 1446,
+          "sha512": "4a9ea73dab2b6762a590ec59e4c16f768e055725eb56e116eaa420c80956e93e82ba9889a662c5e2c51067b00119d5dc0070bfee4b3fa5d64a072b8dfee70822",
+          "sha256": "a7dd2f8b1dd3c584a7f1ad412cd045d60c8a3798918e58d504c6c9801553a6af",
+          "sha1": "8891c178d7c672ed8db9ec850ee33e8e0ca59924",
+          "md5": "8a577ee709de1f8b6ba81205f05fc623"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-grpc-core/0.6.1/kotlinx-rpc-grpc-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-grpc-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-tvosSimulatorArm64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-grpc-core-tvossimulatorarm64-0.6.1.klib",
+          "size": 27189,
+          "sha512": "9e51e9674aa952affa6cc29fd5a918401284bc0c92b1408acc84dac955f180b262d5248ac25a07abf6a40976b09676109b5af20c73cfb39ead12b675e31a9dbe",
+          "sha256": "3895f152102c69aa14ac5ea8a107e31964736232ed80e306080579e2020726f3",
+          "sha1": "716f78876227ad38cc3f914b61cce40e5edc3c88",
+          "md5": "e085652a4fdecf8fc236c9aa260595df"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-tvossimulatorarm64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-grpc-core-tvossimulatorarm64-0.6.1-sources.jar",
+          "size": 12689,
+          "sha512": "7d50e449c7acdb60079b28dbe554a6ffb0c5c84cf679e6013561008cd548a79d80be56eaba38b34bd05967a609be711318b49a3172602e05686b516cd5f4ea07",
+          "sha256": "199dc72e8e623740fb662e07e7d426ff04091aaf1b85cd47b9d08ee0b1534cb9",
+          "sha1": "acb53d5ee96cbcc885180eea01ba3e365c83046d",
+          "md5": "8800d13186e4bf41d9ff45d73e422dc0"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-grpc-core-tvossimulatorarm64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-grpc-core-tvossimulatorarm64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "90c83f919e33923ff6ac6fd0f5dfa871634719beaac8289ed7fdf39dc015fbc54285715214d076bf1ff7b17d9bf625ca2f09bef91f8c430f9c6b90997113358f",
+          "sha256": "957379165cd1d83d33f4a6eb3012116425629281c48f89dec5602fa35b4d8933",
+          "sha1": "4f7b86a9629e26460d884ce3b50afe550ca53053",
+          "md5": "4f52b23c23dc410548d7ba821f009fd7"
+        }
+      ]
+    }
+  ]
+}

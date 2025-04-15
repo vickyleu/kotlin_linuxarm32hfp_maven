@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-ktor-core/0.6.1/kotlinx-rpc-krpc-ktor-core-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-ktor-core",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-krpc-core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-mingwX64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-ktor-core-mingwx64-0.6.1.klib",
+          "size": 6280,
+          "sha512": "c078a1d23f28d3c514562f7d03cc692778e5c853647158ac1ef7b05bb5ca0e5bccdb3bc52459dbc5d76e6026b216949984fce11cd4032998df63e5eb558f8ffe",
+          "sha256": "e9fc86b5c89371f9c616c63b54b2e58b44d6b67aa2e5c6066ed6b07c0d0c775e",
+          "sha1": "8373b11e46aacd2567bb35173aead9e5e791fe84",
+          "md5": "0c6f82fbbdc0dc811fb98775d913253a"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-ktor-core-mingwx64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-ktor-core-mingwx64-0.6.1-sources.jar",
+          "size": 1686,
+          "sha512": "44a6419ceeecc94824e017b415f80765af8cc82ace7dbba25d407260aa1f6546e5dd8a9e15c6c2b27edc556796806416ca68703a672c6e50506675500e897dd9",
+          "sha256": "aa04308edf1ce343ee7e2a5cb3d1ea2beb1ab591731d87a71e47c7b54722b900",
+          "sha1": "dc97cf7530cf4d5450e912d6cf9e0d58199ee9bc",
+          "md5": "6d8d30484c72ad16bc70dcdb8c6a7a16"
+        }
+      ]
+    }
+  ]
+}

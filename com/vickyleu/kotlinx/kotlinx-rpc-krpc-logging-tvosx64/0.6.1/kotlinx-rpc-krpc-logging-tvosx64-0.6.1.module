@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-rpc-krpc-logging/0.6.1/kotlinx-rpc-krpc-logging-0.6.1.module",
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-krpc-logging",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-tvosX64Main-0.6.1.klib",
+          "url": "kotlinx-rpc-krpc-logging-tvosx64-0.6.1.klib",
+          "size": 12405,
+          "sha512": "cea4ae1d3f562737098e81216e124525d29be51e6187edbc8be92786b870e3a5c4b8d5c76c026ab7e78b02c316916c87f4994ccdaa309e64bb33fbda52dd47bf",
+          "sha256": "33de21ab4db821d3bb1165e02fc4a002b7801eab6e2448c4402f6d706827bc91",
+          "sha1": "d27ad3bdf226856e06164b28e07e69989db7c8c5",
+          "md5": "bc43dfd148e63f8e8477a5ed88f9d47f"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-tvosx64-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-krpc-logging-tvosx64-0.6.1-sources.jar",
+          "size": 3229,
+          "sha512": "e36b85fcc5688731538388bf4d650c193949ea6fb9a17be0885307c29e800027e16922a4f3bb122240814a7cdc45fd05cf142be45f7c9387c71bb8ba248abcd0",
+          "sha256": "ddd60f836a0fc7a4dee15f2cafb2db9be6467e1edc63431a56e613f9823a801c",
+          "sha1": "6f1774cfc2cc5973b8ec30826900eea5cffea0c0",
+          "md5": "167be9061aa6d05310bb5855afb440b9"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.6"
+          }
+        },
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-krpc-logging-tvosx64-0.6.1-metadata.jar",
+          "url": "kotlinx-rpc-krpc-logging-tvosx64-0.6.1-metadata.jar",
+          "size": 261,
+          "sha512": "500902f86457a31355e0d9ea97eb03339b1f984be9f5cea63d39f88251e9413950c69f27e63911b8dcb0b4b97b2e0b3da6408bacae235f1d55d6a8bc9d6cc49a",
+          "sha256": "b3288a0db5bef6685c62e108c65b9a659592e6dfb541ad1c79857e5fa9279f30",
+          "sha1": "3606e53d34c5f7abe54d9880bcb07b6973140725",
+          "md5": "964db0cf14f6f97ed472786ff1271c13"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vickyleu.kotlinx",
+    "module": "kotlinx-rpc-compiler-plugin-k2",
+    "version": "2.1.20-0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1.jar",
+          "url": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1.jar",
+          "size": 112311,
+          "sha512": "0e96c9b08fa33361467f28e0f804db8eb07bebe9cff625a208a40f5869653690e13956fd36f9ecdd5cf2eb0a2bc3f476160e96000104d6d8c6987faa3a8b9f25",
+          "sha256": "e3815cd88f4341b976df9827559be32c11f38d525d899adf26638a4c592d1127",
+          "sha1": "aeda10297b684d69e263be26c748093fd30de760",
+          "md5": "64d853ded158e1284d74abb7376dcfb1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vickyleu.kotlinx",
+          "module": "kotlinx-rpc-compiler-plugin-common",
+          "version": {
+            "requires": "2.1.20-0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1.jar",
+          "url": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1.jar",
+          "size": 112311,
+          "sha512": "0e96c9b08fa33361467f28e0f804db8eb07bebe9cff625a208a40f5869653690e13956fd36f9ecdd5cf2eb0a2bc3f476160e96000104d6d8c6987faa3a8b9f25",
+          "sha256": "e3815cd88f4341b976df9827559be32c11f38d525d899adf26638a4c592d1127",
+          "sha1": "aeda10297b684d69e263be26c748093fd30de760",
+          "md5": "64d853ded158e1284d74abb7376dcfb1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1-sources.jar",
+          "url": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1-sources.jar",
+          "size": 26045,
+          "sha512": "d32c17740f7a0fb35837e313b9318ae250070a34570d1a3eadcbd45ee607a9eecb24b641819cd355bb12029674198c668d5ebdecf54e3ae25f7d52d672714edf",
+          "sha256": "9c2f1e5996030ec68ece8136a5f82c8159a49ea6d509d28234994109ba5933ca",
+          "sha1": "898024dc6769dd62dddc364120c7752418b280a3",
+          "md5": "12c5c87a2826e1562ecc2d6202550da1"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1-for-ide.jar",
+          "url": "kotlinx-rpc-compiler-plugin-k2-2.1.20-0.6.1-for-ide.jar",
+          "size": 16334624,
+          "sha512": "c343b2dfa1855e81c5894a72d071038b6ef8be4e9072de32db42a66aadc0266303b5dc1cc06a39b02d2a0d8dcbee3ca2cc74cc7bb35212b9456813199bdfe715",
+          "sha256": "919633cb10e5c95c26f3719a88c2765c9449ee3cf857aac90f02ea145c67add7",
+          "sha1": "3aa3b14e56643ec2a3378a9a6ab5e5ddce53b490",
+          "md5": "822ff76fff18ce9d04b84ea6fb30d500"
+        }
+      ]
+    }
+  ]
+}
